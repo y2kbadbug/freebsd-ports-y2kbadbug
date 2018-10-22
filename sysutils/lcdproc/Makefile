@@ -94,7 +94,7 @@ LCDPROC_DRIVERS+=IOWarrior \
 		shuttleVFD
 
 . if ${PORT_OPTIONS:MFTDI}
-LIB_DEPENDS+=		libftdi.so:devel/libftdi
+LIB_DEPENDS+=		libftdi1.so:devel/libftdi1
 PLIST_SUB+=		FTDI=""
 LCDPROC_DRIVERS+=i2500vfd \
 		lis \
