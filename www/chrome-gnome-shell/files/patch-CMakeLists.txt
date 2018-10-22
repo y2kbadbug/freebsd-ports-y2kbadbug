@@ -1,0 +1,11 @@
+--- CMakeLists.txt.orig	2018-10-16 17:17:20 UTC
++++ CMakeLists.txt
+@@ -89,7 +89,7 @@ endif(BUILD_MESSAGES AND NOT DEFINED GET
+ 
+ if(BUILD_EXTENSION OR BUILD_CONNECTOR)
+ 	find_program_ex(base64 gbase64 FATAL_ERROR)
+-	find_program_ex(sha256sum gsha256sum FATAL_ERROR)
++	find_program_ex(sha256sum gsha256sum sha256 FATAL_ERROR)
+ 	find_program_ex(head ghead FATAL_ERROR)
+ 	find_program_ex(tr gtr FATAL_ERROR)
+ 	find_program_ex(jq FATAL_ERROR)
