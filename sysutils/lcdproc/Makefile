@@ -6,7 +6,7 @@ DISTVERSIONPREFIX=	v
 DISTVERSION=	0.5.9
 CATEGORIES=	sysutils
 
-MAINTAINER=	ports@FreeBSD.org
+MAINTAINER=	daniel@shafer.cc
 COMMENT=	Client/server suite for LCD devices
 
 LICENSE=	GPLv2
