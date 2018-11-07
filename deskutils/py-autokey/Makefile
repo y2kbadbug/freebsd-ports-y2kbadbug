@@ -3,10 +3,8 @@
 
 PORTNAME=	autokey
 PORTVERSION=	0.95.4
-DISTVERSIONPREFIX=	v
 CATEGORIES=	deskutils python
-# Using GitHub until they update the version in pypi.
-# MASTER_SITES=	CHEESESHOP
+MASTER_SITES=	CHEESESHOP
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
 MAINTAINER=	daniel@shafer.cc
@@ -24,10 +22,7 @@ RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}dbus>0:devel/py-dbus@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}xlib>0:x11-toolkits/py-xlib@${PY_FLAVOR}
 
 USES=		desktop-file-utils python:3.5+
-USE_GITHUB=	yes
 USE_PYTHON=	distutils shebangfix
-
-GH_ACCOUNT=	autokey
 
 INSTALLS_ICONS=	yes
 NO_ARCH=	yes
