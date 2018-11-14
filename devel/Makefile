@@ -875,6 +875,7 @@
     SUBDIR += gradle
     SUBDIR += grantlee
     SUBDIR += grantlee5
+    SUBDIR += graphql.el
     SUBDIR += grpc
     SUBDIR += grumpy
     SUBDIR += grv
@@ -2779,6 +2780,7 @@
     SUBDIR += p5-IPC-ShellCmd
     SUBDIR += p5-IPC-Signal
     SUBDIR += p5-IPC-System-Simple
+    SUBDIR += p5-IRI
     SUBDIR += p5-Import-Base
     SUBDIR += p5-Import-Into
     SUBDIR += p5-Importer
@@ -5032,6 +5034,7 @@
     SUBDIR += py-rauth
     SUBDIR += py-raven
     SUBDIR += py-rcsparse
+    SUBDIR += py-readme_renderer
     SUBDIR += py-rebulk
     SUBDIR += py-rednose
     SUBDIR += py-rekall-efilter
@@ -6212,6 +6215,7 @@
     SUBDIR += spin
     SUBDIR += spirv-tools
     SUBDIR += splint
+    SUBDIR += spread-sheet-widget
     SUBDIR += srecord
     SUBDIR += st
     SUBDIR += stack
@@ -6298,6 +6302,7 @@
     SUBDIR += tortoisehg
     SUBDIR += tpasm
     SUBDIR += trac-bitten
+    SUBDIR += treepy.el
     SUBDIR += tradcpp
     SUBDIR += trio
     SUBDIR += truc
