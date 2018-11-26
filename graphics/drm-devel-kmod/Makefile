@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	drm-devel-kmod
-PORTVERSION=	4.16.g20181119
+PORTVERSION=	4.16.g20181121
 CATEGORIES=	graphics kld
 
 MAINTAINER=	jmd@FreeBSD.org
@@ -25,7 +25,7 @@ USES=		kmod uidfix compiler:c++11-lang
 USE_GITHUB=	yes
 GH_ACCOUNT=	FreeBSDDesktop
 GH_PROJECT=	kms-drm
-GH_TAGNAME=	5f3b167
+GH_TAGNAME=	a45b72a
 
 .include <bsd.port.options.mk>
 
@@ -37,22 +37,22 @@ IGNORE=		not supported on anything but FreeBSD (missing linuxkpi functionality)
 .endif
 
 .if ${ARCH} == "amd64"
-PLIST_SUB=	AMDGPU=""
+PLIST_SUB+=	AMDGPU=""
 PLIST_SUB+=	AMDKFD=""
 PLIST_SUB+=	I915=""
 PLIST_SUB+=	VMWGFX=""
 .elif ${ARCH} == "i386"
-PLIST_SUB=	AMDGPU="@comment "
+PLIST_SUB+=	AMDGPU="@comment "
 PLIST_SUB+=	AMDKFD="@comment "
 PLIST_SUB+=	I915=""
 PLIST_SUB+=     VMWGFX=""
 .elif ${ARCH} == "powerpc64"
-PLIST_SUB=	AMDGPU=""
+PLIST_SUB+=	AMDGPU=""
 PLIST_SUB+=	AMDKFD="@comment " 
 PLIST_SUB+=	I915="@comment "
 PLIST_SUB+=     VMWGFX="@comment "
 .else
-PLIST_SUB=	AMDGPU="@comment "
+PLIST_SUB+=	AMDGPU="@comment "
 PLIST_SUB+=	AMDKFD="@comment "
 PLIST_SUB+=	I915="@comment "
 PLIST_SUB+=     VMWGFX="@comment "
