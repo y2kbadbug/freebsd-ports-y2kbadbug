@@ -1,8 +1,8 @@
 # $FreeBSD$
 
 PORTNAME=	zoneminder
-PORTVERSION=	1.30.4
-PORTREVISION=	6
+PORTVERSION=	1.32.2
+PORTREVISION=	0
 CATEGORIES=	multimedia
 
 MAINTAINER=	bsd@abinet.ru
@@ -33,7 +33,7 @@ RUN_DEPENDS=	${ZM_DEPENDS} \
 
 USE_GITHUB=	yes
 GH_PROJECT=	ZoneMinder
-GH_TUPLE=	FriendsOfCake:crud:c3976f1:crud
+GH_TUPLE=	FriendsOfCake:crud:8129e24:crud
 
 USES=		cmake:noninja jpeg mysql perl5 php shebangfix ssl
 USE_RC_SUBR=	zoneminder
