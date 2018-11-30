@@ -2,7 +2,7 @@
 
 PORTNAME=	gnome-shell-extension-gsconnect
 DISTVERSIONPREFIX=	v
-DISTVERSION=	13
+DISTVERSION=	17
 CATEGORIES=	deskutils gnome
 DIST_SUBDIR=	gnome3
 
@@ -18,31 +18,39 @@ BUILD_DEPENDS=	gnome-shell>=3.28:x11/gnome-shell \
 
 RUN_DEPENDS=	gnome-shell>=3.28:x11/gnome-shell \
 		gsettings-desktop-schemas>=3.12.0:devel/gsettings-desktop-schemas \
+		libgdata>=0:devel/libgdata \
 		folks-import:net-im/folks \
 		sshfs:sysutils/fusefs-sshfs \
 		gsound-play:audio/gsound \
-		libcanberra-gtk3>0:audio/libcanberra-gtk3
+		canberra-gtk-play:audio/libcanberra-gtk3 \
+		caribou-preferences:accessibility/caribou \
+		nautilus:x11-fm/nautilus \
+		${PYTHON_PKGNAMEPREFIX}nautilus>=0:x11-fm/py-nautilus@${PY_FLAVOR} \
+		nautilus-sendto:deskutils/nautilus-sendto \
+		nautilus-actions-config-tool:deskutils/nautilus-actions \
+		bash:shells/bash
 
 USES=		gnome meson ninja pkgconfig python:3.5+ shebangfix localbase
 USE_GNOME=	glib20
 
+USE_GITHUB=	yes
+GH_ACCOUNT=	andyholmes
+GH_PROJECT=	gnome-shell-extension-gsconnect
+
 SHEBANG_FILES=	src/service/components/folks.py
+GLIB_SCHEMAS=	org.gnome.Shell.Extensions.GSConnect.gschema.xml
 
-GLIB_SCHEMAS=   org.gnome.Shell.Extensions.GSConnect.gschema.xml
+OPTIONS_DEFINE=	NLS
+OPTIONS_SUB=	yes
+NLS_USES=	gettext
 
-USE_GITHUB=     yes
-GH_ACCOUNT=     andyholmes
-GH_PROJECT=     gnome-shell-extension-gsconnect
-MESON_ARGS=	--sysconfdir=${PREFIX}/etc
+MESON_ARGS=	--sysconfdir=${PREFIX}/etc -Dwebextension=false
 
-PKGMESSAGE=	../gnome-shell-extra-extensions/pkg-message.slaves
+PKGMESSAGE=	../gnome-shell-extra-extensions/pkg-message.slaves pkg-message
 
 NO_ARCH=	yes
 
-post-install:
-	@${MKDIR} ${STAGEDIR}${PREFIX}/share/glib-2.0/schemas/
-	@${MV} "${STAGEDIR}${PREFIX}/share/gnome-shell/extensions/gsconnect@andyholmes.github.io/schemas/org.gnome.Shell.Extensions.GSConnect.gschema.xml" \
-		${STAGEDIR}${PREFIX}/share/glib-2.0/schemas/
-	@${RMDIR} ${STAGEDIR}${PREFIX}/share/gnome-shell/extensions/gsconnect@andyholmes.github.io/schemas
+post-patch-NLS-off:
+	@${REINPLACE_CMD} -e "s:subdir('po'):#subdir('po'):g" ${WRKSRC}/meson.build
 
 .include <bsd.port.mk>
