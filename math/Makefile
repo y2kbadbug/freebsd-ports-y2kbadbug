@@ -3,6 +3,7 @@
 
     COMMENT = Mathematics
 
+    SUBDIR += 4ti2
     SUBDIR += GiNaC
     SUBDIR += PDL
     SUBDIR += R
@@ -210,6 +211,7 @@
     SUBDIR += fityk
     SUBDIR += flann
     SUBDIR += flint2
+    SUBDIR += flintqs
     SUBDIR += form
     SUBDIR += fpc-fftw
     SUBDIR += fpc-gmp
@@ -331,10 +333,12 @@
     SUBDIR += libxls
     SUBDIR += libxlsxwriter
     SUBDIR += libxsmm
+    SUBDIR += lidia
     SUBDIR += linpack
     SUBDIR += lll_spect
     SUBDIR += lp_solve
     SUBDIR += lrng
+    SUBDIR += lrslib
     SUBDIR += ltl
     SUBDIR += ltl2ba
     SUBDIR += lybniz
@@ -652,8 +656,6 @@
     SUBDIR += petiga
     SUBDIR += php56-bcmath
     SUBDIR += php56-gmp
-    SUBDIR += php70-bcmath
-    SUBDIR += php70-gmp
     SUBDIR += php71-bcmath
     SUBDIR += php71-gmp
     SUBDIR += php72-bcmath
@@ -778,6 +780,7 @@
     SUBDIR += py-theano
     SUBDIR += py-ufl
     SUBDIR += py-uncertainties
+    SUBDIR += py-vincenty
     SUBDIR += py-viper
     SUBDIR += py-yt
     SUBDIR += py-z3-solver
@@ -866,8 +869,6 @@
     SUBDIR += unuran
     SUBDIR += viennacl
     SUBDIR += vowpal_wabbit
-    SUBDIR += vtk5
-    SUBDIR += vtk5-data
     SUBDIR += vtk6
     SUBDIR += vtk8
     SUBDIR += wcalc
