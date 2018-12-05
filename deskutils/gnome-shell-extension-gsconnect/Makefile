@@ -37,7 +37,10 @@ USE_GITHUB=	yes
 GH_ACCOUNT=	andyholmes
 GH_PROJECT=	gnome-shell-extension-gsconnect
 
-SHEBANG_FILES=	src/service/components/folks.py
+SHEBANG_FILES=	src/service/components/folks.py \
+		webextension/mkwebext.sh \
+		meson/nmh.sh
+
 GLIB_SCHEMAS=	org.gnome.Shell.Extensions.GSConnect.gschema.xml
 
 OPTIONS_DEFINE=	NLS

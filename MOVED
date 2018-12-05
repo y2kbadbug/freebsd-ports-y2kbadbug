@@ -10642,3 +10642,4 @@ www/rubygem-toml-rb03|www/rubygem-toml-rb|2018-11-25|Has expired: Obsoleted by u
 dns/dnscheck||2018-11-27|Unmaintained upstream over a decade
 www/mod_security3|security/modsecurity3|2018-11-27|Not an Apache module, use correct upstream name
 emulators/qemu-ppcnv|emulators/qemu-powernv|2018-11-28|Use more accurate naming for qemu PowerNV port
+security/py-yubioath-desktop|security/yubioath-desktop|2018-12-01|New Yubikey Oath Desktop app, written in QT.

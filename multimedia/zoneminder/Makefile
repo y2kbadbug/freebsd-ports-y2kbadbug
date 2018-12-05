@@ -10,8 +10,6 @@ COMMENT=	Complete security camera solution, fully web based with image analysis
 LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-CONFLICTS_INSTALL=	zoneminder-h264
-
 ZM_DEPENDS=	p5-DBI>=0:databases/p5-DBI \
 		p5-DBD-mysql>=0:databases/p5-DBD-mysql \
 		p5-Date-Manip>=0:devel/p5-Date-Manip \
@@ -26,6 +24,7 @@ ZM_DEPENDS=	p5-DBI>=0:databases/p5-DBI \
 		p5-Module-CoreList>=0:devel/p5-Module-CoreList \
 		p5-IO-Socket-Multicast>=0:net/p5-IO-Socket-Multicast \
 		ffmpeg:multimedia/ffmpeg
+
 BUILD_DEPENDS=	${ZM_DEPENDS}
 
 LIB_DEPENDS=    libx264.so:multimedia/libx264 \
