@@ -237,20 +237,24 @@ post-install: .SILENT
 	${REINPLACE_CMD} -E '/\/lib\/libGLESv[12](_CM)?(\.so)?(_nvidia.so(\.[0-9]|\.[0-9]+\.[0-9]+)?)?$$/d ; \
 		/libEGL_nvidia\.so\.${PORTVERSION}/d' ${TMPPLIST}
 .endif
-# rename libGL.so, libEGL.so and libGLESv2.so
-	${MV} -f ${STAGEDIR}${PREFIX}/lib/libGL.so \
+# Link NVIDIA libraries to point to correct files.
+# libGL.so, libEGL.so and libGLESv2.so should not be provided by this port.
+	${LN} -sf libGL-NVIDIA.so.1 \
 		${STAGEDIR}${PREFIX}/lib/libGL-NVIDIA.so
 	${MV} -f ${STAGEDIR}${PREFIX}/lib/libGL.so.1 \
 		${STAGEDIR}${PREFIX}/lib/libGL-NVIDIA.so.1
+	${RM} -f ${STAGEDIR}${PREFIX}/lib/libGL.so
 .if ${NVVERSION} >= 331.013
-	${MV} -f ${STAGEDIR}${PREFIX}/lib/libEGL.so \
+	${LN} -sf libEGL-NVIDIA.so.1 \
 		${STAGEDIR}${PREFIX}/lib/libEGL-NVIDIA.so
 	${MV} -f ${STAGEDIR}${PREFIX}/lib/libEGL.so.1 \
 		${STAGEDIR}${PREFIX}/lib/libEGL-NVIDIA.so.1
-	${MV} -f ${STAGEDIR}${PREFIX}/lib/libGLESv2.so \
+	${RM} -f ${STAGEDIR}${PREFIX}/lib/libEGL.so
+	${LN} -sf libGLESv2-NVIDIA.so.2 \
 		${STAGEDIR}${PREFIX}/lib/libGLESv2-NVIDIA.so
 	${MV} -f ${STAGEDIR}${PREFIX}/lib/libGLESv2.so.2 \
 		${STAGEDIR}${PREFIX}/lib/libGLESv2-NVIDIA.so.2
+	${RM} -f ${STAGEDIR}${PREFIX}/lib/libGLESv2.so
 .endif
 	@${MKDIR} ${STAGEDIR}${PREFIX}/etc/libmap.d/
 	${INSTALL_DATA} ${WRKDIR}/nvidia.conf \

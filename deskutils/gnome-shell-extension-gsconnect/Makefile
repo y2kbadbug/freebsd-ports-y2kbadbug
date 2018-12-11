@@ -25,7 +25,7 @@ RUN_DEPENDS=	gnome-shell>=3.28:x11/gnome-shell \
 		canberra-gtk-play:audio/libcanberra-gtk3 \
 		caribou-preferences:accessibility/caribou \
 		nautilus:x11-fm/nautilus \
-		${PYTHON_PKGNAMEPREFIX}nautilus>=0:x11-fm/py-nautilus@${PY_FLAVOR} \
+		${PYTHON_PKGNAMEPREFIX}nautilus-python>=0:x11-fm/py-nautilus-python@${PY_FLAVOR} \
 		nautilus-sendto:deskutils/nautilus-sendto \
 		nautilus-actions-config-tool:deskutils/nautilus-actions \
 		bash:shells/bash

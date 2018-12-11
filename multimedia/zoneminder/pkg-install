@@ -1,0 +1,1 @@
+/usr/sbin/chown www:www /var/run/zm
