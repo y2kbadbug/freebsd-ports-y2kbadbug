@@ -101,6 +101,10 @@ pre-install:
 
 post-install:
 	${INSTALL_DATA} ${STAGEDIR}${PREFIX}/etc/zoneminder/zm.conf ${STAGEDIR}${PREFIX}/etc/zoneminder/zm.conf.sample
+	${INSTALL_DATA} ${STAGEDIR}${PREFIX}/etc/zoneminder/conf.d/01-system-paths.conf ${STAGEDIR}${PREFIX}/etc/zoneminder/conf.d/01-system-paths.conf.sample
+	${REINPLACE_CMD} -e '/ZM_PATH_MAP/s|/dev/shm|/tmp|g' ${STAGEDIR}${PREFIX}/etc/zoneminder/conf.d/01-system-paths.conf.sample
+	${INSTALL_DATA} ${STAGEDIR}${PREFIX}/etc/zoneminder/conf.d/02-multiserver.conf ${STAGEDIR}${PREFIX}/etc/zoneminder/conf.d/02-multiserver.conf.sample
+	
 
 post-install-DOCS-on:
 	${MKDIR} ${STAGEDIR}${DOCSDIR}
