@@ -65,6 +65,7 @@
     SUBDIR += bosh-bootloader
     SUBDIR += bosh-cli
     SUBDIR += bounce
+    SUBDIR += bredbandskollen
     SUBDIR += bsdec2-image-upload
     SUBDIR += bsdproxy
     SUBDIR += bsdrcmds
@@ -81,6 +82,7 @@
     SUBDIR += chrony
     SUBDIR += citrix_ica
     SUBDIR += cjdns
+    SUBDIR += clash
     SUBDIR += cloud-init
     SUBDIR += cloud-init-azure
     SUBDIR += clusterit
@@ -1216,6 +1218,7 @@
     SUBDIR += rfbproxy
     SUBDIR += rinetd
     SUBDIR += ripe-whois
+    SUBDIR += routinator
     SUBDIR += rp-pppoe
     SUBDIR += rsplib
     SUBDIR += rsync
