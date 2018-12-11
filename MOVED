@@ -5815,6 +5815,7 @@ www/screem||2014-04-11|Has expired: gnome-menus 2.x will be updated in the GNOME
 deskutils/nautilus-open-terminal||2014-04-11|Has expired: nautilus will be updated to the 3.x version which is not compatible with 2.x
 sysutils/eiciel||2014-04-11|Has expired: nautilus will be updated to the 3.x version which is not compatible with 2.x
 sysutils/nautilus-cd-burner||2014-04-11|Has expired: nautilus will be updated to the 3.x version which is not compatible with 2.x
+x11-fm/py-nautilus||2014-04-11|Has expired: nautilus will be updated to the 3.x version which is not compatible with 2.x
 sysutils/sensors-applet||2014-04-11|Has expired: gnome-panel 2.x will be updated in the GNOME 3 import
 net/link-monitor-applet||2014-04-11|Has expired: gnome-panel 2.x will be updated in the GNOME 3 import
 net/netspeed_applet||2014-04-11|Has expired: gnome-panel 2.x will be updated in the GNOME 3 import
@@ -10639,7 +10640,6 @@ www/rubygem-toml-rb03|www/rubygem-toml-rb|2018-11-25|Has expired: Obsoleted by u
 dns/dnscheck||2018-11-27|Unmaintained upstream over a decade
 www/mod_security3|security/modsecurity3|2018-11-27|Not an Apache module, use correct upstream name
 emulators/qemu-ppcnv|emulators/qemu-powernv|2018-11-28|Use more accurate naming for qemu PowerNV port
-security/py-yubioath-desktop|security/yubioath-desktop|2018-12-01|New Yubikey Oath Desktop app, written in QT.
 net/pecl-gupnp||2018-12-01|Has expired: does not build with latest gssdp and gupnp
 graphics/gimpfx-foundry||2018-12-01|Has expired: No release for 10 years, only partially working with recent GIMP
 www/rubygem-http-form_data1|www/rubygem-http-form_data|2018-12-01|Has expired: Use www/rubygem-http-form_data instead
@@ -10716,10 +10716,6 @@ math/php70-gmp|math/php72-gmp|2018-12-05|Has expired: Security Support ends on 3
 lang/php70|lang/php72|2018-12-05|Has expired: Security Support ends on 3 Dec 2018
 math/vtk5-data||2018-12-05|Removed
 devel/py-interface|devel/py-py_interface|2018-12-05|Rename to match upstream naming
-<<<<<<< HEAD
->>>>>>> master
-=======
 graphics/drm-stable-kmod|graphics/drm-fbsd11.2-kmod|2018-12-09|Cleaning up DRM ports nomenclature
 graphics/drm-next-kmod|graphics/drm-fbsd12.0-kmod|2018-12-09|Cleaning up DRM ports nomenclature
 graphics/drm-devel-kmod|graphics/drm-current-kmod|2018-12-09|Cleaning up DRM ports nomenclature
->>>>>>> master
