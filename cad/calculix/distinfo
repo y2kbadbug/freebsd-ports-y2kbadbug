@@ -1,0 +1,9 @@
+TIMESTAMP = 1526334631
+SHA256 (calculix/cgx_2.14.all.tar.bz2) = 7ed16261749a2a62c77ad0631e5a1f001566aad62cd3e71fcbe2c9ce507f3712
+SIZE (calculix/cgx_2.14.all.tar.bz2) = 4546855
+SHA256 (calculix/cgx_2.14.exa.tar.bz2) = b922ba2bbd5662d05e1e9d6da1189a80fc341dfb1c46bcc19d89de56e6e67fc3
+SIZE (calculix/cgx_2.14.exa.tar.bz2) = 3030018
+SHA256 (calculix/cgx_2.14.htm.tar.bz2) = 20952ebb3d733a135c089a42473e15c119bd14b04e4fe73d858505d453267c0b
+SIZE (calculix/cgx_2.14.htm.tar.bz2) = 336313
+SHA256 (calculix/cgx_2.14.pdf) = dc9c30470e678953d1c4efcdff10a55122bd29f88fe520a43c548f178d9082f1
+SIZE (calculix/cgx_2.14.pdf) = 1304642
