@@ -9,9 +9,12 @@ DIST_SUBDIR=	gnome
 MAINTAINER=	gnome@FreeBSD.org
 COMMENT=	Convert the dash into a dock
 
-BUILD_DEPENDS=	gnome-shell>=0:x11/gnome-shell \
+LICENSE=	GPLv2
+LICENSE_FILE=	${WRKSRC}/COPYING
+
+BUILD_DEPENDS=	gnome-shell>=3.28:x11/gnome-shell \
 		gsettings-desktop-schemas>=3.12.0:devel/gsettings-desktop-schemas
-RUN_DEPENDS=	gnome-shell>=0:x11/gnome-shell \
+RUN_DEPENDS=	gnome-shell>=3.28:x11/gnome-shell \
 		gsettings-desktop-schemas>=3.12.0:devel/gsettings-desktop-schemas
 
 USES=		gettext gmake gnome localbase pkgconfig
@@ -26,7 +29,7 @@ GH_TAGNAME=	e6b7374
 
 PKGMESSAGE=	../gnome-shell-extra-extensions/pkg-message.slaves
 
-NO_BUILD=	yes
+NO_ARCH=	yes
 
 do-install:
 		@${MKDIR} ${STAGEDIR}${PREFIX}/share/glib-2.0/schemas/
