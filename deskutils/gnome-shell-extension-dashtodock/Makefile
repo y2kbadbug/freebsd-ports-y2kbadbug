@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	gnome-shell-extension-dashtodock
-PORTVERSION=	0.0.0.20180510
+PORTVERSION=	0.0.0.20180826
 CATEGORIES=	deskutils gnome
 DIST_SUBDIR=	gnome
 
@@ -22,7 +22,7 @@ GLIB_SCHEMAS=	org.gnome.shell.extensions.dash-to-dock.gschema.xml
 
 GH_ACCOUNT=	micheleg
 GH_PROJECT=	dash-to-dock
-GH_TAGNAME=	5e38a58
+GH_TAGNAME=	e6b7374
 
 PKGMESSAGE=	../gnome-shell-extra-extensions/pkg-message.slaves
 
