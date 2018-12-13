@@ -1,3 +1,0 @@
-bin/alertmanager
-bin/amtool
-@sample %%ETCDIR%%/alertmanager.yml.sample

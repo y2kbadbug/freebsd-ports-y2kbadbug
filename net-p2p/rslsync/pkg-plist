@@ -1,3 +1,0 @@
-bin/rslsync
-@sample etc/rslsync.conf.sample
-@dir(%%USER%%,%%GROUP%%,) /var/db/rslsync

@@ -1,4 +1,0 @@
-TLS/SSL proxy in front of the application creates a transparent
-encryption tunnel.
-
-WWW: https://metacpan.org/release/App-TLSMe

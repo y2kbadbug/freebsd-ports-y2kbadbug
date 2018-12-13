@@ -1,4 +1,0 @@
-This plugin will store your session data in whatever cache module you
-have configured.
-
-WWW: https://metacpan.org/release/Catalyst-Plugin-Session-Store-Cache

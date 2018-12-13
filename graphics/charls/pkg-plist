@@ -1,5 +1,0 @@
-include/CharLS/charls.h
-include/CharLS/publictypes.h
-lib/libCharLS.so
-lib/libCharLS.so.2
-lib/libCharLS.so.2.0

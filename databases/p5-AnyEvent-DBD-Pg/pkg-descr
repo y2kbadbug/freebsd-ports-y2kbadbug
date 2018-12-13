@@ -1,3 +1,0 @@
-AnyEvent interface to DBD::Pg's async interface.
-
-WWW: https://metacpan.org/release/AnyEvent-DBD-Pg

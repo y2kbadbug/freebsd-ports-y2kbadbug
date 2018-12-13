@@ -1,5 +1,0 @@
-Python binding for SCS, splitting conic solver.
-
-SCS can be used for solving large-scale convex cone problems.
-
-WWW: https://github.com/cvxgrp/scs

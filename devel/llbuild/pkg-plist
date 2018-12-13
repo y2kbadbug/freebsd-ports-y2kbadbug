@@ -1,7 +1,0 @@
-bin/llbuild
-bin/swift-build-tool
-include/llbuild/buildsystem.h
-include/llbuild/core.h
-include/llbuild/llbuild.h
-include/llbuild/module.modulemap
-lib/libllbuild.so

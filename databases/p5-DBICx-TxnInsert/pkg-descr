@@ -1,3 +1,0 @@
-Wrap all inserts into transactions.
-
-WWW: https://metacpan.org/release/DBICx-TxnInsert

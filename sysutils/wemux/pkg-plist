@@ -1,3 +1,0 @@
-bin/wemux
-@sample %%ETCDIR%%/wemux.conf.example %%ETCDIR%%/wemux.conf
-man/man1/wemux.1.gz

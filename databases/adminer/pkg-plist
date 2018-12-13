@@ -1,4 +1,0 @@
-@owner %%WWWOWN%%
-@group %%WWWGRP%%
-@mode 0755
-%%WWWDIR%%/adminer/index.php

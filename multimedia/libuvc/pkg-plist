@@ -1,8 +1,0 @@
-include/libuvc/libuvc.h
-include/libuvc/libuvc_config.h
-lib/cmake/libuvc/libuvcConfig.cmake
-lib/cmake/libuvc/libuvcConfigVersion.cmake
-lib/cmake/libuvc/libuvcTargets-%%CMAKE_BUILD_TYPE%%.cmake
-lib/cmake/libuvc/libuvcTargets.cmake
-lib/libuvc.so
-libdata/pkgconfig/libuvc.pc

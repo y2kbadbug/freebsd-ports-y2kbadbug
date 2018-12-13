@@ -1,5 +1,0 @@
-#! /bin/sh -
-#
-# $FreeBSD$
-
-exec %%PYTHON_CMD%% %%DATADIR%%/k40_whisperer.py

@@ -1,2 +1,0 @@
-DBDIR=		/var/db/pwned-check
-URLBASE=	https://downloads.pwnedpasswords.com/passwords
