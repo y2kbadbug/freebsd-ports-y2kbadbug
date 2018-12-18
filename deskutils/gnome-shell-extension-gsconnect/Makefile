@@ -16,19 +16,19 @@ BUILD_DEPENDS=	gnome-shell>=3.28:x11/gnome-shell \
 		gsettings-desktop-schemas>=3.12.0:devel/gsettings-desktop-schemas \
 		re2c>0:devel/re2c
 
-RUN_DEPENDS=	gnome-shell>=3.28:x11/gnome-shell \
-		gsettings-desktop-schemas>=3.12.0:devel/gsettings-desktop-schemas \
-		libgdata>=0:devel/libgdata \
-		folks-import:net-im/folks \
-		sshfs:sysutils/fusefs-sshfs \
-		gsound-play:audio/gsound \
+RUN_DEPENDS=	nautilus-python>=0:x11-fm/nautilus-python \
 		canberra-gtk-play:audio/libcanberra-gtk3 \
 		caribou-preferences:accessibility/caribou \
+		folks-import:net-im/folks \
+		gnome-shell>=3.28:x11/gnome-shell \
+		gsettings-desktop-schemas>=3.12.0:devel/gsettings-desktop-schemas \
+		gsound-play:audio/gsound \
+		libgdata>=0:devel/libgdata \
 		nautilus:x11-fm/nautilus \
-		${PYTHON_PKGNAMEPREFIX}nautilus-python>=0:x11-fm/py-nautilus-python@${PY_FLAVOR} \
-		nautilus-sendto:deskutils/nautilus-sendto \
 		nautilus-actions-config-tool:deskutils/nautilus-actions \
-		bash:shells/bash
+		nautilus-python>=0:x11-fm/nautilus-python \
+		nautilus-sendto:deskutils/nautilus-sendto \
+		sshfs:sysutils/fusefs-sshfs
 
 USES=		gnome meson ninja pkgconfig python:3.5+ shebangfix localbase
 USE_GNOME=	glib20
