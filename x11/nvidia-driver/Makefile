@@ -546,8 +546,9 @@ post-install: .SILENT
 		/libEGL_nvidia\.so\.${PORTVERSION}/d;}' ${TMPPLIST}
 .endif
 	${REINPLACE_CMD} -E ${PLIST_RE:S/^/-e /} ${TMPPLIST}
-# rename libGL.so, libEGL.so and libGLESv2.so
-	${MV} -f ${STAGEDIR}${PREFIX}/lib/libGL.so \
+# Link NVIDIA libraries to point to correct files.
+# libGL.so, libEGL.so and libGLESv2.so should not be provided by this port.
+	${LN} -sf libGL-NVIDIA.so.1 \
 		${STAGEDIR}${PREFIX}/lib/libGL-NVIDIA.so
 	${MV} -f ${STAGEDIR}${PREFIX}/lib/libGL.so.1 \
 		${STAGEDIR}${PREFIX}/lib/libGL-NVIDIA.so.1
