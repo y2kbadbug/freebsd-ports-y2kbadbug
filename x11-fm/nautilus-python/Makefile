@@ -4,7 +4,6 @@ PORTNAME=	nautilus-python
 DISTVERSION=	1.2.2
 CATEGORIES=	x11-fm gnome python
 MASTER_SITES=	GNOME
-PKGNAMEPREFIX= ${PYTHON_PKGNAMEPREFIX}
 
 MAINTAINER=	gnome@FreeBSD.org
 COMMENT=	Python nautilus bindings
@@ -12,9 +11,8 @@ COMMENT=	Python nautilus bindings
 LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-USES=		gmake gnome libtool localbase pathfix pkgconfig python tar:xz
+USES=		gmake gnome libtool localbase pathfix pkgconfig python:3.6+ tar:xz
 USE_GNOME=	cairo gdkpixbuf2 nautilus3 pygobject3
-USE_PYTHON=	flavors
 
 OPTIONS_SUB=	yes
 OPTIONS_DEFINE=	GTKDOC
