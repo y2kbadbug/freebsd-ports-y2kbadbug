@@ -612,6 +612,7 @@
     SUBDIR += etcd33
     SUBDIR += etl
     SUBDIR += euca2ools
+    SUBDIR += evdev-proto
     SUBDIR += evemu
     SUBDIR += eventxx
     SUBDIR += evolution-gconf-tools
@@ -5017,6 +5018,7 @@
     SUBDIR += py-pytrie
     SUBDIR += py-pytvmaze
     SUBDIR += py-pytz
+    SUBDIR += py-pyudev
     SUBDIR += py-pyutil
     SUBDIR += py-pyvalid
     SUBDIR += py-pyvisa
@@ -6426,6 +6428,7 @@
     SUBDIR += zanata-cli
     SUBDIR += zapcc
     SUBDIR += zeal
+    SUBDIR += zfp
     SUBDIR += zookeeper
     SUBDIR += zpu-binutils
     SUBDIR += zpu-gcc
