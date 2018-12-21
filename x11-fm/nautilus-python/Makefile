@@ -23,8 +23,5 @@ GTKDOC_BUILD_DEPENDS=	gtkdocize:textproc/gtk-doc
 GTKDOC_CONFIGURE_ENABLE=	gtk-doc
 
 GNU_CONFIGURE=	yes
-USE_LDCONFIG=	yes
-
-INSTALL_TARGET=	install-strip
 
 .include <bsd.port.mk>
