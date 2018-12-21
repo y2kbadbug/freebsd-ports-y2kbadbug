@@ -101,7 +101,6 @@
     SUBDIR += cp2fwb
     SUBDIR += cracklib
     SUBDIR += crackpkcs12
-    SUBDIR += crank
     SUBDIR += create-cert
     SUBDIR += cryptlib
     SUBDIR += cryptopp
@@ -191,7 +190,6 @@
     SUBDIR += gorilla
     SUBDIR += govpn
     SUBDIR += gpa
-    SUBDIR += gpasman
     SUBDIR += gpgdir
     SUBDIR += gpgme
     SUBDIR += gpgme-cpp
@@ -203,7 +201,6 @@
     SUBDIR += gsasl
     SUBDIR += gss
     SUBDIR += gstreamer1-plugins-dtls
-    SUBDIR += gtk-knocker
     SUBDIR += gtkpasman
     SUBDIR += gwee
     SUBDIR += hackbot
@@ -1079,6 +1076,7 @@
     SUBDIR += quantis
     SUBDIR += quantis-kmod
     SUBDIR += racoon2
+    SUBDIR += racoon2-legacy
     SUBDIR += radamsa
     SUBDIR += ranpwd
     SUBDIR += ratproxy
@@ -1284,7 +1282,6 @@
     SUBDIR += ssss
     SUBDIR += sst
     SUBDIR += starttls
-    SUBDIR += stegdetect
     SUBDIR += steghide
     SUBDIR += stoken
     SUBDIR += strobe
