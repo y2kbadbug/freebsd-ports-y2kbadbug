@@ -41,6 +41,7 @@ BAD_GST_ALL_PLUGINS+= \
 		ladspa \
 		libde265 \
 		libmms \
+		lv2 \
 		modplug \
 		mpeg2enc \
 		mplex \
@@ -330,6 +331,12 @@ gst_libmms_PLIST_FILES=	${GST_LIB_DIR}/libgstmms.so
 
 # librfb
 gst_librfb_USE_XORG=	x11
+
+# liblv2
+gst_lv2_LIB_DEPENDS=	liblilv-0.so:audio/lilv \
+			libsratom-0.so:audio/sratom \
+			libsord-0.so:devel/sord \
+			libserd-0.so:devel/serd
 
 # png
 gst_libpng_LIB_DEPENDS=	libpng.so:graphics/png

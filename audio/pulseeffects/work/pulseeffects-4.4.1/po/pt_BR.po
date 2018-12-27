@@ -1,0 +1,2178 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Wellington Wallace Miguel Melo <wellingtonwallace@gmail.com>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PulseEffects\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-25 13:09-0200\n"
+"PO-Revision-Date: 2018-11-25 13:11-0200\n"
+"Last-Translator: Patrik Nilsson <translation_AT_hembas.se>\n"
+"Language-Team: Portuguese <>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: data/ui/application.glade:60 data/ui/application.glade:1323
+#: data/ui/application.glade:1395
+msgid "Name"
+msgstr "Nome"
+
+#: data/ui/application.glade:73 data/ui/application.glade:1304
+#: data/ui/application.glade:1376
+msgid "Create Preset"
+msgstr "Criar Predefinição"
+
+#: data/ui/application.glade:91 src/application_ui.cpp:954
+msgid "Import Presets"
+msgstr "Importar Predefinições"
+
+#: data/ui/application.glade:200 src/calibration_ui.cpp:48
+#: src/calibration_ui.cpp:175
+msgid "Test Signals"
+msgstr "Sinais de Teste"
+
+#: data/ui/application.glade:222
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:5
+#: data/com.github.wwmm.pulseeffects.desktop.in:3
+msgid "PulseEffects"
+msgstr "PulseEffects"
+
+#: data/ui/application.glade:294 data/ui/application.glade:703
+msgid "Settings"
+msgstr "Configurações"
+
+#: data/ui/application.glade:316
+msgid "Help"
+msgstr "Ajuda"
+
+#: data/ui/application.glade:339 data/ui/compressor.glade:205
+#: data/ui/filter.glade:203 data/ui/equalizer.glade:280
+#: data/ui/reverb.glade:283 data/ui/crossfeed.glade:47
+#: src/application_ui.cpp:959 src/application_ui.cpp:1034
+msgid "Presets"
+msgstr "Predefinições"
+
+#: data/ui/application.glade:628
+msgid "Start Service at Login"
+msgstr "Inicializar Serviço no Login"
+
+#: data/ui/application.glade:653
+msgid "Enable All Applications"
+msgstr "Habilitar Todos os Aplicativos"
+
+#: data/ui/application.glade:678
+msgid "Use Dark Theme"
+msgstr "Usar Tema Escuro"
+
+#: data/ui/application.glade:712 data/ui/equalizer_band.glade:105
+#: data/ui/equalizer_band.glade:120
+msgid "Reset"
+msgstr "Resetar"
+
+#: data/ui/application.glade:726
+msgid "About"
+msgstr "Sobre"
+
+#: data/ui/application.glade:744
+msgid "General"
+msgstr "Geral"
+
+#: data/ui/application.glade:762
+msgid "Show"
+msgstr "Mostrar"
+
+#: data/ui/application.glade:788
+msgid "Points"
+msgstr "Pontos"
+
+#: data/ui/application.glade:819
+msgid "Use Custom Color"
+msgstr "Usar Cor Customizada"
+
+#: data/ui/application.glade:844
+msgid "Spectrum Color"
+msgstr "Cor do Espectro"
+
+#: data/ui/application.glade:871
+msgid "Height"
+msgstr "Altura"
+
+#: data/ui/application.glade:899 data/ui/convolver.glade:396
+msgid "Spectrum"
+msgstr "Espectro"
+
+#: data/ui/application.glade:928 data/ui/application.glade:1077
+msgid "Use Default"
+msgstr "Usar Padrão"
+
+#: data/ui/application.glade:966 data/ui/application.glade:1114
+#: data/ui/app_info.glade:156
+msgid "Buffer"
+msgstr "Buffer"
+
+#: data/ui/application.glade:999 data/ui/application.glade:1146
+#: data/ui/app_info.glade:183
+msgid "Latency"
+msgstr "Latência"
+
+#: data/ui/application.glade:1032 data/ui/application.glade:1178
+msgid "Block Size"
+msgstr "Tamanho do Bloco"
+
+#: data/ui/application.glade:1063 data/ui/application.glade:1334
+msgid "Input Effects"
+msgstr "Efeitos de Entrada"
+
+#: data/ui/application.glade:1209 data/ui/application.glade:1406
+msgid "Output Effects"
+msgstr "Efeitos de Saída"
+
+#: data/ui/application.glade:1236
+msgid "Pulseaudio"
+msgstr "Pulseaudio"
+
+#: data/ui/application.glade:1420
+msgid "Blacklist"
+msgstr "Lista Negra"
+
+#: data/ui/about.glade.in:11
+msgid "Audio Effects for Pulseaudio Applications"
+msgstr "Efeitos de Áudio para Programas que Utilizam Pulseaudio"
+
+#: data/ui/app_info.glade:48
+msgid "Format"
+msgstr "Formato"
+
+#: data/ui/app_info.glade:75 data/ui/convolver.glade:239
+msgid "Rate"
+msgstr "Taxa"
+
+#: data/ui/app_info.glade:102 data/ui/stereo_tools.glade:611
+msgid "Channels"
+msgstr "Canais"
+
+#: data/ui/app_info.glade:129
+msgid "Resampler"
+msgstr "Resampler"
+
+#: data/ui/app_info.glade:210
+msgid "State"
+msgstr "Estado"
+
+#: data/ui/autogain.glade:24
+msgid "Auto Gain"
+msgstr "Ganho Automático"
+
+#: data/ui/autogain.glade:151 data/ui/autogain.glade:528
+msgid "Momentary"
+msgstr "Momentâneo"
+
+#: data/ui/autogain.glade:166 data/ui/autogain.glade:541
+msgid "Short Term"
+msgstr "Curto Prazo"
+
+#: data/ui/autogain.glade:181 data/ui/autogain.glade:554
+msgid "Integrated"
+msgstr "Integrada"
+
+#: data/ui/autogain.glade:197
+msgid "Target"
+msgstr "Alvo"
+
+#: data/ui/autogain.glade:287
+msgid "Weights"
+msgstr "Pesos"
+
+#: data/ui/autogain.glade:316 data/ui/autogain.glade:508
+#: data/ui/limiter.glade:367 data/ui/compressor.glade:559
+#: data/ui/multiband_compressor.glade:1959 data/ui/filter.glade:365
+#: data/ui/equalizer.glade:366 data/ui/reverb.glade:612
+#: data/ui/bass_enhancer.glade:482 data/ui/exciter.glade:484
+#: data/ui/stereo_tools.glade:292 data/ui/stereo_tools.glade:784
+#: data/ui/crossfeed.glade:200 data/ui/maximizer.glade:240
+#: data/ui/loudness.glade:245 data/ui/gate.glade:489
+#: data/ui/multiband_gate.glade:2112 data/ui/deesser.glade:570
+#: data/ui/convolver.glade:449 data/ui/crystalizer.glade:168
+#: data/ui/pitch.glade:304 data/ui/webrtc.glade:586
+msgid "Input"
+msgstr "Entrada"
+
+#: data/ui/autogain.glade:331 data/ui/autogain.glade:757
+#: data/ui/limiter.glade:382 data/ui/compressor.glade:574
+#: data/ui/multiband_compressor.glade:755
+#: data/ui/multiband_compressor.glade:1132
+#: data/ui/multiband_compressor.glade:1510
+#: data/ui/multiband_compressor.glade:1888
+#: data/ui/multiband_compressor.glade:1974 data/ui/filter.glade:380
+#: data/ui/equalizer.glade:381 data/ui/reverb.glade:627
+#: data/ui/bass_enhancer.glade:514 data/ui/exciter.glade:516
+#: data/ui/stereo_tools.glade:757 data/ui/stereo_tools.glade:798
+#: data/ui/crossfeed.glade:215 data/ui/maximizer.glade:255
+#: data/ui/loudness.glade:164 data/ui/loudness.glade:260 data/ui/gate.glade:504
+#: data/ui/multiband_gate.glade:809 data/ui/multiband_gate.glade:1219
+#: data/ui/multiband_gate.glade:1630 data/ui/multiband_gate.glade:2041
+#: data/ui/multiband_gate.glade:2127 data/ui/deesser.glade:585
+#: data/ui/convolver.glade:464 data/ui/crystalizer.glade:183
+#: data/ui/pitch.glade:319 data/ui/webrtc.glade:601
+msgid "Output"
+msgstr "Saída"
+
+#: data/ui/autogain.glade:642
+msgid "Relative"
+msgstr "Relativo"
+
+#: data/ui/autogain.glade:655 data/ui/deesser.glade:298
+msgid "Gain"
+msgstr "Ganho"
+
+#: data/ui/autogain.glade:719 data/ui/loudness.glade:24
+#: data/ui/loudness.glade:130
+msgid "Loudness"
+msgstr "Sonoridade"
+
+#: data/ui/autogain.glade:771
+msgid "Range"
+msgstr "Alcance"
+
+#: data/ui/limiter.glade:30 data/ui/webrtc.glade:377
+msgid "Limiter"
+msgstr "Limitador"
+
+#: data/ui/limiter.glade:152
+msgid "Input Gain"
+msgstr "Ganho de Entrada"
+
+#: data/ui/limiter.glade:185
+msgid "Limit"
+msgstr "Limite"
+
+#: data/ui/limiter.glade:240 data/ui/compressor.glade:372
+#: data/ui/multiband_compressor.glade:537
+#: data/ui/multiband_compressor.glade:910
+#: data/ui/multiband_compressor.glade:1288
+#: data/ui/multiband_compressor.glade:1666 data/ui/maximizer.glade:215
+#: data/ui/gate.glade:302 data/ui/multiband_gate.glade:557
+#: data/ui/multiband_gate.glade:964 data/ui/multiband_gate.glade:1375
+#: data/ui/multiband_gate.glade:1786
+msgid "Release"
+msgstr "Liberação"
+
+#: data/ui/limiter.glade:253
+msgid "Lookahead"
+msgstr "Lookahead"
+
+#: data/ui/limiter.glade:288
+msgid "Oversampling"
+msgstr "Oversampling"
+
+#: data/ui/limiter.glade:337
+msgid "ASC"
+msgstr "ASC"
+
+#: data/ui/limiter.glade:397
+msgid "Attenuation"
+msgstr "Atenuação"
+
+#: data/ui/compressor.glade:31 data/ui/webrtc.glade:454
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:52
+msgid "Compressor"
+msgstr "Compressor"
+
+#: data/ui/compressor.glade:122
+msgid "Vocal Leveller 1"
+msgstr "Nivelador de Vocal 1"
+
+#: data/ui/compressor.glade:134
+msgid "Vocal Leveller 2"
+msgstr "Nivelador de Vocal 2"
+
+#: data/ui/compressor.glade:146 data/ui/filter.glade:158
+#: data/ui/reverb.glade:234 data/ui/crossfeed.glade:72
+msgid "Default"
+msgstr "Padrão"
+
+#: data/ui/compressor.glade:235 data/ui/gate.glade:166
+#: data/ui/deesser.glade:192
+msgid "Detection"
+msgstr "Detecção"
+
+#: data/ui/compressor.glade:249 data/ui/gate.glade:180
+msgid "Stereo Link"
+msgstr "Elo Stereo"
+
+#: data/ui/compressor.glade:263
+msgid "Mix"
+msgstr "Mistura"
+
+#: data/ui/compressor.glade:293 data/ui/multiband_compressor.glade:476
+#: data/ui/multiband_compressor.glade:848
+#: data/ui/multiband_compressor.glade:1226
+#: data/ui/multiband_compressor.glade:1604 data/ui/gate.glade:223
+#: data/ui/multiband_gate.glade:496 data/ui/multiband_gate.glade:902
+#: data/ui/multiband_gate.glade:1313 data/ui/multiband_gate.glade:1724
+#: data/ui/deesser.glade:220
+msgid "RMS"
+msgstr "RMS"
+
+#: data/ui/compressor.glade:294 data/ui/multiband_compressor.glade:477
+#: data/ui/multiband_compressor.glade:849
+#: data/ui/multiband_compressor.glade:1227
+#: data/ui/multiband_compressor.glade:1605 data/ui/equalizer_band.glade:152
+#: data/ui/gate.glade:224 data/ui/multiband_gate.glade:497
+#: data/ui/multiband_gate.glade:903 data/ui/multiband_gate.glade:1314
+#: data/ui/multiband_gate.glade:1725 data/ui/deesser.glade:221
+#: data/ui/deesser.glade:331
+msgid "Peak"
+msgstr "Pico"
+
+#: data/ui/compressor.glade:309 data/ui/gate.glade:239
+msgid "Average"
+msgstr "Médio"
+
+#: data/ui/compressor.glade:310 data/ui/gate.glade:240
+msgid "Maximum"
+msgstr "Máximo"
+
+#: data/ui/compressor.glade:338 data/ui/multiband_compressor.glade:503
+#: data/ui/multiband_compressor.glade:875
+#: data/ui/multiband_compressor.glade:1253
+#: data/ui/multiband_compressor.glade:1631 data/ui/gate.glade:268
+#: data/ui/multiband_gate.glade:523 data/ui/multiband_gate.glade:929
+#: data/ui/multiband_gate.glade:1340 data/ui/multiband_gate.glade:1751
+msgid "Attack"
+msgstr "Ataque"
+
+#: data/ui/compressor.glade:406 data/ui/multiband_compressor.glade:571
+#: data/ui/multiband_compressor.glade:945
+#: data/ui/multiband_compressor.glade:1323
+#: data/ui/multiband_compressor.glade:1701 data/ui/maximizer.glade:128
+#: data/ui/gate.glade:336 data/ui/multiband_gate.glade:591
+#: data/ui/multiband_gate.glade:999 data/ui/multiband_gate.glade:1410
+#: data/ui/multiband_gate.glade:1821 data/ui/deesser.glade:461
+msgid "Threshold"
+msgstr "Limiar"
+
+#: data/ui/compressor.glade:439 data/ui/multiband_compressor.glade:604
+#: data/ui/multiband_compressor.glade:979
+#: data/ui/multiband_compressor.glade:1357
+#: data/ui/multiband_compressor.glade:1735 data/ui/gate.glade:369
+#: data/ui/multiband_gate.glade:624 data/ui/multiband_gate.glade:1033
+#: data/ui/multiband_gate.glade:1444 data/ui/multiband_gate.glade:1855
+#: data/ui/deesser.glade:494
+msgid "Ratio"
+msgstr "Razão"
+
+#: data/ui/compressor.glade:471 data/ui/multiband_compressor.glade:636
+#: data/ui/multiband_compressor.glade:1012
+#: data/ui/multiband_compressor.glade:1390
+#: data/ui/multiband_compressor.glade:1768 data/ui/gate.glade:401
+#: data/ui/multiband_gate.glade:656 data/ui/multiband_gate.glade:1066
+#: data/ui/multiband_gate.glade:1477 data/ui/multiband_gate.glade:1888
+msgid "Knee"
+msgstr "Joelho"
+
+#: data/ui/compressor.glade:505 data/ui/multiband_compressor.glade:670
+#: data/ui/multiband_compressor.glade:1047
+#: data/ui/multiband_compressor.glade:1425
+#: data/ui/multiband_compressor.glade:1803 data/ui/gate.glade:435
+#: data/ui/multiband_gate.glade:690 data/ui/multiband_gate.glade:1101
+#: data/ui/multiband_gate.glade:1512 data/ui/multiband_gate.glade:1923
+#: data/ui/deesser.glade:525
+msgid "Makeup"
+msgstr "Ganho de Saída"
+
+#: data/ui/compressor.glade:739 data/ui/maximizer.glade:270
+#: data/ui/multiband_gate.glade:725 data/ui/multiband_gate.glade:1156
+#: data/ui/multiband_gate.glade:1567 data/ui/multiband_gate.glade:1978
+#: data/ui/deesser.glade:750
+msgid "Reduction"
+msgstr "Redução"
+
+#: data/ui/multiband_compressor.glade:70
+msgid "Multiband Compressor"
+msgstr "Compressor Multibandas"
+
+#: data/ui/multiband_compressor.glade:285 data/ui/stereo_tools.glade:309
+#: data/ui/multiband_gate.glade:305 data/ui/deesser.glade:206
+#: data/ui/webrtc.glade:338
+msgid "Mode"
+msgstr "Modo"
+
+#: data/ui/multiband_compressor.glade:299 data/ui/multiband_gate.glade:319
+msgid "LR4"
+msgstr "LR4"
+
+#: data/ui/multiband_compressor.glade:300 data/ui/multiband_gate.glade:320
+msgid "LR8"
+msgstr "LR8"
+
+#: data/ui/multiband_compressor.glade:314 data/ui/multiband_gate.glade:334
+msgid "Split 1/2"
+msgstr "Disivão 1/2"
+
+#: data/ui/multiband_compressor.glade:327 data/ui/multiband_gate.glade:347
+msgid "Split 2/3"
+msgstr "Disivão 2/3"
+
+#: data/ui/multiband_compressor.glade:340 data/ui/multiband_gate.glade:360
+msgid "Split 3/4"
+msgstr "Disivão 3/4"
+
+#: data/ui/multiband_compressor.glade:443
+#: data/ui/multiband_compressor.glade:815
+#: data/ui/multiband_compressor.glade:1193
+#: data/ui/multiband_compressor.glade:1571 data/ui/multiband_gate.glade:463
+#: data/ui/multiband_gate.glade:869 data/ui/multiband_gate.glade:1280
+#: data/ui/multiband_gate.glade:1691
+msgid "Bypass"
+msgstr "Ignorar"
+
+#: data/ui/multiband_compressor.glade:457
+#: data/ui/multiband_compressor.glade:829
+#: data/ui/multiband_compressor.glade:1207
+#: data/ui/multiband_compressor.glade:1585 data/ui/multiband_gate.glade:477
+#: data/ui/multiband_gate.glade:883 data/ui/multiband_gate.glade:1294
+#: data/ui/multiband_gate.glade:1705
+msgid "Solo"
+msgstr "Sozinho"
+
+#: data/ui/multiband_compressor.glade:715
+#: data/ui/multiband_compressor.glade:1092
+#: data/ui/multiband_compressor.glade:1470
+#: data/ui/multiband_compressor.glade:1848
+msgid "Compression"
+msgstr "Compressão"
+
+#: data/ui/multiband_compressor.glade:798 data/ui/multiband_gate.glade:852
+msgid "Sub Band"
+msgstr "Banda"
+
+#: data/ui/multiband_compressor.glade:1175 data/ui/multiband_gate.glade:1262
+msgid "Low Band"
+msgstr "Banda Baixa"
+
+#: data/ui/multiband_compressor.glade:1553 data/ui/multiband_gate.glade:1673
+msgid "Mid Band"
+msgstr "Banda Média"
+
+#: data/ui/multiband_compressor.glade:1931 data/ui/multiband_gate.glade:2084
+msgid "High Band"
+msgstr "Banda Alta"
+
+#: data/ui/filter.glade:31
+msgid "Filter"
+msgstr "Filtro"
+
+#: data/ui/filter.glade:122
+msgid "Muted"
+msgstr "Mudo"
+
+#: data/ui/filter.glade:134 data/ui/reverb.glade:208
+msgid "Disco"
+msgstr "Discoteca"
+
+#: data/ui/filter.glade:146
+msgid "Distant Headphones"
+msgstr "Fones de Ouvido Distantes"
+
+#: data/ui/filter.glade:219
+msgid "12dB/oct Lowpass"
+msgstr "12dB/oct Passa-Baixa"
+
+#: data/ui/filter.glade:220
+msgid "24dB/oct Lowpass"
+msgstr "24dB/oct Passa-Baixa"
+
+#: data/ui/filter.glade:221
+msgid "36dB/oct Lowpass"
+msgstr "36dB/oct Passa-Baixa"
+
+#: data/ui/filter.glade:222
+msgid "12dB/oct Highpass"
+msgstr "12dB/oct Passa-Alta"
+
+#: data/ui/filter.glade:223
+msgid "24dB/oct Highpass"
+msgstr "24dB/oct Passa-Alta"
+
+#: data/ui/filter.glade:224
+msgid "36dB/oct Highpass"
+msgstr "36dB/oct Passa-Alta"
+
+#: data/ui/filter.glade:225
+msgid "6dB/oct Bandpass"
+msgstr "6dB/oct Passa-Banda"
+
+#: data/ui/filter.glade:226
+msgid "12dB/oct Bandpass"
+msgstr "12dB/oct Passa-Banda"
+
+#: data/ui/filter.glade:227
+msgid "18dB/oct Bandpass"
+msgstr "18dB/oct Passa-Banda"
+
+#: data/ui/filter.glade:228
+msgid "6dB/oct Bandreject"
+msgstr "6dB/oct Rejeita-Faixa"
+
+#: data/ui/filter.glade:229
+msgid "12dB/oct Bandreject"
+msgstr "12dB/oct Rejeita-Faixa"
+
+#: data/ui/filter.glade:230
+msgid "18dB/oct Bandreject"
+msgstr "18dB/oct Rejeita-Faixa"
+
+#: data/ui/filter.glade:252 data/ui/equalizer_band.glade:41
+#: data/ui/calibration_signals.glade:32
+msgid "Frequency"
+msgstr "Frequência"
+
+#: data/ui/filter.glade:286
+msgid "Resonance"
+msgstr "Ressonância"
+
+#: data/ui/filter.glade:321
+msgid "Inertia"
+msgstr "Inércia"
+
+#: data/ui/equalizer.glade:24
+msgid "Equalizer"
+msgstr "Equalizador"
+
+#: data/ui/equalizer.glade:109
+msgid "Flat Response"
+msgstr "Resposta Plana"
+
+#: data/ui/equalizer.glade:125
+msgid "Reset Equalizer"
+msgstr "Redefinir Equalizador"
+
+#: data/ui/equalizer.glade:141
+msgid "Bands"
+msgstr "Bandas"
+
+#: data/ui/equalizer.glade:168
+msgid "Calculate Frequencies"
+msgstr "Calcular Frequências"
+
+#: data/ui/equalizer_band.glade:54
+msgid "Width"
+msgstr "Largura"
+
+#: data/ui/equalizer_band.glade:137
+msgid "Filter Type"
+msgstr "Tipo de Filtro"
+
+#: data/ui/equalizer_band.glade:153
+msgid "Low Shelf"
+msgstr "Low Shelf"
+
+#: data/ui/equalizer_band.glade:154
+msgid "High Shelf"
+msgstr "High Shelf"
+
+#: data/ui/equalizer_band.glade:169 data/ui/equalizer_band.glade:182
+msgid "Q"
+msgstr "Q"
+
+#: data/ui/reverb.glade:64
+msgid "Reverberation"
+msgstr "Reverberação"
+
+#: data/ui/reverb.glade:156
+msgid "Ambience"
+msgstr "Ambiente"
+
+#: data/ui/reverb.glade:169
+msgid "Empty Walls"
+msgstr "Paredes Vazias"
+
+#: data/ui/reverb.glade:182
+msgid "Room"
+msgstr "Quarto"
+
+#: data/ui/reverb.glade:195
+msgid "Large Empty Hall"
+msgstr "Grande Salão Vazio"
+
+#: data/ui/reverb.glade:221
+msgid "Large Occupied Hall"
+msgstr "Grande Salão Ocupado"
+
+#: data/ui/reverb.glade:306
+msgid "Pre Delay"
+msgstr "Pré Atraso"
+
+#: data/ui/reverb.glade:338
+msgid "Decay Time"
+msgstr "Tempo de Decaimento"
+
+#: data/ui/reverb.glade:371 data/ui/bass_enhancer.glade:245
+#: data/ui/exciter.glade:248
+msgid "Amount"
+msgstr "Quantidade"
+
+#: data/ui/reverb.glade:403
+msgid "Dry"
+msgstr "Seco"
+
+#: data/ui/reverb.glade:435
+msgid "Bass Cut"
+msgstr "Corte de Grave"
+
+#: data/ui/reverb.glade:448
+msgid "Treble Cut"
+msgstr "Corte de Agudo"
+
+#: data/ui/reverb.glade:498
+msgid "High Frequency Damping"
+msgstr "Amortecimento de Alta Frequência"
+
+#: data/ui/reverb.glade:531
+msgid "Diffusion"
+msgstr "Difusão"
+
+#: data/ui/reverb.glade:564
+msgid "Room Size"
+msgstr "Tamanho do quarto"
+
+#: data/ui/reverb.glade:580
+msgid "Small"
+msgstr "Pequeno"
+
+#: data/ui/reverb.glade:581
+msgid "Medium"
+msgstr "Médio"
+
+#: data/ui/reverb.glade:582
+msgid "Large"
+msgstr "Grande"
+
+#: data/ui/reverb.glade:583
+msgid "Tunnel"
+msgstr "Túnel"
+
+#: data/ui/reverb.glade:584
+msgid "Large/smooth"
+msgstr "Grande/Suave"
+
+#: data/ui/reverb.glade:585
+msgid "Experimental"
+msgstr "Experimental"
+
+#: data/ui/bass_enhancer.glade:50
+msgid "Bass Enhancer"
+msgstr "Reforçador de Graves"
+
+#: data/ui/bass_enhancer.glade:148 data/ui/exciter.glade:148
+#: data/ui/deesser.glade:165
+msgid "Listen"
+msgstr "Escutar"
+
+#: data/ui/bass_enhancer.glade:189 data/ui/exciter.glade:190
+msgid "3rd"
+msgstr "3°"
+
+#: data/ui/bass_enhancer.glade:201 data/ui/exciter.glade:202
+msgid "2nd"
+msgstr "2°"
+
+#: data/ui/bass_enhancer.glade:213 data/ui/exciter.glade:214
+msgid "Blend Harmonics"
+msgstr "Mistura de Harmônicos"
+
+#: data/ui/bass_enhancer.glade:257 data/ui/bass_enhancer.glade:389
+#: data/ui/exciter.glade:261 data/ui/exciter.glade:391
+msgid "Harmonics"
+msgstr "Harmônico"
+
+#: data/ui/bass_enhancer.glade:269 data/ui/exciter.glade:274
+msgid "Scope"
+msgstr "Escopo"
+
+#: data/ui/bass_enhancer.glade:358
+msgid "Floor"
+msgstr "Piso"
+
+#: data/ui/exciter.glade:50
+msgid "Exciter"
+msgstr "Excitador"
+
+#: data/ui/exciter.glade:360 data/ui/maximizer.glade:161
+msgid "Ceiling"
+msgstr "Teto"
+
+#: data/ui/stereo_tools.glade:42
+msgid "Stereo Tools"
+msgstr "Ferramentas Stereo"
+
+#: data/ui/stereo_tools.glade:214 data/ui/stereo_tools.glade:628
+msgid "Balance"
+msgstr "Balanço"
+
+#: data/ui/stereo_tools.glade:246
+msgid "S/C Level"
+msgstr "Nível de S/C"
+
+#: data/ui/stereo_tools.glade:275
+msgid "Softclip"
+msgstr "Clipe Macio"
+
+#: data/ui/stereo_tools.glade:325
+msgid "LR > LR (Stereo Default)"
+msgstr "ED > ED (Stereo Padrão)"
+
+#: data/ui/stereo_tools.glade:326
+msgid "LR > MS (Stereo to Mid-Side)"
+msgstr "ED > ML (Stereo para Meio-Lado)"
+
+#: data/ui/stereo_tools.glade:327
+msgid "MS > LR (Mid-Side to Stereo)"
+msgstr "ML > ED (Meio-Lado para Stereo)"
+
+#: data/ui/stereo_tools.glade:328
+msgid "LR > LL (Mono Left Channel)"
+msgstr "ED > EE (Canal Esquerdo Mono)"
+
+#: data/ui/stereo_tools.glade:329
+msgid "LR > RR (Mono Right Channel)"
+msgstr "ED > DD (Canal Direito Mono)"
+
+#: data/ui/stereo_tools.glade:330
+msgid "LR > L+R (Mono Sum L+R)"
+msgstr "ED > E+D (Soma Mono E+D)"
+
+#: data/ui/stereo_tools.glade:331
+msgid "LR > RL (Stereo Flip Channels)"
+msgstr "ED > DL (Alternar Canais Stereo)"
+
+#: data/ui/stereo_tools.glade:351
+msgid "Side Level"
+msgstr "Nível Lateral"
+
+#: data/ui/stereo_tools.glade:402
+msgid "Side Balance"
+msgstr "Balanço Lateral"
+
+#: data/ui/stereo_tools.glade:434
+msgid "Middle Level"
+msgstr "Nível do Meio"
+
+#: data/ui/stereo_tools.glade:447
+msgid "Middle Panorama"
+msgstr "Panorama do Meio"
+
+#: data/ui/stereo_tools.glade:482
+msgid "Stereo Matrix"
+msgstr "Matriz Stereo"
+
+#: data/ui/stereo_tools.glade:507
+msgid "Left"
+msgstr "Esquerda"
+
+#: data/ui/stereo_tools.glade:520 data/ui/stereo_tools.glade:560
+msgid "Invert Phase"
+msgstr "Inverter Fase"
+
+#: data/ui/stereo_tools.glade:533 data/ui/stereo_tools.glade:591
+msgid "Mute"
+msgstr "Mudo"
+
+#: data/ui/stereo_tools.glade:578
+msgid "Right"
+msgstr "Direita"
+
+#: data/ui/stereo_tools.glade:660
+msgid "Delay L/R"
+msgstr "Atraso E/D"
+
+#: data/ui/stereo_tools.glade:694
+msgid "Stereo Base"
+msgstr "Base Stereo"
+
+#: data/ui/stereo_tools.glade:727
+msgid "Stereo Phase"
+msgstr "Fase Stereo"
+
+#: data/ui/crossfeed.glade:59
+msgid "Jmeier"
+msgstr "Jmeier"
+
+#: data/ui/crossfeed.glade:85
+msgid "Cmoy"
+msgstr "Cmoy"
+
+#: data/ui/crossfeed.glade:121
+msgid "Cutoff"
+msgstr "Corte"
+
+#: data/ui/crossfeed.glade:154
+msgid "Feed"
+msgstr "Alimentação"
+
+#: data/ui/crossfeed.glade:390
+msgid "Crossfeed"
+msgstr "Crossfeed"
+
+#: data/ui/maximizer.glade:29
+msgid "Maximizer"
+msgstr "Maximizador"
+
+#: data/ui/loudness.glade:198
+msgid "Link"
+msgstr "Elo"
+
+#: data/ui/gate.glade:31
+msgid "Gate"
+msgstr "Gate"
+
+#: data/ui/gate.glade:194
+msgid "Gain Reduction"
+msgstr "Redução de Ganho"
+
+#: data/ui/gate.glade:669 data/ui/multiband_gate.glade:769
+#: data/ui/multiband_gate.glade:1179 data/ui/multiband_gate.glade:1590
+#: data/ui/multiband_gate.glade:2001
+msgid "Gating"
+msgstr "Gating"
+
+#: data/ui/multiband_gate.glade:70
+msgid "Multiband Gate"
+msgstr "Gate Multibandas"
+
+#: data/ui/deesser.glade:61
+msgid "Deesser"
+msgstr "Deesser"
+
+#: data/ui/deesser.glade:236
+msgid "Wide"
+msgstr "Amplo"
+
+#: data/ui/deesser.glade:237 data/ui/deesser.glade:265
+msgid "Split"
+msgstr "Separado"
+
+#: data/ui/deesser.glade:384
+msgid "Level"
+msgstr "Nível"
+
+#: data/ui/deesser.glade:397
+msgid "Peak Q"
+msgstr "Pico Q"
+
+#: data/ui/deesser.glade:429
+msgid "Laxity"
+msgstr "Frouxidão"
+
+#: data/ui/deesser.glade:763
+msgid "Detected"
+msgstr "Detectado"
+
+#: data/ui/convolver.glade:24
+msgid "Convolver"
+msgstr "Convolver"
+
+#: data/ui/convolver.glade:103
+msgid "Import Impulse"
+msgstr "Importar Impulso"
+
+#: data/ui/convolver.glade:107
+msgid "Import Impulse Response File"
+msgstr "Arquivo da Resposta de Impulso"
+
+#: data/ui/convolver.glade:204
+msgid "L"
+msgstr "L"
+
+#: data/ui/convolver.glade:218
+msgid "R"
+msgstr "R"
+
+#: data/ui/convolver.glade:277
+msgid "Duration"
+msgstr "Duração"
+
+#: data/ui/convolver.glade:291
+msgid "Samples"
+msgstr "Amostras"
+
+#: data/ui/convolver.glade:324 src/convolver_ui.cpp:269
+msgid "Impulse Response"
+msgstr "Resposta de Impulso"
+
+#: data/ui/convolver.glade:346
+msgid "Stereo Width"
+msgstr "Largura do Stereo"
+
+#: data/ui/convolver.glade:376
+msgid "Select the impulse Response File"
+msgstr "Selecione o Arquivo com a Resposta de Impulso"
+
+#: data/ui/crystalizer.glade:24
+msgid "Crystalizer"
+msgstr "Cristalizador"
+
+#: data/ui/crystalizer.glade:123
+msgid "Intensity"
+msgstr "Intensidade"
+
+#: data/ui/pitch.glade:36
+msgid "Pitch"
+msgstr "Altura"
+
+#: data/ui/pitch.glade:208
+msgid "Cents"
+msgstr "Cents"
+
+#: data/ui/pitch.glade:221
+msgid "Semitones"
+msgstr "Semitons"
+
+#: data/ui/pitch.glade:234
+msgid "Octaves"
+msgstr "Oitavas"
+
+#: data/ui/pitch.glade:247
+msgid "Crispness"
+msgstr "Clareza"
+
+#: data/ui/pitch.glade:256
+msgid "Faster"
+msgstr "Mais Rápido"
+
+#: data/ui/pitch.glade:272
+msgid "Preserve Formant"
+msgstr "Preservar Formante"
+
+#: data/ui/webrtc.glade:30
+msgid "Webrtc"
+msgstr "Webrtc"
+
+#: data/ui/webrtc.glade:141 data/ui/webrtc.glade:273 data/ui/webrtc.glade:319
+#: data/ui/webrtc.glade:468
+msgid "Enable"
+msgstr "Habilitar"
+
+#: data/ui/webrtc.glade:162
+msgid "Extended Filter"
+msgstr "Filtro Estendido"
+
+#: data/ui/webrtc.glade:175
+msgid "Delay Agnostic"
+msgstr "Atraso Agnóstico"
+
+#: data/ui/webrtc.glade:187
+msgid "High Pass Filter"
+msgstr "Filtro Passa-Alta"
+
+#: data/ui/webrtc.glade:215 data/ui/webrtc.glade:264
+msgid "Suppresion Level"
+msgstr "Nível de Supressão"
+
+#: data/ui/webrtc.glade:229 data/ui/webrtc.glade:293 data/ui/webrtc.glade:490
+msgid "Low"
+msgstr "Baixo"
+
+#: data/ui/webrtc.glade:230 data/ui/webrtc.glade:294 data/ui/webrtc.glade:491
+msgid "Moderate"
+msgstr "Moderado"
+
+#: data/ui/webrtc.glade:231 data/ui/webrtc.glade:295 data/ui/webrtc.glade:492
+msgid "High"
+msgstr "Alto"
+
+#: data/ui/webrtc.glade:248
+msgid "Echo Canceller"
+msgstr "Cancelador de Eco"
+
+#: data/ui/webrtc.glade:296
+msgid "Very High"
+msgstr "Muito Alto"
+
+#: data/ui/webrtc.glade:307
+msgid "Noise Suppressor"
+msgstr "Supressor de Ruído"
+
+#: data/ui/webrtc.glade:352
+msgid "Adaptive Digital"
+msgstr "Digital Adaptativo"
+
+#: data/ui/webrtc.glade:353
+msgid "Fixed Digital"
+msgstr "Digital Fixo"
+
+#: data/ui/webrtc.glade:364
+msgid "Gain Controller"
+msgstr "Controlador de Ganho"
+
+#: data/ui/webrtc.glade:397
+msgid "Target Level"
+msgstr "Nível Alvo"
+
+#: data/ui/webrtc.glade:408
+msgid "Maximum Gain"
+msgstr "Ganho Máximo"
+
+#: data/ui/webrtc.glade:489
+msgid "Very Low"
+msgstr "Muito Baixo"
+
+#: data/ui/webrtc.glade:506
+msgid "Frame Size"
+msgstr "Tamanho do Quadro"
+
+#: data/ui/webrtc.glade:537
+msgid "Detection Likelihood"
+msgstr "Probabilidade de Detecção"
+
+#: data/ui/webrtc.glade:547
+msgid "Voice Detector"
+msgstr "Detector de Voz"
+
+#: data/ui/calibration_signals.glade:64
+msgid "Volume"
+msgstr "Volume"
+
+#: data/ui/calibration_signals.glade:108
+msgid "Sine"
+msgstr "Seno"
+
+#: data/ui/calibration_signals.glade:109
+msgid "Square"
+msgstr "Quadrada"
+
+#: data/ui/calibration_signals.glade:110
+msgid "Saw"
+msgstr "Serra"
+
+#: data/ui/calibration_signals.glade:111
+msgid "Triangle"
+msgstr "Triângulo"
+
+#: data/ui/calibration_signals.glade:112
+msgid "Silence"
+msgstr "Silencio"
+
+#: data/ui/calibration_signals.glade:113
+msgid "White Noise"
+msgstr "Ruído Branco"
+
+#: data/ui/calibration_signals.glade:114
+msgid "Pink Noise"
+msgstr "Ruído Rosa"
+
+#: data/ui/calibration_signals.glade:115
+msgid "Sine Table"
+msgstr "Tabela de Seno"
+
+#: data/ui/calibration_signals.glade:116
+msgid "Ticks"
+msgstr "Tique-Taque"
+
+#: data/ui/calibration_signals.glade:117
+msgid "Gaussian Noise"
+msgstr "Ruído Gaussiano"
+
+#: data/ui/calibration_signals.glade:118
+msgid "Red Noise"
+msgstr "Ruído Vermelho"
+
+#: data/ui/calibration_signals.glade:119
+msgid "Blue Noise"
+msgstr "Ruído Azul"
+
+#: data/ui/calibration_signals.glade:120
+msgid "Violet Noise"
+msgstr "Ruído Violeta"
+
+#: data/ui/calibration_mic.glade:29
+msgid "Window"
+msgstr "Janela"
+
+#: data/ui/calibration_mic.glade:70
+msgid "Measure Noise"
+msgstr "Medir Ruído"
+
+#: data/ui/calibration_mic.glade:99
+msgid "Subtract Noise"
+msgstr "Subtrair Ruído"
+
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:8
+#: data/com.github.wwmm.pulseeffects.desktop.in:5
+msgid "Audio Effects for PulseAudio Applications"
+msgstr "Efeitos de Áudio para Programas que Utilizam Pulseaudio"
+
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:9
+msgid "Wellington Wallace"
+msgstr ""
+
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:11
+msgid ""
+"PulseEffects is an advanced audio manipulation tools. It includes an "
+"equalizer, limiter, compressor and a reverberation tool, just to mention a "
+"few. To complement this there is also a built in spectrum analyzer."
+msgstr ""
+"PulseEffects é uma ferramenta avançada de edição de áudio. Ele inclui "
+"equalizador, limitador, compressor e um plugin de reverberação. Estas "
+"ferramentas são complementadas por um analisador de espectro."
+
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:16
+msgid ""
+"Because PulseEffects uses the default PulseAudio sound server it will work "
+"with most, if not all, applications you use. All supported applications are "
+"presented in the main window, where each can be enabled individually."
+msgstr ""
+"Como o PulseEffects usa o servidor de áudio padrão PulseAudio ele irá "
+"funcionar com a maioria das aplicações que você usa, senão todas. Todos os "
+"aplicativos suportados estão presentes na janela principal, onde cada uma "
+"pode ser habilitada individualmente."
+
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:22
+msgid ""
+"Besides manipulating sound output, PulseEffects is able to apply effects to "
+"an input device, such as a microphone. This is, for example, useful in audio "
+"recording, but it also works well during voice conversations."
+msgstr ""
+"Além de manipular saída de som o PulseEffects também é capaz de aplicar "
+"efeitos em dispositivos de entrada, como um microfone. Isto é útil, por "
+"exemplo, em gravação de áudio mas também funciona em conversas."
+
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:27
+msgid ""
+"When PulseEffects is launched it will conveniently remember the "
+"configuration used in the last session. It is also possible to save all the "
+"current settings as profiles."
+msgstr ""
+"Quando inicializado, o PulseEffects irá convenientemente lembrar das "
+"configurações utilizadas na última sessão. Também é possível salvar todas as "
+"configurações\n"
+"como perfis."
+
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:40
+msgid "Set the volume and turn on/off effects"
+msgstr "Definir o volume e ligar / desligar efeitos"
+
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:44
+msgid "Includes an equalizer with built-in presets"
+msgstr "Inclui um equalizador com predefinições incorporadas"
+
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:48
+msgid "Input Limiter"
+msgstr "Limitador de Entrada"
+
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:56
+msgid "Calibration"
+msgstr "Calibração"
+
+#: data/com.github.wwmm.pulseeffects.desktop.in:4
+msgid "Equalizer, Compressor and Other Audio Effects"
+msgstr "Equalizador, Compressor e Outros Efeitos de Áudio"
+
+#: data/com.github.wwmm.pulseeffects.desktop.in:6
+msgid "limiter;compressor;reverberation;equalizer;autovolume;"
+msgstr "limitador;compressor;reverberação;equalizador;autovolume;"
+
+#. Translators: This is an icon name, don't translate!
+#: data/com.github.wwmm.pulseeffects.desktop.in:10
+msgid "pulseeffects"
+msgstr "pulseeffects"
+
+#: data/schemas/com.github.wwmm.pulseeffects.gschema.xml:187
+msgid "\"Presets\""
+msgstr "\"Predefinições\""
+
+#: src/application.cpp:20
+msgid "Quit PulseEffects. Useful when running in service mode."
+msgstr "Sair do PulseEffects. Útil quando executando em modo de serviço."
+
+#: src/application.cpp:23
+msgid "Show available presets."
+msgstr "Mostrar predefinições disponíveis."
+
+#: src/application.cpp:27
+msgid "Load a preset. Example: pulseeffects -l music"
+msgstr "Carregar uma predefinição. Exemplo: pulseeffects -l musica"
+
+#: src/application.cpp:30
+msgid "Reset PulseEffects."
+msgstr "Redefinir o PulseEffects."
+
+#: src/application.cpp:58
+msgid "Presets: "
+msgstr "Predefinições: "
+
+#: src/application.cpp:213
+msgid "PulseEffects was updated"
+msgstr "PulseEffects foi atualizado"
+
+#: src/application.cpp:216
+msgid ""
+"It is recommended to reset its configuration after an update. Do you want to "
+"do this?"
+msgstr ""
+"É recomendável redefinir as configurações dele após uma atualização. Você "
+"quer fazer isto?"
+
+#: src/application.cpp:219
+msgid "Yes"
+msgstr "Sim"
+
+#: src/application.cpp:220
+msgid "No"
+msgstr "Não"
+
+#: src/application_ui.cpp:955 src/convolver_ui.cpp:265
+msgid "Open"
+msgstr "Abrir"
+
+#: src/application_ui.cpp:955 src/convolver_ui.cpp:265
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: src/effects_base_ui.cpp:23
+msgid "Applications"
+msgstr "Aplicativos"
+
+#: src/app_info_ui.cpp:85
+msgid "paused"
+msgstr "pausado"
+
+#: src/app_info_ui.cpp:87
+msgid "playing"
+msgstr "tocando"
+
+#: src/calibration_ui.cpp:182
+msgid "Calibration Microphone"
+msgstr "Microfone de Calibração"
+
+#: src/convolver_ui.cpp:264
+msgid "Import Impulse File"
+msgstr "Importar Arquivo com a Resposta de Impulso"
+
+#: src/convolver_ui.cpp:307 src/convolver_ui.cpp:308 src/convolver_ui.cpp:310
+msgid "Failed"
+msgstr "Falhou"
+
+#: src/convolver_ui.cpp:312
+msgid "Could Not Load The Impulse File"
+msgstr "Não Foi Possível Carregar o Arquivo com o Impulso"
+
+#~ msgid "Added:"
+#~ msgstr "Adicionado:"
+
+#~ msgid ""
+#~ "Latency introduced by the GStreamer pipeline is now displayed in the "
+#~ "headerbar"
+#~ msgstr ""
+#~ "A latência introduzida pelo pipeline do GStreamer agora é exibida na "
+#~ "barra de cabeçalho"
+
+#~ msgid "A crystalizer plugin, provided by PulseEffects"
+#~ msgstr "Um plugin de cristalizador, fornecido por PulseEffects"
+
+#~ msgid "Audio format and sampling rate is displayed in the header bar"
+#~ msgstr ""
+#~ "Formato de áudio e taxa de amostragem é exibido na barra de cabeçalho"
+
+#~ msgid "Improved convolver impulse response autogain calculation"
+#~ msgstr "Cálculo melhorado da resposta automática ao impulso do convolver"
+
+#~ msgid ""
+#~ "A warning when the convolver uses a preset that refers to a an impulse "
+#~ "file that does not exist"
+#~ msgstr ""
+#~ "Um aviso quando o convolver usa uma predefinição que se refere a um "
+#~ "arquivo de impulso que não existe"
+
+#~ msgid "No limit on the number of frames used from impulse response file"
+#~ msgstr ""
+#~ "Não há limite no número de quadros usados a partir do arquivo de resposta "
+#~ "ao impulso"
+
+#~ msgid "Improved Russian translations"
+#~ msgstr "Traduções russas aprimoradas"
+
+#~ msgid ""
+#~ "Optimizations to impulse response file handling, which avoids playback "
+#~ "stalls with large files"
+#~ msgstr ""
+#~ "Otimizações para lidar com arquivos de resposta por impulso, o que evita "
+#~ "bloqueios de reprodução com arquivos grandes"
+
+#~ msgid "Fixed:"
+#~ msgstr "Corrigido:"
+
+#~ msgid "Convolver is now optional at build time"
+#~ msgstr "O convolver agora é opcional no momento da compilação"
+
+#~ msgid "Potential crash when the impulse response file was too small"
+#~ msgstr ""
+#~ "Falha potencial quando o arquivo de resposta ao impulso era muito pequeno"
+
+#~ msgid "Memory leaks in the convolver interface"
+#~ msgstr "Vazamentos de memória na interface do convolver"
+
+#~ msgid "PulseEffects now uses the system zita-convolver library"
+#~ msgstr "PulseEffects agora usa a biblioteca zita-convolver do sistema"
+
+#~ msgid ""
+#~ "Crash caused by loading an impulse response file with more than 2 channels"
+#~ msgstr ""
+#~ "Falha causada pelo carregamento de um arquivo de resposta ao impulso com "
+#~ "mais de 2 canais"
+
+#~ msgid "Convolver plugin, provided by PulseEffects"
+#~ msgstr "Um plugin de convolver, fornecido por PulseEffects"
+
+#~ msgid ""
+#~ "Import presets dialog now has filters to show only presets files (.json)"
+#~ msgstr ""
+#~ "A caixa de diálogo Predefinições de importação agora possui filtros para "
+#~ "mostrar apenas arquivos de predefinições (.json)"
+
+#~ msgid "Filter for \".irs\" files to the impulse response import dialog"
+#~ msgstr ""
+#~ "Filtrar por arquivos \".irs\" para a caixa de diálogo de importação de "
+#~ "resposta ao impulso"
+
+#~ msgid "Ability to customize the convolver spectrum plot color"
+#~ msgstr ""
+#~ "Capacidade de personalizar a cor da plotagem do espectro do convolver"
+
+#~ msgid "Equalizer presets occasionally not being applied"
+#~ msgstr "Predefinições de equalizador não são aplicadas ocasionalmente"
+
+#~ msgid "Multiband gate plugin from Calf Studio"
+#~ msgstr "Gate multibandas do Calf Studio"
+
+#~ msgid "Stereo Tools plugin from Calf Studio"
+#~ msgstr "Ferramentas stereo do Calf Studio"
+
+#~ msgid ""
+#~ "The Presets menu is now labeled, using the name of the last selected "
+#~ "preset"
+#~ msgstr ""
+#~ "O menu Predefinições agora é rotulado, usando o nome da última "
+#~ "predefinição selecionada"
+
+#~ msgid "The Deesser can be used in both pipelines"
+#~ msgstr "O Deesser pode ser usado em ambos os pipelines"
+
+#~ msgid ""
+#~ "The so called \"perfect eq\" preset (no such thing as actually perfect)"
+#~ msgstr "O chamado \"eq perfeito\" predefinido (não é realmente perfeito)"
+
+#~ msgid "Deesser \"listen\" control was not working"
+#~ msgstr "Deesser \"ouvir\" controle não estava funcionando"
+
+#~ msgid "Changed:"
+#~ msgstr "Alterado:"
+
+#~ msgid ""
+#~ "Expander plugin has been replaced by Calf Gate from Calf Studio, due to "
+#~ "being proprietary"
+#~ msgstr ""
+#~ "Plugin Expander foi substituído por Calf Gate do Calf Studio, devido a "
+#~ "ser proprietário"
+
+#~ msgid ""
+#~ "Delay plugin has been replaced by Calf Sterio Tools from Calf Studio, due "
+#~ "to unpermissive licensing"
+#~ msgstr ""
+#~ "Plugin de atraso foi substituído por Calf Sterio Tools do Calf Studio, "
+#~ "devido ao licenciamento não permissivo"
+
+#~ msgid ""
+#~ "Panorama plugin, uses functionality which is also offered by Calf Stereo "
+#~ "Tools"
+#~ msgstr ""
+#~ "Plugin Panorama, usa a funcionalidade que também é oferecida pelas "
+#~ "ferramentas estéreo de bezerro"
+
+#~ msgid "Loudness plugin from MDA.LV2"
+#~ msgstr "Plugin de sonoridade da MDA.LV2"
+
+#~ msgid "Multiband compressor schema not being installed"
+#~ msgstr "Esquema do compressor multi bandas não estava sendo instalado"
+
+#~ msgid "GStreamer 10 bands equalizer presets: rock, soft, pop, etc"
+#~ msgstr ""
+#~ "Predefinições do equalizador de 10 bandas do GStreamer: rock, soft, pop, "
+#~ "etc."
+
+#~ msgid "Input gain and output gain controls for the equalizer"
+#~ msgstr "Controles de ganho de entrada e ganho de saída para o equalizador"
+
+#~ msgid "Calf Multiband compressor"
+#~ msgstr "Compressor Multibandas do Calf"
+
+#~ msgid ""
+#~ "The compressor and gate plugin knee parameter was always at its default "
+#~ "value"
+#~ msgstr ""
+#~ "O parâmetro knee do compressor e do plugin do gate estava sempre no valor "
+#~ "padrão"
+
+#~ msgid "Bug fixes (minor memory leaks)"
+#~ msgstr "Correções de bugs (vazamentos de memória menores)"
+
+#~ msgid "The presets menu list is scrollable again"
+#~ msgstr "A lista de menu de predefinições é rolável novamente"
+
+#~ msgid ""
+#~ "The limit parameter of the limiter plugin is no longer reset to default "
+#~ "upon loading a preset"
+#~ msgstr ""
+#~ "O parâmetro limite do plug-in do limitador não é mais redefinido para o "
+#~ "padrão ao carregar uma predefinição"
+
+#~ msgid "Users can change the height of the spectrum"
+#~ msgstr "Os usuários podem alterar a altura do espectro"
+
+#~ msgid ""
+#~ "More parameters are saved to the user preset: buffer, latency and "
+#~ "spectrum parameters. It is particularly useful to have the buffer value "
+#~ "saved to the preset because a few devices like bluetooth headphones need "
+#~ "values that are very different than the ones used in soundcards."
+#~ msgstr ""
+#~ "Mais parâmetros são salvos na predefinição do usuário: parâmetros de "
+#~ "buffer, latência e espectro. É particularmente útil ter o valor do buffer "
+#~ "salvo na predefinição porque alguns dispositivos, como os fones de ouvido "
+#~ "Bluetooth, precisam de valores muito diferentes dos usados em placas de "
+#~ "som."
+
+#~ msgid ""
+#~ "Crashes upon loading a preset not containing features present in newer "
+#~ "versions of PulseEffects"
+#~ msgstr ""
+#~ "Trava ao carregar uma predefinição que não contém recursos presentes em "
+#~ "versões mais recentes do PulseEffects"
+
+#~ msgid ""
+#~ "Spectrum not being enabled upon launching PulseEffects, while service "
+#~ "mode is running"
+#~ msgstr ""
+#~ "Spectrum não está habilitado ao iniciar o PulseEffects, enquanto o modo "
+#~ "de serviço está em execução"
+
+#~ msgid "Expander from Linux Studio Plugins (Proprietary)"
+#~ msgstr "Expansor dos Plug-ins do Linux Studio (Proprietários)"
+
+#~ msgid "Optimizations to memory usage"
+#~ msgstr "Otimizações de uso de memória"
+
+#~ msgid ""
+#~ "Note that the Expander plugin is proprietary and due to license issues "
+#~ "and Flathub policies it cannot be included in the Flatpak release."
+#~ msgstr ""
+#~ "Observe que o plug-in do Expander é proprietário e, devido a problemas de "
+#~ "licença e políticas do Flathub, não pode ser incluído na versão do "
+#~ "Flatpak."
+
+#~ msgid "Some system memory not being freed upon closing PulseEffects"
+#~ msgstr ""
+#~ "Alguma memória do sistema não está sendo liberada ao fechar o PulseEffects"
+
+#~ msgid ""
+#~ "Crashes when the pitch plugin was re-ordered, with the webrtc plugin "
+#~ "bellow it"
+#~ msgstr ""
+#~ "Falha quando o plug-in de pitch foi reordenado, com o plug-in webrtc "
+#~ "abaixo dele"
+
+#~ msgid ""
+#~ "Applications not being removed from PulseEffects after having been closed"
+#~ msgstr ""
+#~ "Aplicativos não sendo removidos do PulseEffects após terem sido fechados"
+
+#~ msgid "Optimizations to how plugins are enabled, disabled, or re-ordered"
+#~ msgstr ""
+#~ "Otimizações para como os plug-ins são ativados, desativados ou reordenados"
+
+#~ msgid "Changes:"
+#~ msgstr "Mudanças:"
+
+#~ msgid ""
+#~ "Default buffer values increased from 100 ms to 200 ms, due to distortions "
+#~ "with bluetooth headphones"
+#~ msgstr ""
+#~ "Valores de buffer padrão aumentados de 100 ms para 200 ms, devido a "
+#~ "distorções com fones de ouvido bluetooth"
+
+#~ msgid "Fixes:"
+#~ msgstr "Correções:"
+
+#~ msgid "Bug fixes (potential memory leaks)"
+#~ msgstr "Correções de bugs (possíveis vazamentos de memória)"
+
+#~ msgid "Spectrum widget being shown even when it is disabled"
+#~ msgstr "Widget de espectro sendo mostrado mesmo quando está desabilitado"
+
+#~ msgid "Excessive level meters readings"
+#~ msgstr "Leituras excessivas de medidores de nível"
+
+#~ msgid ""
+#~ "Hovering the mouse pointer over the spectrum, now updates the magnitude "
+#~ "and frequency values"
+#~ msgstr ""
+#~ "Passando o ponteiro do mouse sobre o espectro, agora atualiza os valores "
+#~ "de magnitude e frequência"
+
+#~ msgid ""
+#~ "PulseEffects no longer crashes upon enabling a plugin whose dependencies "
+#~ "are not installed"
+#~ msgstr ""
+#~ "PulseEffects não trava mais ao ativar um plug-in cujas dependências não "
+#~ "estão instaladas"
+
+#~ msgid ""
+#~ "Users can change the order that plugins are displayed, in the left menu "
+#~ "bar"
+#~ msgstr ""
+#~ "Os usuários podem alterar a ordem em que os plugins são exibidos, na "
+#~ "barra de menu à esquerda"
+
+#~ msgid "Users can select custom colors for the spectrum"
+#~ msgstr "Os usuários podem selecionar cores personalizadas para o espectro"
+
+#~ msgid ""
+#~ "In the equalizer menu, users can now change the number of equalizer bands"
+#~ msgstr ""
+#~ "No menu do equalizador, os usuários podem agora alterar o número de "
+#~ "bandas do equalizador"
+
+#~ msgid "Most of these new settings can be saved as user presets"
+#~ msgstr ""
+#~ "A maioria dessas novas configurações pode ser salva como predefinições do "
+#~ "usuário"
+
+#~ msgid ""
+#~ "Calf Filter plugin, which replaces the previous high pass and low pass "
+#~ "filters"
+#~ msgstr ""
+#~ "Plugin do filtro de panturrilha, que substitui os filtros passa alta e "
+#~ "passa baixa anteriores"
+
+#~ msgid ""
+#~ "The equalizer menu also contains a new facility to calculate the "
+#~ "corresponding frequencies of a graphic equalizer with the same number of "
+#~ "bands. Users with weak processors will benefit a lot from this setting as "
+#~ "the more bands you have the more CPU resources are use."
+#~ msgstr ""
+#~ "O menu equalizador também contém um novo recurso para calcular as "
+#~ "freqüências correspondentes de um equalizador gráfico com o mesmo número "
+#~ "de bandas. Os usuários com processadores fracos se beneficiarão muito "
+#~ "dessa configuração, pois quanto mais bandas você tiver, mais recursos da "
+#~ "CPU serão usados."
+
+#~ msgid ""
+#~ "Preset files uses a new format, which means presets must be re-created to "
+#~ "be compatible"
+#~ msgstr ""
+#~ "Os arquivos predefinidos usam um novo formato, o que significa que as "
+#~ "predefinições devem ser recriadas para serem compatíveis"
+
+#~ msgid "Removed the Calf Stereo Spread plugin"
+#~ msgstr "Removido o plug-in Estéreo de propagação de bezerro"
+
+#~ msgid ""
+#~ "Removed per app level meters, because they were the source of many "
+#~ "unfixable bugs"
+#~ msgstr ""
+#~ "Removido por medidores de nível de aplicativo, porque eles eram a fonte "
+#~ "de muitos bugs não corrigíveis"
+
+#~ msgid "Input and output limiter settings not working with presets"
+#~ msgstr ""
+#~ "Configurações do limitador de entrada e saída que não funcionam com "
+#~ "predefinições"
+
+#~ msgid "GStreamer WebRTC plugin"
+#~ msgstr "Plugin Webrtc do GStreamer"
+
+#~ msgid "Gate and Deesser plugins from Calf Studio"
+#~ msgstr "Plugins Gate e Deesser da Calf Studio"
+
+#~ msgid ""
+#~ "Calf Studio compressor plugin, which replaces the one from swh-plugins"
+#~ msgstr ""
+#~ "Plugin compressor compressor Calf Studio, que substitui o de swh-plugins"
+
+#~ msgid ""
+#~ "User selectable input and output devices for the current session (not "
+#~ "saved on exit)"
+#~ msgstr ""
+#~ "Dispositivos de entrada e saída selecionáveis pelo usuário para a sessão "
+#~ "atual (não salvos na saída)"
+
+#~ msgid "Level meter for recording applications"
+#~ msgstr "Medidor de nível para gravação de aplicativos"
+
+#~ msgid ""
+#~ "Buffer and latency of input and output effects can now be configured "
+#~ "independant of each other"
+#~ msgstr ""
+#~ "O buffer e a latência dos efeitos de entrada e saída agora podem ser "
+#~ "configurados independentemente um do outro"
+
+#~ msgid ""
+#~ "Application buffer and latency values displayed in the main window are "
+#~ "now updated every 5 seconds"
+#~ msgstr ""
+#~ "O buffer de aplicativo e os valores de latência exibidos na janela "
+#~ "principal são atualizados a cada 5 segundos"
+
+#~ msgid "The PulseEffects Flatpak can now import presets from files"
+#~ msgstr "O PulseEffects Flatpak agora pode importar presets de arquivos"
+
+#~ msgid ""
+#~ "No longer shows too many decimals when hovering the mouse pointer above "
+#~ "the spectrum"
+#~ msgstr ""
+#~ "Não mostra mais números decimais ao passar o ponteiro do mouse acima do "
+#~ "espectro"
+
+#~ msgid "CPU usage optimizations to service mode"
+#~ msgstr "Otimizações de uso da CPU para o modo de serviço"
+
+#~ msgid "Updated Czech and Italian translations"
+#~ msgstr "Traduções atualizadas de tcheco e italiano"
+
+#~ msgid "Presets can be loaded from the command line"
+#~ msgstr "Presets podem ser carregados a partir da linha de comando"
+
+#~ msgid "Presets can be imported using a presets menu"
+#~ msgstr ""
+#~ "As predefinições podem ser importadas usando um menu de predefinições"
+
+#~ msgid "Crossfeed plugin from bs2b library"
+#~ msgstr "Plugin Crossfeed da biblioteca bs2b"
+
+#~ msgid ""
+#~ "Optimize CPU usage when PulseEffects is paused or all applications are "
+#~ "switched off"
+#~ msgstr ""
+#~ "Otimizar o uso da CPU quando o PulseEffects é pausado ou todos os "
+#~ "aplicativos são desativados"
+
+#~ msgid "Cleaner log output (only visible on a command line)"
+#~ msgstr "Saída de log mais limpa (visível apenas em uma linha de comando)"
+
+#~ msgid "Exciter ceiling parameter not working with user presets"
+#~ msgstr ""
+#~ "Parâmetro de teto do excitador não funciona com predefinições de usuário"
+
+#~ msgid ""
+#~ "Removing and re-inserting a usb microphone multiple times no longer break "
+#~ "PulseEffects"
+#~ msgstr ""
+#~ "Remover e reinserir um microfone usb várias vezes não interrompe mais o "
+#~ "PulseEffects"
+
+#~ msgid "Delay Compensator plugin from Linux Studio Plugins"
+#~ msgstr ""
+#~ "Removing and re-inserting a usb microphone multiple times no longer break "
+#~ "PulseEffects"
+
+#~ msgid "Pitch Shifting plugin from Rubber Band library"
+#~ msgstr "Pitch Shifting plugin da biblioteca do Rubber Band"
+
+#~ msgid "New and better organized settings menu"
+#~ msgstr "Menu de configurações novo e melhor organizado"
+
+#~ msgid ""
+#~ "No longer forces the global applications switch to True in service mode"
+#~ msgstr ""
+#~ "Não força mais os aplicativos globais alternarem para True no modo de "
+#~ "serviço"
+
+#~ msgid "Differing frequency values in band label and frequency menu"
+#~ msgstr ""
+#~ "Valores de frequência diferentes no rótulo de banda e no menu de "
+#~ "frequência"
+
+#~ msgid ""
+#~ "The test signal application now automatically switches to the default "
+#~ "microphone"
+#~ msgstr ""
+#~ "O aplicativo de sinal de teste agora muda automaticamente para o "
+#~ "microfone padrão"
+
+#~ msgid ""
+#~ "Equal loudness test signal frequencies now match the equalizer default "
+#~ "frequencies"
+#~ msgstr ""
+#~ "Freqüências de sinal de teste de intensidade igual agora correspondem às "
+#~ "freqüências padrão do equalizador"
+
+#~ msgid "MultiSpread plugin from Calf Studio"
+#~ msgstr "Plugin MultiSpread do Calf Studio"
+
+#~ msgid "Stereo Enhancer plugin from Calf Studio"
+#~ msgstr "Plugin Stereo Enhancer do Calf Studio"
+
+#~ msgid ""
+#~ "Visual indicators (check marks) are no longer shown for unavailable "
+#~ "plugins"
+#~ msgstr ""
+#~ "Indicadores visuais (marcas de seleção) não são mais mostrados para plug-"
+#~ "ins indisponíveis"
+
+#~ msgid ""
+#~ "Volume meter now properly updates with applications like the game XCOM"
+#~ msgstr ""
+#~ "Medidor de volume agora atualiza corretamente com aplicativos como o jogo "
+#~ "XCOM"
+
+#~ msgid "Maximizer plugin from ZamAudio"
+#~ msgstr "MAximizador do ZamAudio"
+
+#~ msgid ""
+#~ "Auto volume now works in service mode and it no longer resets the limiter "
+#~ "gain"
+#~ msgstr ""
+#~ "O volume automático agora funciona no modo de serviço e não redefine mais "
+#~ "o ganho do limitador"
+
+#~ msgid "The PulseEffects window now uses a little less screen space"
+#~ msgstr "A janela PulseEffects agora usa um pouco menos espaço na tela"
+
+#~ msgid ""
+#~ "Bug with pipeline being put out of playing state when running in service "
+#~ "mode"
+#~ msgstr ""
+#~ "Bug com a pipeline sendo colocado fora do estado de execução ao executar "
+#~ "no modo de serviço"
+
+#~ msgid "Performance issues with service mode and slower CPU's"
+#~ msgstr "Problemas de desempenho com o modo de serviço e CPUs mais lentas"
+
+#~ msgid ""
+#~ "Missing Calf Studio plugins no longer causes PulseEffects to crash; they "
+#~ "are now optional"
+#~ msgstr ""
+#~ "Os plug-ins do Studio Calf ausentes não causam mais falhas no "
+#~ "PulseEffects; eles agora são opcionais"
+
+#~ msgid "Bass Enhancer and Exciter plugins from Calf Studio"
+#~ msgstr "Plug-ins para intensificador de graves e excitador da Calf Studio"
+
+#~ msgid ""
+#~ "Option to autostart PulseEffects (service mode). This feature does not "
+#~ "work with Flatpak."
+#~ msgstr ""
+#~ "Opção para iniciar automaticamente PulseEffects (modo de serviço). Esse "
+#~ "recurso não funciona com o Flatpak."
+
+#~ msgid ""
+#~ "Plugin on/off switches are now located at their respective plugin sections"
+#~ msgstr ""
+#~ "Os interruptores on / off de plugins estão agora localizados nas suas "
+#~ "respectivas secções de plugins"
+
+#~ msgid ""
+#~ "Added a visual indicator (check mark) where the plugin on/off switches "
+#~ "used to be"
+#~ msgstr ""
+#~ "Adicionado um indicador visual (marca de seleção) onde os interruptores "
+#~ "on / off do plugin costumavam"
+
+#~ msgid ""
+#~ "The global applications switch now properly resets to \"True\" when "
+#~ "closing the window"
+#~ msgstr ""
+#~ "A troca de aplicativos globais agora é redefinida corretamente para \"True"
+#~ "\" ao fechar a janela"
+
+#~ msgid "30 user configurable bands to the equalizer"
+#~ msgstr "30 bandas configuráveis pelo usuário para o equalizador"
+
+#~ msgid "Global on/off switch, that enables effects for all applications"
+#~ msgstr ""
+#~ "Interruptor on / off global, que permite efeitos para todas as aplicações"
+
+#~ msgid "Per app on/off switches have been moved to a more obvious location"
+#~ msgstr ""
+#~ "A chave que habilita/desabilita o applicativo foi movido para um local "
+#~ "mais óbvio"
+
+#, fuzzy
+#~ msgid "0"
+#~ msgstr ""
+#~ "0 - Desativa a ressincronização de fase em transientes, a laminação de "
+#~ "fase e usa uma janela de processamento mais longa."
+
+#~ msgid "Tolerance"
+#~ msgstr "Tolerância"
+
+#~ msgid "Auto Volume"
+#~ msgstr "Volume Automático"
+
+#~ msgid "Import"
+#~ msgstr "Importar"
+
+#~ msgid "Stereo Enhancer"
+#~ msgstr "Melhorador de Stereo"
+
+#~ msgid "Delay"
+#~ msgstr "Atraso"
+
+#~ msgid "Invert Middle Phase"
+#~ msgstr "Inverter Fase do Meio"
+
+#~ msgid "Mid (L + R)"
+#~ msgstr "Média (E + D)"
+
+#~ msgid "Side (L - R)"
+#~ msgstr "Lado (E - D)"
+
+#~ msgid "Middle Source"
+#~ msgstr "Fonte do Meio"
+
+#~ msgid "Side Gain"
+#~ msgstr "Ganho Lateral"
+
+#~ msgid "Import Impulse Response"
+#~ msgstr "Importar Resposta de Impulso"
+
+#~ msgid "Output Device"
+#~ msgstr "Dispositivo de Saída"
+
+#~ msgid "Input Device"
+#~ msgstr "Dispositivo de Entrada"
+
+#~ msgid "Advanced Settings"
+#~ msgstr "Configurações Avançadas"
+
+#~ msgid "Meters"
+#~ msgstr "Metros"
+
+#~ msgid "Centimeters"
+#~ msgstr "Centímetros"
+
+#~ msgid "Temperature"
+#~ msgstr "Temperatura"
+
+#~ msgid "Expander"
+#~ msgstr "Expansor"
+
+#~ msgid "Down"
+#~ msgstr "Para Baixo"
+
+#~ msgid "Up"
+#~ msgstr "Para Cima"
+
+#~ msgid "Pre Amplifier"
+#~ msgstr "Pré Amplificador"
+
+#~ msgid "Reactivity"
+#~ msgstr "Reatividade"
+
+#~ msgid "Low Pass"
+#~ msgstr "Passa-Baixa"
+
+#~ msgid "Uniform"
+#~ msgstr "Uniforme"
+
+#~ msgid "Source"
+#~ msgstr "Fonte"
+
+#~ msgid "Side"
+#~ msgstr "Lado"
+
+#~ msgid "Sidechain"
+#~ msgstr "Cadeia Lateral"
+
+#, fuzzy
+#~ msgid "Ceil"
+#~ msgstr "Teto"
+
+#~ msgid "Input [dB]"
+#~ msgstr "Entrada [dB]"
+
+#~ msgid "Output [dB]"
+#~ msgstr "Saída [dB]"
+
+#~ msgid "rms"
+#~ msgstr "rms"
+
+#~ msgid "peak"
+#~ msgstr "pico"
+
+#~ msgid "wide"
+#~ msgstr "amplo"
+
+#~ msgid "F1"
+#~ msgstr "F1"
+
+#~ msgid "F1 Level"
+#~ msgstr "Nível de F1"
+
+#~ msgid "F2"
+#~ msgstr "F2"
+
+#~ msgid "F2 Level"
+#~ msgstr "Nível de F2"
+
+#~ msgid "F2 Q"
+#~ msgstr "F2 Q"
+
+#~ msgid "Quality"
+#~ msgstr "Qualidade"
+
+#~ msgid "Reset Frequency"
+#~ msgstr "Redefinir Frequência"
+
+#~ msgid "Reset Quality"
+#~ msgstr "Redefinir Qualidade"
+
+#~ msgid "Poles"
+#~ msgstr "Pólos"
+
+#~ msgid "Output Limiter"
+#~ msgstr "Limitador de Saída"
+
+#~ msgid "Engine Room"
+#~ msgstr "Sala de Máquinas"
+
+#~ msgid "Cathedral"
+#~ msgstr "Catedral"
+
+#~ msgid "Damping"
+#~ msgstr "Amortecimento"
+
+#~ msgid "Stereo Spread"
+#~ msgstr "Espalhamento do Stereo"
+
+#~ msgid "Sub"
+#~ msgstr "Sub"
+
+#~ msgid "Mid"
+#~ msgstr "Médio"
+
+#~ msgid "Mono Input"
+#~ msgstr "Entrada Mono"
+
+#~ msgid "Running in background"
+#~ msgstr "Rodando em segundo plano"
+
+#~ msgid "Save Current Settings to Preset"
+#~ msgstr "Salvar Configurações atuais para esta predefinição"
+
+#~ msgid "Delete Preset"
+#~ msgstr "Deletar Predefinição"
+
+#~ msgid " is not a file!"
+#~ msgstr " não é um arquivo!"
+
+#~ msgid "Guideline Position"
+#~ msgstr "Posição de Linha Guia"
+
+#~ msgid "Equal Loudness Test Signals"
+#~ msgstr "Sinais de Teste de Mesma intensidade"
+
+#~ msgid "Test Signal"
+#~ msgstr "Sinal de Teste"
+
+#, fuzzy
+#~ msgid "1"
+#~ msgstr "F1"
+
+#~ msgid "Reduction Level"
+#~ msgstr "Nível da Redução"
+
+#~ msgid "Use Default Output Device"
+#~ msgstr "Usar Dispositivo de Saída Padrão"
+
+#~ msgid "Use Default Input Device"
+#~ msgstr "Usar Dispositivo de Entrada Padrão"
+
+#~ msgid "Window [s]"
+#~ msgstr "Janela [s]"
+
+#~ msgid "Frequency [Hz]"
+#~ msgstr "Frequência [Hz]"
+
+#~ msgid "Buffer [ms]"
+#~ msgstr "Buffer [ms]"
+
+#~ msgid "Latency [ms]"
+#~ msgstr "Latência [ms]"
+
+#~ msgid "Threshold [dB]"
+#~ msgstr "Limiar [dB]"
+
+#~ msgid "Makeup [dB]"
+#~ msgstr "Ganho de Saída [dB]"
+
+#, fuzzy
+#~ msgid "F1 [Hz]"
+#~ msgstr "Piso [Hz]"
+
+#, fuzzy
+#~ msgid "F1 Level [dB]"
+#~ msgstr "Alimentação [dB]"
+
+#, fuzzy
+#~ msgid "F2 [Hz]"
+#~ msgstr "Piso [Hz]"
+
+#, fuzzy
+#~ msgid "F2 Level [dB]"
+#~ msgstr "Alimentação [dB]"
+
+#~ msgid "Release [ms]"
+#~ msgstr "Liberação [ms]"
+
+#~ msgid "Delay [ms]"
+#~ msgstr "Atraso [ms]"
+
+#~ msgid "Gain Reduction [dB]"
+#~ msgstr "Redução de Ganho [dB]"
+
+#~ msgid "Ceiling [dB]"
+#~ msgstr "Teto [dB]"
+
+#~ msgid "Low [dB]"
+#~ msgstr "Baixo [dB]"
+
+#~ msgid "High [dB]"
+#~ msgstr "Alto [dB]"
+
+#, fuzzy
+#~ msgid "Input Gate"
+#~ msgstr "Limitador de Entrada"
+
+#~ msgid "Latency in Miliseconds"
+#~ msgstr "Latência em Milisegundos"
+
+#~ msgid "Audio Enhancer"
+#~ msgstr "Melhorador de Áudio"
+
+#~ msgid "Buffer Latency"
+#~ msgstr "Latência de Buffer"
+
+#~ msgid "buffer-time"
+#~ msgstr "Buffer"
+
+#~ msgid "latency-time"
+#~ msgstr "tempo de atraso"
+
+#~ msgid "Vlc"
+#~ msgstr "Vlc"
+
+#~ msgid "<b>Applications</b>"
+#~ msgstr "<b>Aplicativos</b>"
+
+#~ msgid "Sink Latency"
+#~ msgstr "Latência da Sink"
+
+#~ msgid "Preset Name"
+#~ msgstr "Nome da Predefinição"
+
+#~ msgid "Equalizer - Input"
+#~ msgstr "Equalizador - Entrada"
+
+#~ msgid "Equalizer - Output"
+#~ msgstr "Equalizador - Saída"
+
+#~ msgid "Low pass"
+#~ msgstr "Passa Baixa"
+
+#~ msgid "No Reverberation"
+#~ msgstr "Sem Reverberação"
+
+#~ msgid "Test Signals for Headphone and Speakers Calibration"
+#~ msgstr "Sinais de Teste para Calibração de Fones de ouvido e Autofalantes"
+
+#~ msgid "Cuttoff [Hz]"
+#~ msgstr "Corte [Hz]"
+
+#~ msgid "Equal Loudness 40"
+#~ msgstr "Mesma Intensidade 40"
+
+#~ msgid "Equal Loudness 60"
+#~ msgstr "Mesma Intensidade 60"
+
+#~ msgid "Equal Loudness 80"
+#~ msgstr "Mesma Intensidade 80"
+
+#~ msgid "Equal Loudness 100"
+#~ msgstr "Mesma Intensidade 100"
+
+#~ msgid "Flat"
+#~ msgstr "Plano"
+
+#~ msgid "Sensing Type"
+#~ msgstr "Tipo de Detecção"
+
+#, fuzzy
+#~| msgid "Window [s]"
+#~ msgid "Time Window [s]"
+#~ msgstr "Janela [s]"
+
+#~ msgid "Equal Loudness Curve Calibration"
+#~ msgstr "Calibração da Curva de Mesma Intensidade"
+
+#~ msgid "flat"
+#~ msgstr "plano"
+
+#~ msgid "no reverberation"
+#~ msgstr "sem reverberação"
+
+#~ msgid "Reset Everything"
+#~ msgstr "Resetar Tudo"
+
+#~ msgid "Pre"
+#~ msgstr "Pre"
+
+#~ msgid "Method"
+#~ msgstr "Método"
+
+#~ msgid "ballad"
+#~ msgstr "balada"
+
+#~ msgid "classic"
+#~ msgstr "clássico"
+
+#~ msgid "club"
+#~ msgstr "clube"
+
+#~ msgid "more bass and treble"
+#~ msgstr "reforçar graves e agudos"
+
+#~ msgid "party"
+#~ msgstr "festa"
+
+#~ msgid "pop"
+#~ msgstr "pop"
+
+#~ msgid "reggae"
+#~ msgstr "reggae"
+
+#~ msgid "rock"
+#~ msgstr "rock"
+
+#~ msgid "ska"
+#~ msgstr "ska"
+
+#~ msgid "soft"
+#~ msgstr "macio"
+
+#~ msgid "techno"
+#~ msgstr "techno"
+
+#~ msgid "more bass"
+#~ msgstr "reforçar graves"
+
+#~ msgid "more treble"
+#~ msgstr "reforçar agudos"

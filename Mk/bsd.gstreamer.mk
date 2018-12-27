@@ -161,6 +161,7 @@ _GSTREAMER_PLUGINS+= \
 		kms \
 		libav \
 		libde265 \
+		lv2 \
 		modplug \
 		mpg123 \
 		mplex \
@@ -260,6 +261,9 @@ ladspa_IMPL=	bad
 
 lame_DEPENDS=	audio/gstreamer-plugins-lame
 lame_IMPL=	ugly
+
+lv2_DEPENDS=	audio/gstreamer-plugins-lv2
+lv2_IMPL=	bad
 
 mad_DEPENDS=	audio/gstreamer-plugins-mad
 mad_IMPL=	ugly

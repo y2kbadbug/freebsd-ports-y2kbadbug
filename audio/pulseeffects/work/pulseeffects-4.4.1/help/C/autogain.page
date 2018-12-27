@@ -1,0 +1,98 @@
+<page
+    xmlns="http://projectmallard.org/1.0/"
+    xmlns:its="http://www.w3.org/2005/11/its"
+    type="guide"
+    id="autogain">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    </info>
+    <title>Auto Gain</title>
+    <p>
+        PulseEffects auto gain is based on the library libebur128. It changes the audio
+        volume to a perceived loudness level that can be tweaked by the user.
+    </p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Target</em>
+            </title>
+            <p>
+                Loudness level.
+            </p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Momentary</em>
+            </title>
+            <p>
+                Controls how much the momentary term will influence the loudness level
+                estimation.
+            </p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Short Term</em>
+            </title>
+            <p>
+                Controls how much the short term measure will influence the loudness level
+                estimation.
+            </p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Integrated</em>
+            </title>
+            <p>
+                Controls how much the integrated term will influence the loudness level
+                estimation.
+            </p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Relative</em>
+            </title>
+            <p>
+                Relative threshold. It is used to detect silence. Whenever the momentary term is
+                below this threshold modifications to the output gain will be disabled.
+            </p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Loudness</em>
+            </title>
+            <p>
+                Estimated input loudness. The difference between its value and the target
+                loudness determines the output gain.
+            </p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Range</em>
+            </title>
+            <p>
+                Loudness range. Indicates how large is the material dynamic range.
+            </p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Gain</em>
+            </title>
+            <p>
+                Output gain value. The input signal will be multiplied by this correction gain
+                to bring its loudness to the target value.
+            </p>
+        </item>
+    </terms>
+    <section>
+        <title>References</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://tech.ebu.ch/loudness#tab" its:translate="no">
+                        https://tech.ebu.ch/loudness#tab
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

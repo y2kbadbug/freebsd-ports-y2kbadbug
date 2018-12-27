@@ -1,0 +1,1646 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Pavel Fric <pavelfric@seznam.cz>, 2017, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-25 13:09-0200\n"
+"PO-Revision-Date: 2018-02-06 20:54+0100\n"
+"Last-Translator: Pavel Fric <pavelfric@seznam.cz>\n"
+"Language-Team: Czech <kde-i18n-doc@kde.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: data/ui/application.glade:60 data/ui/application.glade:1323
+#: data/ui/application.glade:1395
+msgid "Name"
+msgstr "Název"
+
+#: data/ui/application.glade:73 data/ui/application.glade:1304
+#: data/ui/application.glade:1376
+#, fuzzy
+msgid "Create Preset"
+msgstr "Smazat přednastavení"
+
+#: data/ui/application.glade:91 src/application_ui.cpp:954
+#, fuzzy
+msgid "Import Presets"
+msgstr "Nahrát přednastavení"
+
+#: data/ui/application.glade:200 src/calibration_ui.cpp:48
+#: src/calibration_ui.cpp:175
+msgid "Test Signals"
+msgstr "Zkušební signály"
+
+#: data/ui/application.glade:222
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:5
+#: data/com.github.wwmm.pulseeffects.desktop.in:3
+msgid "PulseEffects"
+msgstr "PulseEffects"
+
+#: data/ui/application.glade:294 data/ui/application.glade:703
+msgid "Settings"
+msgstr "Nastavení"
+
+#: data/ui/application.glade:316
+msgid "Help"
+msgstr ""
+
+#: data/ui/application.glade:339 data/ui/compressor.glade:205
+#: data/ui/filter.glade:203 data/ui/equalizer.glade:280
+#: data/ui/reverb.glade:283 data/ui/crossfeed.glade:47
+#: src/application_ui.cpp:959 src/application_ui.cpp:1034
+msgid "Presets"
+msgstr "Přednastavení"
+
+#: data/ui/application.glade:628
+msgid "Start Service at Login"
+msgstr "Spustit službu při přihlášení"
+
+#: data/ui/application.glade:653
+msgid "Enable All Applications"
+msgstr "Povolit všechny programy"
+
+#: data/ui/application.glade:678
+msgid "Use Dark Theme"
+msgstr "Použít tmavý vzhled"
+
+#: data/ui/application.glade:712 data/ui/equalizer_band.glade:105
+#: data/ui/equalizer_band.glade:120
+msgid "Reset"
+msgstr "Vrátit na výchozí"
+
+#: data/ui/application.glade:726
+msgid "About"
+msgstr ""
+
+#: data/ui/application.glade:744
+msgid "General"
+msgstr "Obecné"
+
+#: data/ui/application.glade:762
+msgid "Show"
+msgstr "Ukázat"
+
+#: data/ui/application.glade:788
+msgid "Points"
+msgstr "Body"
+
+#: data/ui/application.glade:819
+msgid "Use Custom Color"
+msgstr ""
+
+#: data/ui/application.glade:844
+#, fuzzy
+msgid "Spectrum Color"
+msgstr "Spektrum"
+
+#: data/ui/application.glade:871
+#, fuzzy
+msgid "Height"
+msgstr "Pravý"
+
+#: data/ui/application.glade:899 data/ui/convolver.glade:396
+msgid "Spectrum"
+msgstr "Spektrum"
+
+#: data/ui/application.glade:928 data/ui/application.glade:1077
+#, fuzzy
+msgid "Use Default"
+msgstr "Výchozí"
+
+#: data/ui/application.glade:966 data/ui/application.glade:1114
+#: data/ui/app_info.glade:156
+msgid "Buffer"
+msgstr "Vyrovnávací paměť"
+
+#: data/ui/application.glade:999 data/ui/application.glade:1146
+#: data/ui/app_info.glade:183
+msgid "Latency"
+msgstr "Prodleva"
+
+#: data/ui/application.glade:1032 data/ui/application.glade:1178
+#, fuzzy
+msgid "Block Size"
+msgstr "Velikost prostoru"
+
+#: data/ui/application.glade:1063 data/ui/application.glade:1334
+#, fuzzy
+msgid "Input Effects"
+msgstr "PulseEffects"
+
+#: data/ui/application.glade:1209 data/ui/application.glade:1406
+#, fuzzy
+msgid "Output Effects"
+msgstr "Omezovač výstupu"
+
+#: data/ui/application.glade:1236
+msgid "Pulseaudio"
+msgstr ""
+
+#: data/ui/application.glade:1420
+msgid "Blacklist"
+msgstr ""
+
+#: data/ui/about.glade.in:11
+msgid "Audio Effects for Pulseaudio Applications"
+msgstr "Zvukové efekty pro programy využívající Pulseaudio"
+
+#: data/ui/app_info.glade:48
+msgid "Format"
+msgstr "Formát"
+
+#: data/ui/app_info.glade:75 data/ui/convolver.glade:239
+msgid "Rate"
+msgstr "Kmitočet"
+
+#: data/ui/app_info.glade:102 data/ui/stereo_tools.glade:611
+msgid "Channels"
+msgstr "Kanály"
+
+#: data/ui/app_info.glade:129
+msgid "Resampler"
+msgstr "Převzorkovač"
+
+#: data/ui/app_info.glade:210
+msgid "State"
+msgstr "Stav"
+
+#: data/ui/autogain.glade:24
+#, fuzzy
+msgid "Auto Gain"
+msgstr "Vstupní zesílení [dB]"
+
+#: data/ui/autogain.glade:151 data/ui/autogain.glade:528
+msgid "Momentary"
+msgstr ""
+
+#: data/ui/autogain.glade:166 data/ui/autogain.glade:541
+msgid "Short Term"
+msgstr ""
+
+#: data/ui/autogain.glade:181 data/ui/autogain.glade:554
+msgid "Integrated"
+msgstr ""
+
+#: data/ui/autogain.glade:197
+#, fuzzy
+msgid "Target"
+msgstr "Cíl [dB]"
+
+#: data/ui/autogain.glade:287
+#, fuzzy
+msgid "Weights"
+msgstr "Pravý"
+
+#: data/ui/autogain.glade:316 data/ui/autogain.glade:508
+#: data/ui/limiter.glade:367 data/ui/compressor.glade:559
+#: data/ui/multiband_compressor.glade:1959 data/ui/filter.glade:365
+#: data/ui/equalizer.glade:366 data/ui/reverb.glade:612
+#: data/ui/bass_enhancer.glade:482 data/ui/exciter.glade:484
+#: data/ui/stereo_tools.glade:292 data/ui/stereo_tools.glade:784
+#: data/ui/crossfeed.glade:200 data/ui/maximizer.glade:240
+#: data/ui/loudness.glade:245 data/ui/gate.glade:489
+#: data/ui/multiband_gate.glade:2112 data/ui/deesser.glade:570
+#: data/ui/convolver.glade:449 data/ui/crystalizer.glade:168
+#: data/ui/pitch.glade:304 data/ui/webrtc.glade:586
+msgid "Input"
+msgstr "Vstup"
+
+#: data/ui/autogain.glade:331 data/ui/autogain.glade:757
+#: data/ui/limiter.glade:382 data/ui/compressor.glade:574
+#: data/ui/multiband_compressor.glade:755
+#: data/ui/multiband_compressor.glade:1132
+#: data/ui/multiband_compressor.glade:1510
+#: data/ui/multiband_compressor.glade:1888
+#: data/ui/multiband_compressor.glade:1974 data/ui/filter.glade:380
+#: data/ui/equalizer.glade:381 data/ui/reverb.glade:627
+#: data/ui/bass_enhancer.glade:514 data/ui/exciter.glade:516
+#: data/ui/stereo_tools.glade:757 data/ui/stereo_tools.glade:798
+#: data/ui/crossfeed.glade:215 data/ui/maximizer.glade:255
+#: data/ui/loudness.glade:164 data/ui/loudness.glade:260 data/ui/gate.glade:504
+#: data/ui/multiband_gate.glade:809 data/ui/multiband_gate.glade:1219
+#: data/ui/multiband_gate.glade:1630 data/ui/multiband_gate.glade:2041
+#: data/ui/multiband_gate.glade:2127 data/ui/deesser.glade:585
+#: data/ui/convolver.glade:464 data/ui/crystalizer.glade:183
+#: data/ui/pitch.glade:319 data/ui/webrtc.glade:601
+msgid "Output"
+msgstr "Výstup"
+
+#: data/ui/autogain.glade:642
+msgid "Relative"
+msgstr ""
+
+#: data/ui/autogain.glade:655 data/ui/deesser.glade:298
+#, fuzzy
+msgid "Gain"
+msgstr "Zesílení [dB]"
+
+#: data/ui/autogain.glade:719 data/ui/loudness.glade:24
+#: data/ui/loudness.glade:130
+msgid "Loudness"
+msgstr ""
+
+#: data/ui/autogain.glade:771
+msgid "Range"
+msgstr ""
+
+#: data/ui/limiter.glade:30 data/ui/webrtc.glade:377
+#, fuzzy
+msgid "Limiter"
+msgstr "Omezení [dB]"
+
+#: data/ui/limiter.glade:152
+#, fuzzy
+msgid "Input Gain"
+msgstr "Vstupní zesílení [dB]"
+
+#: data/ui/limiter.glade:185
+#, fuzzy
+msgid "Limit"
+msgstr "Omezení [dB]"
+
+#: data/ui/limiter.glade:240 data/ui/compressor.glade:372
+#: data/ui/multiband_compressor.glade:537
+#: data/ui/multiband_compressor.glade:910
+#: data/ui/multiband_compressor.glade:1288
+#: data/ui/multiband_compressor.glade:1666 data/ui/maximizer.glade:215
+#: data/ui/gate.glade:302 data/ui/multiband_gate.glade:557
+#: data/ui/multiband_gate.glade:964 data/ui/multiband_gate.glade:1375
+#: data/ui/multiband_gate.glade:1786
+#, fuzzy
+msgid "Release"
+msgstr "Uvolnění [s]"
+
+#: data/ui/limiter.glade:253
+msgid "Lookahead"
+msgstr ""
+
+#: data/ui/limiter.glade:288
+msgid "Oversampling"
+msgstr ""
+
+#: data/ui/limiter.glade:337
+msgid "ASC"
+msgstr ""
+
+#: data/ui/limiter.glade:397
+msgid "Attenuation"
+msgstr "Zeslabování"
+
+#: data/ui/compressor.glade:31 data/ui/webrtc.glade:454
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:52
+msgid "Compressor"
+msgstr "Kompresor"
+
+#: data/ui/compressor.glade:122
+msgid "Vocal Leveller 1"
+msgstr ""
+
+#: data/ui/compressor.glade:134
+msgid "Vocal Leveller 2"
+msgstr ""
+
+#: data/ui/compressor.glade:146 data/ui/filter.glade:158
+#: data/ui/reverb.glade:234 data/ui/crossfeed.glade:72
+msgid "Default"
+msgstr "Výchozí"
+
+#: data/ui/compressor.glade:235 data/ui/gate.glade:166
+#: data/ui/deesser.glade:192
+#, fuzzy
+msgid "Detection"
+msgstr "Zeslabování"
+
+#: data/ui/compressor.glade:249 data/ui/gate.glade:180
+#, fuzzy
+msgid "Stereo Link"
+msgstr "Zlepšovač sterea"
+
+#: data/ui/compressor.glade:263
+msgid "Mix"
+msgstr ""
+
+#: data/ui/compressor.glade:293 data/ui/multiband_compressor.glade:476
+#: data/ui/multiband_compressor.glade:848
+#: data/ui/multiband_compressor.glade:1226
+#: data/ui/multiband_compressor.glade:1604 data/ui/gate.glade:223
+#: data/ui/multiband_gate.glade:496 data/ui/multiband_gate.glade:902
+#: data/ui/multiband_gate.glade:1313 data/ui/multiband_gate.glade:1724
+#: data/ui/deesser.glade:220
+msgid "RMS"
+msgstr ""
+
+#: data/ui/compressor.glade:294 data/ui/multiband_compressor.glade:477
+#: data/ui/multiband_compressor.glade:849
+#: data/ui/multiband_compressor.glade:1227
+#: data/ui/multiband_compressor.glade:1605 data/ui/equalizer_band.glade:152
+#: data/ui/gate.glade:224 data/ui/multiband_gate.glade:497
+#: data/ui/multiband_gate.glade:903 data/ui/multiband_gate.glade:1314
+#: data/ui/multiband_gate.glade:1725 data/ui/deesser.glade:221
+#: data/ui/deesser.glade:331
+msgid "Peak"
+msgstr "Vrchol"
+
+#: data/ui/compressor.glade:309 data/ui/gate.glade:239
+msgid "Average"
+msgstr ""
+
+#: data/ui/compressor.glade:310 data/ui/gate.glade:240
+#, fuzzy
+msgid "Maximum"
+msgstr "Zvětšovač"
+
+#: data/ui/compressor.glade:338 data/ui/multiband_compressor.glade:503
+#: data/ui/multiband_compressor.glade:875
+#: data/ui/multiband_compressor.glade:1253
+#: data/ui/multiband_compressor.glade:1631 data/ui/gate.glade:268
+#: data/ui/multiband_gate.glade:523 data/ui/multiband_gate.glade:929
+#: data/ui/multiband_gate.glade:1340 data/ui/multiband_gate.glade:1751
+#, fuzzy
+msgid "Attack"
+msgstr "Náběh (ms)"
+
+#: data/ui/compressor.glade:406 data/ui/multiband_compressor.glade:571
+#: data/ui/multiband_compressor.glade:945
+#: data/ui/multiband_compressor.glade:1323
+#: data/ui/multiband_compressor.glade:1701 data/ui/maximizer.glade:128
+#: data/ui/gate.glade:336 data/ui/multiband_gate.glade:591
+#: data/ui/multiband_gate.glade:999 data/ui/multiband_gate.glade:1410
+#: data/ui/multiband_gate.glade:1821 data/ui/deesser.glade:461
+#, fuzzy
+msgid "Threshold"
+msgstr "Práh [dB]"
+
+#: data/ui/compressor.glade:439 data/ui/multiband_compressor.glade:604
+#: data/ui/multiband_compressor.glade:979
+#: data/ui/multiband_compressor.glade:1357
+#: data/ui/multiband_compressor.glade:1735 data/ui/gate.glade:369
+#: data/ui/multiband_gate.glade:624 data/ui/multiband_gate.glade:1033
+#: data/ui/multiband_gate.glade:1444 data/ui/multiband_gate.glade:1855
+#: data/ui/deesser.glade:494
+#, fuzzy
+msgid "Ratio"
+msgstr "Poměr [n:1]"
+
+#: data/ui/compressor.glade:471 data/ui/multiband_compressor.glade:636
+#: data/ui/multiband_compressor.glade:1012
+#: data/ui/multiband_compressor.glade:1390
+#: data/ui/multiband_compressor.glade:1768 data/ui/gate.glade:401
+#: data/ui/multiband_gate.glade:656 data/ui/multiband_gate.glade:1066
+#: data/ui/multiband_gate.glade:1477 data/ui/multiband_gate.glade:1888
+#, fuzzy
+msgid "Knee"
+msgstr "Koleno [dB]"
+
+#: data/ui/compressor.glade:505 data/ui/multiband_compressor.glade:670
+#: data/ui/multiband_compressor.glade:1047
+#: data/ui/multiband_compressor.glade:1425
+#: data/ui/multiband_compressor.glade:1803 data/ui/gate.glade:435
+#: data/ui/multiband_gate.glade:690 data/ui/multiband_gate.glade:1101
+#: data/ui/multiband_gate.glade:1512 data/ui/multiband_gate.glade:1923
+#: data/ui/deesser.glade:525
+#, fuzzy
+msgid "Makeup"
+msgstr "Zesílení na výstupu[dB]"
+
+#: data/ui/compressor.glade:739 data/ui/maximizer.glade:270
+#: data/ui/multiband_gate.glade:725 data/ui/multiband_gate.glade:1156
+#: data/ui/multiband_gate.glade:1567 data/ui/multiband_gate.glade:1978
+#: data/ui/deesser.glade:750
+#, fuzzy
+msgid "Reduction"
+msgstr "Zmenšení zesílení"
+
+#: data/ui/multiband_compressor.glade:70
+#, fuzzy
+msgid "Multiband Compressor"
+msgstr "Kompresor"
+
+#: data/ui/multiband_compressor.glade:285 data/ui/stereo_tools.glade:309
+#: data/ui/multiband_gate.glade:305 data/ui/deesser.glade:206
+#: data/ui/webrtc.glade:338
+msgid "Mode"
+msgstr ""
+
+#: data/ui/multiband_compressor.glade:299 data/ui/multiband_gate.glade:319
+msgid "LR4"
+msgstr ""
+
+#: data/ui/multiband_compressor.glade:300 data/ui/multiband_gate.glade:320
+msgid "LR8"
+msgstr ""
+
+#: data/ui/multiband_compressor.glade:314 data/ui/multiband_gate.glade:334
+msgid "Split 1/2"
+msgstr ""
+
+#: data/ui/multiband_compressor.glade:327 data/ui/multiband_gate.glade:347
+msgid "Split 2/3"
+msgstr ""
+
+#: data/ui/multiband_compressor.glade:340 data/ui/multiband_gate.glade:360
+msgid "Split 3/4"
+msgstr ""
+
+#: data/ui/multiband_compressor.glade:443
+#: data/ui/multiband_compressor.glade:815
+#: data/ui/multiband_compressor.glade:1193
+#: data/ui/multiband_compressor.glade:1571 data/ui/multiband_gate.glade:463
+#: data/ui/multiband_gate.glade:869 data/ui/multiband_gate.glade:1280
+#: data/ui/multiband_gate.glade:1691
+msgid "Bypass"
+msgstr ""
+
+#: data/ui/multiband_compressor.glade:457
+#: data/ui/multiband_compressor.glade:829
+#: data/ui/multiband_compressor.glade:1207
+#: data/ui/multiband_compressor.glade:1585 data/ui/multiband_gate.glade:477
+#: data/ui/multiband_gate.glade:883 data/ui/multiband_gate.glade:1294
+#: data/ui/multiband_gate.glade:1705
+msgid "Solo"
+msgstr ""
+
+#: data/ui/multiband_compressor.glade:715
+#: data/ui/multiband_compressor.glade:1092
+#: data/ui/multiband_compressor.glade:1470
+#: data/ui/multiband_compressor.glade:1848
+#, fuzzy
+msgid "Compression"
+msgstr "Kompresor"
+
+#: data/ui/multiband_compressor.glade:798 data/ui/multiband_gate.glade:852
+#, fuzzy
+msgid "Sub Band"
+msgstr "Basový [dB]"
+
+#: data/ui/multiband_compressor.glade:1175 data/ui/multiband_gate.glade:1262
+#, fuzzy
+msgid "Low Band"
+msgstr "Dolní pásmová propust"
+
+#: data/ui/multiband_compressor.glade:1553 data/ui/multiband_gate.glade:1673
+#, fuzzy
+msgid "Mid Band"
+msgstr "Středový [dB]"
+
+#: data/ui/multiband_compressor.glade:1931 data/ui/multiband_gate.glade:2084
+#, fuzzy
+msgid "High Band"
+msgstr "Horní pásmová propust"
+
+#: data/ui/filter.glade:31
+#, fuzzy
+msgid "Filter"
+msgstr "Filtry"
+
+#: data/ui/filter.glade:122
+#, fuzzy
+msgid "Muted"
+msgstr "Ztlumit"
+
+#: data/ui/filter.glade:134 data/ui/reverb.glade:208
+msgid "Disco"
+msgstr ""
+
+#: data/ui/filter.glade:146
+msgid "Distant Headphones"
+msgstr ""
+
+#: data/ui/filter.glade:219
+msgid "12dB/oct Lowpass"
+msgstr ""
+
+#: data/ui/filter.glade:220
+msgid "24dB/oct Lowpass"
+msgstr ""
+
+#: data/ui/filter.glade:221
+msgid "36dB/oct Lowpass"
+msgstr ""
+
+#: data/ui/filter.glade:222
+msgid "12dB/oct Highpass"
+msgstr ""
+
+#: data/ui/filter.glade:223
+msgid "24dB/oct Highpass"
+msgstr ""
+
+#: data/ui/filter.glade:224
+msgid "36dB/oct Highpass"
+msgstr ""
+
+#: data/ui/filter.glade:225
+msgid "6dB/oct Bandpass"
+msgstr ""
+
+#: data/ui/filter.glade:226
+msgid "12dB/oct Bandpass"
+msgstr ""
+
+#: data/ui/filter.glade:227
+msgid "18dB/oct Bandpass"
+msgstr ""
+
+#: data/ui/filter.glade:228
+msgid "6dB/oct Bandreject"
+msgstr ""
+
+#: data/ui/filter.glade:229
+msgid "12dB/oct Bandreject"
+msgstr ""
+
+#: data/ui/filter.glade:230
+msgid "18dB/oct Bandreject"
+msgstr ""
+
+#: data/ui/filter.glade:252 data/ui/equalizer_band.glade:41
+#: data/ui/calibration_signals.glade:32
+#, fuzzy
+msgid "Frequency"
+msgstr "Kmitočet [Hz]"
+
+#: data/ui/filter.glade:286
+msgid "Resonance"
+msgstr ""
+
+#: data/ui/filter.glade:321
+msgid "Inertia"
+msgstr ""
+
+#: data/ui/equalizer.glade:24
+msgid "Equalizer"
+msgstr "Ekvalizér"
+
+#: data/ui/equalizer.glade:109
+msgid "Flat Response"
+msgstr "Odpověď pod tónem"
+
+#: data/ui/equalizer.glade:125
+#, fuzzy
+msgid "Reset Equalizer"
+msgstr "Ekvalizér"
+
+#: data/ui/equalizer.glade:141
+msgid "Bands"
+msgstr ""
+
+#: data/ui/equalizer.glade:168
+msgid "Calculate Frequencies"
+msgstr ""
+
+#: data/ui/equalizer_band.glade:54
+msgid "Width"
+msgstr "Šířka"
+
+#: data/ui/equalizer_band.glade:137
+msgid "Filter Type"
+msgstr "Typ filtru"
+
+#: data/ui/equalizer_band.glade:153
+msgid "Low Shelf"
+msgstr "Nízký práh"
+
+#: data/ui/equalizer_band.glade:154
+msgid "High Shelf"
+msgstr "Vysoký práh"
+
+#: data/ui/equalizer_band.glade:169 data/ui/equalizer_band.glade:182
+msgid "Q"
+msgstr ""
+
+#: data/ui/reverb.glade:64
+msgid "Reverberation"
+msgstr "Dozvuk"
+
+#: data/ui/reverb.glade:156
+#, fuzzy
+msgid "Ambience"
+msgstr "Ticho"
+
+#: data/ui/reverb.glade:169
+msgid "Empty Walls"
+msgstr ""
+
+#: data/ui/reverb.glade:182
+#, fuzzy
+msgid "Room"
+msgstr "Velikost prostoru"
+
+#: data/ui/reverb.glade:195
+msgid "Large Empty Hall"
+msgstr ""
+
+#: data/ui/reverb.glade:221
+msgid "Large Occupied Hall"
+msgstr ""
+
+#: data/ui/reverb.glade:306
+#, fuzzy
+msgid "Pre Delay"
+msgstr "Zpoždění"
+
+#: data/ui/reverb.glade:338
+msgid "Decay Time"
+msgstr ""
+
+#: data/ui/reverb.glade:371 data/ui/bass_enhancer.glade:245
+#: data/ui/exciter.glade:248
+msgid "Amount"
+msgstr "Množství"
+
+#: data/ui/reverb.glade:403
+msgid "Dry"
+msgstr ""
+
+#: data/ui/reverb.glade:435
+msgid "Bass Cut"
+msgstr ""
+
+#: data/ui/reverb.glade:448
+msgid "Treble Cut"
+msgstr ""
+
+#: data/ui/reverb.glade:498
+msgid "High Frequency Damping"
+msgstr ""
+
+#: data/ui/reverb.glade:531
+msgid "Diffusion"
+msgstr ""
+
+#: data/ui/reverb.glade:564
+msgid "Room Size"
+msgstr "Velikost prostoru"
+
+#: data/ui/reverb.glade:580
+#, fuzzy
+msgid "Small"
+msgstr "Malý prostor"
+
+#: data/ui/reverb.glade:581
+msgid "Medium"
+msgstr ""
+
+#: data/ui/reverb.glade:582
+#, fuzzy
+msgid "Large"
+msgstr "Cíl [dB]"
+
+#: data/ui/reverb.glade:583
+msgid "Tunnel"
+msgstr ""
+
+#: data/ui/reverb.glade:584
+msgid "Large/smooth"
+msgstr ""
+
+#: data/ui/reverb.glade:585
+msgid "Experimental"
+msgstr ""
+
+#: data/ui/bass_enhancer.glade:50
+msgid "Bass Enhancer"
+msgstr "Zlepšovač hloubek"
+
+#: data/ui/bass_enhancer.glade:148 data/ui/exciter.glade:148
+#: data/ui/deesser.glade:165
+msgid "Listen"
+msgstr ""
+
+#: data/ui/bass_enhancer.glade:189 data/ui/exciter.glade:190
+msgid "3rd"
+msgstr "3."
+
+#: data/ui/bass_enhancer.glade:201 data/ui/exciter.glade:202
+msgid "2nd"
+msgstr "2."
+
+#: data/ui/bass_enhancer.glade:213 data/ui/exciter.glade:214
+msgid "Blend Harmonics"
+msgstr "Míchat harmonické kmity"
+
+#: data/ui/bass_enhancer.glade:257 data/ui/bass_enhancer.glade:389
+#: data/ui/exciter.glade:261 data/ui/exciter.glade:391
+msgid "Harmonics"
+msgstr "Harmonické kmity"
+
+#: data/ui/bass_enhancer.glade:269 data/ui/exciter.glade:274
+#, fuzzy
+msgid "Scope"
+msgstr "Rozsah [Hz]"
+
+#: data/ui/bass_enhancer.glade:358
+#, fuzzy
+msgid "Floor"
+msgstr "Spodní mez [Hz]"
+
+#: data/ui/exciter.glade:50
+msgid "Exciter"
+msgstr "Budič"
+
+#: data/ui/exciter.glade:360 data/ui/maximizer.glade:161
+#, fuzzy
+msgid "Ceiling"
+msgstr "Strop [Hz]"
+
+#: data/ui/stereo_tools.glade:42
+#, fuzzy
+msgid "Stereo Tools"
+msgstr "Zlepšovač sterea"
+
+#: data/ui/stereo_tools.glade:214 data/ui/stereo_tools.glade:628
+msgid "Balance"
+msgstr "Vyvážení"
+
+#: data/ui/stereo_tools.glade:246
+#, fuzzy
+msgid "S/C Level"
+msgstr "Úroveň"
+
+#: data/ui/stereo_tools.glade:275
+msgid "Softclip"
+msgstr ""
+
+#: data/ui/stereo_tools.glade:325
+msgid "LR > LR (Stereo Default)"
+msgstr ""
+
+#: data/ui/stereo_tools.glade:326
+msgid "LR > MS (Stereo to Mid-Side)"
+msgstr ""
+
+#: data/ui/stereo_tools.glade:327
+msgid "MS > LR (Mid-Side to Stereo)"
+msgstr ""
+
+#: data/ui/stereo_tools.glade:328
+#, fuzzy
+msgid "LR > LL (Mono Left Channel)"
+msgstr "Kanály"
+
+#: data/ui/stereo_tools.glade:329
+#, fuzzy
+msgid "LR > RR (Mono Right Channel)"
+msgstr "Kanály"
+
+#: data/ui/stereo_tools.glade:330
+msgid "LR > L+R (Mono Sum L+R)"
+msgstr ""
+
+#: data/ui/stereo_tools.glade:331
+msgid "LR > RL (Stereo Flip Channels)"
+msgstr ""
+
+#: data/ui/stereo_tools.glade:351
+#, fuzzy
+msgid "Side Level"
+msgstr "Úroveň"
+
+#: data/ui/stereo_tools.glade:402
+#, fuzzy
+msgid "Side Balance"
+msgstr "Vyvážení"
+
+#: data/ui/stereo_tools.glade:434
+#, fuzzy
+msgid "Middle Level"
+msgstr "Prostřední zdroj"
+
+#: data/ui/stereo_tools.glade:447
+#, fuzzy
+msgid "Middle Panorama"
+msgstr "Panorama"
+
+#: data/ui/stereo_tools.glade:482
+#, fuzzy
+msgid "Stereo Matrix"
+msgstr "Zlepšovač sterea"
+
+#: data/ui/stereo_tools.glade:507
+msgid "Left"
+msgstr "Levý"
+
+#: data/ui/stereo_tools.glade:520 data/ui/stereo_tools.glade:560
+msgid "Invert Phase"
+msgstr "Obrátit fázi"
+
+#: data/ui/stereo_tools.glade:533 data/ui/stereo_tools.glade:591
+msgid "Mute"
+msgstr "Ztlumit"
+
+#: data/ui/stereo_tools.glade:578
+msgid "Right"
+msgstr "Pravý"
+
+#: data/ui/stereo_tools.glade:660
+#, fuzzy
+msgid "Delay L/R"
+msgstr "Zpoždění"
+
+#: data/ui/stereo_tools.glade:694
+#, fuzzy
+msgid "Stereo Base"
+msgstr "Zlepšovač sterea"
+
+#: data/ui/stereo_tools.glade:727
+#, fuzzy
+msgid "Stereo Phase"
+msgstr "Zlepšovač sterea"
+
+#: data/ui/crossfeed.glade:59
+msgid "Jmeier"
+msgstr "Jmeier"
+
+#: data/ui/crossfeed.glade:85
+msgid "Cmoy"
+msgstr "Sluchátkový zesilovač (CMoy)"
+
+#: data/ui/crossfeed.glade:121
+#, fuzzy
+msgid "Cutoff"
+msgstr "Useknutí [Hz]"
+
+#: data/ui/crossfeed.glade:154
+#, fuzzy
+msgid "Feed"
+msgstr "Zaoblení hran [dB]"
+
+#: data/ui/crossfeed.glade:390
+msgid "Crossfeed"
+msgstr "Prolínání kanálů"
+
+#: data/ui/maximizer.glade:29
+msgid "Maximizer"
+msgstr "Zvětšovač"
+
+#: data/ui/loudness.glade:198
+msgid "Link"
+msgstr ""
+
+#: data/ui/gate.glade:31
+msgid "Gate"
+msgstr ""
+
+#: data/ui/gate.glade:194
+msgid "Gain Reduction"
+msgstr "Zmenšení zesílení"
+
+#: data/ui/gate.glade:669 data/ui/multiband_gate.glade:769
+#: data/ui/multiband_gate.glade:1179 data/ui/multiband_gate.glade:1590
+#: data/ui/multiband_gate.glade:2001
+msgid "Gating"
+msgstr ""
+
+#: data/ui/multiband_gate.glade:70
+#, fuzzy
+msgid "Multiband Gate"
+msgstr "Kompresor"
+
+#: data/ui/deesser.glade:61
+msgid "Deesser"
+msgstr ""
+
+#: data/ui/deesser.glade:236
+msgid "Wide"
+msgstr ""
+
+#: data/ui/deesser.glade:237 data/ui/deesser.glade:265
+msgid "Split"
+msgstr ""
+
+#: data/ui/deesser.glade:384
+msgid "Level"
+msgstr "Úroveň"
+
+#: data/ui/deesser.glade:397
+#, fuzzy
+msgid "Peak Q"
+msgstr "Vrchol"
+
+#: data/ui/deesser.glade:429
+msgid "Laxity"
+msgstr ""
+
+#: data/ui/deesser.glade:763
+#, fuzzy
+msgid "Detected"
+msgstr "Zeslabování"
+
+#: data/ui/convolver.glade:24
+msgid "Convolver"
+msgstr ""
+
+#: data/ui/convolver.glade:103
+#, fuzzy
+msgid "Import Impulse"
+msgstr "Odpověď pod tónem"
+
+#: data/ui/convolver.glade:107
+msgid "Import Impulse Response File"
+msgstr ""
+
+#: data/ui/convolver.glade:204
+msgid "L"
+msgstr "L"
+
+#: data/ui/convolver.glade:218
+msgid "R"
+msgstr "P"
+
+#: data/ui/convolver.glade:277
+#, fuzzy
+msgid "Duration"
+msgstr "Kalibrace"
+
+#: data/ui/convolver.glade:291
+#, fuzzy
+msgid "Samples"
+msgstr "Převzorkovač"
+
+#: data/ui/convolver.glade:324 src/convolver_ui.cpp:269
+#, fuzzy
+msgid "Impulse Response"
+msgstr "Odpověď pod tónem"
+
+#: data/ui/convolver.glade:346
+#, fuzzy
+msgid "Stereo Width"
+msgstr "Zlepšovač sterea"
+
+#: data/ui/convolver.glade:376
+#, fuzzy
+msgid "Select the impulse Response File"
+msgstr "Odpověď pod tónem"
+
+#: data/ui/crystalizer.glade:24
+#, fuzzy
+msgid "Crystalizer"
+msgstr "Ekvalizér"
+
+#: data/ui/crystalizer.glade:123
+msgid "Intensity"
+msgstr ""
+
+#: data/ui/pitch.glade:36
+msgid "Pitch"
+msgstr "Výška tónu"
+
+#: data/ui/pitch.glade:208
+msgid "Cents"
+msgstr "Centy"
+
+#: data/ui/pitch.glade:221
+msgid "Semitones"
+msgstr "Půltóny"
+
+#: data/ui/pitch.glade:234
+msgid "Octaves"
+msgstr "Oktávy"
+
+#: data/ui/pitch.glade:247
+msgid "Crispness"
+msgstr "Křehkost"
+
+#: data/ui/pitch.glade:256
+msgid "Faster"
+msgstr "Rychleji"
+
+#: data/ui/pitch.glade:272
+msgid "Preserve Formant"
+msgstr "Zachovat složku rozhodující o barvě zvuku"
+
+#: data/ui/webrtc.glade:30
+msgid "Webrtc"
+msgstr ""
+
+#: data/ui/webrtc.glade:141 data/ui/webrtc.glade:273 data/ui/webrtc.glade:319
+#: data/ui/webrtc.glade:468
+#, fuzzy
+msgid "Enable"
+msgstr "Sinusová tabulka"
+
+#: data/ui/webrtc.glade:162
+msgid "Extended Filter"
+msgstr ""
+
+#: data/ui/webrtc.glade:175
+msgid "Delay Agnostic"
+msgstr ""
+
+#: data/ui/webrtc.glade:187
+#, fuzzy
+msgid "High Pass Filter"
+msgstr "Horní pásmová propust"
+
+#: data/ui/webrtc.glade:215 data/ui/webrtc.glade:264
+#, fuzzy
+msgid "Suppresion Level"
+msgstr "Zmenšení zesílení"
+
+#: data/ui/webrtc.glade:229 data/ui/webrtc.glade:293 data/ui/webrtc.glade:490
+msgid "Low"
+msgstr ""
+
+#: data/ui/webrtc.glade:230 data/ui/webrtc.glade:294 data/ui/webrtc.glade:491
+msgid "Moderate"
+msgstr ""
+
+#: data/ui/webrtc.glade:231 data/ui/webrtc.glade:295 data/ui/webrtc.glade:492
+#, fuzzy
+msgid "High"
+msgstr "Horní pásmová propust"
+
+#: data/ui/webrtc.glade:248
+#, fuzzy
+msgid "Echo Canceller"
+msgstr "Vyvážení"
+
+#: data/ui/webrtc.glade:296
+#, fuzzy
+msgid "Very High"
+msgstr "Horní pásmová propust"
+
+#: data/ui/webrtc.glade:307
+#, fuzzy
+msgid "Noise Suppressor"
+msgstr "Kompresor"
+
+#: data/ui/webrtc.glade:352
+msgid "Adaptive Digital"
+msgstr ""
+
+#: data/ui/webrtc.glade:353
+msgid "Fixed Digital"
+msgstr ""
+
+#: data/ui/webrtc.glade:364
+msgid "Gain Controller"
+msgstr ""
+
+#: data/ui/webrtc.glade:397
+#, fuzzy
+msgid "Target Level"
+msgstr "Cíl [dB]"
+
+#: data/ui/webrtc.glade:408
+msgid "Maximum Gain"
+msgstr ""
+
+#: data/ui/webrtc.glade:489
+msgid "Very Low"
+msgstr ""
+
+#: data/ui/webrtc.glade:506
+#, fuzzy
+msgid "Frame Size"
+msgstr "Velikost prostoru"
+
+#: data/ui/webrtc.glade:537
+#, fuzzy
+msgid "Detection Likelihood"
+msgstr "Zeslabování"
+
+#: data/ui/webrtc.glade:547
+#, fuzzy
+msgid "Voice Detector"
+msgstr "Zeslabování"
+
+#: data/ui/calibration_signals.glade:64
+msgid "Volume"
+msgstr "Hlasitost"
+
+#: data/ui/calibration_signals.glade:108
+msgid "Sine"
+msgstr "Sinus"
+
+#: data/ui/calibration_signals.glade:109
+msgid "Square"
+msgstr "Čtverec"
+
+#: data/ui/calibration_signals.glade:110
+msgid "Saw"
+msgstr "Pila"
+
+#: data/ui/calibration_signals.glade:111
+msgid "Triangle"
+msgstr "Trojúhelník"
+
+#: data/ui/calibration_signals.glade:112
+#, fuzzy
+msgid "Silence"
+msgstr "Ticho"
+
+#: data/ui/calibration_signals.glade:113
+msgid "White Noise"
+msgstr "Bílý šum"
+
+#: data/ui/calibration_signals.glade:114
+msgid "Pink Noise"
+msgstr "Růžový šum"
+
+#: data/ui/calibration_signals.glade:115
+msgid "Sine Table"
+msgstr "Sinusová tabulka"
+
+#: data/ui/calibration_signals.glade:116
+msgid "Ticks"
+msgstr "Tiknutí"
+
+#: data/ui/calibration_signals.glade:117
+msgid "Gaussian Noise"
+msgstr "Gaussovský šum"
+
+#: data/ui/calibration_signals.glade:118
+msgid "Red Noise"
+msgstr "Červený šum"
+
+#: data/ui/calibration_signals.glade:119
+msgid "Blue Noise"
+msgstr "Modrý šum"
+
+#: data/ui/calibration_signals.glade:120
+msgid "Violet Noise"
+msgstr "Fialový šum"
+
+#: data/ui/calibration_mic.glade:29
+#, fuzzy
+msgid "Window"
+msgstr "Okno [s]"
+
+#: data/ui/calibration_mic.glade:70
+msgid "Measure Noise"
+msgstr "Změřit šum"
+
+#: data/ui/calibration_mic.glade:99
+msgid "Subtract Noise"
+msgstr "Odečíst šum"
+
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:8
+#: data/com.github.wwmm.pulseeffects.desktop.in:5
+msgid "Audio Effects for PulseAudio Applications"
+msgstr "Zvukové efekty pro programy využívající PulseAudio"
+
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:9
+msgid "Wellington Wallace"
+msgstr "Wellington Wallace"
+
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:11
+msgid ""
+"PulseEffects is an advanced audio manipulation tools. It includes an "
+"equalizer, limiter, compressor and a reverberation tool, just to mention a "
+"few. To complement this there is also a built in spectrum analyzer."
+msgstr ""
+"PulseEffects je pokročilým nástrojem pro zacházení se zvukem. Obsahuje mimo "
+"jiné nástroj ekvalizéru, omezovače (limiter), kompresoru a dozvuku. Na "
+"doplnění je také vestavěn analyzátor spektra."
+
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:16
+msgid ""
+"Because PulseEffects uses the default PulseAudio sound server it will work "
+"with most, if not all, applications you use. All supported applications are "
+"presented in the main window, where each can be enabled individually."
+msgstr ""
+"Protože PulseEffects používá výchozí zvukový server PulseAudio, bude "
+"pracovat s většinou, pokud už ne se všemi vámi používanými programy. Všechny "
+"podporované programy jsou ukázány v hlavním okně, v němž je možné kterýkoli "
+"z nich ručně povolit."
+
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:22
+msgid ""
+"Besides manipulating sound output, PulseEffects is able to apply effects to "
+"an input device, such as a microphone. This is, for example, useful in audio "
+"recording, but it also works well during voice conversations."
+msgstr ""
+"Vedle práce se zvukovým výstupem dokáže PulseEffects efekty použít i na "
+"vstupní zařízení, jako je mikrofon. To je užitečné mimo jiné při nahrávání "
+"zvuku, pracuje to ale dobře během hlasových hovorů."
+
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:27
+msgid ""
+"When PulseEffects is launched it will conveniently remember the "
+"configuration used in the last session. It is also possible to save all the "
+"current settings as profiles."
+msgstr ""
+"Když je PulseEffects spuštěn, zapamatuje si příhodně nastavení používané při "
+"posledním sezení. Je možné i uložení všech nynějších nastavení jako profilů."
+
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:40
+msgid "Set the volume and turn on/off effects"
+msgstr ""
+
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:44
+msgid "Includes an equalizer with built-in presets"
+msgstr ""
+
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:48
+msgid "Input Limiter"
+msgstr "Omezovač vstupu"
+
+#: data/com.github.wwmm.pulseeffects.appdata.xml.in:56
+msgid "Calibration"
+msgstr "Kalibrace"
+
+#: data/com.github.wwmm.pulseeffects.desktop.in:4
+msgid "Equalizer, Compressor and Other Audio Effects"
+msgstr ""
+
+#: data/com.github.wwmm.pulseeffects.desktop.in:6
+msgid "limiter;compressor;reverberation;equalizer;autovolume;"
+msgstr "omezovač (limiter);kompresor;dozvuk;ekvalizér;automatická hlasitost;"
+
+#. Translators: This is an icon name, don't translate!
+#: data/com.github.wwmm.pulseeffects.desktop.in:10
+msgid "pulseeffects"
+msgstr "PulseEffects"
+
+#: data/schemas/com.github.wwmm.pulseeffects.gschema.xml:187
+#, fuzzy
+msgid "\"Presets\""
+msgstr "Přednastavení"
+
+#: src/application.cpp:20
+msgid "Quit PulseEffects. Useful when running in service mode."
+msgstr ""
+
+#: src/application.cpp:23
+msgid "Show available presets."
+msgstr ""
+
+#: src/application.cpp:27
+msgid "Load a preset. Example: pulseeffects -l music"
+msgstr ""
+
+#: src/application.cpp:30
+#, fuzzy
+msgid "Reset PulseEffects."
+msgstr "PulseEffects"
+
+#: src/application.cpp:58
+#, fuzzy
+msgid "Presets: "
+msgstr "Přednastavení"
+
+#: src/application.cpp:213
+#, fuzzy
+msgid "PulseEffects was updated"
+msgstr "PulseEffects"
+
+#: src/application.cpp:216
+msgid ""
+"It is recommended to reset its configuration after an update. Do you want to "
+"do this?"
+msgstr ""
+
+#: src/application.cpp:219
+msgid "Yes"
+msgstr ""
+
+#: src/application.cpp:220
+msgid "No"
+msgstr ""
+
+#: src/application_ui.cpp:955 src/convolver_ui.cpp:265
+msgid "Open"
+msgstr ""
+
+#: src/application_ui.cpp:955 src/convolver_ui.cpp:265
+#, fuzzy
+msgid "Cancel"
+msgstr "Vyvážení"
+
+#: src/effects_base_ui.cpp:23
+msgid "Applications"
+msgstr "Programy"
+
+#: src/app_info_ui.cpp:85
+msgid "paused"
+msgstr "Pozastaveno"
+
+#: src/app_info_ui.cpp:87
+msgid "playing"
+msgstr "Přehrává se"
+
+#: src/calibration_ui.cpp:182
+#, fuzzy
+msgid "Calibration Microphone"
+msgstr "Oprava kalibrace mikrofonu"
+
+#: src/convolver_ui.cpp:264
+#, fuzzy
+msgid "Import Impulse File"
+msgstr "Odpověď pod tónem"
+
+#: src/convolver_ui.cpp:307 src/convolver_ui.cpp:308 src/convolver_ui.cpp:310
+msgid "Failed"
+msgstr ""
+
+#: src/convolver_ui.cpp:312
+msgid "Could Not Load The Impulse File"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Changed:"
+#~ msgstr "Kanály"
+
+#, fuzzy
+#~ msgid "Calf Multiband compressor"
+#~ msgstr "Kompresor"
+
+#, fuzzy
+#~ msgid "Changes:"
+#~ msgstr "Kanály"
+
+#, fuzzy
+#~ msgid "Tolerance"
+#~ msgstr "Povolená odchylka [dB]"
+
+#~ msgid "Auto Volume"
+#~ msgstr "Hlasitost automaticky"
+
+#, fuzzy
+#~ msgid "Import"
+#~ msgstr "Nahrát přednastavení"
+
+#~ msgid "Stereo Enhancer"
+#~ msgstr "Zlepšovač sterea"
+
+#~ msgid "Delay"
+#~ msgstr "Zpoždění"
+
+#~ msgid "Invert Middle Phase"
+#~ msgstr "Obrátit prostřední fázi"
+
+#~ msgid "Mid (L + R)"
+#~ msgstr "Středový (L + P)"
+
+#~ msgid "Side (L - R)"
+#~ msgstr "Postranní (L - P)"
+
+#~ msgid "Middle Source"
+#~ msgstr "Prostřední zdroj"
+
+#, fuzzy
+#~ msgid "Side Gain"
+#~ msgstr "Postranní zesílení [dB]"
+
+#, fuzzy
+#~ msgid "Import Impulse Response"
+#~ msgstr "Odpověď pod tónem"
+
+#, fuzzy
+#~ msgid "Output Device"
+#~ msgstr "Omezovač výstupu"
+
+#, fuzzy
+#~ msgid "Input Device"
+#~ msgstr "Omezovač vstupu"
+
+#, fuzzy
+#~ msgid "Advanced Settings"
+#~ msgstr "Nastavení"
+
+#~ msgid "Meters"
+#~ msgstr "Metry"
+
+#~ msgid "Centimeters"
+#~ msgstr "Centimetry"
+
+#~ msgid "Temperature"
+#~ msgstr "Teplota"
+
+#~ msgid "Low Pass"
+#~ msgstr "Dolní pásmová propust"
+
+#, fuzzy
+#~ msgid "Source"
+#~ msgstr "Prostřední zdroj"
+
+#, fuzzy
+#~ msgid "Side"
+#~ msgstr "Postranní zesílení [dB]"
+
+#, fuzzy
+#~ msgid "Sidechain"
+#~ msgstr "Postranní zesílení [dB]"
+
+#, fuzzy
+#~ msgid "Ceil"
+#~ msgstr "Strop [Hz]"
+
+#~ msgid "Input [dB]"
+#~ msgstr "Vstup [dB]"
+
+#~ msgid "Output [dB]"
+#~ msgstr "Výstup [dB]"
+
+#~ msgid "rms"
+#~ msgstr "RMS"
+
+#~ msgid "peak"
+#~ msgstr "Vrchol"
+
+#, fuzzy
+#~ msgid "F1 Level"
+#~ msgstr "Úroveň"
+
+#, fuzzy
+#~ msgid "F2 Level"
+#~ msgstr "Úroveň"
+
+#~ msgid "Quality"
+#~ msgstr "Jakost"
+
+#~ msgid "Reset Frequency"
+#~ msgstr "Vrátit kmitočet na výchozí"
+
+#~ msgid "Reset Quality"
+#~ msgstr "Vrátit jakost na výchozí"
+
+#~ msgid "Poles"
+#~ msgstr "Póly"
+
+#~ msgid "Output Limiter"
+#~ msgstr "Omezovač výstupu"
+
+#~ msgid "Engine Room"
+#~ msgstr "Strojovna"
+
+#~ msgid "Cathedral"
+#~ msgstr "Katedrála"
+
+#~ msgid "Damping"
+#~ msgstr "Tlumení"
+
+#~ msgid "Stereo Spread"
+#~ msgstr "Rozložení sterea"
+
+#~ msgid "Mono Input"
+#~ msgstr "Monofonní vstup"
+
+#~ msgid "Save Current Settings to Preset"
+#~ msgstr "Uložit nynější nastavení do nového přednastavení"
+
+#~ msgid "Delete Preset"
+#~ msgstr "Smazat přednastavení"
+
+#~ msgid "Guideline Position"
+#~ msgstr "Poloha vodicí čáry"
+
+#~ msgid "Equal Loudness Test Signals"
+#~ msgstr "Zkušební signály pro shodnou hlasitost"
+
+#~ msgid "Test Signal"
+#~ msgstr "Zkušební signál"
+
+#, fuzzy
+#~ msgid "Reduction Level"
+#~ msgstr "Zmenšení zesílení"
+
+#~ msgid "Window [s]"
+#~ msgstr "Okno [s]"
+
+#~ msgid "Frequency [Hz]"
+#~ msgstr "Kmitočet [Hz]"
+
+#, fuzzy
+#~ msgid "Buffer [ms]"
+#~ msgstr "Vyrovnávací paměť"
+
+#, fuzzy
+#~ msgid "Latency [ms]"
+#~ msgstr "Prodleva"
+
+#~ msgid "Threshold [dB]"
+#~ msgstr "Práh [dB]"
+
+#~ msgid "Makeup [dB]"
+#~ msgstr "Zesílení na výstupu[dB]"
+
+#, fuzzy
+#~ msgid "F1 [Hz]"
+#~ msgstr "Spodní mez [Hz]"
+
+#, fuzzy
+#~ msgid "F1 Level [dB]"
+#~ msgstr "Zaoblení hran [dB]"
+
+#, fuzzy
+#~ msgid "F2 [Hz]"
+#~ msgstr "Spodní mez [Hz]"
+
+#, fuzzy
+#~ msgid "F2 Level [dB]"
+#~ msgstr "Zaoblení hran [dB]"
+
+#~ msgid "Release [ms]"
+#~ msgstr "Uvolnění [ms]"
+
+#~ msgid "Delay [ms]"
+#~ msgstr "Zpoždění [ms]"
+
+#, fuzzy
+#~ msgid "Gain Reduction [dB]"
+#~ msgstr "Zmenšení zesílení"
+
+#~ msgid "Ceiling [dB]"
+#~ msgstr "Strop [dB]"
+
+#~ msgid "Low [dB]"
+#~ msgstr "Nízký [dB]"
+
+#~ msgid "High [dB]"
+#~ msgstr "Vysoký [dB]"
+
+#, fuzzy
+#~ msgid "Input Gate"
+#~ msgstr "Omezovač vstupu"
+
+#~ msgid "Latency in Miliseconds"
+#~ msgstr "Prodleva v milisekundách"
+
+#~ msgid "Audio Enhancer"
+#~ msgstr "Zlepšovač zvuku"
+
+#~ msgid "Buffer Latency"
+#~ msgstr "Prodleva vyrovnávací paměti"
+
+#, fuzzy
+#~ msgid "buffer-time"
+#~ msgstr "Doba utlumení [ms]"
+
+#, fuzzy
+#~ msgid "latency-time"
+#~ msgstr "Doba prodlevy [ms]"
+
+#~ msgid "Vlc"
+#~ msgstr "VLC"
+
+#, fuzzy
+#~ msgid "Sink Latency"
+#~ msgstr "Prodleva"
+
+#, fuzzy
+#~ msgid "Preset Name"
+#~ msgstr "Přednastavení"
+
+#~ msgid "Equalizer - Input"
+#~ msgstr "Ekvalizér - vstup"
+
+#~ msgid "Equalizer - Output"
+#~ msgstr "Ekvalizér - výstup"
+
+#~ msgid "ballad"
+#~ msgstr "Balada"
+
+#~ msgid "classic"
+#~ msgstr "Klasika"
+
+#~ msgid "club"
+#~ msgstr "Klub"
+
+#~ msgid "flat"
+#~ msgstr "Plocha"
+
+#~ msgid "more bass"
+#~ msgstr "Více hloubek"
+
+#~ msgid "more bass and treble"
+#~ msgstr "Více hloubek a výšek"
+
+#~ msgid "more treble"
+#~ msgstr "Více výšek"
+
+#~ msgid "no compression"
+#~ msgstr "Bez komprese"
+
+#~ msgid "no reverberation"
+#~ msgstr "Bez dozvuku"
+
+#~ msgid "party"
+#~ msgstr "Večírek"
+
+#~ msgid "pop"
+#~ msgstr "Populární hudba"
+
+#~ msgid "reggae"
+#~ msgstr "Reggae"
+
+#~ msgid "rock"
+#~ msgstr "Rock"
+
+#~ msgid "ska"
+#~ msgstr "Ska"
+
+#~ msgid "soft"
+#~ msgstr "Měkká hudba"
+
+#~ msgid "techno"
+#~ msgstr "Techno"

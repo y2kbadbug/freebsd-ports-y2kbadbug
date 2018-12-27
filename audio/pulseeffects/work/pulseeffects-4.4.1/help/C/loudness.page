@@ -1,0 +1,64 @@
+<page
+    xmlns="http://projectmallard.org/1.0/"
+    xmlns:its="http://www.w3.org/2005/11/its"
+    type="guide"
+    id="loudness">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    </info>
+    <title>Loudness</title>
+    <p>
+        PulseEffects uses the loudness from MDA.LV2. The ear is less sensitive to low
+        frequencies when listening at low volume. This plug-in is based on the
+        Stevens-Davis equal loudness contours and allows the bass level to be adjusted
+        to simulate or correct for this effect.
+    </p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Loudness</em>
+            </title>
+            <p>
+                Source level relative to listening level (based on a 100 dB SPL maximum level).
+            </p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Output</em>
+            </title>
+            <p>
+                Change output level.
+            </p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Link</em>
+            </title>
+            <p>
+                Automatically adjusts Output to maintain a consistent tonal balance at all
+                levels.
+            </p>
+        </item>
+    </terms>
+    <section>
+        <title>References</title>
+        <list>
+            <item>
+                <p>
+                    <link href="https://en.wikipedia.org/wiki/Loudness" its:translate="no">
+                        https://en.wikipedia.org/wiki/Loudness
+                    </link>
+                </p>
+            </item>
+            <item>
+                <p>
+                    <link
+                        href="http://mda.smartelectronix.com/vst/help/loudness.htm"
+                        its:translate="no">
+                        http://mda.smartelectronix.com/vst/help/loudness.htm
+                    </link>
+                </p>
+            </item>
+        </list>
+    </section>
+</page>

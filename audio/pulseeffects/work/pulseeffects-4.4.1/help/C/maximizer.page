@@ -1,0 +1,47 @@
+<page
+    xmlns="http://projectmallard.org/1.0/"
+    xmlns:its="http://www.w3.org/2005/11/its"
+    type="guide"
+    id="maximizer">
+    <info>
+        <link type="guide" xref="index#plugins"/>
+    </info>
+    <title>Maximizer</title>
+    <p>
+        A maximizer is similar to a limiter. It attenuates peaks above the limit(ceiling
+        in our case) but it also boosts peaks that are between the limit and the
+        threshold.
+    </p>
+    <p>
+        PulseEffects uses the maximizer from ZamAudio.
+    </p>
+    <terms>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Threshold</em>
+            </title>
+            <p>
+                If a signal rises above this level it will affect the gain reduction.
+            </p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Ceiling</em>
+            </title>
+            <p>
+                Maximum allowed peak value.
+            </p>
+        </item>
+        <item>
+            <title>
+                <em style="strong" its:withinText="nested">Release</em>
+            </title>
+            <p>
+                Stop the attenuation after this amount of seconds.
+            </p>
+        </item>
+    </terms>
+    <!-- <section> <title>References</title> <list> <item> <p> <link
+    href="http://www.zamaudio.com"> http://www.zamaudio.com </link> </p> </item>
+    </list> </section> -->
+</page>
