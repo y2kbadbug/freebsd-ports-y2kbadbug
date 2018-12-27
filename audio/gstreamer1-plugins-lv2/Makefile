@@ -3,7 +3,7 @@
 PORTREVISION=	0
 CATEGORIES=	audio
 
-COMMENT=	Gstreamer lv2 () plugin
+COMMENT=	Gstreamer lv2 wrapper plugin
 
 GST_PLUGIN=	lv2
 DIST=		bad

@@ -179,11 +179,12 @@ _GSTREAMER_PLUGINS+= \
 		vpx \
 		vulkan \
 		webp \
+		webrtcdsp \
 		x \
 		x265 \
 		ximagesrc \
 		zbar
-# vaapi webrtcdsp
+# vaapi
 .endif # USE_GSTREAMER1
 
 # other plugins
@@ -327,6 +328,9 @@ vorbis_IMPL=	#
 
 wavpack_DEPENDS=	audio/gstreamer-plugins-wavpack
 wavpack_IMPL=		good
+
+webrtcdsp_DEPENDS=	audio/gstreamer-plugins-webrtcdsp
+webrtcdsp_IMPL=		bad
 
 #-- comms plugin section --------------------------------------------------#
 
@@ -548,9 +552,6 @@ ugly_IMPL=	#
 
 vdpau_DEPENDS=	multimedia/gstreamer-plugins-vdpau
 vdpau_IMPL=	bad
-
-webrtcdsp_DEPENDS=	multimedia/gstreamer-plugins-webrtcdsp
-webrtcdsp_IMPL=		bad
 
 x264_DEPENDS=	multimedia/gstreamer-plugins-x264
 x264_IMPL=	ugly
