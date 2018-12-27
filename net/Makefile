@@ -1033,6 +1033,7 @@
     SUBDIR += pxe-pdhcp
     SUBDIR += py-GeoIP
     SUBDIR += py-GeoIP2
+    SUBDIR += py-aiohttp-socks
     SUBDIR += py-amqp
     SUBDIR += py-amqplib
     SUBDIR += py-avahi
@@ -1167,6 +1168,7 @@
     SUBDIR += qoauth-qt5
     SUBDIR += qt4-network
     SUBDIR += qt5-network
+    SUBDIR += qt5-networkauth
     SUBDIR += qtweetlib
     SUBDIR += quagga
     SUBDIR += queso
