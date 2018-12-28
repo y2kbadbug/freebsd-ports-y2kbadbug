@@ -1,21 +1,21 @@
 # $FreeBSD$
 
-PORTNAME=       yubioath-desktop
-DISTVERSION=    4.3.4
-DISTVERSIONPREFIX=yubioath-desktop-
-CATEGORIES=     security
+PORTNAME=	yubioath-desktop
+DISTVERSIONPREFIX=	yubioath-desktop-
+DISTVERSION=	4.3.4
+CATEGORIES=	security
 
-MAINTAINER=     daniel@shafer.cc
-COMMENT=        GUI for displaying OATH codes with a Yubikey
+MAINTAINER=	daniel@shafer.cc
+COMMENT=	GUI for displaying OATH codes with a Yubikey
 
-LICENSE=        BSD2CLAUSE
+LICENSE=	BSD2CLAUSE
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-RUN_DEPENDS=	RSA_SecurID_getpasswd:devel/libccid \
-		pcscd:devel/pcsc-lite \
+RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}yubikey-manager>=0.7.0:security/py-yubikey-manager@${PY_FLAVOR} \
 		pyotherside-qt5>0:devel/pyotherside-qt5 \
-		${PYTHON_PKGNAMEPREFIX}yubikey-manager>=0.7.0:security/py-yubikey-manager@${PY_FLAVOR} \
+		RSA_SecurID_getpasswd:devel/libccid \
 		libffi>0:devel/libffi \
+		pcscd:devel/pcsc-lite \
 		swig30>0:devel/swig30
 
 USES=		desktop-file-utils gl python:3.5+ qmake qt:5 shebangfix ssl
@@ -28,6 +28,10 @@ GH_ACCOUNT=	Yubico
 SHEBANG_FILES=	build_qrc.py \
 		py/yubikey.py \
 		compute-version.py
+
+PLIST_FILES=	bin/yubioath-desktop \
+		share/applications/yubioath-desktop.desktop \
+		share/pixmaps/yubioath.png
 
 post-patch:
 	@${REINPLACE_CMD} -e '/buildqrc.commands/s|python|${PYTHON_CMD}|g' \
