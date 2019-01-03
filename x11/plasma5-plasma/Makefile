@@ -17,4 +17,13 @@ USES=		kde:5 metaport qt:5
 #   * breeze-kde4 don't pull in qt4 bits
 USE_KDE=	${_USE_PLASMA_ALL:Nplasma-pa:Nbreeze-kde4}
 
+OPTIONS_DEFINE=	PHONON PULSEAUDIO
+OPTIONS_DEFAULT=	PHONON
+
+# Different from PHONON, because this is about the output plugins
+PHONON_DESC=	Include phonon-gstreamer, for sound output
+
+PHONON_RUN_DEPENDS=	${QT_PLUGINDIR}/phonon4qt5_backend/phonon_gstreamer.so:multimedia/phonon-gstreamer@qt5
+PULSEAUDIO_USE=	KDE=plasma-pa_run
+
 .include <bsd.port.mk>
