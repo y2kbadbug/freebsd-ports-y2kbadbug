@@ -791,6 +791,7 @@
     SUBDIR += p5-Iterator-File
     SUBDIR += p5-Lchown
     SUBDIR += p5-Linux-Cpuinfo
+    SUBDIR += p5-Log-Colorize-Helper
     SUBDIR += p5-Log-Syslog-Constants
     SUBDIR += p5-Log-Syslog-Fast
     SUBDIR += p5-MogileFS-Client
@@ -802,6 +803,7 @@
     SUBDIR += p5-Plugtools-Plugins-HomeOU
     SUBDIR += p5-Probe-Perl
     SUBDIR += p5-Proc-PidUtil
+    SUBDIR += p5-Proc-ProcessTable-Colorizer
     SUBDIR += p5-Proclet
     SUBDIR += p5-Quota
     SUBDIR += p5-Rex
@@ -1481,6 +1483,7 @@
     SUBDIR += zrep
     SUBDIR += zrepl
     SUBDIR += zsd
+    SUBDIR += zsm
     SUBDIR += zxfer
 
 .include <bsd.port.subdir.mk>
