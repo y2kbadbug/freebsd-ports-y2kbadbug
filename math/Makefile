@@ -109,7 +109,6 @@
     SUBDIR += SCIP
     SUBDIR += SoPlex
     SUBDIR += aamath
-    SUBDIR += abakus
     SUBDIR += abs
     SUBDIR += acalc
     SUBDIR += add
@@ -122,7 +121,6 @@
     SUBDIR += amath
     SUBDIR += ambit
     SUBDIR += analitza
-    SUBDIR += analitza-kde4
     SUBDIR += ann
     SUBDIR += antic
     SUBDIR += apc
@@ -151,7 +149,6 @@
     SUBDIR += calcoo
     SUBDIR += calctool
     SUBDIR += cantor
-    SUBDIR += cantor-kde4
     SUBDIR += cbc
     SUBDIR += cblas
     SUBDIR += ccmath
@@ -273,6 +270,7 @@
     SUBDIR += hs-contravariant
     SUBDIR += hs-data-lens
     SUBDIR += hs-data-lens-template
+    SUBDIR += hs-dense-linear-algebra
     SUBDIR += hs-distributive
     SUBDIR += hs-erf
     SUBDIR += hs-fixed
@@ -303,16 +301,11 @@
     SUBDIR += jtransforms
     SUBDIR += jts
     SUBDIR += kalgebra
-    SUBDIR += kalgebra-kde4
     SUBDIR += kbruch
-    SUBDIR += kbruch-kde4
     SUBDIR += kcalc
-    SUBDIR += kcalc-kde4
     SUBDIR += kig
-    SUBDIR += kig-kde4
     SUBDIR += kktdirect
     SUBDIR += kmplot
-    SUBDIR += kmplot-kde4
     SUBDIR += labplot
     SUBDIR += latte-integrale
     SUBDIR += lambda
@@ -653,15 +646,9 @@
     SUBDIR += pdal
     SUBDIR += pear-Math_BigInteger
     SUBDIR += pear-Math_Combinatorics
-    SUBDIR += pecl-big_int
     SUBDIR += pecl-bitset
-    SUBDIR += pecl-bitset2
-    SUBDIR += pecl-stats
     SUBDIR += pecl-stats2
-    SUBDIR += pecl-trader
     SUBDIR += petiga
-    SUBDIR += php56-bcmath
-    SUBDIR += php56-gmp
     SUBDIR += php71-bcmath
     SUBDIR += php71-gmp
     SUBDIR += php72-bcmath
@@ -814,7 +801,6 @@
     SUBDIR += rkward-kde
     SUBDIR += rngstreams
     SUBDIR += rocs
-    SUBDIR += rocs-kde4
     SUBDIR += rpcalc
     SUBDIR += rpy
     SUBDIR += rubygem-algebra
