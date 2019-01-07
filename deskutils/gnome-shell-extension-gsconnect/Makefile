@@ -2,7 +2,7 @@
 
 PORTNAME=	gnome-shell-extension-gsconnect
 DISTVERSIONPREFIX=	v
-DISTVERSION=	17
+DISTVERSION=	19
 CATEGORIES=	deskutils gnome
 DIST_SUBDIR=	gnome3
 
@@ -39,20 +39,20 @@ GH_ACCOUNT=	andyholmes
 # Disables installing web extensions
 MESON_ARGS=     --sysconfdir=${PREFIX}/etc -Dwebextension=false
 
-OPTIONS_DEFINE= NLS
-OPTIONS_SUB=	yes
-
-NLS_USES=	gettext
-
 GLIB_SCHEMAS=   org.gnome.Shell.Extensions.GSConnect.gschema.xml
-
-NO_ARCH=	yes
 
 PKGMESSAGE=	../gnome-shell-extra-extensions/pkg-message.slaves pkg-message
 
 SHEBANG_FILES=	meson/nmh.sh \
 		src/service/components/folks.py \
 		webextension/mkwebext.sh
+
+OPTIONS_DEFINE= NLS
+OPTIONS_SUB=    yes
+
+NLS_USES=       gettext
+
+NO_ARCH=        yes
 
 post-patch-NLS-off:
 	@${REINPLACE_CMD} -e "s:subdir('po'):#subdir('po'):g" ${WRKSRC}/meson.build

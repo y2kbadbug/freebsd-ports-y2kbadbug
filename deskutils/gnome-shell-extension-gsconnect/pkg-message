@@ -1,3 +1,12 @@
+Since many users have reported their devices do not (yet) support SMS history, 
+a simple legacy UI has been added until these problems can be fixed. 
+
+Currently this must be enabled manually with the command:
+`dconf write /org/gnome/shell/extensions/gsconnect/device/<device-id>/plugin/sms/legacy true`
+
+You can get a list of <device-id>'s with the following command:
+`dconf read /org/gnome/shell/extensions/gsconnect/devices`
+
 To integrate with your browser, you will need to install the proper extension
 
 Chromium: https://chrome.google.com/webstore/detail/gsconnect/jfnifeihccihocjbfcfhicmmgpjicaec

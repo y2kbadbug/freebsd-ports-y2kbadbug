@@ -36,11 +36,13 @@ share/gnome-shell/extensions/gsconnect@andyholmes.github.io/service/plugins/sms.
 share/gnome-shell/extensions/gsconnect@andyholmes.github.io/service/plugins/systemvolume.js
 share/gnome-shell/extensions/gsconnect@andyholmes.github.io/service/plugins/telephony.js
 share/gnome-shell/extensions/gsconnect@andyholmes.github.io/service/ui/contacts.js
-share/gnome-shell/extensions/gsconnect@andyholmes.github.io/service/ui/debug.js
+share/gnome-shell/extensions/gsconnect@andyholmes.github.io/service/ui/devel.js
+share/gnome-shell/extensions/gsconnect@andyholmes.github.io/service/ui/device.js
 share/gnome-shell/extensions/gsconnect@andyholmes.github.io/service/ui/keybindings.js
 share/gnome-shell/extensions/gsconnect@andyholmes.github.io/service/ui/messaging.js
 share/gnome-shell/extensions/gsconnect@andyholmes.github.io/service/ui/service.js
 share/gnome-shell/extensions/gsconnect@andyholmes.github.io/service/ui/settings.js
+share/gnome-shell/extensions/gsconnect@andyholmes.github.io/service/ui/telephony.js
 share/gnome-shell/extensions/gsconnect@andyholmes.github.io/shell/device.js
 share/gnome-shell/extensions/gsconnect@andyholmes.github.io/shell/donotdisturb.js
 share/gnome-shell/extensions/gsconnect@andyholmes.github.io/shell/gmenu.js
@@ -48,6 +50,7 @@ share/gnome-shell/extensions/gsconnect@andyholmes.github.io/shell/keybindings.js
 share/gnome-shell/extensions/gsconnect@andyholmes.github.io/shell/notification.js
 share/gnome-shell/extensions/gsconnect@andyholmes.github.io/shell/tooltip.js
 share/gnome-shell/extensions/gsconnect@andyholmes.github.io/stylesheet.css
+%%NLS%%share/locale/be/LC_MESSAGES/org.gnome.Shell.Extensions.GSConnect.mo
 %%NLS%%share/locale/cs/LC_MESSAGES/org.gnome.Shell.Extensions.GSConnect.mo
 %%NLS%%share/locale/de/LC_MESSAGES/org.gnome.Shell.Extensions.GSConnect.mo
 %%NLS%%share/locale/es/LC_MESSAGES/org.gnome.Shell.Extensions.GSConnect.mo
@@ -62,9 +65,9 @@ share/gnome-shell/extensions/gsconnect@andyholmes.github.io/stylesheet.css
 %%NLS%%share/locale/pl/LC_MESSAGES/org.gnome.Shell.Extensions.GSConnect.mo
 %%NLS%%share/locale/pt_BR/LC_MESSAGES/org.gnome.Shell.Extensions.GSConnect.mo
 %%NLS%%share/locale/ru/LC_MESSAGES/org.gnome.Shell.Extensions.GSConnect.mo
+%%NLS%%share/locale/sk/LC_MESSAGES/org.gnome.Shell.Extensions.GSConnect.mo
 %%NLS%%share/locale/sr/LC_MESSAGES/org.gnome.Shell.Extensions.GSConnect.mo
 %%NLS%%share/locale/sr@latin/LC_MESSAGES/org.gnome.Shell.Extensions.GSConnect.mo
 %%NLS%%share/locale/tr/LC_MESSAGES/org.gnome.Shell.Extensions.GSConnect.mo
-%%NLS%%share/locale/zh_CN/LC_MESSAGES/org.gnome.Shell.Extensions.GSConnect.mo
+%%NLS%%share/locale/zh/LC_MESSAGES/org.gnome.Shell.Extensions.GSConnect.mo
 share/nautilus-python/extensions/nautilus-gsconnect.py
-
