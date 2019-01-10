@@ -215,6 +215,7 @@
     SUBDIR += mysql-connector-c
     SUBDIR += mysql-connector-c++
     SUBDIR += mysql-connector-java
+    SUBDIR += mysql-connector-java51
     SUBDIR += mysql-connector-odbc
     SUBDIR += mysql-q4m
     SUBDIR += mysql-udf
@@ -274,6 +275,7 @@
     SUBDIR += p5-CGI-Session-Driver-memcached
     SUBDIR += p5-CHI-Driver-Memcached
     SUBDIR += p5-CHI-Driver-Redis
+    SUBDIR += p5-CHI-Driver-TokyoTyrant
     SUBDIR += p5-Cache-BDB
     SUBDIR += p5-Cache-Memcached
     SUBDIR += p5-Cache-Memcached-Fast
@@ -346,6 +348,7 @@
     SUBDIR += p5-DBIx-Browse
     SUBDIR += p5-DBIx-Class
     SUBDIR += p5-DBIx-Class-AsFdat
+    SUBDIR += p5-DBIx-Class-AuditLog
     SUBDIR += p5-DBIx-Class-BitField
     SUBDIR += p5-DBIx-Class-Candy
     SUBDIR += p5-DBIx-Class-Cursor-Cached
@@ -363,6 +366,7 @@
     SUBDIR += p5-DBIx-Class-InflateColumn-Authen-Passphrase
     SUBDIR += p5-DBIx-Class-InflateColumn-FS
     SUBDIR += p5-DBIx-Class-InflateColumn-IP
+    SUBDIR += p5-DBIx-Class-InflateColumn-Serializer
     SUBDIR += p5-DBIx-Class-IntrospectableM2M
     SUBDIR += p5-DBIx-Class-Loader
     SUBDIR += p5-DBIx-Class-Migration
@@ -375,6 +379,7 @@
     SUBDIR += p5-DBIx-Class-Schema-Config
     SUBDIR += p5-DBIx-Class-Schema-Loader
     SUBDIR += p5-DBIx-Class-Schema-PopulateMore
+    SUBDIR += p5-DBIx-Class-Storage-TxnEndHook
     SUBDIR += p5-DBIx-Class-TimeStamp
     SUBDIR += p5-DBIx-Class-Tree
     SUBDIR += p5-DBIx-Class-Tree-NestedSet
@@ -498,6 +503,7 @@
     SUBDIR += p5-Scope-Container-DBI
     SUBDIR += p5-Search-InvertedIndex
     SUBDIR += p5-Search-Namazu
+    SUBDIR += p5-Search-Xapian
     SUBDIR += p5-Search-Xapian10
     SUBDIR += p5-Search-Xapian12
     SUBDIR += p5-Store-CouchDB
@@ -612,8 +618,8 @@
     SUBDIR += pguri
     SUBDIR += pgworksheet
     SUBDIR += php-memcache
+    SUBDIR += php-tarantool
     SUBDIR += php-xapian
-    SUBDIR += php7-tarantool
     SUBDIR += php71-dba
     SUBDIR += php71-interbase
     SUBDIR += php71-mysqli
@@ -700,14 +706,6 @@
     SUBDIR += postgresql10-plpython
     SUBDIR += postgresql10-pltcl
     SUBDIR += postgresql10-server
-    SUBDIR += postgresql93-client
-    SUBDIR += postgresql93-contrib
-    SUBDIR += postgresql93-docs
-    SUBDIR += postgresql93-pgtcl
-    SUBDIR += postgresql93-plperl
-    SUBDIR += postgresql93-plpython
-    SUBDIR += postgresql93-pltcl
-    SUBDIR += postgresql93-server
     SUBDIR += postgresql94-client
     SUBDIR += postgresql94-contrib
     SUBDIR += postgresql94-docs
@@ -791,6 +789,7 @@
     SUBDIR += py-leveldb
     SUBDIR += py-lmdb
     SUBDIR += py-marshmallow-sqlalchemy
+    SUBDIR += py-mongoengine
     SUBDIR += py-motor
     SUBDIR += py-mycli
     SUBDIR += py-mysql-connector-python

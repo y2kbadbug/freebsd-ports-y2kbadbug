@@ -284,6 +284,7 @@
     SUBDIR += msdl
     SUBDIR += msopenh264
     SUBDIR += mswebrtc
+    SUBDIR += musikcube
     SUBDIR += mxflib
     SUBDIR += mythtv
     SUBDIR += mythtv-frontend
@@ -450,7 +451,6 @@
     SUBDIR += vdr-plugins
     SUBDIR += vid.stab
     SUBDIR += vlc
-    SUBDIR += vlc3
     SUBDIR += vtkmpeg2encode
     SUBDIR += w_scan
     SUBDIR += webcamd
