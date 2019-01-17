@@ -1270,6 +1270,7 @@
     SUBDIR += jech-dht
     SUBDIR += jenkins
     SUBDIR += jenkins-lts
+    SUBDIR += jetbrains-phpstorm
     SUBDIR += jfrog-cli
     SUBDIR += jiic
     SUBDIR += jiri
@@ -1624,6 +1625,7 @@
     SUBDIR += libversion
     SUBDIR += libvhdi
     SUBDIR += libvirt
+    SUBDIR += libvirt-dbus
     SUBDIR += libvirt-glib
     SUBDIR += libvirt-java
     SUBDIR += libvmdk
@@ -2250,6 +2252,7 @@
     SUBDIR += p5-Data-ACL
     SUBDIR += p5-Data-Alias
     SUBDIR += p5-Data-Average
+    SUBDIR += p5-Data-Binary
     SUBDIR += p5-Data-Bind
     SUBDIR += p5-Data-Capture
     SUBDIR += p5-Data-ClearSilver-HDF
@@ -4608,7 +4611,9 @@
     SUBDIR += py-isort
     SUBDIR += py-iterpipes
     SUBDIR += py-itypes
+    SUBDIR += py-jaraco
     SUBDIR += py-jaraco.classes
+    SUBDIR += py-jaraco.context
     SUBDIR += py-jaraco.functools
     SUBDIR += py-jaraco.itertools
     SUBDIR += py-jaraco.logging
@@ -4685,6 +4690,7 @@
     SUBDIR += py-logutils
     SUBDIR += py-louie
     SUBDIR += py-lxml
+    SUBDIR += py-macholib
     SUBDIR += py-magic
     SUBDIR += py-mailcap-fix
     SUBDIR += py-manuel
@@ -5370,6 +5376,7 @@
     SUBDIR += qt5-qdoc
     SUBDIR += qt5-qdoc-data
     SUBDIR += qt5-qmake
+    SUBDIR += qt5-remoteobjects
     SUBDIR += qt5-script
     SUBDIR += qt5-scripttools
     SUBDIR += qt5-scxml
@@ -5415,6 +5422,7 @@
     SUBDIR += root-doc
     SUBDIR += rote
     SUBDIR += rpc2
+    SUBDIR += rpclib
     SUBDIR += rpm-spec-mode.el
     SUBDIR += rsvndump
     SUBDIR += rth
@@ -5827,7 +5835,9 @@
     SUBDIR += rubygem-parser
     SUBDIR += rubygem-pastel
     SUBDIR += rubygem-patch_finder
+    SUBDIR += rubygem-pathspec
     SUBDIR += rubygem-pathutil
+    SUBDIR += rubygem-pdk
     SUBDIR += rubygem-peek
     SUBDIR += rubygem-peek-rails50
     SUBDIR += rubygem-peek-gc-rails50
