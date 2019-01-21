@@ -543,6 +543,7 @@
     SUBDIR += jkill
     SUBDIR += jobd
     SUBDIR += jps
+    SUBDIR += jruls
     SUBDIR += jstest-gtk
     SUBDIR += jtop
     SUBDIR += jtopen
@@ -622,6 +623,7 @@
     SUBDIR += lsof
     SUBDIR += lsop
     SUBDIR += lsyncd
+    SUBDIR += ltfs
     SUBDIR += ltrace
     SUBDIR += lttng-tools
     SUBDIR += lttng-ust
