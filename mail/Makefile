@@ -99,7 +99,6 @@
     SUBDIR += dovecot-pigeonhole
     SUBDIR += dovecot-pigeonhole04
     SUBDIR += dovecot22
-    SUBDIR += drac
     SUBDIR += dspam
     SUBDIR += ecartis
     SUBDIR += elm
@@ -654,6 +653,7 @@
     SUBDIR += smtpfeed
     SUBDIR += smtpmail
     SUBDIR += smtprc
+    SUBDIR += smtprelay
     SUBDIR += smtptrapd
     SUBDIR += sortmail
     SUBDIR += spamass-ixhash
