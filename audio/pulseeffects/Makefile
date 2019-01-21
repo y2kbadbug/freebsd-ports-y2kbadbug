@@ -2,7 +2,7 @@
 
 PORTNAME=	pulseeffects
 DISTVERSIONPREFIX=	v
-DISTVERSION=	4.4.3
+DISTVERSION=	4.4.6
 CATEGORIES=	audio
 
 MAINTAINER=	daniel@shafer.cc
@@ -68,6 +68,7 @@ GLIB_SCHEMAS=	com.github.wwmm.pulseeffects.gschema.xml \
 		com.github.wwmm.pulseeffects.sinkinputs.maximizer.gschema.xml \
 		com.github.wwmm.pulseeffects.sinkinputs.multibandcompressor.gschema.xml \
 		com.github.wwmm.pulseeffects.sinkinputs.multibandgate.gschema.xml \
+		com.github.wwmm.pulseeffects.sinkinputs.pitch.gschema.xml \
 		com.github.wwmm.pulseeffects.sinkinputs.reverb.gschema.xml \
 		com.github.wwmm.pulseeffects.sinkinputs.stereotools.gschema.xml \
 		com.github.wwmm.pulseeffects.sourceoutputs.compressor.gschema.xml \
