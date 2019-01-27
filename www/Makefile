@@ -1075,6 +1075,7 @@
     SUBDIR += p5-Net-Amazon-AWIS
     SUBDIR += p5-Net-Async-FastCGI
     SUBDIR += p5-Net-Async-HTTP
+    SUBDIR += p5-Net-Curl
     SUBDIR += p5-Net-FastCGI
     SUBDIR += p5-Net-FireEagle
     SUBDIR += p5-Net-Flickr-API
@@ -1561,6 +1562,7 @@
     SUBDIR += py-django-mezzanine-filebrowser
     SUBDIR += py-django-mezzanine-grappelli
     SUBDIR += py-django-model-utils
+    SUBDIR += py-django-modelcluster
     SUBDIR += py-django-modern-rpc
     SUBDIR += py-django-mptt
     SUBDIR += py-django-netfields
@@ -1619,6 +1621,7 @@
     SUBDIR += py-djangorestframework36
     SUBDIR += py-djangotoolbox
     SUBDIR += py-dojango
+    SUBDIR += py-draftjs_exporter
     SUBDIR += py-drf-yasg
     SUBDIR += py-dtflickr
     SUBDIR += py-evernote
