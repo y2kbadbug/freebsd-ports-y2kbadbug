@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	nzbhydra2
-DISTVERSION=	2.2.0
+DISTVERSION=	2.3.2
 CATEGORIES=	news java
 MASTER_SITES=	https://github.com/theotherp/${PORTNAME}/releases/download/v${DISTVERSION}/
 DISTNAME=	${PORTNAME}-${DISTVERSION}-linux
@@ -25,7 +25,7 @@ SUB_FILES=	nzbhydra2 nzbhydra2wrapper.py
 SUB_LIST=	PYTHON_CMD=${PYTHON_CMD} \
 		JAVA=${JAVA}
 
-JAVA_VERSION=	1.8 1.9 1.10
+JAVA_VERSION=	1.8 1.9 1.10 1.11
 JAVA_VENDOR=	openjdk
 JAVA_RUN=	yes
 
