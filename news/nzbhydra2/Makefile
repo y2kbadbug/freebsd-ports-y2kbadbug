@@ -32,7 +32,7 @@ JAVA_RUN=	yes
 USERS=		nzbhydra2
 GROUPS=		nzbhydra2
 
-PLIST_FILES=	${DATADIR}/lib/core-2.2.0-exec.jar \
+PLIST_FILES=	${DATADIR}/lib/core-2.3.2-exec.jar \
 		${DATADIR}/nzbhydra2 \
 		${DATADIR}/nzbhydra2wrapper.py \
 		${DATADIR}/changelog.md \
