@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	nzbhydra2
-DISTVERSION=	2.3.2
+DISTVERSION=	2.3.3
 CATEGORIES=	news java
 MASTER_SITES=	https://github.com/theotherp/${PORTNAME}/releases/download/v${DISTVERSION}/
 DISTNAME=	${PORTNAME}-${DISTVERSION}-linux
@@ -32,7 +32,7 @@ JAVA_RUN=	yes
 USERS=		nzbhydra2
 GROUPS=		nzbhydra2
 
-PLIST_FILES=	${DATADIR}/lib/core-2.3.2-exec.jar \
+PLIST_FILES=	${DATADIR}/lib/core-2.3.3-exec.jar \
 		${DATADIR}/nzbhydra2 \
 		${DATADIR}/nzbhydra2wrapper.py \
 		${DATADIR}/changelog.md \
