@@ -194,6 +194,7 @@
     SUBDIR += confman
     SUBDIR += conky
     SUBDIR += conky-awesome
+    SUBDIR += conman
     SUBDIR += consolehm
     SUBDIR += consolekit2
     SUBDIR += consul
@@ -606,6 +607,7 @@
     SUBDIR += linux-crashplan
     SUBDIR += linuxfdisk
     SUBDIR += livecd
+    SUBDIR += lizardfs
     SUBDIR += lmmon
     SUBDIR += lmon
     SUBDIR += lnav
@@ -1009,7 +1011,6 @@
     SUBDIR += py-azure-cli-vm
     SUBDIR += py-bcfg2
     SUBDIR += py-cdmi
-    SUBDIR += py-consul
     SUBDIR += py-croniter
     SUBDIR += py-crontab
     SUBDIR += py-diffoscope
@@ -1045,6 +1046,7 @@
     SUBDIR += py-psutil
     SUBDIR += py-psutil121
     SUBDIR += py-ptyprocess
+    SUBDIR += py-python-consul
     SUBDIR += py-python-nomad
     SUBDIR += py-pytsk
     SUBDIR += py-pywatchman
