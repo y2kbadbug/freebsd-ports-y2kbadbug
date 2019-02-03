@@ -19,7 +19,7 @@ RUN_DEPENDS=	gnome-shell>=3.28:x11/gnome-shell \
 		${PYTHON_PKGNAMEPREFIX}requests>0:www/py-requests@${PY_FLAVOR} \
 		unzip>=6.0:archivers/unzip
 
-USES=           cmake:outsource gnome python tar:xz
+USES=           cmake gnome python tar:xz
 USE_GNOME=      pygobject3
 
 CMAKE_OFF=	BUILD_EXTENSION
