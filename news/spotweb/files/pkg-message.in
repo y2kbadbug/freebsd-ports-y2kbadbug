@@ -1,0 +1,17 @@
+*****************************************************************
+You will also need to configure Apache.  Consider adding the following
+to your httpd.conf:
+
+     Alias /spotweb "%%WWWDIR%%/"
+
+    <Directory "%%WWWDIR%%">
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride All
+        Require all granted
+    </Directory>
+
+Then restart Apache: 'apachectl graceful'
+
+Please visit 'http://localhost/spotweb/install.php' in a
+web-browser and follow the configuration instructions.
+*****************************************************************
