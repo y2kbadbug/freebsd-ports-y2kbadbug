@@ -417,6 +417,7 @@
     SUBDIR += libcss
     SUBDIR += libcsv
     SUBDIR += libcue
+    SUBDIR += libcyaml
     SUBDIR += libdiff
     SUBDIR += libe-book
     SUBDIR += libebml
@@ -435,6 +436,7 @@
     SUBDIR += liblrdf
     SUBDIR += libmrss
     SUBDIR += libmwaw03
+    SUBDIR += libnumbertext
     SUBDIR += libnxml
     SUBDIR += libodfgen01
     SUBDIR += libparsifal
@@ -1370,6 +1372,7 @@
     SUBDIR += py-pygtail
     SUBDIR += py-pyhamcrest
     SUBDIR += py-pyhwp
+    SUBDIR += py-pyjade
     SUBDIR += py-pylons-sphinx-themes
     SUBDIR += py-pypa-docs-theme
     SUBDIR += py-pypandoc
@@ -1410,6 +1413,7 @@
     SUBDIR += py-sphinx-hieroglyph
     SUBDIR += py-sphinx-intl
     SUBDIR += py-sphinx-me
+    SUBDIR += py-sphinx-tabs
     SUBDIR += py-sphinx_numfig
     SUBDIR += py-sphinx_rtd_theme
     SUBDIR += py-sphinx_wikipedia
@@ -1477,6 +1481,7 @@
     SUBDIR += rarian
     SUBDIR += rasqal
     SUBDIR += re_graph
+    SUBDIR += re-flex
     SUBDIR += redet
     SUBDIR += redland
     SUBDIR += redland-bindings

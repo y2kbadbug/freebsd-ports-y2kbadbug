@@ -364,8 +364,6 @@ FreeBSD_MAINTAINER=	portmgr@FreeBSD.org
 #				 Append the cxxflags to CXXFLAGS only on the specified architecture
 ##
 # LDFLAGS_${ARCH} Append the ldflags to LDFLAGS only on the specified architecture
-# USE_SDL		- If set, this port uses the sdl libraries.
-#				  See bsd.sdl.mk for more information.
 ##
 # USE_OPENLDAP	- If set, this port uses the OpenLDAP libraries.
 #				  Implies: WANT_OPENLDAP_VER?=24
@@ -1425,6 +1423,11 @@ DEV_WARNING+=	"Using USE_GL alone is deprecated, please add USES=gl."
 USES+=	gl
 .endif
 
+.if defined(USE_SDL) && (!defined(USES) || !${USES:Msdl})
+DEV_WARNING+=	"Using USE_SDL alone is deprecated, please add USES=sdl."
+USES+=	sdl
+.endif
+
 .if defined(USE_MYSQL)
 USE_MYSQL:=		${USE_MYSQL:N[yY][eE][sS]:Nclient}
 .if defined(WANT_MYSQL_VER)
@@ -1443,10 +1446,6 @@ USES+=mysql:${USE_MYSQL}
 
 .if defined(WANT_GSTREAMER) || defined(USE_GSTREAMER) || defined(USE_GSTREAMER1)
 .include "${PORTSDIR}/Mk/bsd.gstreamer.mk"
-.endif
-
-.if defined(USE_SDL)
-.include "${PORTSDIR}/Mk/bsd.sdl.mk"
 .endif
 
 .if !defined(UID)
@@ -1942,10 +1941,6 @@ _FORCE_POST_PATTERNS=	rmdir kldxref mkfontscale mkfontdir fc-cache \
 
 .if defined(USE_OCAML)
 .include "${PORTSDIR}/Mk/bsd.ocaml.mk"
-.endif
-
-.if defined(USE_SDL)
-.include "${PORTSDIR}/Mk/bsd.sdl.mk"
 .endif
 
 .if defined(USE_PHP) && (!defined(USES) || ( defined(USES) && !${USES:Mphp*} ))
@@ -3441,7 +3436,7 @@ install-package:
 .if !target(check-already-installed)
 .if !defined(NO_PKG_REGISTER) && !defined(FORCE_PKG_REGISTER)
 check-already-installed:
-		@${ECHO_MSG} "===>  Checking if ${PKGBASE} already installed"; \
+		@${ECHO_MSG} "===>  Checking if ${PKGBASE} is already installed"; \
 		pkgname=`${PKG_INFO} -q -O ${PKGBASE}`; \
 		if [ -n "$${pkgname}" ]; then \
 			v=`${PKG_VERSION} -t $${pkgname} ${PKGNAME}`; \
@@ -3871,7 +3866,7 @@ _CHECKSUM_INIT_ENV= \
 # the options consistent when fetching and when makesum'ing.
 # As we're fetching new distfiles, that are not in the distinfo file, disable
 # checksum and sizes checks.
-makesum:
+makesum: check-sanity
 .if !empty(DISTFILES)
 	@${SETENV} \
 			${_DO_FETCH_ENV} ${_MASTER_SITES_ENV} \

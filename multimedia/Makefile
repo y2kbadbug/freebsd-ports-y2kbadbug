@@ -355,7 +355,6 @@
     SUBDIR += py-soco
     SUBDIR += py-subliminal
     SUBDIR += py-tvnamer
-    SUBDIR += pyjama
     SUBDIR += pymp
     SUBDIR += qmmp
     SUBDIR += qmmp-plugin-pack
@@ -401,6 +400,9 @@
     SUBDIR += subtitleoffsetmodifier
     SUBDIR += subtitleripper
     SUBDIR += subtools
+    SUBDIR += svt-av1
+    SUBDIR += svt-hevc
+    SUBDIR += svt-vp9
     SUBDIR += swfdec-gnome
     SUBDIR += syncplay
     SUBDIR += szap-s2

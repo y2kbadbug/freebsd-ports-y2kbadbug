@@ -108,7 +108,9 @@
     SUBDIR += pipelight
     SUBDIR += playonbsd
     SUBDIR += ppsspp
+    SUBDIR += ppsspp-devel
     SUBDIR += ppsspp-qt5
+    SUBDIR += ppsspp-qt5-devel
     SUBDIR += py-gns3-converter
     SUBDIR += py-unicorn
     SUBDIR += q4wine
@@ -135,6 +137,7 @@
     SUBDIR += stella
     SUBDIR += stonx
     SUBDIR += swine
+    SUBDIR += teo
     SUBDIR += tiemu3
     SUBDIR += tilem
     SUBDIR += tme

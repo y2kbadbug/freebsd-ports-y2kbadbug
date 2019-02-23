@@ -137,6 +137,7 @@
     SUBDIR += ldb
     SUBDIR += ldb12
     SUBDIR += ldb13
+    SUBDIR += ldb14
     SUBDIR += leo_center
     SUBDIR += leofs
     SUBDIR += leveldb
@@ -801,6 +802,7 @@
     SUBDIR += py-oursql
     SUBDIR += py-peewee
     SUBDIR += py-pg8000
+    SUBDIR += py-pg8000-112
     SUBDIR += py-pg_pqueue
     SUBDIR += py-pgcli
     SUBDIR += py-pgdbconn

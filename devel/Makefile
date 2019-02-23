@@ -357,6 +357,7 @@
     SUBDIR += cons-test
     SUBDIR += containers
     SUBDIR += cook
+    SUBDIR += corrade
     SUBDIR += courier-unicode
     SUBDIR += coursier
     SUBDIR += covtool
@@ -478,6 +479,7 @@
     SUBDIR += doctorj
     SUBDIR += dolphin-plugins
     SUBDIR += dotconf
+    SUBDIR += double-conversion
     SUBDIR += doxygen
     SUBDIR += dparser
     SUBDIR += dprog
@@ -759,7 +761,6 @@
     SUBDIR += generatorrunner
     SUBDIR += gengetopt
     SUBDIR += genproto
-    SUBDIR += geoip-java
     SUBDIR += gettext
     SUBDIR += gettext-lint
     SUBDIR += gettext-msghack
@@ -771,6 +772,7 @@
     SUBDIR += gindent
     SUBDIR += gio-sharp
     SUBDIR += git
+    SUBDIR += git-absorb
     SUBDIR += git-bzr-ng
     SUBDIR += git-cinnabar
     SUBDIR += git-codereview
@@ -814,6 +816,7 @@
     SUBDIR += glslang
     SUBDIR += glui
     SUBDIR += gmake
+    SUBDIR += gn
     SUBDIR += gnatcoll
     SUBDIR += gnatpython
     SUBDIR += gnome-builder
@@ -850,7 +853,6 @@
     SUBDIR += go-raw
     SUBDIR += go-runewidth
     SUBDIR += go-slices
-    SUBDIR += go-sql-driver
     SUBDIR += go-tools
     SUBDIR += go-uuid
     SUBDIR += go-yaml
@@ -1202,8 +1204,6 @@
     SUBDIR += hs-utf8-light
     SUBDIR += hs-utf8-string
     SUBDIR += hs-utility-ht
-    SUBDIR += hs-uuagc
-    SUBDIR += hs-uuagc-bootstrap
     SUBDIR += hs-uuagc-cabal
     SUBDIR += hs-uuid
     SUBDIR += hs-uuid-types
@@ -1383,6 +1383,7 @@
     SUBDIR += libbonobo-reference
     SUBDIR += libbson
     SUBDIR += libburn
+    SUBDIR += libcbor
     SUBDIR += libccid
     SUBDIR += libcfg
     SUBDIR += libcfu
@@ -1415,7 +1416,6 @@
     SUBDIR += libdlna
     SUBDIR += libdnsres
     SUBDIR += libdombey
-    SUBDIR += libdouble-conversion
     SUBDIR += libdparse
     SUBDIR += libds
     SUBDIR += libdsp
@@ -1887,9 +1887,7 @@
     SUBDIR += ois
     SUBDIR += okteta
     SUBDIR += omake
-    SUBDIR += omniNotify
     SUBDIR += omniORB
-    SUBDIR += omniORB-4.1
     SUBDIR += omnisharp-server
     SUBDIR += oniguruma
     SUBDIR += oozie
@@ -3237,6 +3235,7 @@
     SUBDIR += p5-Perl-OSType
     SUBDIR += p5-Perl-PrereqScanner
     SUBDIR += p5-Perl-PrereqScanner-Lite
+    SUBDIR += p5-Perl-PrereqScanner-NotQuiteLite
     SUBDIR += p5-Perl-Tidy
     SUBDIR += p5-Perl-Unsafe-Signals
     SUBDIR += p5-Perl-Version
@@ -3312,6 +3311,7 @@
     SUBDIR += p5-Regexp-RegGrp
     SUBDIR += p5-Regexp-Shellish
     SUBDIR += p5-Regexp-Subst-Parallel
+    SUBDIR += p5-Regexp-Trie
     SUBDIR += p5-Religion
     SUBDIR += p5-Reply
     SUBDIR += p5-ResourcePool
@@ -3478,6 +3478,8 @@
     SUBDIR += p5-Term-ANSIScreen
     SUBDIR += p5-Term-Animation
     SUBDIR += p5-Term-CallEditor
+    SUBDIR += p5-Term-Choose
+    SUBDIR += p5-Term-Choose-Util
     SUBDIR += p5-Term-Clui
     SUBDIR += p5-Term-EditLine
     SUBDIR += p5-Term-Encoding
@@ -3503,6 +3505,7 @@
     SUBDIR += p5-Term-Size-Perl
     SUBDIR += p5-Term-Sk
     SUBDIR += p5-Term-Table
+    SUBDIR += p5-Term-TablePrint
     SUBDIR += p5-Term-Title
     SUBDIR += p5-Term-UI
     SUBDIR += p5-Term-VT102
@@ -4292,6 +4295,7 @@
     SUBDIR += py-ZopeUndo
     SUBDIR += py-adb
     SUBDIR += py-aenum
+    SUBDIR += py-aiofiles
     SUBDIR += py-aioice
     SUBDIR += py-aiorpcX
     SUBDIR += py-aiortc
@@ -4320,6 +4324,7 @@
     SUBDIR += py-args
     SUBDIR += py-arpeggio
     SUBDIR += py-arrow
+    SUBDIR += py-asciimatics
     SUBDIR += py-asn1crypto
     SUBDIR += py-aspects
     SUBDIR += py-aspyct
@@ -4337,6 +4342,7 @@
     SUBDIR += py-attrs
     SUBDIR += py-automaton
     SUBDIR += py-avro
+    SUBDIR += py-aws-xray-sdk
     SUBDIR += py-azure-batch
     SUBDIR += py-azure-datalake-store
     SUBDIR += py-azure-graphrbac
@@ -4389,6 +4395,7 @@
     SUBDIR += py-azure-mgmt-servicefabric
     SUBDIR += py-azure-mgmt-signalr
     SUBDIR += py-azure-mgmt-sql
+    SUBDIR += py-azure-mgmt-sqlvirtualmachine
     SUBDIR += py-azure-mgmt-storage
     SUBDIR += py-azure-mgmt-trafficmanager
     SUBDIR += py-azure-mgmt-web
@@ -4513,6 +4520,7 @@
     SUBDIR += py-dal
     SUBDIR += py-darcsver
     SUBDIR += py-darts.util.lru
+    SUBDIR += py-datatest
     SUBDIR += py-dateutil
     SUBDIR += py-dateutils
     SUBDIR += py-datrie
@@ -4639,6 +4647,9 @@
     SUBDIR += py-google-apputils
     SUBDIR += py-googleapis-common-protos
     SUBDIR += py-grab
+    SUBDIR += py-graphene
+    SUBDIR += py-graphql-core
+    SUBDIR += py-graphql-relay
     SUBDIR += py-greenlet
     SUBDIR += py-grizzled
     SUBDIR += py-grouch
@@ -4704,11 +4715,13 @@
     SUBDIR += py-json-py
     SUBDIR += py-json-sempai
     SUBDIR += py-json_tricks
+    SUBDIR += py-jsondiff
     SUBDIR += py-jsonform
     SUBDIR += py-jsonlib
     SUBDIR += py-jsonlib2
     SUBDIR += py-jsonlines
     SUBDIR += py-jsonpatch
+    SUBDIR += py-jsonpath-rw
     SUBDIR += py-jsonpickle
     SUBDIR += py-jsonpointer
     SUBDIR += py-jsonref
@@ -4732,6 +4745,7 @@
     SUBDIR += py-kjbuckets
     SUBDIR += py-knack
     SUBDIR += py-kqueue
+    SUBDIR += py-lark-parser
     SUBDIR += py-lazr.config
     SUBDIR += py-lazr.delegates
     SUBDIR += py-lazy
@@ -4787,6 +4801,7 @@
     SUBDIR += py-mox
     SUBDIR += py-mox3
     SUBDIR += py-msgpack
+    SUBDIR += py-msgpack05
     SUBDIR += py-multi_key_dict
     SUBDIR += py-multipledispatch
     SUBDIR += py-multiprocess
@@ -4800,6 +4815,7 @@
     SUBDIR += py-mypy_extensions
     SUBDIR += py-nagioscheck
     SUBDIR += py-naiveBayesClassifier
+    SUBDIR += py-nanotime
     SUBDIR += py-natsort
     SUBDIR += py-natural
     SUBDIR += py-nbconvert
@@ -4822,7 +4838,6 @@
     SUBDIR += py-oletools
     SUBDIR += py-omnijson
     SUBDIR += py-omniorb
-    SUBDIR += py-omniorb-3
     SUBDIR += py-openapi-codec
     SUBDIR += py-opendht
     SUBDIR += py-opengrok-tools
@@ -4912,6 +4927,8 @@
     SUBDIR += py-pretend
     SUBDIR += py-prettytable
     SUBDIR += py-prioritized_methods
+    SUBDIR += py-proglog
+    SUBDIR += py-promise
     SUBDIR += py-prompt_toolkit
     SUBDIR += py-prompt_toolkit2
     SUBDIR += py-protobuf
@@ -5107,6 +5124,7 @@
     SUBDIR += py-ruamel.yaml
     SUBDIR += py-rubymarshal
     SUBDIR += py-rwt
+    SUBDIR += py-rx
     SUBDIR += py-sanetime
     SUBDIR += py-sarge
     SUBDIR += py-schema
@@ -5390,6 +5408,8 @@
     SUBDIR += pyrex
     SUBDIR += pyside
     SUBDIR += pyside-tools
+    SUBDIR += pyside2
+    SUBDIR += pyside2-tools
     SUBDIR += pyst
     SUBDIR += pysvn
     SUBDIR += pythk
@@ -5487,6 +5507,7 @@
     SUBDIR += regexxer
     SUBDIR += relx
     SUBDIR += remake
+    SUBDIR += remotery
     SUBDIR += replay
     SUBDIR += replxx
     SUBDIR += resolv_wrapper
@@ -6230,6 +6251,7 @@
     SUBDIR += shflags
     SUBDIR += shfmt
     SUBDIR += shiboken
+    SUBDIR += shiboken2
     SUBDIR += shmap
     SUBDIR += shtk
     SUBDIR += shtool

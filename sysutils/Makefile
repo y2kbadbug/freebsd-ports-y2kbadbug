@@ -56,7 +56,9 @@
     SUBDIR += asmem
     SUBDIR += asmon
     SUBDIR += asusoled
-    SUBDIR += atf-allwinner
+    SUBDIR += atf-master
+    SUBDIR += atf-sun50i_a64
+    SUBDIR += atf-rk3399
     SUBDIR += atitvout
     SUBDIR += atop
     SUBDIR += auto-admin
@@ -95,6 +97,7 @@
     SUBDIR += bareos16-client-static
     SUBDIR += bareos16-server
     SUBDIR += bareos16-traymonitor
+    SUBDIR += bastille
     SUBDIR += batmon
     SUBDIR += battmond
     SUBDIR += battray
@@ -216,10 +219,10 @@
     SUBDIR += cpupdate
     SUBDIR += cramfs
     SUBDIR += crashme
-    SUBDIR += createrepo
     SUBDIR += cronic
     SUBDIR += cronolog
     SUBDIR += cronolog-devel
+    SUBDIR += ctop
     SUBDIR += curly
     SUBDIR += currtime
     SUBDIR += cw
@@ -396,13 +399,13 @@
     SUBDIR += fusefs-rar2fs
     SUBDIR += fusefs-s3backer
     SUBDIR += fusefs-s3fs
+    SUBDIR += fusefs-sandboxfs
     SUBDIR += fusefs-simple-mtpfs
     SUBDIR += fusefs-smbnetfs
     SUBDIR += fusefs-sqlfs
     SUBDIR += fusefs-squashfuse
     SUBDIR += fusefs-sshfs
     SUBDIR += fusefs-unionfs
-    SUBDIR += fusefs-wdfs
     SUBDIR += fusefs-webdavfs
     SUBDIR += fusefs-wikipediafs
     SUBDIR += fusefs-zip
@@ -491,12 +494,9 @@
     SUBDIR += hpacucli
     SUBDIR += hploscripts
     SUBDIR += hptcli
-    SUBDIR += hs-angel
     SUBDIR += hs-cpu
     SUBDIR += hs-disk-free-space
-    SUBDIR += hs-ekg
     SUBDIR += hs-ekg-core
-    SUBDIR += hs-ekg-json
     SUBDIR += hs-mountpoints
     SUBDIR += hstr
     SUBDIR += htop
@@ -645,6 +645,7 @@
     SUBDIR += magicrescue
     SUBDIR += manck
     SUBDIR += mapchan
+    SUBDIR += mapdir
     SUBDIR += massadmin
     SUBDIR += mate-control-center
     SUBDIR += mate-polkit
@@ -693,6 +694,7 @@
     SUBDIR += mkntpwd
     SUBDIR += mksunbootcd
     SUBDIR += mmc-utils
+    SUBDIR += mmve
     SUBDIR += mnrpes
     SUBDIR += modman
     SUBDIR += modules
@@ -753,6 +755,7 @@
     SUBDIR += npadmin
     SUBDIR += nq
     SUBDIR += nrg2iso
+    SUBDIR += ntfy
     SUBDIR += nut
     SUBDIR += nvclock
     SUBDIR += nvme-cli
@@ -1006,10 +1009,12 @@
     SUBDIR += py-azure-cli-servicefabric
     SUBDIR += py-azure-cli-signalr
     SUBDIR += py-azure-cli-sql
+    SUBDIR += py-azure-cli-sqlvm
     SUBDIR += py-azure-cli-storage
     SUBDIR += py-azure-cli-telemetry
     SUBDIR += py-azure-cli-vm
     SUBDIR += py-bcfg2
+    SUBDIR += py-bitrot
     SUBDIR += py-cdmi
     SUBDIR += py-croniter
     SUBDIR += py-crontab
@@ -1368,11 +1373,13 @@
     SUBDIR += u-boot-bananapim2
     SUBDIR += u-boot-beaglebone
     SUBDIR += u-boot-chip
+    SUBDIR += u-boot-clearfog
     SUBDIR += u-boot-cubieboard
     SUBDIR += u-boot-cubieboard2
     SUBDIR += u-boot-cubox-hummingboard
     SUBDIR += u-boot-duovero
     SUBDIR += u-boot-imx-serial-loader
+    SUBDIR += u-boot-firefly-rk3399
     SUBDIR += u-boot-master
     SUBDIR += u-boot-nanopi-a64
     SUBDIR += u-boot-nanopi-m1plus
@@ -1390,6 +1397,7 @@
     SUBDIR += u-boot-pandaboard
     SUBDIR += u-boot-pcduino3
     SUBDIR += u-boot-pine64
+    SUBDIR += u-boot-pine64-lts
     SUBDIR += u-boot-pinebook
     SUBDIR += u-boot-riotboard
     SUBDIR += u-boot-rpi
@@ -1503,6 +1511,7 @@
     SUBDIR += xfce4-diskperf-plugin
     SUBDIR += xfce4-fsguard-plugin
     SUBDIR += xfce4-genmon-plugin
+    SUBDIR += xfce4-kbdleds-plugin
     SUBDIR += xfce4-mount-plugin
     SUBDIR += xfce4-netload-plugin
     SUBDIR += xfce4-power-manager
@@ -1521,7 +1530,6 @@
     SUBDIR += xvidcap
     SUBDIR += yadm
     SUBDIR += yank
-    SUBDIR += yum
     SUBDIR += zap
     SUBDIR += zbackup
     SUBDIR += zeitgeist

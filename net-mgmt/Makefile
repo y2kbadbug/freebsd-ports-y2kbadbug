@@ -83,9 +83,6 @@
     SUBDIR += gsnmp
     SUBDIR += guifi-snpservices
     SUBDIR += hastmon
-    SUBDIR += icinga
-    SUBDIR += icinga-classicweb
-    SUBDIR += icinga-core
     SUBDIR += icinga2
     SUBDIR += icingaweb2
     SUBDIR += icingaweb2-module-businessprocess
@@ -98,7 +95,6 @@
     SUBDIR += icingaweb2-module-graphite
     SUBDIR += icingaweb2-module-map
     SUBDIR += icingaweb2-module-vsphere
-    SUBDIR += icli
     SUBDIR += icmpmonitor
     SUBDIR += icmpquery
     SUBDIR += iftop
@@ -296,7 +292,6 @@
     SUBDIR += pktstat
     SUBDIR += pmacct
     SUBDIR += pnp
-    SUBDIR += pnp-icinga
     SUBDIR += pnp-icinga2
     SUBDIR += portmon
     SUBDIR += prometheus-collectd-exporter
@@ -322,10 +317,10 @@
     SUBDIR += py-pynsca
     SUBDIR += py-pynxos
     SUBDIR += py-pysmi
+    SUBDIR += py-pysnmp
+    SUBDIR += py-pysnmp-apps
+    SUBDIR += py-pysnmp-mibs
     SUBDIR += py-pyzabbix
-    SUBDIR += py-snmp4
-    SUBDIR += py-snmp4-apps
-    SUBDIR += py-snmp4-mibs
     SUBDIR += py-snmp_passpersist
     SUBDIR += py-yapsnmp
     SUBDIR += qkismet

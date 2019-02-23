@@ -10,10 +10,12 @@
     SUBDIR += anyremote
     SUBDIR += apitran
     SUBDIR += aprsd
+    SUBDIR += ath3k-firmware
     SUBDIR += atslog
     SUBDIR += bfhist
     SUBDIR += bforce-kst
     SUBDIR += birda
+    SUBDIR += bladerf
     SUBDIR += bluegps
     SUBDIR += bluez-firmware
     SUBDIR += bpl+
@@ -151,6 +153,7 @@
     SUBDIR += qt5-serialport
     SUBDIR += qtel
     SUBDIR += quisk
+    SUBDIR += redsea
     SUBDIR += remserial
     SUBDIR += rtl-sdr
     SUBDIR += rubygem-callsign
@@ -166,6 +169,13 @@
     SUBDIR += sms_client
     SUBDIR += smstools3
     SUBDIR += snap7
+    SUBDIR += soapyairspy
+    SUBDIR += soapybladerf
+    SUBDIR += soapyplutosdr
+    SUBDIR += soapyredpitaya
+    SUBDIR += soapyremote
+    SUBDIR += soapysdrhackrf
+    SUBDIR += soapyuhd
     SUBDIR += spandsp
     SUBDIR += splat
     SUBDIR += sredird
