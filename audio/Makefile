@@ -151,6 +151,7 @@
     SUBDIR += fabla2-lv2
     SUBDIR += fapg
     SUBDIR += fasttracker2
+    SUBDIR += faudio
     SUBDIR += faust
     SUBDIR += faust-lv2
     SUBDIR += faustlive
@@ -245,6 +246,7 @@
     SUBDIR += gqradio
     SUBDIR += gradio
     SUBDIR += gramofile
+    SUBDIR += gsequencer
     SUBDIR += gsm
     SUBDIR += gsound
     SUBDIR += gstreamer-plugins-a52dec
@@ -662,6 +664,7 @@
     SUBDIR += pulseaudio
     SUBDIR += pulseaudio-module-sndio
     SUBDIR += pulseaudio-module-xrdp
+    SUBDIR += pulseeffects
     SUBDIR += py-SoundFile
     SUBDIR += py-al
     SUBDIR += py-ao
@@ -705,6 +708,7 @@
     SUBDIR += pytone
     SUBDIR += qjackctl
     SUBDIR += qmidiarp
+    SUBDIR += qmidictl
     SUBDIR += qmpdclient
     SUBDIR += qsampler
     SUBDIR += qsynth
@@ -903,6 +907,7 @@
     SUBDIR += zinf
     SUBDIR += zita-convolver
     SUBDIR += zita-resampler
+    SUBDIR += zrythm
     SUBDIR += zynaddsubfx
 
 .include <bsd.port.subdir.mk>

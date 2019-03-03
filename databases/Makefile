@@ -137,6 +137,7 @@
     SUBDIR += ldb
     SUBDIR += ldb12
     SUBDIR += ldb13
+    SUBDIR += ldb14
     SUBDIR += leo_center
     SUBDIR += leofs
     SUBDIR += leveldb
@@ -204,6 +205,7 @@
     SUBDIR += mongodb34-tools
     SUBDIR += mongodb36
     SUBDIR += mongodb36-tools
+    SUBDIR += mongodb40
     SUBDIR += mroonga
     SUBDIR += mrtg-mysql-load
     SUBDIR += mtools-mongodb
@@ -801,6 +803,7 @@
     SUBDIR += py-oursql
     SUBDIR += py-peewee
     SUBDIR += py-pg8000
+    SUBDIR += py-pg8000-112
     SUBDIR += py-pg_pqueue
     SUBDIR += py-pgcli
     SUBDIR += py-pgdbconn
@@ -846,7 +849,6 @@
     SUBDIR += py-sqlite3dbm
     SUBDIR += py-sqlobject
     SUBDIR += py-sqlparse
-    SUBDIR += py-sqlparse01
     SUBDIR += py-sqlparse020
     SUBDIR += py-sqlrelay
     SUBDIR += py-swift

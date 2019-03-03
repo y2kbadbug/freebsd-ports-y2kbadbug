@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	gcc
-PORTVERSION=	7.4.1.s20190131
+PORTVERSION=	7.4.1.s20190228
 CATEGORIES=	lang
 MASTER_SITES=	GCC/snapshots/${DIST_VERSION}
 PKGNAMESUFFIX=	${SUFFIX}-devel
@@ -69,7 +69,7 @@ USE_GCC=	5	# This port requires at least GCC 4.9, and we need
 			# USE_GCC=yes or USE_GCC=X+ are not an option).
 
 .elif ${ARCH} == powerpcspe
-CONFIGURE_ARGS+=	--with-cpu=8540 --enable-e500_double --without-fp
+CONFIGURE_ARGS+=	--with-cpu=8548 --enable-e500_double --without-fp
 .endif
 
 LANGUAGES:=	c,c++,objc,fortran
@@ -146,8 +146,8 @@ post-stage:
 	${RM} ${WRKDIR}/PLIST.lib
 
 .if ${ARCH} == powerpc64 && ${PORT_OPTIONS:MMULTILIB}
-	${MKDIR} ${STAGEDIR}${TARGLIB32}/gcc${SUFFIX}
-	${MV} ${STAGEDIR}${PREFIX}/lib/lib32/* ${STAGEDIR}${TARGLIB32}/gcc${SUFFIX}
+	${MKDIR} ${STAGEDIR}${TARGLIB32}
+	${MV} ${STAGEDIR}${PREFIX}/lib/lib32 ${STAGEDIR}${TARGLIB32}/gcc${SUFFIX}
 .endif
 
 .for d in ${TARGLIB:S/^${PREFIX}\///} ${TARGLIB32:S/^${PREFIX}\///} ${LIBEXEC:S/^${PREFIX}\///}

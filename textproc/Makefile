@@ -234,6 +234,7 @@
     SUBDIR += grc-aspell
     SUBDIR += greple
     SUBDIR += groff
+    SUBDIR += gron
     SUBDIR += groonga
     SUBDIR += gsed
     SUBDIR += gspell
@@ -417,6 +418,7 @@
     SUBDIR += libcss
     SUBDIR += libcsv
     SUBDIR += libcue
+    SUBDIR += libcyaml
     SUBDIR += libdiff
     SUBDIR += libe-book
     SUBDIR += libebml
@@ -435,6 +437,7 @@
     SUBDIR += liblrdf
     SUBDIR += libmrss
     SUBDIR += libmwaw03
+    SUBDIR += libnumbertext
     SUBDIR += libnxml
     SUBDIR += libodfgen01
     SUBDIR += libparsifal
@@ -1259,6 +1262,7 @@
     SUBDIR += ppower4
     SUBDIR += print-n-times
     SUBDIR += pugixml
+    SUBDIR += pup
     SUBDIR += pure-csv
     SUBDIR += pure-xml
     SUBDIR += py-Chameleon
@@ -1370,6 +1374,7 @@
     SUBDIR += py-pygtail
     SUBDIR += py-pyhamcrest
     SUBDIR += py-pyhwp
+    SUBDIR += py-pyjade
     SUBDIR += py-pylons-sphinx-themes
     SUBDIR += py-pypa-docs-theme
     SUBDIR += py-pypandoc
@@ -1410,6 +1415,7 @@
     SUBDIR += py-sphinx-hieroglyph
     SUBDIR += py-sphinx-intl
     SUBDIR += py-sphinx-me
+    SUBDIR += py-sphinx-tabs
     SUBDIR += py-sphinx_numfig
     SUBDIR += py-sphinx_rtd_theme
     SUBDIR += py-sphinx_wikipedia
@@ -1477,6 +1483,7 @@
     SUBDIR += rarian
     SUBDIR += rasqal
     SUBDIR += re_graph
+    SUBDIR += re-flex
     SUBDIR += redet
     SUBDIR += redland
     SUBDIR += redland-bindings
@@ -1522,6 +1529,7 @@
     SUBDIR += rubygem-babel-transpiler
     SUBDIR += rubygem-babosa
     SUBDIR += rubygem-case_transform
+    SUBDIR += rubygem-character_set
     SUBDIR += rubygem-charlock_holmes
     SUBDIR += rubygem-chewy
     SUBDIR += rubygem-citrus
@@ -1596,6 +1604,7 @@
     SUBDIR += rubygem-multi_xml
     SUBDIR += rubygem-nokogiri
     SUBDIR += rubygem-nokogiri-diff
+    SUBDIR += rubygem-nokogiri18
     SUBDIR += rubygem-nokogumbo
     SUBDIR += rubygem-octopress-escape-code
     SUBDIR += rubygem-opml
@@ -1616,6 +1625,7 @@
     SUBDIR += rubygem-rdtool
     SUBDIR += rubygem-redcarpet
     SUBDIR += rubygem-regexp_parser
+    SUBDIR += rubygem-regexp_property_values
     SUBDIR += rubygem-representable
     SUBDIR += rubygem-reverse_markdown
     SUBDIR += rubygem-ri_cal
@@ -1693,9 +1703,9 @@
     SUBDIR += scim-openvanilla
     SUBDIR += scim-table-imengine
     SUBDIR += scr2txt
-    SUBDIR += scrollkeeper
     SUBDIR += scss
     SUBDIR += scws
+    SUBDIR += sd
     SUBDIR += sdcv
     SUBDIR += sdf
     SUBDIR += sdif

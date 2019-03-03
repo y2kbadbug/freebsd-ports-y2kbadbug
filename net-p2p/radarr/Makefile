@@ -1,7 +1,9 @@
 # $FreeBSD$
 
 PORTNAME=	radarr
-PORTVERSION= 0.2.0.1293
+PORTVERSION=	0.2.0.1293
+DISTVERSIONPREFIX=v
+PORTREVISION=	1
 CATEGORIES=	net-p2p
 MASTER_SITES=	https://github.com/Radarr/Radarr/releases/download/v${PORTVERSION}/
 DISTNAME=	Radarr.develop.${PORTVERSION}.linux
@@ -20,7 +22,6 @@ USE_RC_SUBR=	radarr
 
 NO_ARCH=	YES
 NO_BUILD=	YES
-WRKSRC=	${WRKDIR}/Radarr
 
 USERS=	radarr
 GROUPS=	radarr
@@ -29,6 +30,8 @@ OPTIONS_DEFINE=	X11
 
 # Permits image resizing
 X11_LIB_DEPENDS+=libgdiplus.so:x11-toolkits/libgdiplus
+
+WRKSRC=	${WRKDIR}/Radarr
 
 .include <bsd.port.options.mk>
 

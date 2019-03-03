@@ -76,6 +76,7 @@
     SUBDIR += bmp2html
     SUBDIR += box
     SUBDIR += boxer
+    SUBDIR += bsd-plotutils
     SUBDIR += bugle
     SUBDIR += burplex
     SUBDIR += c-a-i-r
@@ -272,7 +273,6 @@
     SUBDIR += glexcess
     SUBDIR += glfw
     SUBDIR += glfw2
-    SUBDIR += glitz
     SUBDIR += gliv
     SUBDIR += glosm
     SUBDIR += glpng
@@ -547,6 +547,10 @@
     SUBDIR += luxrender14
     SUBDIR += lximage-qt
     SUBDIR += lximageqt-l10n
+    SUBDIR += magnum
+    SUBDIR += magnum-examples
+    SUBDIR += magnum-extras
+    SUBDIR += magnum-plugins
     SUBDIR += mahotas
     SUBDIR += maim
     SUBDIR += makehuman
@@ -590,6 +594,7 @@
     SUBDIR += ocrad
     SUBDIR += ocre
     SUBDIR += ogre3d
+    SUBDIR += oidn
     SUBDIR += okular
     SUBDIR += open3d
     SUBDIR += opencollada
@@ -835,6 +840,7 @@
     SUBDIR += py-gimp
     SUBDIR += py-gizeh
     SUBDIR += py-glewpy
+    SUBDIR += py-glfw
     SUBDIR += py-goocanvas
     SUBDIR += py-gphoto2
     SUBDIR += py-graph-core
@@ -842,6 +848,8 @@
     SUBDIR += py-graphy
     SUBDIR += py-gvgen
     SUBDIR += py-imageio
+    SUBDIR += py-imageio-ffmpeg
+    SUBDIR += py-imageio24
     SUBDIR += py-imagesize
     SUBDIR += py-imgurpython
     SUBDIR += py-leather
@@ -859,6 +867,7 @@
     SUBDIR += py-photocollage
     SUBDIR += py-pillow
     SUBDIR += py-pivy
+    SUBDIR += py-pivy-devel
     SUBDIR += py-plotly
     SUBDIR += py-png
     SUBDIR += py-poppler
@@ -1087,6 +1096,7 @@
     SUBDIR += xnview
     SUBDIR += xoris
     SUBDIR += xournal
+    SUBDIR += xournalpp
     SUBDIR += xpaint
     SUBDIR += xpdf
     SUBDIR += xpdf3
