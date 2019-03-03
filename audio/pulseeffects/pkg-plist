@@ -15,6 +15,7 @@ share/help/C/pulseeffects/convolver.page
 share/help/C/pulseeffects/crossfeed.page
 share/help/C/pulseeffects/crystalizer.page
 share/help/C/pulseeffects/deesser.page
+share/help/C/pulseeffects/delay.page
 share/help/C/pulseeffects/effectsorder.page
 share/help/C/pulseeffects/enableapp.page
 share/help/C/pulseeffects/equalizer.page
@@ -55,6 +56,7 @@ share/help/pt_BR/pulseeffects/convolver.page
 share/help/pt_BR/pulseeffects/crossfeed.page
 share/help/pt_BR/pulseeffects/crystalizer.page
 share/help/pt_BR/pulseeffects/deesser.page
+share/help/pt_BR/pulseeffects/delay.page
 share/help/pt_BR/pulseeffects/effectsorder.page
 share/help/pt_BR/pulseeffects/enableapp.page
 share/help/pt_BR/pulseeffects/equalizer.page
@@ -95,6 +97,7 @@ share/help/ru/pulseeffects/convolver.page
 share/help/ru/pulseeffects/crossfeed.page
 share/help/ru/pulseeffects/crystalizer.page
 share/help/ru/pulseeffects/deesser.page
+share/help/ru/pulseeffects/delay.page
 share/help/ru/pulseeffects/effectsorder.page
 share/help/ru/pulseeffects/enableapp.page
 share/help/ru/pulseeffects/equalizer.page
