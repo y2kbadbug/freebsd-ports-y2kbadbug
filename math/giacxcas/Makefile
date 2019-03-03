@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	giacxcas
-DISTVERSION=	1.5.0-37
+DISTVERSION=	1.5.0-43
 CATEGORIES=	math
 MASTER_SITES=	http://www-fourier.ujf-grenoble.fr/~parisse/debian/dists/stable/main/source/:giac \
 		http://www-fourier.ujf-grenoble.fr/~parisse/giac/freebsd/
@@ -74,8 +74,6 @@ OPTIONS_DEFINE=	DOCS EXAMPLES
 #NB: built of giacxcas with USE_GCC and nlt is successfull if the ntl port is also
 #    installed  with USE_GCC
 CONFIGURE_ARGS+=	--disable-ntl
-
-INFO=		giac_us giac_es
 
 PORTDOCS=	*
 PORTEXAMPLES=	*
