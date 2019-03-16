@@ -675,6 +675,7 @@
     SUBDIR += postgis22
     SUBDIR += postgis23
     SUBDIR += postgis24
+    SUBDIR += postgis25
     SUBDIR += postgres-xl
     SUBDIR += postgresql-cstore_fdw
     SUBDIR += postgresql-jdbc
@@ -743,10 +744,8 @@
     SUBDIR += proftpd-mod_sql_tds
     SUBDIR += pspg
     SUBDIR += puppetdb-cli
-    SUBDIR += puppetdb-terminus4
     SUBDIR += puppetdb-terminus5
     SUBDIR += puppetdb-terminus6
-    SUBDIR += puppetdb4
     SUBDIR += puppetdb5
     SUBDIR += puppetdb6
     SUBDIR += pure-sql3
@@ -832,7 +831,6 @@
     SUBDIR += py-python-rrdtool
     SUBDIR += py-python-sql
     SUBDIR += py-python-swiftclient
-    SUBDIR += py-qt4-sql
     SUBDIR += py-qt5-sql
     SUBDIR += py-queries
     SUBDIR += py-rb
@@ -845,6 +843,7 @@
     SUBDIR += py-sqlalchemy10
     SUBDIR += py-sqlalchemy11
     SUBDIR += py-sqlalchemy12
+    SUBDIR += py-sqlalchemy13
     SUBDIR += py-sqlite3
     SUBDIR += py-sqlite3dbm
     SUBDIR += py-sqlobject
@@ -868,13 +867,6 @@
     SUBDIR += qdbm
     SUBDIR += qdbm-plus
     SUBDIR += qof
-    SUBDIR += qt4-ibase-plugin
-    SUBDIR += qt4-mysql-plugin
-    SUBDIR += qt4-odbc-plugin
-    SUBDIR += qt4-pgsql-plugin
-    SUBDIR += qt4-sql
-    SUBDIR += qt4-sqlite-plugin
-    SUBDIR += qt4-sqlite3-plugin
     SUBDIR += qt5-sql
     SUBDIR += qt5-sqldrivers-ibase
     SUBDIR += qt5-sqldrivers-mysql
@@ -1019,7 +1011,6 @@
     SUBDIR += sqlite3
     SUBDIR += sqlitebrowser
     SUBDIR += sqliteconvert
-    SUBDIR += sqliteman
     SUBDIR += sqlitemanager
     SUBDIR += sqliteodbc
     SUBDIR += sqliteodbc-sqlite2
@@ -1040,7 +1031,6 @@
     SUBDIR += tinycdb
     SUBDIR += tokyocabinet
     SUBDIR += tokyotyrant
-    SUBDIR += tora
     SUBDIR += tsearch_extras
     SUBDIR += tuning-primer
     SUBDIR += twemproxy
