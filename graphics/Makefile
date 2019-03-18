@@ -611,6 +611,7 @@
     SUBDIR += osg-devel
     SUBDIR += osgearth
     SUBDIR += ossim
+    SUBDIR += oyranos
     SUBDIR += p5-Acme-Steganography-Image-Png
     SUBDIR += p5-Algorithm-Line-Bresenham
     SUBDIR += p5-Alien-Gimp
@@ -849,7 +850,6 @@
     SUBDIR += py-paint
     SUBDIR += py-photocollage
     SUBDIR += py-pillow
-    SUBDIR += py-pivy
     SUBDIR += py-pivy-devel
     SUBDIR += py-plotly
     SUBDIR += py-png
