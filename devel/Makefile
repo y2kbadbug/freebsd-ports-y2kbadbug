@@ -1588,6 +1588,7 @@
     SUBDIR += libstatgrab0
     SUBDIR += libstrfunc
     SUBDIR += libstroke
+    SUBDIR += libsysctlmibinfo
     SUBDIR += libsysinfo
     SUBDIR += libtai
     SUBDIR += libtap
@@ -5689,6 +5690,7 @@
     SUBDIR += rubygem-fog
     SUBDIR += rubygem-fog-core
     SUBDIR += rubygem-fog-core1
+    SUBDIR += rubygem-fog-core210
     SUBDIR += rubygem-fog-json
     SUBDIR += rubygem-fog-json102
     SUBDIR += rubygem-font-awesome-rails
