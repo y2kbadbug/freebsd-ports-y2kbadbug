@@ -349,6 +349,7 @@
     SUBDIR += libxsmm
     SUBDIR += lidia
     SUBDIR += linpack
+    SUBDIR += lis
     SUBDIR += lll_spect
     SUBDIR += lp_solve
     SUBDIR += lrng
@@ -729,6 +730,7 @@
     SUBDIR += py-keras
     SUBDIR += py-keras-applications
     SUBDIR += py-keras-preprocessing
+    SUBDIR += py-kiwisolver
     SUBDIR += py-levmar
     SUBDIR += py-libpoly
     SUBDIR += py-luminol

@@ -1,13 +1,13 @@
 # $FreeBSD$
 
 PORTNAME=	zol
-PORTVERSION=	2019031300
+PORTVERSION=	2019033000
 DISTVERSIONPREFIX=	v
 CATEGORIES=	sysutils
 PKGNAMESUFFIX=	-kmod
 
 MAINTAINER=	kmoore@FreeBSD.org
-COMMENT=	ZFS
+COMMENT=	ZFS on Linux kernel module for FreeBSD
 
 LICENSE=	CDDL
 
@@ -15,7 +15,7 @@ USES=		kmod
 USE_GITHUB=	yes
 GH_ACCOUNT=	zfsonfreebsd
 GH_PROJECT=	ZoF
-GH_TAGNAME=	804ee5
+GH_TAGNAME=	a6d2a2d
 
 PLIST_FILES=	${KMODDIR}/zfs.ko
 
@@ -31,6 +31,7 @@ IGNORE=      needs FreeBSD 12/13 with AES-CCM support
 
 .if ${PORT_OPTIONS:MDEBUG}
 MAKE_OPTS+=	WITH_DEBUG=true
+PLIST_FILES+=	${KMODDIR}/zfs.ko.debug
 .endif
 
 .if ${PORT_OPTIONS:MGCOV}
@@ -46,5 +47,8 @@ do-build:
 
 do-install:
 	${INSTALL} ${WRKSRC}/module/zfs.ko ${STAGEDIR}${KMODDIR}
+.if ${PORT_OPTIONS:MDEBUG}
+	${INSTALL} ${WRKSRC}/module/zfs.ko.debug ${STAGEDIR}${KMODDIR}
+.endif
 
 .include <bsd.port.post.mk>

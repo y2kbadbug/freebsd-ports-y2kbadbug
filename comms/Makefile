@@ -24,7 +24,6 @@
     SUBDIR += comserv
     SUBDIR += concordance
     SUBDIR += congruity
-    SUBDIR += conserver
     SUBDIR += conserver-com
     SUBDIR += cqrlog
     SUBDIR += cubicsdr
@@ -107,6 +106,7 @@
     SUBDIR += o2sms
     SUBDIR += obexapp
     SUBDIR += openobex
+    SUBDIR += openzwave
     SUBDIR += owfs
     SUBDIR += p5-Cisco-UCS
     SUBDIR += p5-Device-Gsm
