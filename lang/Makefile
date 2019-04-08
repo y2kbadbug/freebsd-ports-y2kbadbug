@@ -37,6 +37,7 @@
     SUBDIR += cint
     SUBDIR += cjs
     SUBDIR += cling
+    SUBDIR += clisp
     SUBDIR += clojure
     SUBDIR += clojure-mode.el
     SUBDIR += clover
@@ -316,7 +317,6 @@
     SUBDIR += rexx-wrapper
     SUBDIR += rhino
     SUBDIR += rubinius
-    SUBDIR += ruby23
     SUBDIR += ruby24
     SUBDIR += ruby25
     SUBDIR += runawk

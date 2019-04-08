@@ -1,8 +1,8 @@
 # Created by: KalleDK <plexmaintainer@k-moeller.dk>
 # $FreeBSD$
 
-PORTVERSION=	1.15.2.793
-DISTVERSIONSUFFIX=782228f99
+PORTVERSION=	1.15.3.858
+DISTVERSIONSUFFIX=fbfb913f7
 PORTREVISION=	0
 MASTER_SITES=	https://downloads.plex.tv/plex-media-server-new/${DISTVERSION}-${DISTVERSIONSUFFIX}/freebsd/
 PKGNAMESUFFIX=	-plexpass
@@ -19,7 +19,5 @@ FILESDIR=	${.CURDIR}/files
 DATADIR=	${PREFIX}/share/${PORTNAME}${PKGNAMESUFFIX}
 
 SUB_LIST=	PORTNAME=${PORTNAME}_plexpass DATADIR=${DATADIR} USERS=${USERS} GROUPS=${GROUPS}
-
-RUN_DEPENDS=	# No longer require FreeBSD compat libs
 
 .include "${MASTERDIR}/Makefile"
