@@ -3,7 +3,7 @@
 
 PORTNAME=	pijul
 PORTVERSION=	0.11.0
-PORTREVISION=	3
+PORTREVISION=	4
 CATEGORIES=	devel
 MASTER_SITES=	https://pijul.org/releases/
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX}
@@ -15,7 +15,9 @@ LICENSE=	GPLv2
 
 BROKEN_aarch64=		fails to compile: aesv8-armx-linux64.S:53:2: instruction requires: crypto aese v6.16b,v0.16b
 
-USES=		cargo
+LIB_DEPENDS=	libsodium.so:security/libsodium
+
+USES=		cargo ssl
 CARGO_CRATES=	adler32-1.0.3 \
 		advapi32-sys-0.2.0 \
 		aho-corasick-0.6.8 \
