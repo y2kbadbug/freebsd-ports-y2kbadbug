@@ -123,6 +123,7 @@
     SUBDIR += py-orange3-single-cell
     SUBDIR += py-pyfaidx
     SUBDIR += py-pysam
+    SUBDIR += py-xenaPython
     SUBDIR += pycogent
     SUBDIR += pyfasta
     SUBDIR += python-nexus
@@ -142,6 +143,7 @@
     SUBDIR += slclust
     SUBDIR += smithwaterman
     SUBDIR += stacks
+    SUBDIR += star
     SUBDIR += stringtie
     SUBDIR += tRNAscan-SE
     SUBDIR += t_coffee

@@ -2,8 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	virtualbox-ose
-PORTVERSION=	5.2.26
-PORTREVISION=	3
+PORTVERSION=	5.2.28
 CATEGORIES=	emulators
 MASTER_SITES=	https://download.virtualbox.org/virtualbox/${PORTVERSION}/
 DISTFILES=	VirtualBox-${PORTVERSION}${EXTRACT_SUFX} ${GUESTADDITIONS}
@@ -40,6 +39,8 @@ CONFLICTS_INSTALL=	virtualbox-ose-additions-* \
 			virtualbox-ose-devel-[0-9]* \
 			virtualbox-ose-legacy-[0-9]* \
 			virtualbox-ose-lite-[0-9]*
+
+LDFLAGS=	-lpthread
 
 VBOXUSER?=	vboxusers
 VBOXWSUSER?=	vboxusers
@@ -199,6 +200,13 @@ KMK_FLAGS+=	-j${MAKE_JOBS_NUMBER}
 .include <bsd.port.pre.mk>
 
 .if ${COMPILER_TYPE} == clang
+.if ${COMPILER_VERSION} == 80
+# XXX PR236616: Clang 8.0 caused runtime problems.
+BUILD_DEPENDS+=	${LOCALBASE}/bin/clang${VBOX_LLVM_VER}:devel/llvm${VBOX_LLVM_VER}
+CC=		${LOCALBASE}/bin/clang${VBOX_LLVM_VER}
+CXX=		${LOCALBASE}/bin/clang++${VBOX_LLVM_VER}
+VBOX_LLVM_VER?=	60
+.endif
 PATCH_DEPENDS+=	${LOCALBASE}/share/kBuild/tools/GXX3.kmk:devel/kBuild
 EXTRA_PATCHES+=	${PATCHDIR}/extrapatch-Config.kmk \
 		${PATCHDIR}/extrapatch-src-VBox-Devices-PC-ipxe-Makefile.kmk \
