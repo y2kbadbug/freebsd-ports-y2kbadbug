@@ -105,6 +105,7 @@
     SUBDIR += amd64-binutils
     SUBDIR += amd64-gcc
     SUBDIR += amd64-xtoolchain-gcc
+    SUBDIR += amqp-cpp
     SUBDIR += android-tools-adb
     SUBDIR += android-tools-fastboot
     SUBDIR += android-tools-simpleperf
@@ -615,6 +616,7 @@
     SUBDIR += eventxx
     SUBDIR += evolution-gconf-tools
     SUBDIR += exercisix
+    SUBDIR += f18
     SUBDIR += f77flow
     SUBDIR += fam
     SUBDIR += fastcrc
@@ -4934,6 +4936,7 @@
     SUBDIR += py-prettytable
     SUBDIR += py-prioritized_methods
     SUBDIR += py-proglog
+    SUBDIR += py-progress
     SUBDIR += py-promise
     SUBDIR += py-prompt_toolkit
     SUBDIR += py-prompt_toolkit1
@@ -5144,6 +5147,7 @@
     SUBDIR += py-setuptools_hg
     SUBDIR += py-setuptools_scm
     SUBDIR += py-setuptools_scm_git_archive
+    SUBDIR += py-sexpdata
     SUBDIR += py-sh
     SUBDIR += py-shapely
     SUBDIR += py-shellingham
@@ -5945,6 +5949,7 @@
     SUBDIR += rubygem-pry-rails
     SUBDIR += rubygem-pry-remote-em
     SUBDIR += rubygem-ptreloaded
+    SUBDIR += rubygem-puppet-resource_api
     SUBDIR += rubygem-pygments.rb
     SUBDIR += rubygem-r18n-core
     SUBDIR += rubygem-rabl
@@ -6280,6 +6285,7 @@
     SUBDIR += styx
     SUBDIR += subversion
     SUBDIR += subversion-book
+    SUBDIR += subversion-lts
     SUBDIR += subversion19
     SUBDIR += subversive
     SUBDIR += svk
