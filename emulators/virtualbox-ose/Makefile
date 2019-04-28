@@ -4,7 +4,7 @@
 PORTNAME=	virtualbox-ose
 PORTVERSION=	5.2.28
 CATEGORIES=	emulators
-MASTER_SITES=	https://download.virtualbox.org/virtualbox/${PORTVERSION}/
+MASTER_SITES=	https://download.oracle.com/virtualbox/${PORTVERSION}/
 DISTFILES=	VirtualBox-${PORTVERSION}${EXTRACT_SUFX} ${GUESTADDITIONS}
 EXTRACT_ONLY=	VirtualBox-${PORTVERSION}${EXTRACT_SUFX}
 
@@ -172,6 +172,7 @@ VBOX_UTILS+=	vboxwebsrv webtest
 .endif
 
 .if ${PORT_OPTIONS:MX11}
+USES+=		sdl
 USE_SDL=	sdl
 USE_XORG+=	xorgproto x11 xcursor xext xinerama xmu xt
 VBOX_PROGS+=	VBoxSDL
