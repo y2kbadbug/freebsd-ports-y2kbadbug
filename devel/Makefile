@@ -841,6 +841,7 @@
     SUBDIR += goffice010
     SUBDIR += gogland-eap
     SUBDIR += gogs
+    SUBDIR += golint
     SUBDIR += google-gdata
     SUBDIR += google-perftools
     SUBDIR += google-styleguide
@@ -4157,6 +4158,7 @@
     SUBDIR += projectcenter
     SUBDIR += protobuf
     SUBDIR += protobuf-c
+    SUBDIR += protobuf-java
     SUBDIR += protobuf25
     SUBDIR += protozero
     SUBDIR += pructl
@@ -4948,6 +4950,7 @@
     SUBDIR += py-ptrace
     SUBDIR += py-ptvsd
     SUBDIR += py-pudb
+    SUBDIR += py-purl
     SUBDIR += py-py
     SUBDIR += py-py-ubjson
     SUBDIR += py-py_interface
