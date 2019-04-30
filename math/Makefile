@@ -271,6 +271,7 @@
     SUBDIR += gsl
     SUBDIR += hexcalc
     SUBDIR += hipmcl
+    SUBDIR += hmat-oss
     SUBDIR += hs-Agda
     SUBDIR += hs-Agda-stdlib
     SUBDIR += hs-NumInstances
@@ -497,6 +498,7 @@
     SUBDIR += openlibm
     SUBDIR += openmesh
     SUBDIR += opensolaris-libm
+    SUBDIR += optpp
     SUBDIR += orpie
     SUBDIR += osi
     SUBDIR += osqp
