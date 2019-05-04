@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	portfmt
-PORTVERSION=	g20190329
+PORTVERSION=	g20190503
 CATEGORIES=	ports-mgmt
 
 MAINTAINER=	tobik@FreeBSD.org
@@ -12,7 +12,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	t6
-GH_TAGNAME=	5c2ccf1c5f52ec80ce4f12d5463c328de02c5d02
+GH_TAGNAME=	c667ef4bc6b5bd51b979930c1490b82d8e8f2a11
 
 HAS_CONFIGURE=	yes
 CONFIGURE_ARGS=	LDFLAGS="${LDFLAGS}" \
@@ -21,7 +21,8 @@ MAKE_ARGS=	INSTALL_MAN="${INSTALL_MAN}" \
 		INSTALL_PROGRAM="${INSTALL_PROGRAM}"
 TEST_TARGET=	test
 
-PLIST_FILES=	bin/portfmt \
+PLIST_FILES=	bin/portedit \
+		bin/portfmt \
 		man/man1/portfmt.1.gz
 
 .include <bsd.port.mk>
