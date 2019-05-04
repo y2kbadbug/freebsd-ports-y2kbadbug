@@ -507,7 +507,6 @@
     SUBDIR += legesmotus
     SUBDIR += lexter
     SUBDIR += lgeneral
-    SUBDIR += lianliankan
     SUBDIR += libggz
     SUBDIR += libgnome-games-support
     SUBDIR += libkdegames
@@ -679,6 +678,7 @@
     SUBDIR += opengfx
     SUBDIR += openglad
     SUBDIR += openjazz
+    SUBDIR += openjk
     SUBDIR += openlierox
     SUBDIR += openmortal
     SUBDIR += openmsx
@@ -696,6 +696,7 @@
     SUBDIR += openxcom
     SUBDIR += openyahtzee
     SUBDIR += orbital_eunuchs_sniper
+    SUBDIR += orthorobot
     SUBDIR += osgg
     SUBDIR += outerspace
     SUBDIR += p5-Acme-GuessNumber
@@ -1046,6 +1047,7 @@
     SUBDIR += xasteroids
     SUBDIR += xataxx
     SUBDIR += xbat
+    SUBDIR += xbill
     SUBDIR += xbl
     SUBDIR += xblackjack
     SUBDIR += xblast

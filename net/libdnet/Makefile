@@ -4,6 +4,7 @@
 PORTNAME=	libdnet
 PORTVERSION=	1.13
 DISTVERSIONPREFIX=	v
+PORTREVISION=	3
 CATEGORIES?=	net
 
 MAINTAINER?=	onatan@gmail.com
@@ -17,7 +18,8 @@ USES?=		autoreconf libtool
 USE_GITHUB=	yes
 GH_ACCOUNT=	5u623l20
 
-GNU_CONFIGURE=	yes
+GNU_CONFIGURE=		yes
+CONFIGURE_ARGS+=	--without-check
 
 .if !defined(LIBDNET_SLAVE)
 CONFIGURE_ARGS+=	--without-python
