@@ -1651,6 +1651,7 @@
     SUBDIR += linux-c7-qt
     SUBDIR += linux-c7-sdl12
     SUBDIR += linux-c7-sdl20
+    SUBDIR += linux-ltp
     SUBDIR += linux_libusb
     SUBDIR += lion
     SUBDIR += listserialc
@@ -4143,7 +4144,6 @@
     SUBDIR += pmdk
     SUBDIR += poco
     SUBDIR += popt
-    SUBDIR += poslib
     SUBDIR += powerpc64-binutils
     SUBDIR += powerpc64-gcc
     SUBDIR += powerpc64-xtoolchain-gcc
@@ -6335,6 +6335,7 @@
     SUBDIR += thrift
     SUBDIR += thrift-c_glib
     SUBDIR += thrift-cpp
+    SUBDIR += thrust
     SUBDIR += thunar-vcs-plugin
     SUBDIR += ticcutils
     SUBDIR += tig
@@ -6383,6 +6384,7 @@
     SUBDIR += valgrind-devel
     SUBDIR += varconf
     SUBDIR += vasm
+    SUBDIR += vc
     SUBDIR += vcglib
     SUBDIR += vera++
     SUBDIR += vexcl
