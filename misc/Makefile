@@ -168,7 +168,6 @@
     SUBDIR += gnome-osd
     SUBDIR += gnome-user-docs
     SUBDIR += gnu-watch
-    SUBDIR += gnuit
     SUBDIR += gnuls
     SUBDIR += gnustep-examples
     SUBDIR += gone
@@ -241,6 +240,7 @@
     SUBDIR += lxi-tools
     SUBDIR += magicpoint
     SUBDIR += man.el
+    SUBDIR += mate-user-guide
     SUBDIR += mbuffer
     SUBDIR += mc
     SUBDIR += mc-light
@@ -442,6 +442,7 @@
     SUBDIR += rubygem-rabbit
     SUBDIR += rubygem-vpim
     SUBDIR += rump
+    SUBDIR += rumprun
     SUBDIR += sdformat
     SUBDIR += seabios
     SUBDIR += sent
