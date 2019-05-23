@@ -170,12 +170,14 @@
     SUBDIR += gnu-watch
     SUBDIR += gnuls
     SUBDIR += gnustep-examples
+    SUBDIR += gobuster
     SUBDIR += gone
     SUBDIR += gonvert
     SUBDIR += gplink
     SUBDIR += granulate
     SUBDIR += grc
     SUBDIR += gwhich
+    SUBDIR += hashdb
     SUBDIR += hb
     SUBDIR += hello
     SUBDIR += help2man
@@ -216,6 +218,7 @@
     SUBDIR += lazyread
     SUBDIR += lc
     SUBDIR += lesspipe
+    SUBDIR += lf
     SUBDIR += libeatmydata
     SUBDIR += libemos
     SUBDIR += libiio
@@ -443,7 +446,6 @@
     SUBDIR += rubygem-rabbit
     SUBDIR += rubygem-vpim
     SUBDIR += rump
-    SUBDIR += rumprun
     SUBDIR += sdformat
     SUBDIR += seabios
     SUBDIR += sent
