@@ -321,6 +321,7 @@
     SUBDIR += cl-trivial-gray-streams-sbcl
     SUBDIR += clanlib
     SUBDIR += clanlib1
+    SUBDIR += clazy
     SUBDIR += cld2
     SUBDIR += clewn
     SUBDIR += clig
@@ -899,6 +900,7 @@
     SUBDIR += hadoop2
     SUBDIR += hapy
     SUBDIR += hcs12mem
+    SUBDIR += heaptrack
     SUBDIR += heimdall
     SUBDIR += hexcompare
     SUBDIR += hexd
@@ -1006,6 +1008,7 @@
     SUBDIR += jech-dht
     SUBDIR += jenkins
     SUBDIR += jenkins-lts
+    SUBDIR += jetbrains-clion
     SUBDIR += jetbrains-phpstorm
     SUBDIR += jfrog-cli
     SUBDIR += jiic
@@ -4706,7 +4709,6 @@
     SUBDIR += py-promise
     SUBDIR += py-prompt_toolkit
     SUBDIR += py-prompt_toolkit1
-    SUBDIR += py-prompt_toolkit2
     SUBDIR += py-protobuf
     SUBDIR += py-protocols
     SUBDIR += py-ptable
