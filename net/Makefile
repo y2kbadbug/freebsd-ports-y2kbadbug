@@ -487,7 +487,6 @@
     SUBDIR += netstrain
     SUBDIR += nettest
     SUBDIR += netwib
-    SUBDIR += neubot
     SUBDIR += nfs-ganesha
     SUBDIR += nfs-ganesha-kmod
     SUBDIR += nfsshell
@@ -527,6 +526,7 @@
     SUBDIR += opal
     SUBDIR += open-isns
     SUBDIR += openbgpd
+    SUBDIR += openbgpd6
     SUBDIR += openbsc
     SUBDIR += openggsn
     SUBDIR += openldap24-client
@@ -1151,6 +1151,7 @@
     SUBDIR += radsecproxy
     SUBDIR += radvd
     SUBDIR += rclone
+    SUBDIR += rclone-browser
     SUBDIR += rdapper
     SUBDIR += rdesktop
     SUBDIR += rdist6

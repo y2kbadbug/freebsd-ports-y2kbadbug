@@ -551,6 +551,7 @@
     SUBDIR += minder
     SUBDIR += ming
     SUBDIR += mirage
+    SUBDIR += mirtk
     SUBDIR += mmrecover
     SUBDIR += movit
     SUBDIR += mozjpeg
@@ -865,6 +866,7 @@
     SUBDIR += py-pyocr
     SUBDIR += py-pypillowfight
     SUBDIR += py-pyproj
+    SUBDIR += py-pyqrcode
     SUBDIR += py-pyqtgraph
     SUBDIR += py-python-poppler-qt5
     SUBDIR += py-qt5-svg
