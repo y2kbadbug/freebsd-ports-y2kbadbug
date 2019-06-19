@@ -230,6 +230,7 @@
     SUBDIR += haproxy-devel
     SUBDIR += haproxy17
     SUBDIR += haproxy18
+    SUBDIR += haproxy19
     SUBDIR += hexinject
     SUBDIR += hidentd
     SUBDIR += hinfo
@@ -312,6 +313,7 @@
     SUBDIR += kmbox
     SUBDIR += kmime
     SUBDIR += knc
+    SUBDIR += knxd
     SUBDIR += kontactinterface
     SUBDIR += kpimtextedit
     SUBDIR += krdc
@@ -1179,6 +1181,7 @@
     SUBDIR += ripe-whois
     SUBDIR += routinator
     SUBDIR += rp-pppoe
+    SUBDIR += rsocket-cpp
     SUBDIR += rsplib
     SUBDIR += rsync
     SUBDIR += rsync-bpc
@@ -1276,10 +1279,10 @@
     SUBDIR += rubygem-omniauth-oauth
     SUBDIR += rubygem-omniauth-oauth2
     SUBDIR += rubygem-omniauth-openid
-    SUBDIR += rubygem-omniauth_openid_connect
     SUBDIR += rubygem-omniauth-salesforce
     SUBDIR += rubygem-omniauth-twitter
     SUBDIR += rubygem-omniauth-ultraauth
+    SUBDIR += rubygem-omniauth_openid_connect
     SUBDIR += rubygem-open-uri-cached
     SUBDIR += rubygem-openid_connect
     SUBDIR += rubygem-opennebula
