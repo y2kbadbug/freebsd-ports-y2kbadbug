@@ -409,6 +409,7 @@
     SUBDIR += openconnect-gui
     SUBDIR += opencryptoki
     SUBDIR += openct
+    SUBDIR += openfortivpn
     SUBDIR += openiked
     SUBDIR += opensaml
     SUBDIR += opensc
@@ -860,7 +861,6 @@
     SUBDIR += py-backports.ssl_match_hostname
     SUBDIR += py-bcrypt
     SUBDIR += py-borg.localrole
-    SUBDIR += py-bro-pkg
     SUBDIR += py-btchip-python
     SUBDIR += py-cerealizer
     SUBDIR += py-certbot
@@ -1018,6 +1018,7 @@
     SUBDIR += py-xmlsec
     SUBDIR += py-yara
     SUBDIR += py-yubikey-manager
+    SUBDIR += py-zkg
     SUBDIR += py-zope.app.authentication
     SUBDIR += py-zope.app.localpermission
     SUBDIR += py-zope.app.principalannotation
