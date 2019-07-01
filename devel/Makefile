@@ -780,6 +780,7 @@
     SUBDIR += gettext-runtime
     SUBDIR += gettext-tools
     SUBDIR += gflags
+    SUBDIR += ghidra
     SUBDIR += ghq
     SUBDIR += ghub
     SUBDIR += gindent
@@ -1444,7 +1445,6 @@
     SUBDIR += llvm-cheri
     SUBDIR += llvm-devel
     SUBDIR += llvm35
-    SUBDIR += llvm40
     SUBDIR += llvm60
     SUBDIR += llvm70
     SUBDIR += llvm80
@@ -2581,6 +2581,7 @@
     SUBDIR += p5-JIRA-REST
     SUBDIR += p5-JQuery
     SUBDIR += p5-JSON-Hyper
+    SUBDIR += p5-JSON-Parse
     SUBDIR += p5-JSON-Path
     SUBDIR += p5-JSON-Pointer
     SUBDIR += p5-JSON-RPC
@@ -4327,6 +4328,7 @@
     SUBDIR += py-delfick_error
     SUBDIR += py-deliciousapi
     SUBDIR += py-demjson
+    SUBDIR += py-deprecated
     SUBDIR += py-deprecation
     SUBDIR += py-dexml
     SUBDIR += py-dialog
@@ -4608,7 +4610,6 @@
     SUBDIR += py-mox
     SUBDIR += py-mox3
     SUBDIR += py-msgpack
-    SUBDIR += py-msgpack05
     SUBDIR += py-multi_key_dict
     SUBDIR += py-multipledispatch
     SUBDIR += py-multiprocess
@@ -4720,6 +4721,7 @@
     SUBDIR += py-pip-api
     SUBDIR += py-pip-tools
     SUBDIR += py-pip-tools2
+    SUBDIR += py-pipdeptree
     SUBDIR += py-pipenv
     SUBDIR += py-pkgconfig
     SUBDIR += py-plac
@@ -4831,6 +4833,7 @@
     SUBDIR += py-pytest-capturelog
     SUBDIR += py-pytest-cov
     SUBDIR += py-pytest-django
+    SUBDIR += py-pytest-fixture-config
     SUBDIR += py-pytest-flake8
     SUBDIR += py-pytest-flakes
     SUBDIR += py-pytest-forked
@@ -4839,10 +4842,13 @@
     SUBDIR += py-pytest-mock
     SUBDIR += py-pytest-pycodestyle
     SUBDIR += py-pytest-relaxed
+    SUBDIR += py-pytest-rerunfailures
     SUBDIR += py-pytest-runner
+    SUBDIR += py-pytest-shutil
     SUBDIR += py-pytest-sugar
     SUBDIR += py-pytest-timeout
     SUBDIR += py-pytest-tornado
+    SUBDIR += py-pytest-virtualenv
     SUBDIR += py-pytest-xdist
     SUBDIR += py-pytest-xprocess
     SUBDIR += py-python-Levenshtein
@@ -5054,7 +5060,6 @@
     SUBDIR += py-txaio
     SUBDIR += py-typechecks
     SUBDIR += py-typed-ast
-    SUBDIR += py-typed-ast12
     SUBDIR += py-typing
     SUBDIR += py-typing-extensions
     SUBDIR += py-tzlocal
@@ -5475,7 +5480,6 @@
     SUBDIR += rubygem-device_detector
     SUBDIR += rubygem-devise
     SUBDIR += rubygem-devise-rails5
-    SUBDIR += rubygem-devise-rails50
     SUBDIR += rubygem-dig_rb
     SUBDIR += rubygem-directory_watcher
     SUBDIR += rubygem-ditz
@@ -5507,7 +5511,6 @@
     SUBDIR += rubygem-fast_xor
     SUBDIR += rubygem-fastercsv
     SUBDIR += rubygem-fastri
-    SUBDIR += rubygem-fastthread
     SUBDIR += rubygem-fattr
     SUBDIR += rubygem-ffi
     SUBDIR += rubygem-ffi-compiler
@@ -6069,6 +6072,7 @@
     SUBDIR += smake
     SUBDIR += smc
     SUBDIR += smv
+    SUBDIR += snorenotify
     SUBDIR += soapui
     SUBDIR += socket_wrapper
     SUBDIR += sonar-ant-task
