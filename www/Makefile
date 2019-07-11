@@ -53,6 +53,7 @@
     SUBDIR += boa
     SUBDIR += bolt
     SUBDIR += bozohttpd
+    SUBDIR += bugzilla2atom
     SUBDIR += buku
     SUBDIR += butterfly
     SUBDIR += c-icap
@@ -141,6 +142,7 @@
     SUBDIR += elixir-webassembly
     SUBDIR += emacs-w3m
     SUBDIR += encode-explorer
+    SUBDIR += envoy
     SUBDIR += ephemera
     SUBDIR += epiphany
     SUBDIR += erlang-cowboy
@@ -256,6 +258,7 @@
     SUBDIR += htmlpp
     SUBDIR += httest
     SUBDIR += http-analyze
+    SUBDIR += http-parser
     SUBDIR += http_get
     SUBDIR += http_load
     SUBDIR += http_post
@@ -338,6 +341,7 @@
     SUBDIR += mattermost-webapp
     SUBDIR += mediawiki131
     SUBDIR += mediawiki132
+    SUBDIR += mediawiki133
     SUBDIR += mergelog
     SUBDIR += mgstat
     SUBDIR += mhonarc
@@ -1468,6 +1472,7 @@
     SUBDIR += py-collective.templateengines
     SUBDIR += py-cookies
     SUBDIR += py-css-parser
+    SUBDIR += py-csscompressor
     SUBDIR += py-cssmin
     SUBDIR += py-cssselect
     SUBDIR += py-cssutils
@@ -1514,6 +1519,7 @@
     SUBDIR += py-django-bitfield
     SUBDIR += py-django-bootstrap-form
     SUBDIR += py-django-bootstrap3
+    SUBDIR += py-django-bootstrap4
     SUBDIR += py-django-braces
     SUBDIR += py-django-bulk-update
     SUBDIR += py-django-cacheops
@@ -2137,6 +2143,7 @@
     SUBDIR += rubygem-redmine_acts_as_taggable_on
     SUBDIR += rubygem-responders
     SUBDIR += rubygem-responders-rails5
+    SUBDIR += rubygem-responders2-rails5
     SUBDIR += rubygem-rest-client
     SUBDIR += rubygem-rfacebook
     SUBDIR += rubygem-rfeedfinder
@@ -2271,7 +2278,6 @@
     SUBDIR += tomcat-native
     SUBDIR += tomcat6
     SUBDIR += tomcat7
-    SUBDIR += tomcat8
     SUBDIR += tomcat85
     SUBDIR += tomcat9
     SUBDIR += tomee
@@ -2457,6 +2463,7 @@
     SUBDIR += zend-framework1
     SUBDIR += zenphoto
     SUBDIR += zerowait-httpd
+    SUBDIR += zola
     SUBDIR += zope213
 
 .include <bsd.port.subdir.mk>
