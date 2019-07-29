@@ -33,7 +33,6 @@
     SUBDIR += archiva
     SUBDIR += aria2
     SUBDIR += asql
-    SUBDIR += august
     SUBDIR += awffull
     SUBDIR += aws
     SUBDIR += aws-demos
@@ -79,6 +78,7 @@
     SUBDIR += cherokee
     SUBDIR += choqok
     SUBDIR += chpasswd
+    SUBDIR += chrome-gnome-shell
     SUBDIR += chromium
     SUBDIR += ckeditor
     SUBDIR += cl-lml
@@ -1953,12 +1953,14 @@
     SUBDIR += rubygem-acts_as_taggable
     SUBDIR += rubygem-addressable
     SUBDIR += rubygem-addressable23
+    SUBDIR += rubygem-addressable25
     SUBDIR += rubygem-adsf
     SUBDIR += rubygem-akami
     SUBDIR += rubygem-amazon-ecs
     SUBDIR += rubygem-anemone
     SUBDIR += rubygem-asana
     SUBDIR += rubygem-async_sinatra
+    SUBDIR += rubygem-atlassian-jwt
     SUBDIR += rubygem-best_in_place
     SUBDIR += rubygem-best_in_place-rails5
     SUBDIR += rubygem-bluecloth
@@ -2223,6 +2225,7 @@
     SUBDIR += sitecopy
     SUBDIR += skytemplate
     SUBDIR += slowcgi
+    SUBDIR += slowhttptest
     SUBDIR += smarty2
     SUBDIR += smarty3
     SUBDIR += smb_auth
@@ -2420,7 +2423,6 @@
     SUBDIR += webhook
     SUBDIR += webinject
     SUBDIR += webkit2-gtk3
-    SUBDIR += weblint
     SUBDIR += weblint++
     SUBDIR += webpy
     SUBDIR += webreport
