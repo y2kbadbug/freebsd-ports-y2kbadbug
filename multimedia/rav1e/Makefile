@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	rav1e
-PORTVERSION=	s20190821
+PORTVERSION=	s20190826
 CATEGORIES=	multimedia
 
 MAINTAINER=	jbeich@FreeBSD.org
@@ -16,7 +16,7 @@ BUILD_DEPENDS_amd64=	nasm:devel/nasm
 USES=		cargo
 USE_GITHUB=	yes
 GH_ACCOUNT=	xiph
-GH_TAGNAME=	2b20894d
+GH_TAGNAME=	1fc3a1c6
 PLIST_FILES=	bin/${PORTNAME}
 
 CARGO_CRATES=	adler32-1.0.3 \
@@ -45,7 +45,7 @@ CARGO_CRATES=	adler32-1.0.3 \
 		chrono-0.4.7 \
 		clang-sys-0.28.1 \
 		clap-2.33.0 \
-		clicolors-control-1.0.0 \
+		clicolors-control-1.0.1 \
 		cloudabi-0.0.3 \
 		color_quant-1.0.1 \
 		console-0.7.7 \
@@ -63,7 +63,7 @@ CARGO_CRATES=	adler32-1.0.3 \
 		deflate-0.7.20 \
 		difference-2.0.0 \
 		either-1.5.2 \
-		encode_unicode-0.3.5 \
+		encode_unicode-0.3.6 \
 		env_logger-0.6.2 \
 		err-derive-0.1.5 \
 		error-chain-0.10.0 \
@@ -71,17 +71,17 @@ CARGO_CRATES=	adler32-1.0.3 \
 		failure_derive-0.1.5 \
 		fuchsia-cprng-0.1.1 \
 		fxhash-0.2.1 \
-		getrandom-0.1.10 \
+		getrandom-0.1.11 \
 		gif-0.10.2 \
 		glob-0.3.0 \
 		humantime-1.2.0 \
 		image-0.22.1 \
 		inflate-0.4.5 \
-		interpolate_name-0.2.2 \
+		interpolate_name-0.2.3 \
 		itertools-0.8.0 \
 		itoa-0.4.4 \
-		jpeg-decoder-0.1.15 \
-		lazy_static-1.3.0 \
+		jpeg-decoder-0.1.16 \
+		lazy_static-1.4.0 \
 		libc-0.2.62 \
 		libloading-0.5.2 \
 		lock_api-0.3.1 \
@@ -147,7 +147,7 @@ CARGO_CRATES=	adler32-1.0.3 \
 		smallvec-0.6.10 \
 		strsim-0.8.0 \
 		syn-0.15.44 \
-		syn-1.0.3 \
+		syn-1.0.5 \
 		synstructure-0.10.2 \
 		termcolor-1.0.5 \
 		termios-0.3.1 \

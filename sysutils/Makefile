@@ -434,6 +434,7 @@
     SUBDIR += gnome-settings-daemon
     SUBDIR += gnome-system-monitor
     SUBDIR += gnome_subr
+    SUBDIR += go-wtf
     SUBDIR += goaccess
     SUBDIR += goawk
     SUBDIR += gomplate
@@ -1335,6 +1336,7 @@
     SUBDIR += tenshi
     SUBDIR += tentakel
     SUBDIR += terraform
+    SUBDIR += terraform-provider-vultr
     SUBDIR += testdisk
     SUBDIR += thefish
     SUBDIR += timelimit
