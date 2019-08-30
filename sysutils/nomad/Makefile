@@ -2,8 +2,7 @@
 
 PORTNAME=	nomad
 DISTVERSIONPREFIX=	v
-DISTVERSION=	0.9.3
-PORTREVISION=	1
+DISTVERSION=	0.9.5
 CATEGORIES=	sysutils
 
 MAINTAINER=	jhixson@FreeBSD.org
@@ -26,7 +25,7 @@ GROUPS=		nomad
 
 do-build:
 	@cd ${WRKSRC}/src/github.com/hashicorp/nomad && \
-		${SETENV} ${MAKE_ENV} ${BUILD_ENV} GOPATH=${WRKSRC} go build -v -x \
+		${SETENV} ${MAKE_ENV} ${BUILD_ENV} GOPATH=${WRKSRC} go build -v -x -tags ui \
 			-ldflags "-X main.GitDescribe=${DISTVERSIONFULL}" -o bin/nomad
 
 do-install:
