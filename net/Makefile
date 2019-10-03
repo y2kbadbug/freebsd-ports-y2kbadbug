@@ -136,6 +136,7 @@
     SUBDIR += dtcp
     SUBDIR += dtcpclient
     SUBDIR += dual-dhclient
+    SUBDIR += dual-dhclient-daemon
     SUBDIR += easysoap
     SUBDIR += echoping
     SUBDIR += elixir-kafka_ex
@@ -1282,6 +1283,7 @@
     SUBDIR += rubygem-mqtt
     SUBDIR += rubygem-net-ldap
     SUBDIR += rubygem-net-netrc
+    SUBDIR += rubygem-net-ntp
     SUBDIR += rubygem-net-ping
     SUBDIR += rubygem-netrc
     SUBDIR += rubygem-network_interface
