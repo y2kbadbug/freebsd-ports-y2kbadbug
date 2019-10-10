@@ -2,6 +2,7 @@
 
 PORTNAME=	cliqz
 DISTVERSION=	1.29.0
+PORTREVISION=	1
 CATEGORIES=	www
 MASTER_SITES=	https://s3.amazonaws.com/cdn.cliqz.com/browser-f/APT/:amazon \
 		http://repository.cliqz.com/dist/${CLIQZ_CHANNEL}/${DISTVERSION}/${CLIQZ_LAST_BUILD_ID}/:cliqz
@@ -94,11 +95,6 @@ MOZ_CONFIGURE_ARGS+=	"ac_add_options --disable-crashreporter" \
 			"ac_add_options --libclang-path=${LOCALBASE}/llvm${LLVM_DEFAULT}/lib"
 
 .include <bsd.port.pre.mk>
-
-# Default to llvm 8 for i386
-.if ${ARCH} == i386 && ${LLVM_DEFAULT:S,-devel,990,} >= 90
-LLVM_DEFAULT=	80
-.endif
 
 # Require newer Clang than what's in base system unless user opted out
 .if ${CC} == cc && ${CXX} == c++ && exists(/usr/lib/libc++.so)

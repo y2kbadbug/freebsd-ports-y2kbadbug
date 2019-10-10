@@ -41,6 +41,7 @@
     SUBDIR += amberfish
     SUBDIR += ansifilter
     SUBDIR += antiword
+    SUBDIR += apache-commons-digester
     SUBDIR += apache-poi
     SUBDIR += apache-solr
     SUBDIR += apertium
@@ -304,7 +305,6 @@
     SUBDIR += itstool
     SUBDIR += itstool22
     SUBDIR += jade
-    SUBDIR += jakarta-commons-digester
     SUBDIR += jalingo
     SUBDIR += jarnal
     SUBDIR += java2html
@@ -491,6 +491,7 @@
     SUBDIR += p5-Apache-ParseLog
     SUBDIR += p5-Apache-Solr
     SUBDIR += p5-BibTeX-Parser
+    SUBDIR += p5-BigIP-ParseConfig
     SUBDIR += p5-Bloom-Filter
     SUBDIR += p5-CAM-PDF
     SUBDIR += p5-CQL-Parser

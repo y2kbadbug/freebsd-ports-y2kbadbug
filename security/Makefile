@@ -36,6 +36,7 @@
     SUBDIR += autossh
     SUBDIR += avcheck
     SUBDIR += aws-iam-authenticator
+    SUBDIR += aws-vault
     SUBDIR += axTLS
     SUBDIR += barnyard2
     SUBDIR += barnyard2-sguil
@@ -839,6 +840,7 @@
     SUBDIR += portsentry
     SUBDIR += ppars
     SUBDIR += proftpd-mod_clamav
+    SUBDIR += protonvpn-cli
     SUBDIR += proxycheck
     SUBDIR += proxytunnel
     SUBDIR += pscan
@@ -1228,7 +1230,6 @@
     SUBDIR += softether
     SUBDIR += softether-devel
     SUBDIR += softether5
-    SUBDIR += softhsm
     SUBDIR += softhsm2
     SUBDIR += sops
     SUBDIR += spass
