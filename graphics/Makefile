@@ -60,6 +60,7 @@
     SUBDIR += autopano-sift-c
     SUBDIR += autotrace
     SUBDIR += aview
+    SUBDIR += avir
     SUBDIR += azpainter
     SUBDIR += backfract
     SUBDIR += barbecue
@@ -147,6 +148,7 @@
     SUBDIR += dspdfviewer
     SUBDIR += duhdraw
     SUBDIR += dynamechs
+    SUBDIR += ebsynth
     SUBDIR += edje_viewer
     SUBDIR += electricsheep
     SUBDIR += electrix

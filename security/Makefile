@@ -311,6 +311,7 @@
     SUBDIR += libpwstor
     SUBDIR += libressl
     SUBDIR += libressl-devel
+    SUBDIR += libscep 
     SUBDIR += libscrypt
     SUBDIR += libsecret
     SUBDIR += libsectok
@@ -542,6 +543,7 @@
     SUBDIR += p5-Crypt-Juniper
     SUBDIR += p5-Crypt-Khazad
     SUBDIR += p5-Crypt-LE
+    SUBDIR += p5-Crypt-LibSCEP
     SUBDIR += p5-Crypt-License
     SUBDIR += p5-Crypt-Lite
     SUBDIR += p5-Crypt-Loki97
@@ -1277,6 +1279,7 @@
     SUBDIR += tcpcrypt
     SUBDIR += teleport
     SUBDIR += testssl.sh
+    SUBDIR += tfhe
     SUBDIR += theonionbox
     SUBDIR += tinc
     SUBDIR += tinc-devel
