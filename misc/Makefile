@@ -239,6 +239,7 @@
     SUBDIR += mate-user-guide
     SUBDIR += mbuffer
     SUBDIR += mc
+    SUBDIR += mc-nox11
     SUBDIR += mdp
     SUBDIR += metalink-checker
     SUBDIR += metalink-editor
@@ -252,6 +253,7 @@
     SUBDIR += mtail
     SUBDIR += mtx
     SUBDIR += najitool
+    SUBDIR += netron
     SUBDIR += nms
     SUBDIR += nnn
     SUBDIR += nsf

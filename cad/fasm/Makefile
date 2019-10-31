@@ -3,6 +3,7 @@
 PORTNAME=	fasm
 PORTVERSION=	g20190920
 CATEGORIES=	cad python
+PKGNAMESUFFIX=	-fpga
 
 MAINTAINER=	yuri@FreeBSD.org
 COMMENT=	FPGA assembly (FASM) parser and generator
