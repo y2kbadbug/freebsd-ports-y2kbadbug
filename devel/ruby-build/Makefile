@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	ruby-build
-PORTVERSION=	20191004 # pend update until bug 241633 solved
+PORTVERSION=	20191105
 DISTVERSIONPREFIX=	v
 CATEGORIES=	devel ruby
 

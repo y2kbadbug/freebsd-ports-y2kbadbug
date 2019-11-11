@@ -3,7 +3,7 @@
 
 PORTNAME=	gcb
 PORTVERSION=	0.2.8
-PORTREVISION=	8
+PORTREVISION=	9
 CATEGORIES=	x11
 MASTER_SITES=	http://freebsd.flatrate.ru/distfiles/ \
 		http://ccbsd9.csie.nctu.edu.tw/~cp76/gcb/
@@ -14,7 +14,7 @@ COMMENT=	GTK+ tool for managing x11 cut-buffers
 BROKEN=		unfetchable
 
 HAS_CONFIGURE=	yes
-USES=		pkgconfig tar:bzip2
+USES=		gnome pkgconfig tar:bzip2
 USE_GNOME=	gtk20
 
 post-patch:
