@@ -41,6 +41,7 @@
     SUBDIR += R-cran-gbm
     SUBDIR += R-cran-gdata
     SUBDIR += R-cran-generics
+    SUBDIR += R-cran-getopt
     SUBDIR += R-cran-glmnet
     SUBDIR += R-cran-glue
     SUBDIR += R-cran-gmodels
@@ -55,6 +56,7 @@
     SUBDIR += R-cran-magrittr
     SUBDIR += R-cran-memoise
     SUBDIR += R-cran-microbenchmark
+    SUBDIR += R-cran-optparse
     SUBDIR += R-cran-pillar
     SUBDIR += R-cran-pkgconfig
     SUBDIR += R-cran-pkgmaker
@@ -90,9 +92,7 @@
     SUBDIR += RStudio
     SUBDIR += SpecTcl
     SUBDIR += aap
-    SUBDIR += aarch64-binutils
     SUBDIR += aarch64-gcc
-    SUBDIR += aarch64-none-elf-binutils
     SUBDIR += aarch64-none-elf-gcc
     SUBDIR += aarch64-xtoolchain-gcc
     SUBDIR += abi-compliance-checker
@@ -112,7 +112,6 @@
     SUBDIR += allegro
     SUBDIR += allegro-devel
     SUBDIR += alog
-    SUBDIR += amd64-binutils
     SUBDIR += amd64-gcc
     SUBDIR += amd64-xtoolchain-gcc
     SUBDIR += amqp-cpp
@@ -159,8 +158,6 @@
     SUBDIR += args
     SUBDIR += argtable
     SUBDIR += arm-elf-binutils
-    SUBDIR += arm-gnueabi-binutils
-    SUBDIR += arm-none-eabi-binutils
     SUBDIR += arm-none-eabi-gcc
     SUBDIR += arm-none-eabi-gcc492
     SUBDIR += arm-none-eabi-gdb
@@ -192,7 +189,6 @@
     SUBDIR += avalon-framework
     SUBDIR += avarice
     SUBDIR += avce00
-    SUBDIR += avr-binutils
     SUBDIR += avr-gcc
     SUBDIR += avr-gdb
     SUBDIR += avr-libc
@@ -707,6 +703,7 @@
     SUBDIR += fpc-zlib
     SUBDIR += fpp
     SUBDIR += frama-c
+    SUBDIR += freebsd-gcc6
     SUBDIR += frink
     SUBDIR += fsmtrie
     SUBDIR += fstrcmp
@@ -777,6 +774,7 @@
     SUBDIR += geany-plugin-xmlsnippets
     SUBDIR += geany-plugins
     SUBDIR += geany-plugins-l10n
+    SUBDIR += geany-themes
     SUBDIR += gearmand
     SUBDIR += gearmand-devel
     SUBDIR += gecode
@@ -984,7 +982,6 @@
     SUBDIR += hub
     SUBDIR += hwloc
     SUBDIR += hyperscan
-    SUBDIR += i386-binutils
     SUBDIR += i386-gcc
     SUBDIR += i386-xtoolchain-gcc
     SUBDIR += ice
@@ -1547,7 +1544,6 @@
     SUBDIR += mime
     SUBDIR += mimir
     SUBDIR += mingw32-bin-msvcrt
-    SUBDIR += mingw32-binutils
     SUBDIR += mingw32-directx
     SUBDIR += mingw32-gcc
     SUBDIR += mingw32-libffi
@@ -1556,10 +1552,8 @@
     SUBDIR += mingw32-pdcurses
     SUBDIR += mingw32-pthreads
     SUBDIR += mingw32-zlib
-    SUBDIR += mips-binutils
     SUBDIR += mips-gcc
     SUBDIR += mips-xtoolchain-gcc
-    SUBDIR += mips64-binutils
     SUBDIR += mips64-gcc
     SUBDIR += mips64-xtoolchain-gcc
     SUBDIR += mir-core
@@ -3968,7 +3962,6 @@
     SUBDIR += pmdk
     SUBDIR += poco
     SUBDIR += popt
-    SUBDIR += powerpc64-binutils
     SUBDIR += powerpc64-gcc
     SUBDIR += powerpc64-xtoolchain-gcc
     SUBDIR += poxml
@@ -5393,7 +5386,6 @@
     SUBDIR += replxx
     SUBDIR += resolv_wrapper
     SUBDIR += rhtvision
-    SUBDIR += riscv64-binutils
     SUBDIR += riscv64-gcc
     SUBDIR += riscv64-xtoolchain-gcc
     SUBDIR += rlog
@@ -5524,6 +5516,7 @@
     SUBDIR += rubygem-aws-sdk-costandusagereportservice
     SUBDIR += rubygem-aws-sdk-costexplorer
     SUBDIR += rubygem-aws-sdk-databasemigrationservice
+    SUBDIR += rubygem-aws-sdk-dataexchange
     SUBDIR += rubygem-aws-sdk-datapipeline
     SUBDIR += rubygem-aws-sdk-datasync
     SUBDIR += rubygem-aws-sdk-dax
@@ -5591,6 +5584,7 @@
     SUBDIR += rubygem-aws-sdk-machinelearning
     SUBDIR += rubygem-aws-sdk-macie
     SUBDIR += rubygem-aws-sdk-managedblockchain
+    SUBDIR += rubygem-aws-sdk-marketplacecatalog
     SUBDIR += rubygem-aws-sdk-marketplacecommerceanalytics
     SUBDIR += rubygem-aws-sdk-marketplaceentitlementservice
     SUBDIR += rubygem-aws-sdk-marketplacemetering
@@ -5647,6 +5641,7 @@
     SUBDIR += rubygem-aws-sdk-servicediscovery
     SUBDIR += rubygem-aws-sdk-servicequotas
     SUBDIR += rubygem-aws-sdk-ses
+    SUBDIR += rubygem-aws-sdk-sesv2
     SUBDIR += rubygem-aws-sdk-shield
     SUBDIR += rubygem-aws-sdk-signer
     SUBDIR += rubygem-aws-sdk-simpledb
@@ -6364,7 +6359,6 @@
     SUBDIR += rust-cbindgen
     SUBDIR += rvi
     SUBDIR += rvm
-    SUBDIR += s390x-binutils
     SUBDIR += sabre
     SUBDIR += safe-iop
     SUBDIR += samurai
@@ -6425,7 +6419,6 @@
     SUBDIR += sope4
     SUBDIR += sord
     SUBDIR += sourcenav
-    SUBDIR += sparc64-binutils
     SUBDIR += sparc64-gcc
     SUBDIR += sparc64-xtoolchain-gcc
     SUBDIR += spark

@@ -207,6 +207,7 @@
     SUBDIR += lxqt-globalkeys
     SUBDIR += lxqt-runner
     SUBDIR += lxrandr
+    SUBDIR += ly
     SUBDIR += mate
     SUBDIR += mate-applets
     SUBDIR += mate-base
@@ -218,8 +219,6 @@
     SUBDIR += mate-terminal
     SUBDIR += menu-cache
     SUBDIR += menulibre
-    SUBDIR += mere-about
-    SUBDIR += mere-utils
     SUBDIR += metalock
     SUBDIR += metisse
     SUBDIR += mkcomposecache
