@@ -3,6 +3,7 @@
 
 PORTNAME=	redmine
 PORTVERSION=	4.0.5
+PORTREVISION=	1
 CATEGORIES=	www
 MASTER_SITES=	https://www.redmine.org/releases/
 PKGNAMESUFFIX=	4
@@ -94,5 +95,8 @@ do-install-RMAGIC-on:
 
 do-install-THIN-on:
 	${CP} ${FILESDIR}/thin.rb ${STAGEDIR}${WWWDIR}/bundler.d
+
+post-install:
+	(cd ${STAGEDIR}${WWWDIR} && ${RM} Gemfile.lock && bundle install --local)
 
 .include <bsd.port.mk>

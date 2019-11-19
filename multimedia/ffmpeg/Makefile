@@ -3,7 +3,7 @@
 
 PORTNAME=	ffmpeg
 PORTVERSION=	4.2.1
-PORTREVISION=	15
+PORTREVISION=	16
 PORTEPOCH=	1
 CATEGORIES=	multimedia audio net
 MASTER_SITES=	https://ffmpeg.org/releases/
@@ -408,6 +408,7 @@ LIBRTMP_LIB_DEPENDS=	librtmp.so:multimedia/librtmp
 LIBRTMP_CONFIGURE_ENABLE=	librtmp
 
 # sdl
+SDL_USES=		sdl
 SDL_USE=		SDL=sdl2
 SDL_CONFIGURE_ENABLE=	sdl2
 
