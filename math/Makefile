@@ -654,8 +654,6 @@
     SUBDIR += pecl-bitset
     SUBDIR += pecl-stats2
     SUBDIR += petiga
-    SUBDIR += php71-bcmath
-    SUBDIR += php71-gmp
     SUBDIR += php72-bcmath
     SUBDIR += php72-gmp
     SUBDIR += php73-bcmath
@@ -889,6 +887,7 @@
     SUBDIR += vowpal_wabbit
     SUBDIR += vtk6
     SUBDIR += vtk8
+    SUBDIR += wavelib
     SUBDIR += wcalc
     SUBDIR += wfmath
     SUBDIR += why3
