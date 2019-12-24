@@ -303,7 +303,7 @@
     SUBDIR += libpwstor
     SUBDIR += libressl
     SUBDIR += libressl-devel
-    SUBDIR += libscep 
+    SUBDIR += libscep
     SUBDIR += libscrypt
     SUBDIR += libsecret
     SUBDIR += libsectok
@@ -448,6 +448,7 @@
     SUBDIR += p11-kit
     SUBDIR += p5-Alt-Crypt-RSA-BigInt
     SUBDIR += p5-Apache-Htpasswd
+    SUBDIR += p5-App-Acmeman
     SUBDIR += p5-App-Genpass
     SUBDIR += p5-App-TLSMe
     SUBDIR += p5-Auth-YubikeyDecrypter
@@ -713,6 +714,7 @@
     SUBDIR += p5-openxpki-i18n
     SUBDIR += p5-plog
     SUBDIR += pad
+    SUBDIR += palisade
     SUBDIR += pam-modules
     SUBDIR += pam-mysql
     SUBDIR += pam-pgsql
