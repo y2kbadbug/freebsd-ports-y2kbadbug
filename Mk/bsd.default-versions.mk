@@ -43,7 +43,7 @@ FIREBIRD_DEFAULT?=	2.5
 FORTRAN_DEFAULT?=	gfortran
 # Possible values: 3.0.4
 FPC_DEFAULT?=		3.0.4
-# Possible values: 7, 8, 9 (powerpcspe was dropped with GCC 9)
+# Possible values: 8, 9 (powerpcspe was dropped with GCC 9)
 .if ${ARCH} == "powerpcspe"
 GCC_DEFAULT?=		8
 .else
@@ -82,7 +82,7 @@ PERL5_DEFAULT:=		${_PERL5_FROM_BIN:R}
 .endif
 # Possible values: 9.4, 9.5, 9.6, 10, 11, 12
 PGSQL_DEFAULT?=		11
-# Possible values: 7.1, 7.2, 7.3, 7.4
+# Possible values: 7.2, 7.3, 7.4
 PHP_DEFAULT?=		7.2
 # Possible values: 2.7, 3.5, 3.6, 3.7, 3.8
 PYTHON_DEFAULT?=	3.7

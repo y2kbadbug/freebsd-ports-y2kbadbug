@@ -330,6 +330,7 @@
     SUBDIR += mediawiki131
     SUBDIR += mediawiki132
     SUBDIR += mediawiki133
+    SUBDIR += mediawiki134
     SUBDIR += mergelog
     SUBDIR += mhonarc
     SUBDIR += micro_httpd
@@ -502,10 +503,12 @@
     SUBDIR += p5-Apache-AuthCookie
     SUBDIR += p5-Apache-AuthTicket
     SUBDIR += p5-Apache-Clean2
+    SUBDIR += p5-Apache-Config-Preproc
     SUBDIR += p5-Apache-ConfigFile
     SUBDIR += p5-Apache-ConfigParser
     SUBDIR += p5-Apache-DB
     SUBDIR += p5-Apache-DBI
+    SUBDIR += p5-Apache-Defaults
     SUBDIR += p5-Apache-Gallery
     SUBDIR += p5-Apache-Htgroup
     SUBDIR += p5-Apache-LogFormat-Compiler
@@ -1625,6 +1628,7 @@
     SUBDIR += py-flask-assets
     SUBDIR += py-flask-bootstrap
     SUBDIR += py-flask-cache
+    SUBDIR += py-flask-collect
     SUBDIR += py-flask-compress
     SUBDIR += py-flask-cors
     SUBDIR += py-flask-flatpages

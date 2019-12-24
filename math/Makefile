@@ -197,6 +197,7 @@
     SUBDIR += cppad
     SUBDIR += crlibm
     SUBDIR += cryptominisat
+    SUBDIR += csdp
     SUBDIR += curv
     SUBDIR += cvc3
     SUBDIR += cvc4
@@ -364,7 +365,6 @@
     SUBDIR += mbasecalc
     SUBDIR += mcsim
     SUBDIR += metis
-    SUBDIR += metis-edf
     SUBDIR += metis4
     SUBDIR += mfem
     SUBDIR += mingw32-libgmp
@@ -813,6 +813,7 @@
     SUBDIR += reduce
     SUBDIR += reduce-psl
     SUBDIR += reed-solomon
+    SUBDIR += rehearse
     SUBDIR += rexx-regmath
     SUBDIR += rkward-kde
     SUBDIR += rngstreams
