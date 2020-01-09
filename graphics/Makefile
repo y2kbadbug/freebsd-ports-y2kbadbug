@@ -495,16 +495,6 @@
     SUBDIR += libzmf
     SUBDIR += lightzone
     SUBDIR += linplasma
-    SUBDIR += linux-c6-cairo
-    SUBDIR += linux-c6-dri
-    SUBDIR += linux-c6-gdk-pixbuf2
-    SUBDIR += linux-c6-glx-utils
-    SUBDIR += linux-c6-jasper
-    SUBDIR += linux-c6-jpeg
-    SUBDIR += linux-c6-png
-    SUBDIR += linux-c6-sdl_image
-    SUBDIR += linux-c6-sdl_ttf
-    SUBDIR += linux-c6-tiff
     SUBDIR += linux-c7-cairo
     SUBDIR += linux-c7-cairo-gobject
     SUBDIR += linux-c7-dri
@@ -862,6 +852,7 @@
     SUBDIR += py-pygal
     SUBDIR += py-pyganim
     SUBDIR += py-pyglet
+    SUBDIR += py-pyglet12
     SUBDIR += py-pygooglechart
     SUBDIR += py-pygraphviz
     SUBDIR += py-pyinsane2
@@ -886,6 +877,7 @@
     SUBDIR += py-termtosvg
     SUBDIR += py-toyplot
     SUBDIR += py-traitsui
+    SUBDIR += py-visvis
     SUBDIR += py-wand
     SUBDIR += py-webcolors
     SUBDIR += py-willow
