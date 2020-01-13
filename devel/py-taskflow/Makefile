@@ -3,6 +3,7 @@
 
 PORTNAME=	taskflow
 PORTVERSION=	3.8.0
+PORTREVISION=	1
 CATEGORIES=	devel python
 MASTER_SITES=	CHEESESHOP
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
@@ -15,7 +16,6 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 
 BUILD_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pbr>=2.0.0:devel/py-pbr@${PY_FLAVOR}
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}automaton>=1.9.0:devel/py-automaton@${PY_FLAVOR} \
-		${PYTHON_PKGNAMEPREFIX}cachetools>=2.0.0:devel/py-cachetools@${PY_FLAVOR} \
 		${PY_ENUM34} \
 		${PYTHON_PKGNAMEPREFIX}fasteners>=0.7.0:devel/py-fasteners@${PY_FLAVOR} \
 		${PY_FUTURES} \
@@ -38,11 +38,17 @@ NO_ARCH=	yes
 
 .if ${PYTHON_REL} < 3000
 RUN_DEPENDS+=	${PYTHON_PKGNAMEPREFIX}contextlib2>=0.4.0:devel/py-contextlib2@${PY_FLAVOR} \
-		${PYTHON_PKGNAMEPREFIX}networkx>=2.1.0<2.3:math/py-networkx@${PY_FLAVOR}
+		${PYTHON_PKGNAMEPREFIX}networkx>=2.1.0,1<2.3,1:math/py-networkx@${PY_FLAVOR}
 .endif
 
 .if ${PYTHON_REL} >= 3400
-RUN_DEPENDS+=	${PYTHON_PKGNAMEPREFIX}networkx>=2.1.0:math/py-networkx@${PY_FLAVOR}
+RUN_DEPENDS+=	${PYTHON_PKGNAMEPREFIX}networkx>=2.1.0,1:math/py-networkx@${PY_FLAVOR}
+.endif
+
+.if ${PYTHON_REL} < 3500
+RUN_DEPENDS+=	${PYTHON_PKGNAMEPREFIX}cachetools3>=2.0.0:devel/py-cachetools3@${PY_FLAVOR}
+.else
+RUN_DEPENDS+=	${PYTHON_PKGNAMEPREFIX}cachetools>=2.0.0:devel/py-cachetools@${PY_FLAVOR}
 .endif
 
 .include <bsd.port.post.mk>
