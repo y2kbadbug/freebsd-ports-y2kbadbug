@@ -131,6 +131,7 @@
     SUBDIR += analitza
     SUBDIR += ann
     SUBDIR += antic
+    SUBDIR += apache-commons-math
     SUBDIR += apc
     SUBDIR += apron
     SUBDIR += arb
@@ -144,7 +145,6 @@
     SUBDIR += atlas
     SUBDIR += barvinok
     SUBDIR += bcal
-    SUBDIR += biggles
     SUBDIR += bitwise
     SUBDIR += blacs
     SUBDIR += blas
@@ -300,7 +300,6 @@
     SUBDIR += ised
     SUBDIR += jacal
     SUBDIR += jags
-    SUBDIR += jakarta-commons-math3
     SUBDIR += jama
     SUBDIR += jeuclid
     SUBDIR += jlatexmath
@@ -354,7 +353,6 @@
     SUBDIR += ltl
     SUBDIR += ltl2ba
     SUBDIR += lybniz
-    SUBDIR += mandelbulber2
     SUBDIR += mate-calc
     SUBDIR += math77
     SUBDIR += mathgl
@@ -403,6 +401,7 @@
     SUBDIR += octave
     SUBDIR += octave-forge
     SUBDIR += octave-forge-actuarial
+    SUBDIR += octave-forge-audio
     SUBDIR += octave-forge-base
     SUBDIR += octave-forge-bim
     SUBDIR += octave-forge-bioinfo
@@ -671,6 +670,7 @@
     SUBDIR += ploticus-nox11
     SUBDIR += plplot
     SUBDIR += plplot-ada
+    SUBDIR += poly2tri
     SUBDIR += polylib
     SUBDIR += primegen
     SUBDIR += primesieve
@@ -713,12 +713,10 @@
     SUBDIR += py-ffc
     SUBDIR += py-fiat
     SUBDIR += py-fpconst
-    SUBDIR += py-gato
     SUBDIR += py-gau2grid
     SUBDIR += py-gimmik
     SUBDIR += py-gmpy
     SUBDIR += py-gmpy2
-    SUBDIR += py-gnuplot
     SUBDIR += py-grandalf
     SUBDIR += py-graphillion
     SUBDIR += py-gym
@@ -733,7 +731,6 @@
     SUBDIR += py-levmar
     SUBDIR += py-libpoly
     SUBDIR += py-luminol
-    SUBDIR += py-mathdom
     SUBDIR += py-matplotlib
     SUBDIR += py-matplotlib-scalebar
     SUBDIR += py-mpmath
@@ -756,7 +753,6 @@
     SUBDIR += py-piranha
     SUBDIR += py-plastex
     SUBDIR += py-primme
-    SUBDIR += py-probstat
     SUBDIR += py-pyFFTW
     SUBDIR += py-pyasp
     SUBDIR += py-pybloom
@@ -770,6 +766,7 @@
     SUBDIR += py-pymc3
     SUBDIR += py-pyneqsys
     SUBDIR += py-pynleq2
+    SUBDIR += py-pynndescent
     SUBDIR += py-pyodeint
     SUBDIR += py-pyodesys
     SUBDIR += py-pysparse
@@ -781,7 +778,6 @@
     SUBDIR += py-random2
     SUBDIR += py-rapi
     SUBDIR += py-roman
-    SUBDIR += py-rpy
     SUBDIR += py-rpy2
     SUBDIR += py-scientific
     SUBDIR += py-scikit-umfpack
@@ -793,6 +789,7 @@
     SUBDIR += py-spectral
     SUBDIR += py-spot
     SUBDIR += py-statsmodels
+    SUBDIR += py-statsmodels010
     SUBDIR += py-svgmath
     SUBDIR += py-sym
     SUBDIR += py-symcxx

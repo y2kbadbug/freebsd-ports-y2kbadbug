@@ -46,7 +46,6 @@
     SUBDIR += apache-poi
     SUBDIR += apache-solr
     SUBDIR += apertium
-    SUBDIR += archmage
     SUBDIR += artha
     SUBDIR += asciidoc
     SUBDIR += asm-xml
@@ -92,6 +91,7 @@
     SUBDIR += cmark
     SUBDIR += coccigrep
     SUBDIR += code2html
+    SUBDIR += codesearch
     SUBDIR += codespell
     SUBDIR += colordiff
     SUBDIR += confetti
@@ -163,6 +163,7 @@
     SUBDIR += elasticsearch5
     SUBDIR += elasticsearch5-search-guard
     SUBDIR += elasticsearch6
+    SUBDIR += elasticsearch7
     SUBDIR += elixir-earmark
     SUBDIR += elixir-funnel
     SUBDIR += elixir-sweet_xml
@@ -218,7 +219,6 @@
     SUBDIR += gladtex
     SUBDIR += glark
     SUBDIR += gmetadom
-    SUBDIR += gnome-doc-utils
     SUBDIR += gnugrep
     SUBDIR += goldendict
     SUBDIR += google-ctemplate
@@ -1218,7 +1218,6 @@
     SUBDIR += py-alabaster
     SUBDIR += py-asciinema
     SUBDIR += py-asonic
-    SUBDIR += py-asv
     SUBDIR += py-autopep8
     SUBDIR += py-awesome-slugify
     SUBDIR += py-bibtexparser
@@ -1241,7 +1240,6 @@
     SUBDIR += py-docx2txt
     SUBDIR += py-dominate
     SUBDIR += py-dparse
-    SUBDIR += py-dsv
     SUBDIR += py-duecredit
     SUBDIR += py-elasticsearch
     SUBDIR += py-elasticsearch-async
@@ -1255,9 +1253,9 @@
     SUBDIR += py-errorhandler
     SUBDIR += py-esmre
     SUBDIR += py-et_xmlfile
-    SUBDIR += py-excelerator
     SUBDIR += py-feedparser
     SUBDIR += py-fingerprints
+    SUBDIR += py-ftfy
     SUBDIR += py-gambit-elasticsearch
     SUBDIR += py-genshi
     SUBDIR += py-gensim
@@ -1266,18 +1264,19 @@
     SUBDIR += py-guess-language
     SUBDIR += py-hexdump
     SUBDIR += py-html2text
+    SUBDIR += py-html2text2018
     SUBDIR += py-humanfriendly
     SUBDIR += py-hunspell
     SUBDIR += py-hyperestraier-python
     SUBDIR += py-hypua2jamo
-    SUBDIR += py-jaxml
+    SUBDIR += py-isbnlib
+    SUBDIR += py-isbntools
     SUBDIR += py-jsonslicer
     SUBDIR += py-jsx-lexer
     SUBDIR += py-jtextfsm
     SUBDIR += py-junit-xml
     SUBDIR += py-langdetect
     SUBDIR += py-laserhammer
-    SUBDIR += py-libtre
     SUBDIR += py-libxml2
     SUBDIR += py-libxslt
     SUBDIR += py-license-expression
@@ -1319,7 +1318,6 @@
     SUBDIR += py-pyPEG2
     SUBDIR += py-pyahocorasick
     SUBDIR += py-pyaml
-    SUBDIR += py-pyctpp2
     SUBDIR += py-pyes
     SUBDIR += py-pygccxml
     SUBDIR += py-pygments
@@ -1356,8 +1354,6 @@
     SUBDIR += py-rnc2rng
     SUBDIR += py-rss2gen
     SUBDIR += py-rst2html5
-    SUBDIR += py-rstyoutube
-    SUBDIR += py-rxp
     SUBDIR += py-scour
     SUBDIR += py-sgrep
     SUBDIR += py-simplebayes
@@ -1382,7 +1378,6 @@
     SUBDIR += py-sphinxcontrib-programoutput
     SUBDIR += py-sphinxcontrib-websupport
     SUBDIR += py-stemming
-    SUBDIR += py-syck
     SUBDIR += py-tabletext
     SUBDIR += py-tablib
     SUBDIR += py-terminaltables
@@ -1398,7 +1393,6 @@
     SUBDIR += py-transifex-client
     SUBDIR += py-translationstring
     SUBDIR += py-transpopy
-    SUBDIR += py-tvgrab
     SUBDIR += py-ucl
     SUBDIR += py-ufal.udpipe
     SUBDIR += py-whoosh
@@ -1411,7 +1405,6 @@
     SUBDIR += py-xlrd
     SUBDIR += py-xlsxwriter
     SUBDIR += py-xlutils
-    SUBDIR += py-xlwriter
     SUBDIR += py-xlwt
     SUBDIR += py-xml-default-dict
     SUBDIR += py-xmldiff
@@ -1422,7 +1415,6 @@
     SUBDIR += py-zope.structuredtext
     SUBDIR += py-zope.tal
     SUBDIR += py-zpt
-    SUBDIR += py2html
     SUBDIR += pychm
     SUBDIR += qprint
     SUBDIR += qrcodegen
@@ -1430,7 +1422,6 @@
     SUBDIR += qt5-xml
     SUBDIR += qt5-xmlpatterns
     SUBDIR += qu-aspell
-    SUBDIR += queequeg
     SUBDIR += rand
     SUBDIR += randlm
     SUBDIR += rapidxml
@@ -1463,7 +1454,6 @@
     SUBDIR += rss2html
     SUBDIR += rtf2html
     SUBDIR += rtfreader
-    SUBDIR += rubber
     SUBDIR += ruby-escape
     SUBDIR += ruby-format
     SUBDIR += ruby-htree
@@ -1474,6 +1464,7 @@
     SUBDIR += rubygem-actionpack-xml_parser
     SUBDIR += rubygem-actionpack-xml_parser1
     SUBDIR += rubygem-actionpack-xml_parser52
+    SUBDIR += rubygem-actiontext60
     SUBDIR += rubygem-albino
     SUBDIR += rubygem-amatch
     SUBDIR += rubygem-asciidoctor
@@ -1494,6 +1485,7 @@
     SUBDIR += rubygem-coderay
     SUBDIR += rubygem-colorator
     SUBDIR += rubygem-colored
+    SUBDIR += rubygem-colored2
     SUBDIR += rubygem-commonmarker
     SUBDIR += rubygem-compass
     SUBDIR += rubygem-compass-blueprint
@@ -1510,16 +1502,21 @@
     SUBDIR += rubygem-elasticsearch
     SUBDIR += rubygem-elasticsearch-api
     SUBDIR += rubygem-elasticsearch-api503
+    SUBDIR += rubygem-elasticsearch-api6
     SUBDIR += rubygem-elasticsearch-dsl
     SUBDIR += rubygem-elasticsearch-model
     SUBDIR += rubygem-elasticsearch-model019
+    SUBDIR += rubygem-elasticsearch-model6
     SUBDIR += rubygem-elasticsearch-persistence
     SUBDIR += rubygem-elasticsearch-rails
     SUBDIR += rubygem-elasticsearch-rails019
+    SUBDIR += rubygem-elasticsearch-rails6
     SUBDIR += rubygem-elasticsearch-transport
     SUBDIR += rubygem-elasticsearch-transport503
+    SUBDIR += rubygem-elasticsearch-transport6
     SUBDIR += rubygem-elasticsearch-xpack
     SUBDIR += rubygem-elasticsearch503
+    SUBDIR += rubygem-elasticsearch6
     SUBDIR += rubygem-emot
     SUBDIR += rubygem-escape_utils
     SUBDIR += rubygem-escape_utils11
@@ -1581,12 +1578,14 @@
     SUBDIR += rubygem-parslet
     SUBDIR += rubygem-phone
     SUBDIR += rubygem-pretty-xml
+    SUBDIR += rubygem-psych
     SUBDIR += rubygem-puppet-strings
     SUBDIR += rubygem-raabro
     SUBDIR += rubygem-rails-dom-testing
     SUBDIR += rubygem-rails-dom-testing-rails5
     SUBDIR += rubygem-rails-dom-testing-rails50
     SUBDIR += rubygem-rails-dom-testing-rails52
+    SUBDIR += rubygem-rails-dom-testing-rails60
     SUBDIR += rubygem-rails-dom-testing1
     SUBDIR += rubygem-rails-html-sanitizer
     SUBDIR += rubygem-rak
@@ -1620,6 +1619,7 @@
     SUBDIR += rubygem-sass-rails-rails5
     SUBDIR += rubygem-sass-rails-rails50
     SUBDIR += rubygem-sass-rails-rails52
+    SUBDIR += rubygem-sass-rails-rails60
     SUBDIR += rubygem-sass32
     SUBDIR += rubygem-sass34
     SUBDIR += rubygem-sassc
@@ -1627,6 +1627,7 @@
     SUBDIR += rubygem-sassc-rails-rails5
     SUBDIR += rubygem-sassc-rails-rails50
     SUBDIR += rubygem-sassc-rails-rails52
+    SUBDIR += rubygem-sassc-rails-rails60
     SUBDIR += rubygem-sax-machine
     SUBDIR += rubygem-scss_lint
     SUBDIR += rubygem-shell2html
@@ -1692,7 +1693,6 @@
     SUBDIR += sgrep2
     SUBDIR += sift
     SUBDIR += sigil
-    SUBDIR += silvercity
     SUBDIR += simplexml
     SUBDIR += sk-aspell
     SUBDIR += sk-hunspell
@@ -1781,6 +1781,7 @@
     SUBDIR += uml2svg
     SUBDIR += uncle
     SUBDIR += uncrustify
+    SUBDIR += uni
     SUBDIR += uni2ascii
     SUBDIR += unoconv
     SUBDIR += unroff
@@ -1843,7 +1844,6 @@
     SUBDIR += xp
     SUBDIR += xslide.el
     SUBDIR += xstream
-    SUBDIR += xsv
     SUBDIR += xsv-rs
     SUBDIR += xwindiff
     SUBDIR += y2l
@@ -1856,7 +1856,6 @@
     SUBDIR += yi-aspell
     SUBDIR += yi-hunspell
     SUBDIR += yodl
-    SUBDIR += yould
     SUBDIR += yq
     SUBDIR += zenxml
     SUBDIR += zorba

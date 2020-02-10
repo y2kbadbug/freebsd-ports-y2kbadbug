@@ -2,7 +2,7 @@
 
 PORTNAME=	gemma
 DISTVERSION=	0.98.1
-PORTREVISION=	3
+PORTREVISION=	4
 CATEGORIES=	biology
 
 MAINTAINER=	jwb@FreeBSD.org
@@ -22,7 +22,7 @@ GH_PROJECT=	GEMMA
 MAKEFILE=	${FILESDIR}/Makefile
 # Assuming openblas is built with pthreads, not openmp
 CXXFLAGS+=	-I${LOCALBASE}/include/eigen3 -DOPENBLAS -pthread
-LDFLAGS+=	-lopenblasp -pthread
+LDFLAGS+=	-lopenblas -pthread
 
 OPTIONS_DEFINE=	EXAMPLES
 

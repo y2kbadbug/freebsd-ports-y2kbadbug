@@ -3,7 +3,7 @@
 
 PORTNAME=	qemu
 PORTVERSION=	2.11.50.g20191211
-PORTREVISION=	1
+PORTREVISION=	3
 CATEGORIES=	emulators
 PKGNAMESUFFIX?=	-sbruno
 DIST_SUBDIR=	qemu/${PORTVERSION}
@@ -111,7 +111,7 @@ PLIST_SUB+=	BSD_USER=""
 IGNORE=		bsd-user targets not tested on sparc64
 .endif
 .endif
-.if empty(PORT_OPTIONS:MBSD_USER) || ${ARCH} != "amd64"
+.if empty(PORT_OPTIONS:MBSD_USER) || (${ARCH} != "amd64" && ${ARCH} != "powerpc64")
 PLIST_SUB+=	BSD_USER64="@comment "
 .else
 PLIST_SUB+=	BSD_USER64=""
@@ -131,7 +131,6 @@ PLIST_SUB+=	SOFTMMU=""
 PLIST_SUB+=	STATIC=""
 .endif
 
-SSP_CFLAGS?=	-fstack-protector # XXX -strong crashes qemu-user-static
 WITHOUT_CPU_CFLAGS=yes	#to avoid problems with register allocation
 CFLAGS:=	${CFLAGS:C/-fno-tree-vrp//}
 CFLAGS+=	-Wno-address-of-packed-member
