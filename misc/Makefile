@@ -31,6 +31,7 @@
     SUBDIR += bottlerocket
     SUBDIR += box2d
     SUBDIR += boxes
+    SUBDIR += broot
     SUBDIR += brs
     SUBDIR += bsod
     SUBDIR += buffer
@@ -158,13 +159,11 @@
     SUBDIR += gnome-icon-theme
     SUBDIR += gnome-icon-theme-extras
     SUBDIR += gnome-mime-data
-    SUBDIR += gnome-osd
     SUBDIR += gnome-user-docs
     SUBDIR += gnu-watch
     SUBDIR += gnuls
     SUBDIR += gobuster
     SUBDIR += gone
-    SUBDIR += gonvert
     SUBDIR += gplink
     SUBDIR += gpsim
     SUBDIR += granulate
@@ -192,6 +191,7 @@
     SUBDIR += iso-codes
     SUBDIR += jargon
     SUBDIR += jbidwatcher
+    SUBDIR += jojodiff
     SUBDIR += kbdscan
     SUBDIR += kcd
     SUBDIR += kde-thumbnailer-chm
@@ -244,7 +244,6 @@
     SUBDIR += mc-nox11
     SUBDIR += mdp
     SUBDIR += metalink-checker
-    SUBDIR += metalink-editor
     SUBDIR += metalink-tools
     SUBDIR += metromap
     SUBDIR += mime-support
@@ -378,7 +377,6 @@
     SUBDIR += py-QSpectrumAnalyzer
     SUBDIR += py-SimpleSoapy
     SUBDIR += py-SoapySDR
-    SUBDIR += py-YABT
     SUBDIR += py-cinder
     SUBDIR += py-colorbrewer
     SUBDIR += py-colored
@@ -388,7 +386,6 @@
     SUBDIR += py-fast-histogram
     SUBDIR += py-fleep
     SUBDIR += py-fuzzy
-    SUBDIR += py-glance
     SUBDIR += py-gluoncv
     SUBDIR += py-gluonnlp
     SUBDIR += py-huepy
@@ -538,7 +535,6 @@
     SUBDIR += wotsap
     SUBDIR += xdelta
     SUBDIR += xdelta3
-    SUBDIR += xdg-menu
     SUBDIR += xfce4-appfinder
     SUBDIR += xfce4-weather-plugin
     SUBDIR += xfce4-wm-themes

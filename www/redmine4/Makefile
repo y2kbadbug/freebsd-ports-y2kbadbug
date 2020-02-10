@@ -8,11 +8,13 @@ CATEGORIES=	www
 MASTER_SITES=	https://www.redmine.org/releases/
 PKGNAMESUFFIX=	4
 
-MAINTAINER=	mikael.urankar@gmail.com
+MAINTAINER=	mikael@FreeBSD.org
 COMMENT=	Flexible project management web application
 
 LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/doc/COPYING
+
+BROKEN=		conflicting dependencies
 
 RUN_DEPENDS=	rubygem-bundler>=1.5.0:sysutils/rubygem-bundler \
 		rubygem-rails52>=5.2.4.1:www/rubygem-rails52 \

@@ -44,9 +44,11 @@
     SUBDIR += efax
     SUBDIR += ems-flasher
     SUBDIR += fl_moxgen
+    SUBDIR += flamp
     SUBDIR += flcluster
     SUBDIR += fldigi
     SUBDIR += fllog
+    SUBDIR += flmsg
     SUBDIR += flrig
     SUBDIR += flwrap
     SUBDIR += freedv
@@ -139,7 +141,6 @@
     SUBDIR += py-gammu
     SUBDIR += py-hidapi
     SUBDIR += py-libconcord
-    SUBDIR += py-libimobiledevice
     SUBDIR += py-lirc
     SUBDIR += py-qt5-serialport
     SUBDIR += py-serial
