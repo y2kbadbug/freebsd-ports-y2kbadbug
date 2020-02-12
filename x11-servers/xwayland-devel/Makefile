@@ -4,6 +4,7 @@ PORTNAME=	xwayland
 DISTVERSIONPREFIX=	xorg-server-
 DISTVERSION=	1.20.0-592
 DISTVERSIONSUFFIX=	-g${GL_COMMIT:C/(.{12}).*/\1/}
+PORTREVISION=	1
 CATEGORIES=	x11-servers
 PKGNAMESUFFIX=	-devel
 
@@ -20,10 +21,12 @@ LICENSE_FILE=	${WRKSRC}/COPYING
 
 BUILD_DEPENDS=	evdev-proto>0:devel/evdev-proto \
 		${LOCALBASE}/include/GL/internal/dri_interface.h:graphics/mesa-dri \
-		wayland-protocols-devel>=1.18:graphics/wayland-protocols-devel
+		wayland-protocols>=1.18:graphics/wayland-protocols
 LIB_DEPENDS=	libdrm.so:graphics/libdrm \
 		libepoxy.so:graphics/libepoxy \
 		libwayland-client.so:graphics/wayland
+RUN_DEPENDS=	xkbcomp:x11/xkbcomp \
+		xkeyboard-config>0:x11/xkeyboard-config
 
 CONFLICTS_INSTALL=	${PORTNAME}
 

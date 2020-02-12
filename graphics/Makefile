@@ -794,6 +794,8 @@
     SUBDIR += py-djvulibre
     SUBDIR += py-editobj
     SUBDIR += py-exifread
+    SUBDIR += py-face_recognition
+    SUBDIR += py-face_recognition_models
     SUBDIR += py-fiona
     SUBDIR += py-freeimagepy
     SUBDIR += py-gdal
@@ -1039,7 +1041,6 @@
     SUBDIR += waifu2x-ncnn-vulkan
     SUBDIR += wayland
     SUBDIR += wayland-protocols
-    SUBDIR += wayland-protocols-devel
     SUBDIR += waylandpp
     SUBDIR += webp
     SUBDIR += webp-pixbuf-loader
