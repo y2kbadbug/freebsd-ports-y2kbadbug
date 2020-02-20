@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	jsonfield
-PORTVERSION=	2.1.0
+PORTVERSION=	2.1.1
 CATEGORIES=	www python
 MASTER_SITES=	CHEESESHOP
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
@@ -20,5 +20,7 @@ USES=		python
 USE_PYTHON=	autoplist concurrent distutils
 
 NO_ARCH=	yes
+
+CONFLICTS_INSTALL=	${PYTHON_PKGNAMEPREFIX}dj22-jsonfield
 
 .include <bsd.port.mk>
