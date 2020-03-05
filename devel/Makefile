@@ -475,7 +475,6 @@
     SUBDIR += dfuife-curses
     SUBDIR += dia2code
     SUBDIR += dia2code+
-    SUBDIR += diffuse
     SUBDIR += ding-libs
     SUBDIR += directfb
     SUBDIR += dispy
@@ -497,7 +496,6 @@
     SUBDIR += doxygen
     SUBDIR += dparser
     SUBDIR += dragon
-    SUBDIR += dreampie
     SUBDIR += ds2
     SUBDIR += dsymbol
     SUBDIR += dub
@@ -885,7 +883,6 @@
     SUBDIR += gstreamer-plugins-soup
     SUBDIR += gstreamer1-plugins-soup
     SUBDIR += gtgt
-    SUBDIR += gtkparasite
     SUBDIR += gtranslator
     SUBDIR += guichan
     SUBDIR += guile-lib
@@ -1240,6 +1237,7 @@
     SUBDIR += liblouis
     SUBDIR += liblpm
     SUBDIR += libltdl
+    SUBDIR += libluksde
     SUBDIR += liblxqt
     SUBDIR += libmaa
     SUBDIR += libmatheval
@@ -1505,6 +1503,7 @@
     SUBDIR += mercurialeclipse
     SUBDIR += mergify
     SUBDIR += meson
+    SUBDIR += microsoft-gsl
     SUBDIR += mill
     SUBDIR += mimalloc
     SUBDIR += mime
@@ -2657,6 +2656,7 @@
     SUBDIR += p5-Log-TraceMessages
     SUBDIR += p5-Log-ger
     SUBDIR += p5-Logfile-Rotate
+    SUBDIR += p5-Long-Jump
     SUBDIR += p5-Luka
     SUBDIR += p5-Lvalue
     SUBDIR += p5-MCE
@@ -4045,6 +4045,7 @@
     SUBDIR += py-applicationinsights
     SUBDIR += py-apptools
     SUBDIR += py-apscheduler
+    SUBDIR += py-archinfo
     SUBDIR += py-argcomplete
     SUBDIR += py-argh
     SUBDIR += py-argparse
@@ -4224,6 +4225,7 @@
     SUBDIR += py-click-threading
     SUBDIR += py-click6
     SUBDIR += py-cliff
+    SUBDIR += py-cliff2
     SUBDIR += py-cligj
     SUBDIR += py-clikit
     SUBDIR += py-clint
@@ -4367,6 +4369,8 @@
     SUBDIR += py-flatbuffers
     SUBDIR += py-flex
     SUBDIR += py-flexmock
+    SUBDIR += py-flit
+    SUBDIR += py-flit-core
     SUBDIR += py-fluent-logger
     SUBDIR += py-flufl.i18n
     SUBDIR += py-flufl.lock
@@ -4580,6 +4584,8 @@
     SUBDIR += py-magic
     SUBDIR += py-mailcap-fix
     SUBDIR += py-manuel
+    SUBDIR += py-marrow.mailer
+    SUBDIR += py-marrow.util
     SUBDIR += py-marshmallow
     SUBDIR += py-matrix-angular-sdk
     SUBDIR += py-mccabe
@@ -4647,7 +4653,6 @@
     SUBDIR += py-opster
     SUBDIR += py-optik
     SUBDIR += py-option_merge
-    SUBDIR += py-orbit
     SUBDIR += py-ordered-set
     SUBDIR += py-ordereddict
     SUBDIR += py-orderedmultidict
@@ -4958,7 +4963,6 @@
     SUBDIR += py-ruamel.ordereddict
     SUBDIR += py-ruamel.yaml
     SUBDIR += py-rubymarshal
-    SUBDIR += py-rwt
     SUBDIR += py-rx
     SUBDIR += py-rx1
     SUBDIR += py-sanetime

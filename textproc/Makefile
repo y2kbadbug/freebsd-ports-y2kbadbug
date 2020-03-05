@@ -392,6 +392,7 @@
     SUBDIR += libxml++26-reference
     SUBDIR += libxml2
     SUBDIR += libxml2-reference
+    SUBDIR += libxmlbird
     SUBDIR += libxode
     SUBDIR += libxslt
     SUBDIR += libxslt-reference
@@ -1463,9 +1464,9 @@
     SUBDIR += ruby-rdtool
     SUBDIR += ruby-rttool
     SUBDIR += ruby-xmlparser
-    SUBDIR += rubygem-actionpack-xml_parser
-    SUBDIR += rubygem-actionpack-xml_parser1
-    SUBDIR += rubygem-actionpack-xml_parser52
+    SUBDIR += rubygem-actionpack-xml_parser-rails5
+    SUBDIR += rubygem-actionpack-xml_parser-rails52
+    SUBDIR += rubygem-actionpack-xml_parser1-rails4
     SUBDIR += rubygem-actiontext60
     SUBDIR += rubygem-albino
     SUBDIR += rubygem-amatch
@@ -1473,6 +1474,7 @@
     SUBDIR += rubygem-asciidoctor-diagram
     SUBDIR += rubygem-asciidoctor-include-ext
     SUBDIR += rubygem-asciidoctor-plantuml
+    SUBDIR += rubygem-asciidoctor-plantuml0010
     SUBDIR += rubygem-autoprefixer-rails
     SUBDIR += rubygem-babel-source
     SUBDIR += rubygem-babel-transpiler
