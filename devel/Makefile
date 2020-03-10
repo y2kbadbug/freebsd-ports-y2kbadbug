@@ -1630,7 +1630,6 @@
     SUBDIR += opencvs
     SUBDIR += opendht
     SUBDIR += opengrok
-    SUBDIR += openmp
     SUBDIR += openocd
     SUBDIR += openwince-include
     SUBDIR += openzz
@@ -4215,6 +4214,7 @@
     SUBDIR += py-circuits
     SUBDIR += py-cjson
     SUBDIR += py-cld
+    SUBDIR += py-cle
     SUBDIR += py-cleo
     SUBDIR += py-cli-helpers
     SUBDIR += py-cliapp
@@ -4400,7 +4400,6 @@
     SUBDIR += py-fypp
     SUBDIR += py-game
     SUBDIR += py-game_sdl2
-    SUBDIR += py-gamin
     SUBDIR += py-gast
     SUBDIR += py-gdata
     SUBDIR += py-gdbgui
@@ -4445,7 +4444,6 @@
     SUBDIR += py-hash_ring
     SUBDIR += py-heapdict
     SUBDIR += py-hghooks
-    SUBDIR += py-hgsubversion
     SUBDIR += py-hgtools
     SUBDIR += py-holidays
     SUBDIR += py-http-prompt
@@ -4481,6 +4479,7 @@
     SUBDIR += py-iso8601
     SUBDIR += py-isodate
     SUBDIR += py-isort
+    SUBDIR += py-itanium_demangler
     SUBDIR += py-iterpipes
     SUBDIR += py-itypes
     SUBDIR += py-jaraco
@@ -4594,6 +4593,7 @@
     SUBDIR += py-meliae
     SUBDIR += py-memory-profiler
     SUBDIR += py-microversion_parse
+    SUBDIR += py-minidump
     SUBDIR += py-minimongo
     SUBDIR += py-minio
     SUBDIR += py-mock
@@ -4608,6 +4608,7 @@
     SUBDIR += py-mox
     SUBDIR += py-mox3
     SUBDIR += py-msgpack
+    SUBDIR += py-mulpyplexer
     SUBDIR += py-multi_key_dict
     SUBDIR += py-multipledispatch
     SUBDIR += py-multiprocess
@@ -6441,6 +6442,7 @@
     SUBDIR += rubygem-virtus
     SUBDIR += rubygem-warbler
     SUBDIR += rubygem-warden
+    SUBDIR += rubygem-warden127
     SUBDIR += rubygem-wdm
     SUBDIR += rubygem-web-console-rails60
     SUBDIR += rubygem-web-console2
@@ -6622,6 +6624,7 @@
     SUBDIR += tkcvs
     SUBDIR += tkmerge
     SUBDIR += tkp4
+    SUBDIR += tl-expected
     SUBDIR += tla
     SUBDIR += tmake
     SUBDIR += tnt
