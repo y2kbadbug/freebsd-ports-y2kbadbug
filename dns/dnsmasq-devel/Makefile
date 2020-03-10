@@ -2,8 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	dnsmasq
-DISTVERSION=	2.81rc1
-PORTREVISION=	0
+DISTVERSION=	2.81rc3
 PORTEPOCH=	3
 CATEGORIES=	dns
 MASTER_SITES=	http://www.thekelleys.org.uk/dnsmasq/release-candidates/
@@ -79,7 +78,7 @@ LDFLAGS+=	`pkg-config --libs dbus-1`
 CPPFLAGS+=	-I${LUA_INCDIR}
 CFLAGS+=	-DHAVE_LUASCRIPT
 LDFLAGS+=	-L${LUA_LIBDIR} -llua-${LUA_VER}
-USES+=		lua
+USES+=		lua pkgconfig
 .endif
 
 .if ${PORT_OPTIONS:MDNSSEC}
@@ -107,6 +106,9 @@ pre-configure: pretty-print-config
 	@${ECHO} 'WARNING: IDN and NLS enabled, building IDN WITH NLS.'
 .endif
 .endif
+
+post-patch:
+	${REINPLACE_CMD} -e '/^lua_/s/lua5\.2/lua-${LUA_VER}/' ${WRKSRC}/Makefile
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/src/dnsmasq ${STAGEDIR}${PREFIX}/sbin
