@@ -844,6 +844,7 @@
     SUBDIR += py-acme
     SUBDIR += py-acme-tiny
     SUBDIR += py-ailment
+    SUBDIR += py-angr
     SUBDIR += py-argon2-cffi
     SUBDIR += py-artifacts
     SUBDIR += py-asyncssh
@@ -976,6 +977,7 @@
     SUBDIR += py-rsa
     SUBDIR += py-safe
     SUBDIR += py-scp
+    SUBDIR += py-scramp
     SUBDIR += py-scrypt
     SUBDIR += py-securesystemslib
     SUBDIR += py-service_identity
@@ -1226,7 +1228,7 @@
     SUBDIR += super
     SUBDIR += suricata
     SUBDIR += suricata5
-    SUBDIR += swatch
+    SUBDIR += swatchdog
     SUBDIR += switzerland
     SUBDIR += symbion-sslproxy
     SUBDIR += tclsasl
