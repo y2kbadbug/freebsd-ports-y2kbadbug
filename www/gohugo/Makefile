@@ -2,7 +2,7 @@
 
 PORTNAME=	hugo
 DISTVERSIONPREFIX=	v
-DISTVERSION=	0.65.3
+DISTVERSION=	0.68.0
 CATEGORIES=	www
 PKGNAMEPREFIX=	go
 DIST_SUBDIR=	${PKGNAMEPREFIX}${PORTNAME}
@@ -86,7 +86,7 @@ GH_TUPLE=	\
 		pelletier:go-toml:v1.6.0:pelletier_go_toml/vendor/github.com/pelletier/go-toml \
 		pkg:errors:v0.8.1:pkg_errors/vendor/github.com/pkg/errors \
 		rogpeppe:go-internal:v1.5.1:rogpeppe_go_internal/vendor/github.com/rogpeppe/go-internal \
-		russross:blackfriday:a477dd164691:russross_blackfriday/vendor/github.com/russross/blackfriday \
+		russross:blackfriday:41c5fccfd6f6:russross_blackfriday/vendor/github.com/russross/blackfriday \
 		rwcarlsen:goexif:9e8deecbddbd:rwcarlsen_goexif/vendor/github.com/rwcarlsen/goexif \
 		sanity-io:litter:v1.2.0:sanity_io_litter/vendor/github.com/sanity-io/litter \
 		spf13:afero:v1.2.2:spf13_afero/vendor/github.com/spf13/afero \
@@ -99,9 +99,8 @@ GH_TUPLE=	\
 		subosito:gotenv:v1.2.0:subosito_gotenv/vendor/github.com/subosito/gotenv \
 		tdewolff:minify:v2.6.1:tdewolff_minify/vendor/github.com/tdewolff/minify/v2 \
 		tdewolff:parse:v2.3.14:tdewolff_parse/vendor/github.com/tdewolff/parse/v2 \
-		uber-go:atomic:v1.4.0:uber_go_atomic/vendor/go.uber.org/atomic \
 		yuin:goldmark-highlighting:d1af22c1126f:yuin_goldmark_highlighting/vendor/github.com/yuin/goldmark-highlighting \
-		yuin:goldmark:v1.1.22:yuin_goldmark/vendor/github.com/yuin/goldmark
+		yuin:goldmark:v1.1.25:yuin_goldmark/vendor/github.com/yuin/goldmark
 
 GO_BUILDFLAGS=	-ldflags="\
 		-s -w \
@@ -131,7 +130,7 @@ PORTMANS=	hugo-config.1 hugo-convert-toJSON.1 hugo-convert-toTOML.1 \
 .include <bsd.port.pre.mk>
 
 SOURCE_DATE_EPOCH_CMD=	date -r $$(grep TIMESTAMP ${DISTINFO_FILE} | ${SED} -e 's/[^0-9]//g') '+%FT%TZ%z'
-COMMIT_ID=		211ba42a95a6e24e0f8798fe15bde4b8a8394483
+COMMIT_ID=		1e67854b1af84716aa78396fafbc242992eb2ea1
 
 do-build-MANPAGES-on:
 	@cd ${GO_WRKSRC} && ${GO_WRKDIR_BIN}/${PORTNAME} gen man --dir man/man1/

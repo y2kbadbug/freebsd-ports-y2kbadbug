@@ -3,8 +3,12 @@
 PORTNAME=	xorgxrdp
 DISTVERSIONPREFIX=	v
 DISTVERSION=	0.2.13
+PORTREVISION=	2
 CATEGORIES=	x11-drivers
 DIST_SUBDIR=	xrdp
+
+PATCH_SITES=	https://github.com/${GH_ACCOUNT}/${GH_PROJECT}/commit/
+PATCHFILES=	d3cefac.patch:-p1
 
 MAINTAINER=	meta@FreeBSD.org
 COMMENT=	X.Org driver enabling use through an RDP session with xrdp
@@ -30,7 +34,7 @@ LIBS=		-L${LOCALBASE}/lib
 CONFIGURE_ENV=	XRDP_CFLAGS=-I${WRKSRC_xrdp}/common
 
 OPTIONS_DEFINE=	DEBUG DRI3
-OPTIONS_DEFAULT=	DRI3
+OPTIONS_DEFAULT=
 
 DRI3_DESC=	DRI3/Glamor OpenGL Support
 DRI3_CONFIGURE_ENABLE=	glamor

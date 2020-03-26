@@ -282,6 +282,7 @@
     SUBDIR += dupd
     SUBDIR += duplicity
     SUBDIR += duplicity-devel
+    SUBDIR += duplicity07
     SUBDIR += duply
     SUBDIR += dupmerge
     SUBDIR += dvd+rw-tools
@@ -849,6 +850,7 @@
     SUBDIR += p5-arclog
     SUBDIR += p5-reslog
     SUBDIR += packer
+    SUBDIR += packmule
     SUBDIR += pacman
     SUBDIR += paicc
     SUBDIR += paladin
@@ -1072,6 +1074,7 @@
     SUBDIR += roottail
     SUBDIR += rovclock
     SUBDIR += rpi-firmware
+    SUBDIR += rsfetch
     SUBDIR += rshim-user-space
     SUBDIR += rsnapshot
     SUBDIR += rsyncbackup
