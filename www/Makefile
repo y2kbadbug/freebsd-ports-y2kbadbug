@@ -13,6 +13,7 @@
     SUBDIR += R-cran-rvest
     SUBDIR += R-cran-scrapeR
     SUBDIR += R-cran-selectr
+    SUBDIR += R-cran-servr
     SUBDIR += R-cran-shiny
     SUBDIR += Stikked
     SUBDIR += UniversalFeedCreator
@@ -87,6 +88,7 @@
     SUBDIR += colly
     SUBDIR += coppermine
     SUBDIR += cplanet
+    SUBDIR += cpp-httplib
     SUBDIR += cpr
     SUBDIR += crawl
     SUBDIR += crp
@@ -946,6 +948,7 @@
     SUBDIR += p5-HTTP-Thin
     SUBDIR += p5-HTTP-Throwable
     SUBDIR += p5-HTTP-Tiny
+    SUBDIR += p5-HTTP-Tiny-Multipart
     SUBDIR += p5-HTTP-Tiny-SPDY
     SUBDIR += p5-HTTP-Tiny-UA
     SUBDIR += p5-HTTP-WebTest
@@ -1505,6 +1508,7 @@
     SUBDIR += py-django-crispy-forms
     SUBDIR += py-django-cron
     SUBDIR += py-django-datetime-widget
+    SUBDIR += py-django-debreach
     SUBDIR += py-django-debug-toolbar
     SUBDIR += py-django-dpaste
     SUBDIR += py-django-evolution
@@ -1706,8 +1710,6 @@
     SUBDIR += py-prawcore
     SUBDIR += py-priority
     SUBDIR += py-puppetboard
-    SUBDIR += py-puppetboard02
-    SUBDIR += py-puppetboard03
     SUBDIR += py-py-restclient
     SUBDIR += py-pySmartDL
     SUBDIR += py-pyjwt
@@ -2168,6 +2170,7 @@
     SUBDIR += shellinabox
     SUBDIR += shttpd
     SUBDIR += silicon
+    SUBDIR += simple-web-server
     SUBDIR += sitecopy
     SUBDIR += skytemplate
     SUBDIR += slowcgi
@@ -2324,6 +2327,7 @@
     SUBDIR += unit
     SUBDIR += unit-perl
     SUBDIR += unit-php
+    SUBDIR += uwebsockets
     SUBDIR += uwsgi
     SUBDIR += uwsgitop
     SUBDIR += validator
