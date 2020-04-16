@@ -2,11 +2,9 @@
 # $FreeBSD$
 
 PORTNAME=	prosody
-PORTVERSION=	0.11.4
-PORTREVISION=	1
+PORTVERSION=	0.11.5
 CATEGORIES=	net-im
-MASTER_SITES=	http://prosody.im/downloads/source/ \
-		http://redundancy.redundancy.org/mirror/
+MASTER_SITES=	https://prosody.im/downloads/source/
 
 MAINTAINER=	thomas@beingboiled.info
 COMMENT=	Simple extensible XMPP server written in Lua
@@ -14,11 +12,11 @@ COMMENT=	Simple extensible XMPP server written in Lua
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-RUN_DEPENDS=	${LUA_MODLIBDIR}/socket/core.so:net/luasocket \
-		${LUA_MODLIBDIR}/ssl.so:security/luasec \
-		${LUA_MODLIBDIR}/lxp.so:textproc/luaexpat \
-		${LUA_MODLIBDIR}/lfs.so:devel/luafilesystem \
-		${LUA_MODLIBDIR}/bit.so:devel/lua-bitop
+RUN_DEPENDS=	${LUA_REFMODLIBDIR}/socket/core.so:net/luasocket@${LUA_FLAVOR} \
+		${LUA_REFMODLIBDIR}/ssl.so:security/luasec@${LUA_FLAVOR} \
+		${LUA_REFMODLIBDIR}/lxp.so:textproc/luaexpat@${LUA_FLAVOR} \
+		${LUA_REFMODLIBDIR}/lfs.so:devel/luafilesystem@${LUA_FLAVOR} \
+		${LUA_REFMODLIBDIR}/bit.so:devel/lua-bitop@${LUA_FLAVOR}
 LIB_DEPENDS=	libidn.so:dns/libidn
 
 USES=		compiler:c11 cpe gmake lua:52 ssl
