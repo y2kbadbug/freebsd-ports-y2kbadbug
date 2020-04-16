@@ -241,6 +241,7 @@
     SUBDIR += haproxy18
     SUBDIR += haproxy19
     SUBDIR += haproxy21
+    SUBDIR += hblock
     SUBDIR += hexinject
     SUBDIR += hinfo
     SUBDIR += hlmaster
@@ -297,6 +298,7 @@
     SUBDIR += jsch
     SUBDIR += jumpgate
     SUBDIR += jwhois
+    SUBDIR += k6
     SUBDIR += kafka
     SUBDIR += kafkacat
     SUBDIR += kalarmcal
@@ -409,6 +411,7 @@
     SUBDIR += libtrace
     SUBDIR += libunp
     SUBDIR += libusipp
+    SUBDIR += libusrsctp
     SUBDIR += libutp
     SUBDIR += libvncserver
     SUBDIR += libwebsockets
@@ -427,10 +430,7 @@
     SUBDIR += lla
     SUBDIR += ltm
     SUBDIR += lualdap
-    SUBDIR += lualdap-51
     SUBDIR += luasocket
-    SUBDIR += luasocket-51
-    SUBDIR += luasocket-53
     SUBDIR += lvwimax
     SUBDIR += mDNSResponder
     SUBDIR += macchanger
@@ -1356,6 +1356,7 @@
     SUBDIR += ryu
     SUBDIR += s3ql
     SUBDIR += samba410
+    SUBDIR += samba411
     SUBDIR += samplicator
     SUBDIR += savvycan
     SUBDIR += sbd
