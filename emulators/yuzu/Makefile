@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	yuzu
-PORTVERSION=	s20200415
+PORTVERSION=	s20200508
 PORTREVISION?=	0
 CATEGORIES=	emulators
 
@@ -28,20 +28,20 @@ BUILD_DEPENDS=	boost-libs>=1.66:devel/boost-libs \
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	yuzu-emu
-GH_TAGNAME=	65cbb122e
+GH_TAGNAME=	50c27d5ae
 GH_TUPLE=	yuzu-emu:unicorn:1.0.1-153-g73f45735:unicorn/externals/unicorn \
 		DarkLordZach:mbedtls:a280e60:mbedtls/externals/mbedtls \
 		KhronosGroup:SPIRV-Headers:2c51218:SPIRV_Headers/externals/sirit/externals/SPIRV-Headers \
-		KhronosGroup:Vulkan-Headers:v1.2.136:Vulkan_Headers/externals/Vulkan-Headers \
-		MerryMage:dynarmic:r1-1438-gf6ae9e1c:dynarmic/externals/dynarmic \
-		ReinUsesLisp:sirit:a712959:sirit/externals/sirit \
+		KhronosGroup:Vulkan-Headers:v1.2.140:Vulkan_Headers/externals/Vulkan-Headers \
+		MerryMage:dynarmic:r3-1-ge7166e8b:dynarmic/externals/dynarmic \
+		ReinUsesLisp:sirit:414fc4d:sirit/externals/sirit \
 		arsenm:sanitizers-cmake:aab6948:sanitizers_cmake/externals/cubeb/cmake/sanitizers-cmake \
 		catchorg:Catch2:v2.3.0:catch/externals/catch \
 		citra-emu:ext-libressl-portable:7d01cb0:libressl/externals/libressl \
 		citra-emu:ext-soundtouch:060181e:soundtouch/externals/soundtouch \
 		facebook:zstd:v1.3.8:zstd/externals/zstd \
-		fmtlib:fmt:6.0.0-56-g4b8f8fac:fmt/externals/fmt \
-		kinetiknz:cubeb:cubeb-0.2-1172-g3ab5075:cubeb/externals/cubeb \
+		fmtlib:fmt:6.2.0:fmt/externals/fmt \
+		kinetiknz:cubeb:cubeb-0.2-1194-g616d773:cubeb/externals/cubeb \
 		lz4:lz4:v1.8.0-8-g4db65c1:lz4/externals/lz4 \
 		madler:zlib:v1.2.11:zlib/externals/zlib/zlib \
 		nih-at:libzip:rel-1-5-2-93-g89bd6d63:libzip/externals/libzip/libzip \
@@ -50,8 +50,9 @@ GH_TUPLE=	yuzu-emu:unicorn:1.0.1-153-g73f45735:unicorn/externals/unicorn \
 		xiph:opus:v1.3.1-4-gad8fe90d:opus/externals/opus/opus
 
 USES=		cmake compiler:c++17-lang iconv localbase:ldflags \
-		python:build sdl
+		python:build sdl ssl
 USE_SDL=	sdl2
+CMAKE_OFF=	ENABLE_GNUTLS ENABLE_MBEDTLS
 CXXFLAGS+=	-Wno-narrowing # https://github.com/yuzu-emu/yuzu/issues/3407
 LDFLAGS+=	-Wl,--as-needed # Qt5Network
 TEST_TARGET=	test

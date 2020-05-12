@@ -53,15 +53,19 @@
     SUBDIR += baresip
     SUBDIR += baudline
     SUBDIR += bcg729
+    SUBDIR += bchoppr-lv2
     SUBDIR += beatslash-lv2
     SUBDIR += beep
     SUBDIR += beets
+    SUBDIR += bharvestr-lv2
+    SUBDIR += bjumblr-lv2
     SUBDIR += blop
     SUBDIR += blop-lv2
     SUBDIR += bristol
     SUBDIR += bs2b-lv2
     SUBDIR += bsequencer-lv2
     SUBDIR += bshapr-lv2
+    SUBDIR += bslizr-lv2
     SUBDIR += cadence
     SUBDIR += calf-lv2
     SUBDIR += cam
@@ -165,7 +169,6 @@
     SUBDIR += festvox-cmu_us_ksp_arctic
     SUBDIR += festvox-cmu_us_rms_arctic
     SUBDIR += festvox-cmu_us_slt_arctic
-    SUBDIR += festvox-czech
     SUBDIR += festvox-don
     SUBDIR += festvox-el11
     SUBDIR += festvox-kal16
@@ -185,6 +188,7 @@
     SUBDIR += fluidsynth
     SUBDIR += fluidsynth-dssi
     SUBDIR += fmit
+    SUBDIR += fogpad-lv2
     SUBDIR += fomp-lv2
     SUBDIR += foo-yc20
     SUBDIR += forked-daapd
@@ -206,7 +210,6 @@
     SUBDIR += ghostess
     SUBDIR += giada
     SUBDIR += gimmix
-    SUBDIR += gkrellmvolume2
     SUBDIR += glurp
     SUBDIR += gmpc
     SUBDIR += gmpc-alarm
@@ -338,6 +341,7 @@
     SUBDIR += id3v2
     SUBDIR += ifp-line
     SUBDIR += infamous-plugins-lv2
+    SUBDIR += intersect-lv2
     SUBDIR += invada-studio-plugins-lv2
     SUBDIR += ir-lv2
     SUBDIR += jack
@@ -452,6 +456,7 @@
     SUBDIR += linux-c7-sdl_mixer
     SUBDIR += linux-laudio
     SUBDIR += linuxsampler
+    SUBDIR += liquidsfz
     SUBDIR += listener
     SUBDIR += lmms
     SUBDIR += logitechmediaserver
@@ -467,6 +472,7 @@
     SUBDIR += lv2
     SUBDIR += lv2file
     SUBDIR += lv2lint
+    SUBDIR += lv2proc
     SUBDIR += lvtk
     SUBDIR += lxmusic
     SUBDIR += mac
@@ -487,11 +493,9 @@
     SUBDIR += mio2jack
     SUBDIR += mixer.app
     SUBDIR += mixertui
-    SUBDIR += mixmos
     SUBDIR += mixxx
     SUBDIR += mixxx21
     SUBDIR += mkcue
-    SUBDIR += mma
     SUBDIR += moc
     SUBDIR += modplugplay
     SUBDIR += moodbar
@@ -611,7 +615,6 @@
     SUBDIR += pavumeter
     SUBDIR += pc-mixer
     SUBDIR += pd
-    SUBDIR += pd-cyclone
     SUBDIR += pear-Text_Spell_Audio
     SUBDIR += penguinsap
     SUBDIR += pianobar
@@ -624,6 +627,7 @@
     SUBDIR += play
     SUBDIR += playgsf
     SUBDIR += playmidi
+    SUBDIR += playumidi
     SUBDIR += pm3umpdl
     SUBDIR += pms
     SUBDIR += pms-devel
@@ -718,12 +722,12 @@
     SUBDIR += sdl2_mixer
     SUBDIR += sdl_mixer
     SUBDIR += sdl_sound
+    SUBDIR += sfizz
     SUBDIR += sfront
     SUBDIR += shairplay
     SUBDIR += shairport-sync
     SUBDIR += sherlock-lv2
     SUBDIR += shntool
-    SUBDIR += shorten
     SUBDIR += shout
     SUBDIR += sidplay
     SUBDIR += sidplay2
@@ -744,6 +748,7 @@
     SUBDIR += soundtouch
     SUBDIR += sox
     SUBDIR += spc2it
+    SUBDIR += spectacle-lv2
     SUBDIR += spectrogram
     SUBDIR += speech-denoiser-lv2
     SUBDIR += speex
@@ -778,7 +783,6 @@
     SUBDIR += synthv1-lv2
     SUBDIR += taglib
     SUBDIR += taglib-extras
-    SUBDIR += taglib-sharp
     SUBDIR += taglookup
     SUBDIR += tagtool
     SUBDIR += tagutil
@@ -841,6 +845,7 @@
     SUBDIR += wmix
     SUBDIR += wmmp
     SUBDIR += wmrecord
+    SUBDIR += wmsmixer
     SUBDIR += workman
     SUBDIR += wxguitar
     SUBDIR += x42-plugins-lv2
@@ -851,7 +856,6 @@
     SUBDIR += xfce4-mpc-plugin
     SUBDIR += xfce4-pulseaudio-plugin
     SUBDIR += xfmpc
-    SUBDIR += xhippo
     SUBDIR += ximp3
     SUBDIR += xmcd
     SUBDIR += xmix
