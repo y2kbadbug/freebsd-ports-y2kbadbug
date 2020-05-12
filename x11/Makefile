@@ -49,9 +49,8 @@
     SUBDIR += deforaos-locker
     SUBDIR += deforaos-panel
     SUBDIR += deskmenu
-    SUBDIR += deskpaint
     SUBDIR += dmenu
-    SUBDIR += dmenu2
+    SUBDIR += dmenu-wayland
     SUBDIR += docker-tray
     SUBDIR += dsbautostart
     SUBDIR += dxpc
@@ -71,7 +70,6 @@
     SUBDIR += fluxbg
     SUBDIR += fpc-x11
     SUBDIR += fstobdf
-    SUBDIR += gcb
     SUBDIR += gdm
     SUBDIR += gmrun
     SUBDIR += gnome-clipboard-daemon
@@ -85,7 +83,6 @@
     SUBDIR += gnome3
     SUBDIR += gnome3-lite
     SUBDIR += gnustep-app
-    SUBDIR += gpctool
     SUBDIR += grabc
     SUBDIR += grim
     SUBDIR += gromit
@@ -111,7 +108,6 @@
     SUBDIR += idesk
     SUBDIR += imwheel
     SUBDIR += innerspace
-    SUBDIR += ipager
     SUBDIR += j4-dmenu-desktop
     SUBDIR += kanshi
     SUBDIR += kb2mb2
@@ -120,7 +116,6 @@
     SUBDIR += keybinder
     SUBDIR += keybinder-gtk3
     SUBDIR += keyboardcast
-    SUBDIR += keylaunch
     SUBDIR += kf5-frameworkintegration
     SUBDIR += kf5-frameworks
     SUBDIR += kf5-kactivities
@@ -261,7 +256,6 @@
     SUBDIR += plasma5-plasma-workspace
     SUBDIR += polybar
     SUBDIR += printscreen
-    SUBDIR += props
     SUBDIR += py-caffeine-ng
     SUBDIR += py-i3ipc
     SUBDIR += py-pyscreenshot
@@ -279,7 +273,6 @@
     SUBDIR += rofi
     SUBDIR += rofi-calc
     SUBDIR += rofi-pass
-    SUBDIR += roxbg
     SUBDIR += roxterm
     SUBDIR += rsibreak
     SUBDIR += rubygem-gnome
@@ -295,7 +288,6 @@
     SUBDIR += showkeys
     SUBDIR += simdock
     SUBDIR += simplestroke
-    SUBDIR += sisctrl
     SUBDIR += slick-greeter
     SUBDIR += slim
     SUBDIR += slock
@@ -317,6 +309,7 @@
     SUBDIR += tabbed
     SUBDIR += temperature.app
     SUBDIR += terminal.app
+    SUBDIR += terminator
     SUBDIR += terminology
     SUBDIR += thinglaunch
     SUBDIR += thingylaunch
@@ -335,7 +328,6 @@
     SUBDIR += wbar
     SUBDIR += wcm
     SUBDIR += wdisplays
-    SUBDIR += wdm
     SUBDIR += wev
     SUBDIR += wf-shell
     SUBDIR += wl-clipboard
@@ -357,7 +349,6 @@
     SUBDIR += wshowkeys
     SUBDIR += x11perf
     SUBDIR += x3270
-    SUBDIR += xaniroc
     SUBDIR += xantfarm
     SUBDIR += xapps
     SUBDIR += xascii
@@ -458,11 +449,9 @@
     SUBDIR += xmon
     SUBDIR += xmore
     SUBDIR += xmotd
-    SUBDIR += xmove
     SUBDIR += xmsg
     SUBDIR += xmx
     SUBDIR += xnee
-    SUBDIR += xnodecor
     SUBDIR += xorg
     SUBDIR += xorg-apps
     SUBDIR += xorg-cf-files
@@ -505,7 +494,6 @@
     SUBDIR += xtrans
     SUBDIR += xtrlock
     SUBDIR += xtset
-    SUBDIR += xvattr
     SUBDIR += xvidtune
     SUBDIR += xvinfo
     SUBDIR += xvkbd
