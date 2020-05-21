@@ -1283,7 +1283,6 @@
     SUBDIR += libpff
     SUBDIR += libphk
     SUBDIR += libphonenumber
-    SUBDIR += libphutil
     SUBDIR += libplist
     SUBDIR += libpo6
     SUBDIR += libpololu-avr
@@ -4098,6 +4097,7 @@
     SUBDIR += py-azure-functions-devops-build
     SUBDIR += py-azure-graphrbac
     SUBDIR += py-azure-keyvault
+    SUBDIR += py-azure-loganalytics
     SUBDIR += py-azure-mgmt-advisor
     SUBDIR += py-azure-mgmt-apimanagement
     SUBDIR += py-azure-mgmt-appconfiguration
@@ -4279,6 +4279,7 @@
     SUBDIR += py-contextlib2
     SUBDIR += py-convertdate
     SUBDIR += py-cookiecutter
+    SUBDIR += py-copier
     SUBDIR += py-coreapi
     SUBDIR += py-coreschema
     SUBDIR += py-country
@@ -4341,7 +4342,6 @@
     SUBDIR += py-dj22-django-rq
     SUBDIR += py-django-rq
     SUBDIR += py-django-rq-dashboard
-    SUBDIR += py-django-tastypie-mongoengine
     SUBDIR += py-docker-py
     SUBDIR += py-dockerpty
     SUBDIR += py-docopt
@@ -4444,6 +4444,7 @@
     SUBDIR += py-git-up
     SUBDIR += py-git-url-parse
     SUBDIR += py-git_semver
+    SUBDIR += py-gitdb
     SUBDIR += py-gitdb2
     SUBDIR += py-gitless
     SUBDIR += py-gitosis
@@ -4565,8 +4566,8 @@
     SUBDIR += py-jupyter_console
     SUBDIR += py-jupyter_core
     SUBDIR += py-jupyterlab
+    SUBDIR += py-jupyterlab-server
     SUBDIR += py-jupyterlab_launcher
-    SUBDIR += py-jupyterlab_server
     SUBDIR += py-kaitaistruct
     SUBDIR += py-kaptan
     SUBDIR += py-kayako
@@ -4715,6 +4716,7 @@
     SUBDIR += py-oslo.db
     SUBDIR += py-oslo.db6
     SUBDIR += py-oslo.i18n
+    SUBDIR += py-oslo.i18n3
     SUBDIR += py-oslo.limit
     SUBDIR += py-oslo.log
     SUBDIR += py-oslo.log3
@@ -4736,6 +4738,7 @@
     SUBDIR += py-oslo.service1
     SUBDIR += py-oslo.upgradecheck
     SUBDIR += py-oslo.utils
+    SUBDIR += py-oslo.utils3
     SUBDIR += py-oslo.versionedobjects
     SUBDIR += py-oslo.versionedobjects1
     SUBDIR += py-oslo.vmware
@@ -4792,6 +4795,7 @@
     SUBDIR += py-pluggy
     SUBDIR += py-pluginbase
     SUBDIR += py-ply
+    SUBDIR += py-pockets
     SUBDIR += py-podcastparser
     SUBDIR += py-polib
     SUBDIR += py-pooch
@@ -4901,6 +4905,7 @@
     SUBDIR += py-pytest-azurepipelines
     SUBDIR += py-pytest-benchmark
     SUBDIR += py-pytest-black
+    SUBDIR += py-pytest-black-multipy
     SUBDIR += py-pytest-cache
     SUBDIR += py-pytest-capturelog
     SUBDIR += py-pytest-cov
@@ -5066,6 +5071,7 @@
     SUBDIR += py-singledispatch
     SUBDIR += py-sip
     SUBDIR += py-six
+    SUBDIR += py-smmap
     SUBDIR += py-smmap2
     SUBDIR += py-snakeviz
     SUBDIR += py-sniffio
@@ -5584,6 +5590,7 @@
     SUBDIR += rubygem-aws-sdk-lightsail
     SUBDIR += rubygem-aws-sdk-machinelearning
     SUBDIR += rubygem-aws-sdk-macie
+    SUBDIR += rubygem-aws-sdk-macie2
     SUBDIR += rubygem-aws-sdk-managedblockchain
     SUBDIR += rubygem-aws-sdk-marketplacecatalog
     SUBDIR += rubygem-aws-sdk-marketplacecommerceanalytics
@@ -6020,6 +6027,7 @@
     SUBDIR += rubygem-georuby
     SUBDIR += rubygem-get_process_mem
     SUBDIR += rubygem-getopt
+    SUBDIR += rubygem-getoptlong
     SUBDIR += rubygem-gettext
     SUBDIR += rubygem-gettext-setup
     SUBDIR += rubygem-gettext32
@@ -6165,6 +6173,7 @@
     SUBDIR += rubygem-micromachine
     SUBDIR += rubygem-micromachine2
     SUBDIR += rubygem-middleware
+    SUBDIR += rubygem-mini_histogram
     SUBDIR += rubygem-mini_portile2
     SUBDIR += rubygem-minitest
     SUBDIR += rubygem-mixlib-archive
@@ -6447,6 +6456,7 @@
     SUBDIR += rubygem-strings-ansi
     SUBDIR += rubygem-strong_migrations
     SUBDIR += rubygem-strptime
+    SUBDIR += rubygem-strscan
     SUBDIR += rubygem-structured_warnings
     SUBDIR += rubygem-stud
     SUBDIR += rubygem-subexec
