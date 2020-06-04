@@ -169,6 +169,7 @@
     SUBDIR += fpc-libmicrohttpd
     SUBDIR += free-sa-devel
     SUBDIR += fswiki
+    SUBDIR += fusionpbx
     SUBDIR += g-cows
     SUBDIR += g-gcl
     SUBDIR += gallery2
@@ -232,6 +233,7 @@
     SUBDIR += hotcrp
     SUBDIR += hs-DAV
     SUBDIR += hs-hjsmin
+    SUBDIR += hs-postgrest
     SUBDIR += hs-wai-app-static
     SUBDIR += hs-yesod-bin
     SUBDIR += htdigest
@@ -254,6 +256,7 @@
     SUBDIR += igal2
     SUBDIR += ikiwiki
     SUBDIR += ilias
+    SUBDIR += ilias6
     SUBDIR += interchange
     SUBDIR += iridium
     SUBDIR += itop
@@ -308,6 +311,7 @@
     SUBDIR += linux-opera
     SUBDIR += litmus
     SUBDIR += ljdeps
+    SUBDIR += logswan
     SUBDIR += logtools
     SUBDIR += lua-resty-core
     SUBDIR += lua-resty-lrucache
@@ -323,7 +327,6 @@
     SUBDIR += mattermost-server
     SUBDIR += mattermost-webapp
     SUBDIR += mediawiki131
-    SUBDIR += mediawiki132
     SUBDIR += mediawiki133
     SUBDIR += mediawiki134
     SUBDIR += mergelog
@@ -407,7 +410,6 @@
     SUBDIR += mongoose
     SUBDIR += mongrel2
     SUBDIR += moodle35
-    SUBDIR += moodle36
     SUBDIR += moodle37
     SUBDIR += moodle38
     SUBDIR += morty
@@ -1408,7 +1410,6 @@
     SUBDIR += py-beautifulsoup
     SUBDIR += py-beautifulsoup32
     SUBDIR += py-beautifulsoup448
-    SUBDIR += py-beautifulsoup460
     SUBDIR += py-biscuits
     SUBDIR += py-bjoern
     SUBDIR += py-bleach
@@ -1458,7 +1459,6 @@
     SUBDIR += py-dj22-swapper
     SUBDIR += py-django
     SUBDIR += py-django-allauth
-    SUBDIR += py-django-annotations
     SUBDIR += py-django-annoying
     SUBDIR += py-django-appconf
     SUBDIR += py-django-appmedia
@@ -1476,6 +1476,7 @@
     SUBDIR += py-django-classy-tags
     SUBDIR += py-django-cms
     SUBDIR += py-django-common-helpers
+    SUBDIR += py-django-compat
     SUBDIR += py-django-configurations
     SUBDIR += py-django-constance
     SUBDIR += py-django-contact-form
@@ -1502,7 +1503,6 @@
     SUBDIR += py-django-htmlmin
     SUBDIR += py-django-i18nfield
     SUBDIR += py-django-js-asset
-    SUBDIR += py-django-json-rpc
     SUBDIR += py-django-jsonfield
     SUBDIR += py-django-ldapdb
     SUBDIR += py-django-libsass
@@ -1532,7 +1532,6 @@
     SUBDIR += py-django-recaptcha
     SUBDIR += py-django-redis
     SUBDIR += py-django-registration
-    SUBDIR += py-django-registration-defaults
     SUBDIR += py-django-registration-redux
     SUBDIR += py-django-rest-swagger
     SUBDIR += py-django-reversion
@@ -1563,15 +1562,13 @@
     SUBDIR += py-django22
     SUBDIR += py-django30
     SUBDIR += py-django_compressor
-    SUBDIR += py-django_openstack_auth
     SUBDIR += py-djangocms-admin-style
     SUBDIR += py-djangorestframework
     SUBDIR += py-djangorestframework-csv
     SUBDIR += py-djangorestframework-filters
     SUBDIR += py-djangorestframework-xml
+    SUBDIR += py-djangorestframework311
     SUBDIR += py-djangorestframework36
-    SUBDIR += py-djangotoolbox
-    SUBDIR += py-dojango
     SUBDIR += py-draftjs_exporter
     SUBDIR += py-drf-yasg
     SUBDIR += py-dtflickr
@@ -1649,6 +1646,7 @@
     SUBDIR += py-html5-parser
     SUBDIR += py-html5lib
     SUBDIR += py-httmock
+    SUBDIR += py-httpcore
     SUBDIR += py-httpie
     SUBDIR += py-httplib2
     SUBDIR += py-httptools
@@ -1718,7 +1716,6 @@
     SUBDIR += py-requests-cache
     SUBDIR += py-requests-file
     SUBDIR += py-requests-futures
-    SUBDIR += py-requests-futures097
     SUBDIR += py-requests-mock
     SUBDIR += py-requests-oauthlib
     SUBDIR += py-requests-toolbelt
@@ -1892,7 +1889,9 @@
     SUBDIR += rubygem-ethon
     SUBDIR += rubygem-eventmachine_httpserver
     SUBDIR += rubygem-faraday
+    SUBDIR += rubygem-faraday0
     SUBDIR += rubygem-faraday_middleware
+    SUBDIR += rubygem-faraday_middleware0
     SUBDIR += rubygem-faye
     SUBDIR += rubygem-faye-websocket
     SUBDIR += rubygem-fcgi
@@ -2186,6 +2185,7 @@
     SUBDIR += template_
     SUBDIR += templatelite
     SUBDIR += thirtybees
+    SUBDIR += threejs
     SUBDIR += thttpd
     SUBDIR += thumbnail_index
     SUBDIR += thundercache

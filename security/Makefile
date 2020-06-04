@@ -54,7 +54,6 @@
     SUBDIR += boringssl
     SUBDIR += botan110
     SUBDIR += botan2
-    SUBDIR += bro
     SUBDIR += broccoli
     SUBDIR += bruteblock
     SUBDIR += bruteforceblocker
@@ -72,6 +71,7 @@
     SUBDIR += ccsrch
     SUBDIR += certificate-transparency
     SUBDIR += cfs
+    SUBDIR += cfssl
     SUBDIR += chaosreader
     SUBDIR += checkpassword
     SUBDIR += checkpassword-pam
@@ -154,6 +154,7 @@
     SUBDIR += fcrackzip
     SUBDIR += fiked
     SUBDIR += find-zlib
+    SUBDIR += fizz
     SUBDIR += fl0p
     SUBDIR += flawfinder
     SUBDIR += fpc-openssl
