@@ -77,6 +77,7 @@
     SUBDIR += erkale-pseudopotentials
     SUBDIR += fastcap
     SUBDIR += fasthenry
+    SUBDIR += fastjet
     SUBDIR += fisicalab
     SUBDIR += fleur
     SUBDIR += fsom
@@ -103,6 +104,7 @@
     SUBDIR += hdf5
     SUBDIR += hdf5-18
     SUBDIR += healpix
+    SUBDIR += hepmc3
     SUBDIR += highfive
     SUBDIR += hypre
     SUBDIR += iboview
@@ -340,6 +342,7 @@
     SUBDIR += xcrysden
     SUBDIR += xdrawchem
     SUBDIR += xfce4-equake-plugin
+    SUBDIR += xtb
     SUBDIR += yoda
 
 .include <bsd.port.subdir.mk>
