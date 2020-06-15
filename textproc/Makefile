@@ -1420,6 +1420,7 @@
     SUBDIR += py-zope.tal
     SUBDIR += py-zpt
     SUBDIR += qprint
+    SUBDIR += qr
     SUBDIR += qrcodegen
     SUBDIR += qstardict
     SUBDIR += qt5-xml
@@ -1496,6 +1497,8 @@
     SUBDIR += rubygem-creole
     SUBDIR += rubygem-css_parser
     SUBDIR += rubygem-cssmin
+    SUBDIR += rubygem-cucumber-gherkin
+    SUBDIR += rubygem-cucumber-html-formatter
     SUBDIR += rubygem-diff-lcs
     SUBDIR += rubygem-diff_match_patch
     SUBDIR += rubygem-diffy
