@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	nbdkit
-PORTVERSION=	1.20.2
+PORTVERSION=	1.20.4
 CATEGORIES=	net
 # XXX Although nbdkit uses github for its homepage, the release tarballs served
 # by github haven't been through autoconf.  So we must download the sources
@@ -16,7 +16,7 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 
 BUILD_DEPENDS=	bash:shells/bash
 
-USES=	gmake libtool
+USES=		compiler:c11 gmake libtool
 
 GNU_CONFIGURE=	yes
 INSTALL_TARGET=	install-strip
