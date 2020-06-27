@@ -209,6 +209,7 @@
     SUBDIR += grafana4
     SUBDIR += grafana5
     SUBDIR += grafana6
+    SUBDIR += grafana7
     SUBDIR += grails
     SUBDIR += gregarius
     SUBDIR += groupoffice
@@ -1414,6 +1415,7 @@
     SUBDIR += py-beautifulsoup
     SUBDIR += py-beautifulsoup32
     SUBDIR += py-beautifulsoup448
+    SUBDIR += py-betamax
     SUBDIR += py-biscuits
     SUBDIR += py-bjoern
     SUBDIR += py-bleach
@@ -1803,19 +1805,6 @@
     SUBDIR += qutebrowser
     SUBDIR += radicale
     SUBDIR += radicale2
-    SUBDIR += redmine
-    SUBDIR += redmine-a_common_libs
-    SUBDIR += redmine-basecamp
-    SUBDIR += redmine-default_assign
-    SUBDIR += redmine-graphs
-    SUBDIR += redmine-http-auth
-    SUBDIR += redmine-issue_templates
-    SUBDIR += redmine-knowledgebase
-    SUBDIR += redmine-ldap_sync
-    SUBDIR += redmine-qa_contact
-    SUBDIR += redmine-redcarpet_formatter
-    SUBDIR += redmine-single_auth
-    SUBDIR += redmine-wiki_notes
     SUBDIR += redmine4
     SUBDIR += rejik
     SUBDIR += reportmagic

@@ -229,6 +229,7 @@
     SUBDIR += dune-spgrid
     SUBDIR += dune-typetree
     SUBDIR += dune-uggrid
+    SUBDIR += e-antic
     SUBDIR += eclib
     SUBDIR += ecos
     SUBDIR += edenmath
@@ -513,6 +514,7 @@
     SUBDIR += octave-forge-zenity
     SUBDIR += octave-forge-zeromq
     SUBDIR += octomap
+    SUBDIR += ogdf
     SUBDIR += oleo
     SUBDIR += onednn
     SUBDIR += openblas

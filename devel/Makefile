@@ -994,6 +994,7 @@
     SUBDIR += jetbrains-goland
     SUBDIR += jetbrains-phpstorm
     SUBDIR += jetbrains-webstorm
+    SUBDIR += jgoodies-looks
     SUBDIR += jiic
     SUBDIR += jiri
     SUBDIR += jline
@@ -1422,7 +1423,6 @@
     SUBDIR += log4shib
     SUBDIR += lokalize
     SUBDIR += loki
-    SUBDIR += looks
     SUBDIR += love
     SUBDIR += love07
     SUBDIR += love08
@@ -2508,6 +2508,7 @@
     SUBDIR += p5-IO-Pty-Easy
     SUBDIR += p5-IO-SessionData
     SUBDIR += p5-IO-String
+    SUBDIR += p5-IO-Stringy
     SUBDIR += p5-IO-Stty
     SUBDIR += p5-IO-Tee
     SUBDIR += p5-IO-TieCombine
@@ -2515,7 +2516,6 @@
     SUBDIR += p5-IO-Tty
     SUBDIR += p5-IO-Util
     SUBDIR += p5-IO-YAML
-    SUBDIR += p5-IO-stringy
     SUBDIR += p5-IOC
     SUBDIR += p5-IPC-Cache
     SUBDIR += p5-IPC-Cmd
@@ -4681,6 +4681,7 @@
     SUBDIR += py-opendht
     SUBDIR += py-opengrok-tools
     SUBDIR += py-openstacksdk
+    SUBDIR += py-openstacksdk043
     SUBDIR += py-opentracing
     SUBDIR += py-opster
     SUBDIR += py-optik
@@ -5026,6 +5027,7 @@
     SUBDIR += py-ruamel.yaml
     SUBDIR += py-ruamel.yaml.clib
     SUBDIR += py-rubymarshal
+    SUBDIR += py-rush
     SUBDIR += py-rx
     SUBDIR += py-rx1
     SUBDIR += py-sanetime
@@ -5554,6 +5556,7 @@
     SUBDIR += rubygem-aws-sdk-groundstation
     SUBDIR += rubygem-aws-sdk-guardduty
     SUBDIR += rubygem-aws-sdk-health
+    SUBDIR += rubygem-aws-sdk-honeycode
     SUBDIR += rubygem-aws-sdk-iam
     SUBDIR += rubygem-aws-sdk-imagebuilder
     SUBDIR += rubygem-aws-sdk-importexport
@@ -5866,6 +5869,7 @@
     SUBDIR += rubygem-chef-provisioning
     SUBDIR += rubygem-cheffish
     SUBDIR += rubygem-childprocess
+    SUBDIR += rubygem-childprocess3
     SUBDIR += rubygem-chronic
     SUBDIR += rubygem-chronic_duration
     SUBDIR += rubygem-clamp
@@ -6391,6 +6395,7 @@
     SUBDIR += rubygem-semver2
     SUBDIR += rubygem-semverse
     SUBDIR += rubygem-sentry-raven
+    SUBDIR += rubygem-sentry-raven2
     SUBDIR += rubygem-sentry-raven25
     SUBDIR += rubygem-sentry-raven29
     SUBDIR += rubygem-sequel

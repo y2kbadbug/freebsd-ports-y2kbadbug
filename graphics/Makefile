@@ -42,6 +42,7 @@
     SUBDIR += aalib
     SUBDIR += aaphoto
     SUBDIR += acidwarp
+    SUBDIR += acidwarp-sdl
     SUBDIR += agg
     SUBDIR += alembic
     SUBDIR += alpng
@@ -400,6 +401,7 @@
     SUBDIR += kphotoalbum
     SUBDIR += kqtquickcharts
     SUBDIR += krita
+    SUBDIR += ksnip
     SUBDIR += kudu
     SUBDIR += kxstitch
     SUBDIR += l2p
@@ -906,6 +908,7 @@
     SUBDIR += quat-gui
     SUBDIR += quesa
     SUBDIR += quesoglc
+    SUBDIR += qvge
     SUBDIR += radiance
     SUBDIR += radius-engine
     SUBDIR += rapid-photo-downloader
@@ -1004,6 +1007,7 @@
     SUBDIR += svg2png
     SUBDIR += svgalib
     SUBDIR += svgbob
+    SUBDIR += swappy
     SUBDIR += swfdec
     SUBDIR += swfmill
     SUBDIR += swftools
