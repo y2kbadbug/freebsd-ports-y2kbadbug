@@ -685,7 +685,6 @@
 %%WWWDIR%%/go/core/views/extjs3/util/Format.js
 %%WWWDIR%%/go/core/views/extjs3/util/Object.js
 %%WWWDIR%%/go/core/views/extjs3/util/SelectDialog.js
-%%WWWDIR%%/go/core/webclient/CSP.php
 %%WWWDIR%%/go/core/webclient/Extjs3.php
 %%WWWDIR%%/go/modules/business/newsletters/LicenseCheck.php
 %%WWWDIR%%/go/modules/business/newsletters/Module.php
@@ -3420,8 +3419,6 @@
 %%WWWDIR%%/modules/tasks/ContinueTaskDialog.js
 %%WWWDIR%%/modules/tasks/MainPanel.js
 %%WWWDIR%%/modules/tasks/Portlet.js
-%%WWWDIR%%/modules/tasks/ScheduleCallDialog.js
-%%WWWDIR%%/modules/tasks/ScheduleCallMenuItem.js
 %%WWWDIR%%/modules/tasks/SelectTaskStatus.js
 %%WWWDIR%%/modules/tasks/SelectTasklist.js
 %%WWWDIR%%/modules/tasks/Settings.js
