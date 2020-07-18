@@ -772,6 +772,8 @@
     SUBDIR += p5-BackupPC-XS
     SUBDIR += p5-Brackup
     SUBDIR += p5-Dir-Purge
+    SUBDIR += p5-File-BackupCopy
+    SUBDIR += p5-File-Cmp
     SUBDIR += p5-File-DirCompare
     SUBDIR += p5-File-Listing
     SUBDIR += p5-File-Log
@@ -1294,6 +1296,7 @@
     SUBDIR += tlsdate
     SUBDIR += tm
     SUBDIR += tmate
+    SUBDIR += tmate-ssh-server
     SUBDIR += tmpreaper
     SUBDIR += tmpwatch
     SUBDIR += tmux
