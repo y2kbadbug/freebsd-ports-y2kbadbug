@@ -4453,6 +4453,7 @@
     SUBDIR += py-gobject3
     SUBDIR += py-google-apputils
     SUBDIR += py-google-cloud-iam
+    SUBDIR += py-google-crc32c
     SUBDIR += py-google-i18n-address
     SUBDIR += py-google-pasta
     SUBDIR += py-googleapis-common-protos
@@ -4617,6 +4618,7 @@
     SUBDIR += py-louie
     SUBDIR += py-lunardate
     SUBDIR += py-lxml
+    SUBDIR += py-mac-vendor-lookup
     SUBDIR += py-macholib
     SUBDIR += py-magic
     SUBDIR += py-mailcap-fix
@@ -5451,6 +5453,7 @@
     SUBDIR += rubygem-algorithms
     SUBDIR += rubygem-aliyun-sdk
     SUBDIR += rubygem-allison
+    SUBDIR += rubygem-amazing_print
     SUBDIR += rubygem-analogger
     SUBDIR += rubygem-annoy
     SUBDIR += rubygem-ansi
@@ -5593,6 +5596,7 @@
     SUBDIR += rubygem-aws-sdk-iotsecuretunneling
     SUBDIR += rubygem-aws-sdk-iotsitewise
     SUBDIR += rubygem-aws-sdk-iotthingsgraph
+    SUBDIR += rubygem-aws-sdk-ivs
     SUBDIR += rubygem-aws-sdk-kafka
     SUBDIR += rubygem-aws-sdk-kendra
     SUBDIR += rubygem-aws-sdk-kinesis
@@ -6480,6 +6484,7 @@
     SUBDIR += rubygem-stream
     SUBDIR += rubygem-streetaddress
     SUBDIR += rubygem-stringex
+    SUBDIR += rubygem-stringio
     SUBDIR += rubygem-strings
     SUBDIR += rubygem-strings-ansi
     SUBDIR += rubygem-strong_migrations
