@@ -432,10 +432,12 @@
     SUBDIR += netsurf
     SUBDIR += newsboat
     SUBDIR += nextcloud
+    SUBDIR += nextcloud-appointments
     SUBDIR += nextcloud-calendar
     SUBDIR += nextcloud-circles
     SUBDIR += nextcloud-contacts
     SUBDIR += nextcloud-deck
+    SUBDIR += nextcloud-forms
     SUBDIR += nextcloud-notes
     SUBDIR += nextcloud-tasks
     SUBDIR += nghttp2
@@ -1837,6 +1839,7 @@
     SUBDIR += rubygem-cal-heatmap-rails
     SUBDIR += rubygem-cal-heatmap-rails-rails4
     SUBDIR += rubygem-carrierwave
+    SUBDIR += rubygem-cgi
     SUBDIR += rubygem-cgi_multipart_eof_fix
     SUBDIR += rubygem-chosen-rails
     SUBDIR += rubygem-chromedriver-helper
@@ -2277,6 +2280,8 @@
     SUBDIR += uwsgi
     SUBDIR += uwsgitop
     SUBDIR += validator
+    SUBDIR += varnish-ip2location
+    SUBDIR += varnish-ip2proxy
     SUBDIR += varnish-libvmod-awsrest
     SUBDIR += varnish-libvmod-digest
     SUBDIR += varnish-libvmod-dynamic
