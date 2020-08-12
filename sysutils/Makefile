@@ -65,6 +65,7 @@
     SUBDIR += atitvout
     SUBDIR += atop
     SUBDIR += auto-admin
+    SUBDIR += autojump
     SUBDIR += automount
     SUBDIR += automounter
     SUBDIR += autopsy
@@ -1444,6 +1445,7 @@
     SUBDIR += wait_on
     SUBDIR += watchfolder
     SUBDIR += watchman
+    SUBDIR += watchman450
     SUBDIR += watchmen
     SUBDIR += webjob
     SUBDIR += webmin
