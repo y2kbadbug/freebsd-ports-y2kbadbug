@@ -248,6 +248,7 @@
     SUBDIR += dirvish
     SUBDIR += diskcheckd
     SUBDIR += diskimage-tools
+    SUBDIR += diskonaut
     SUBDIR += diskscrub
     SUBDIR += disktype
     SUBDIR += dmg2img
@@ -1275,6 +1276,7 @@
     SUBDIR += syslog-ng326
     SUBDIR += syslog-ng327
     SUBDIR += syslog-ng328
+    SUBDIR += syslog-ng329
     SUBDIR += syslogger
     SUBDIR += sysrc
     SUBDIR += system-tools-backends
