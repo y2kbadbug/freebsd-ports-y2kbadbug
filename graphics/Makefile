@@ -141,6 +141,7 @@
     SUBDIR += drm-legacy-kmod
     SUBDIR += drm_info
     SUBDIR += dspdfviewer
+    SUBDIR += dssim
     SUBDIR += duhdraw
     SUBDIR += dynamechs
     SUBDIR += ebsynth
@@ -327,6 +328,7 @@
     SUBDIR += guile-cairo
     SUBDIR += guilib
     SUBDIR += gwenview
+    SUBDIR += h3
     SUBDIR += hdr_tools
     SUBDIR += heimer
     SUBDIR += hiptext
@@ -821,6 +823,7 @@
     SUBDIR += py-graphviz
     SUBDIR += py-graphy
     SUBDIR += py-gvgen
+    SUBDIR += py-h3
     SUBDIR += py-hiplot
     SUBDIR += py-imageio
     SUBDIR += py-imageio-ffmpeg
@@ -871,6 +874,7 @@
     SUBDIR += py-qt5-svg
     SUBDIR += py-rasterio
     SUBDIR += py-rawkit
+    SUBDIR += py-s2
     SUBDIR += py-scikit-image
     SUBDIR += py-seqdiag
     SUBDIR += py-sorl-thumbnail
@@ -963,6 +967,7 @@
     SUBDIR += rubygem-scruffy
     SUBDIR += rx
     SUBDIR += s10sh
+    SUBDIR += s2
     SUBDIR += s2tc
     SUBDIR += sage
     SUBDIR += sam2p
