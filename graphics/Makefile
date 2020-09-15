@@ -706,6 +706,7 @@
     SUBDIR += p5-ming
     SUBDIR += panoglview
     SUBDIR += panomatic
+    SUBDIR += partio
     SUBDIR += pastel
     SUBDIR += pcl-pointclouds
     SUBDIR += pdf2svg
@@ -790,6 +791,7 @@
     SUBDIR += proj
     SUBDIR += pstoedit
     SUBDIR += ptex
+    SUBDIR += py-openshadinglanguage
     SUBDIR += py-OWSLib
     SUBDIR += py-PyOpenGL
     SUBDIR += py-PyOpenGL-accelerate
