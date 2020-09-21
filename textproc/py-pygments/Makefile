@@ -18,6 +18,8 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 USES=		python
 USE_PYTHON=	distutils concurrent autoplist
 
+CONFLICTS_INSTALL=	py??-pygments-25
+
 NO_ARCH=	yes
 
 .include <bsd.port.pre.mk>
