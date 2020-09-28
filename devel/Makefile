@@ -4079,6 +4079,7 @@
     SUBDIR += py-avro
     SUBDIR += py-aws-sam-translator
     SUBDIR += py-aws-xray-sdk
+    SUBDIR += py-azure-appconfiguration
     SUBDIR += py-azure-batch
     SUBDIR += py-azure-core
     SUBDIR += py-azure-cosmos
@@ -4086,6 +4087,7 @@
     SUBDIR += py-azure-functions-devops-build
     SUBDIR += py-azure-graphrbac
     SUBDIR += py-azure-keyvault
+    SUBDIR += py-azure-keyvault-administration
     SUBDIR += py-azure-loganalytics
     SUBDIR += py-azure-mgmt-advisor
     SUBDIR += py-azure-mgmt-apimanagement
@@ -4278,6 +4280,7 @@
     SUBDIR += py-crashtest
     SUBDIR += py-crc32c
     SUBDIR += py-crcmod
+    SUBDIR += py-cson
     SUBDIR += py-csv23
     SUBDIR += py-ctags
     SUBDIR += py-curio
@@ -4416,6 +4419,7 @@
     SUBDIR += py-game_sdl2
     SUBDIR += py-gast
     SUBDIR += py-gdata
+    SUBDIR += py-genson
     SUBDIR += py-genty
     SUBDIR += py-geojson
     SUBDIR += py-gevent
@@ -4855,7 +4859,6 @@
     SUBDIR += py-pyperf
     SUBDIR += py-pyplusplus
     SUBDIR += py-pypugjs
-    SUBDIR += py-pyqi
     SUBDIR += py-pyqtree
     SUBDIR += py-pyral
     SUBDIR += py-pyrepl
@@ -5042,6 +5045,7 @@
     SUBDIR += py-sortedcontainers
     SUBDIR += py-sourcemap
     SUBDIR += py-speaklater
+    SUBDIR += py-speg
     SUBDIR += py-spyder
     SUBDIR += py-srsly
     SUBDIR += py-stackexchange
@@ -6667,6 +6671,7 @@
     SUBDIR += ta-lib
     SUBDIR += tablist
     SUBDIR += talloc
+    SUBDIR += taskctl
     SUBDIR += taskflow
     SUBDIR += tass64
     SUBDIR += tbb
@@ -6744,6 +6749,7 @@
     SUBDIR += urjtag
     SUBDIR += utf8cpp
     SUBDIR += uthash
+    SUBDIR += util-linux
     SUBDIR += valgrind
     SUBDIR += valgrind-devel
     SUBDIR += varconf
