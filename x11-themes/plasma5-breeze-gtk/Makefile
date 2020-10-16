@@ -8,7 +8,6 @@ MAINTAINER=	kde@FreeBSD.org
 COMMENT=	Plasma5 Breeze visual style for Gtk
 
 LICENSE=	LGPL21
-LICENSE_FILE=	${WRKSRC}/COPYING.LIB
 
 BUILD_DEPENDS=	${PYTHON_PKGNAMEPREFIX}cairo>0:graphics/py-cairo@${PY_FLAVOR} \
 		sassc:textproc/sassc
@@ -20,7 +19,7 @@ USE_GNOME=	gdkpixbuf2
 USE_KDE=	breeze ecm
 USE_QT=		core buildtools_build qmake_build
 
-BINARY_ALIAS=	python3=${PYTHON_VERSION}
 NO_ARCH=	yes
+CMAKE_ARGS=	-DPython3_EXECUTABLE:PATH=${PYTHON_CMD}
 
 .include <bsd.port.mk>

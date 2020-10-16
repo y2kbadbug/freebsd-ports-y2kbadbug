@@ -722,7 +722,6 @@
     SUBDIR += geany-plugin-defineformat
     SUBDIR += geany-plugin-doc
     SUBDIR += geany-plugin-extrasel
-    SUBDIR += geany-plugin-geanypy
     SUBDIR += geany-plugin-gendoc
     SUBDIR += geany-plugin-geniuspaste
     SUBDIR += geany-plugin-git-changebar
@@ -1106,6 +1105,7 @@
     SUBDIR += libconcurrent
     SUBDIR += libconfig
     SUBDIR += libconfuse
+    SUBDIR += libcreg
     SUBDIR += libcrossguid
     SUBDIR += libcutl
     SUBDIR += libcwd
@@ -1159,6 +1159,7 @@
     SUBDIR += libfortuna
     SUBDIR += libfreefare
     SUBDIR += libfsapfs
+    SUBDIR += libfsext
     SUBDIR += libfsntfs
     SUBDIR += libftdi
     SUBDIR += libftdi1
@@ -1383,6 +1384,7 @@
     SUBDIR += llbuild
     SUBDIR += llnextgen
     SUBDIR += llvm
+    SUBDIR += llvm-cheri
     SUBDIR += llvm-devel
     SUBDIR += llvm10
     SUBDIR += llvm11
@@ -1413,6 +1415,7 @@
     SUBDIR += love5
     SUBDIR += lpc21isp
     SUBDIR += lrmi
+    SUBDIR += lua-argparse
     SUBDIR += lua-bitlib
     SUBDIR += lua-bitop
     SUBDIR += lua-cjson
@@ -4174,6 +4177,7 @@
     SUBDIR += py-bandit
     SUBDIR += py-bcdoc
     SUBDIR += py-beautifultable
+    SUBDIR += py-behave
     SUBDIR += py-bidict
     SUBDIR += py-billiard
     SUBDIR += py-binaryornot
