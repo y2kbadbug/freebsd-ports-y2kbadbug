@@ -15498,7 +15498,6 @@ devel/grumpy||2020-09-19|Has expired: Uses deprecated version of python
 devel/hg-git||2020-09-19|Has expired: Uses deprecated version of python
 devel/libnxt||2020-09-19|Has expired: Uses deprecated version of python
 devel/libredblack||2020-09-19|Has expired: Uses deprecated version of python
-devel/llvm-cheri||2020-09-19|Has expired: Uses deprecated version of python
 devel/phpsh||2020-09-19|Has expired: Uses deprecated version of python
 devel/py-backports.shutil_which||2020-09-19|Has expired: Uses deprecated version of python
 devel/py-notify||2020-09-19|Has expired: Uses deprecated version of python
@@ -15650,3 +15649,5 @@ sysutils/syslog-ng320|sysutils/syslog-ng|2020-10-12|Has expired: Agreed upon ups
 dns/opendnssec|dns/opendnssec2|2020-10-12|Has expired: EOLed by upstream
 sysutils/syslog-ng323|sysutils/syslog-ng|2020-10-12|Has expired: Agreed upon upstream one year deprecation policy
 devel/libsoup-gnome|devel/libsoup|2020-10-12|Reunited into on package they have the same dependencies
+sysutils/plasma5-user-manager|x11/plasma5-plasma-desktop|2020-10-13|Reintegrated into other plasma5 components
+devel/geany-plugin-geanypy||2020-10-15|Has expired: Uses deprecated version of python
