@@ -278,6 +278,8 @@
     SUBDIR += php72-snmp
     SUBDIR += php73-snmp
     SUBDIR += php74-snmp
+    SUBDIR += php80-snmp
+    SUBDIR += phpfpm_exporter
     SUBDIR += phpipam
     SUBDIR += phpweathermap
     SUBDIR += ping_exporter

@@ -489,6 +489,7 @@
     SUBDIR += p5-Cisco-Hash
     SUBDIR += p5-Crypt-Anubis
     SUBDIR += p5-Crypt-AppleTwoFish
+    SUBDIR += p5-Crypt-Argon2
     SUBDIR += p5-Crypt-Blowfish
     SUBDIR += p5-Crypt-Blowfish_PP
     SUBDIR += p5-Crypt-CAST5
@@ -791,6 +792,9 @@
     SUBDIR += php74-filter
     SUBDIR += php74-openssl
     SUBDIR += php74-sodium
+    SUBDIR += php80-filter
+    SUBDIR += php80-openssl
+    SUBDIR += php80-sodium
     SUBDIR += phpsecinfo
     SUBDIR += picosha2
     SUBDIR += pidentd
