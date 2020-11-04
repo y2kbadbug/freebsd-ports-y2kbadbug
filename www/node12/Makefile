@@ -3,6 +3,7 @@
 PORTNAME=	node
 PORTVERSION=	12.19.0
 DISTVERSIONPREFIX=	v
+PORTREVISION=	1
 CATEGORIES=	www
 MASTER_SITES=	http://nodejs.org/dist/v${PORTVERSION}/
 PKGNAMESUFFIX=	12
@@ -32,6 +33,7 @@ OPTIONS_EXCLUDE_aarch64=	DTRACE
 OPTIONS_EXCLUDE_armv6=		DTRACE
 OPTIONS_EXCLUDE_armv7=		DTRACE
 OPTIONS_EXCLUDE_powerpc64=	DTRACE
+OPTIONS_EXCLUDE_powerpc64le=	DTRACE
 
 BUNDLED_SSL_DESC=		Use node.js's bundled OpenSSL implementation
 BUNDLED_SSL_USES_OFF=		ssl
@@ -82,7 +84,7 @@ BROKEN_SSL+=	base
 
 .if ${ARCH} == armv6 || ${ARCH} == armv7
 EXTRA_PATCHES=	${PATCHDIR}/extra-patch-tools_v8__gypfiles_v8.gyp
-.elif defined(PPC_ABI) && ${PPC_ABI} == ELFv2
+.elif (defined(PPC_ABI) && ${PPC_ABI} == ELFv2) || ${ARCH} == powerpc64le
 EXTRA_PATCHES=	${PATCHDIR}/extra-patch-common.gypi
 .endif
 
