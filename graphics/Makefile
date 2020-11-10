@@ -64,6 +64,7 @@
     SUBDIR += aview
     SUBDIR += avir
     SUBDIR += azpainter
+    SUBDIR += azpainterb
     SUBDIR += barbecue
     SUBDIR += barcode
     SUBDIR += batik
@@ -1014,7 +1015,6 @@
     SUBDIR += svgalib
     SUBDIR += svgbob
     SUBDIR += swappy
-    SUBDIR += swfdec
     SUBDIR += swfmill
     SUBDIR += swftools
     SUBDIR += sxiv

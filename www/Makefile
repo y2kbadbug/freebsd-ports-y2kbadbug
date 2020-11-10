@@ -412,6 +412,7 @@
     SUBDIR += mongoose
     SUBDIR += mongrel2
     SUBDIR += monolith
+    SUBDIR += moodle310
     SUBDIR += moodle35
     SUBDIR += moodle37
     SUBDIR += moodle38
@@ -464,6 +465,7 @@
     SUBDIR += npm
     SUBDIR += npm-node10
     SUBDIR += npm-node12
+    SUBDIR += npm-node14
     SUBDIR += nspluginwrapper
     SUBDIR += obhttpd
     SUBDIR += oneshot
@@ -1711,6 +1713,7 @@
     SUBDIR += py-secure-cookie
     SUBDIR += py-selector
     SUBDIR += py-selenium
+    SUBDIR += py-sentinelhub
     SUBDIR += py-slimit
     SUBDIR += py-slumber
     SUBDIR += py-sockjs-tornado
