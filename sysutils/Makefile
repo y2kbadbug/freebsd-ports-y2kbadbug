@@ -157,12 +157,14 @@
     SUBDIR += cfengine-masterfiles313
     SUBDIR += cfengine-masterfiles314
     SUBDIR += cfengine-masterfiles315
+    SUBDIR += cfengine-masterfiles316
     SUBDIR += cfengine310
     SUBDIR += cfengine311
     SUBDIR += cfengine312
     SUBDIR += cfengine313
     SUBDIR += cfengine314
     SUBDIR += cfengine315
+    SUBDIR += cfengine316
     SUBDIR += chaoskube
     SUBDIR += checkrestart
     SUBDIR += chgrep
@@ -1392,6 +1394,7 @@
     SUBDIR += u-boot-rpi4
     SUBDIR += u-boot-sinovoip-bpi-m3
     SUBDIR += u-boot-sopine
+    SUBDIR += u-boot-sopine-spi
     SUBDIR += u-boot-tools
     SUBDIR += u-boot-utilite
     SUBDIR += u-boot-wandboard
