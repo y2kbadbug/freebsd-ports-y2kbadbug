@@ -118,6 +118,7 @@
     SUBDIR += howm
     SUBDIR += hs-arbtt
     SUBDIR += ical
+    SUBDIR += itinerary
     SUBDIR += jjclient
     SUBDIR += jlj
     SUBDIR += just
@@ -128,7 +129,6 @@
     SUBDIR += kdeconnect-kde
     SUBDIR += kdepim
     SUBDIR += kdepim-addons
-    SUBDIR += kdepim-apps-libs
     SUBDIR += kdepim-runtime
     SUBDIR += keditbookmarks
     SUBDIR += kfind
@@ -218,6 +218,7 @@
     SUBDIR += shutter
     SUBDIR += simpleagenda
     SUBDIR += sliderule
+    SUBDIR += sowon
     SUBDIR += spice-gtk
     SUBDIR += synapse
     SUBDIR += syncthingtray

@@ -15,6 +15,7 @@
     SUBDIR += bochs
     SUBDIR += bsvc
     SUBDIR += cannonball
+    SUBDIR += cemu
     SUBDIR += cinc
     SUBDIR += cingb
     SUBDIR += citra
@@ -61,6 +62,7 @@
     SUBDIR += kcemu
     SUBDIR += klh10
     SUBDIR += lib765
+    SUBDIR += libc6-shim
     SUBDIR += libdsk
     SUBDIR += libretro-ppsspp
     SUBDIR += libspectrum
@@ -138,6 +140,7 @@
     SUBDIR += tiemu3
     SUBDIR += tilem
     SUBDIR += tme
+    SUBDIR += tnylpo
     SUBDIR += tpm-emulator
     SUBDIR += tuxnes
     SUBDIR += uae
@@ -166,6 +169,7 @@
     SUBDIR += wine-gecko-devel
     SUBDIR += wine-mono
     SUBDIR += wine-mono-devel
+    SUBDIR += wine-proton
     SUBDIR += winetricks
     SUBDIR += x16-emulator
     SUBDIR += x16-rom

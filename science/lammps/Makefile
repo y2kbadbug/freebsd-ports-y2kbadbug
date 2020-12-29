@@ -2,10 +2,8 @@
 
 PORTNAME=	lammps
 PORTVERSION=	${GH_TAGNAME:C/(stable|patch)_([0-9]{1,2})([A-Z][a-z][a-z])([0-9]{4})/\4.\3.\2/S/Jan/01/S/Feb/02/S/Mar/03/S/Apr/04/S/May/05/S/Jun/06/S/Jul/07/S/Aug/08/S/Sep/09/S/Oct/10/S/Nov/11/S/Dec/12/}
+PORTREVISION=	3
 CATEGORIES=	science
-
-PATCH_SITES=	https://github.com/${GH_ACCOUNT}/${GH_PROJECT}/commit/
-PATCHFILES=	7ec7430c6eded211d60526493de8e4ebcb5474a4.patch:-p1 # Update KIM.cmake for kim-api-2.2.0: https://github.com/lammps/lammps/pull/2488/commits
 
 MAINTAINER=	yuri@FreeBSD.org
 COMMENT=	Classical molecular dynamics code with a focus on materials modeling
@@ -20,7 +18,7 @@ LIB_DEPENDS=	libfftw3.so:math/fftw3
 
 USES=		blaslapack:openblas cmake:noninja compiler:c++11-lang eigen:3 fortran localbase:ldflags shebangfix
 USE_GITHUB=	yes
-GH_TAGNAME=	patch_29Oct2020
+GH_TAGNAME=	patch_24Dec2020
 USE_LDCONFIG=	yes
 
 SHEBANG_GLOB=	*.sh *.bash

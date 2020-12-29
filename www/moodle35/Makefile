@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	moodle
-PORTVERSION=	3.5.14
+PORTVERSION=	3.5.15
 CATEGORIES=	www education
 MASTER_SITES=	SF/moodle/Moodle/stable35/
 PKGNAMESUFFIX=	${PKGORIGIN:T:S/moodle//}${PHP_PKGNAMESUFFIX}
@@ -15,10 +15,13 @@ LICENSE=	GPLv3
 CONFLICTS=	moodle37-3.7.[0-9]* moodle38-3.8.[0-9]* moodle39-3.9.[0-9]* \
 		moodle310-3.10
 
+DEPRECATED=	Deprecated by upstream
+EXPIRATION_DATE=2021-03-03
+
 USES=		cpe php:flavors tar:tgz
 USE_PHP=	ctype curl dom fileinfo filter gd hash iconv intl json mbstring \
 		opcache openssl pcre session simplexml soap spl tokenizer \
-		xml xmlreader xmlrpc zip zlib
+		xml xmlreader zip zlib
 WRKSRC=		${WRKDIR}/moodle
 
 OPTIONS_SINGLE=		BACKEND
@@ -42,6 +45,12 @@ SUB_LIST=	MOODLEDIR=${MOODLEDIR} \
 
 MOODLEDIR?=	www/moodle
 MOODLEDATADIR?=	moodledata
+
+.include <bsd.port.options.mk>
+
+.if ${FLAVOR} != php80
+USE_PHP+=       xmlrpc
+.endif
 
 pre-install:
 	@${ECHO_CMD} "@owner ${WWWOWN}" >> ${PLIST}

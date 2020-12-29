@@ -53,10 +53,9 @@
     SUBDIR += credis
     SUBDIR += cutelyst-asql
     SUBDIR += dalmp
-    SUBDIR += datamodeler
     SUBDIR += db
+    SUBDIR += db18
     SUBDIR += db5
-    SUBDIR += db6
     SUBDIR += dbf
     SUBDIR += dbh
     SUBDIR += dbixx
@@ -129,7 +128,6 @@
     SUBDIR += kexi
     SUBDIR += kyotocabinet
     SUBDIR += kyototycoon
-    SUBDIR += ldb14
     SUBDIR += ldb15
     SUBDIR += ldb20
     SUBDIR += ldb21
@@ -187,6 +185,7 @@
     SUBDIR += mariadb105-client
     SUBDIR += mariadb105-server
     SUBDIR += mdbtools
+    SUBDIR += mdbx
     SUBDIR += mdcached
     SUBDIR += memcached
     SUBDIR += mongodb-tools
@@ -236,6 +235,7 @@
     SUBDIR += ocaml-dbm
     SUBDIR += ocaml-mysql
     SUBDIR += ocaml-sqlite3
+    SUBDIR += ods2sql
     SUBDIR += opendbviewer
     SUBDIR += opendbx
     SUBDIR += opentsdb
@@ -659,6 +659,7 @@
     SUBDIR += postgis24
     SUBDIR += postgis25
     SUBDIR += postgis30
+    SUBDIR += postgis31
     SUBDIR += postgresql-cstore_fdw
     SUBDIR += postgresql-jdbc
     SUBDIR += postgresql-libpgeasy
@@ -735,15 +736,17 @@
     SUBDIR += pspg
     SUBDIR += puppetdb-terminus5
     SUBDIR += puppetdb-terminus6
+    SUBDIR += puppetdb-terminus7
     SUBDIR += puppetdb5
     SUBDIR += puppetdb6
+    SUBDIR += puppetdb7
     SUBDIR += puredb
     SUBDIR += pxlib
     SUBDIR += pxtools
     SUBDIR += py-Elixir
-    SUBDIR += py-MySQLdb
     SUBDIR += py-PyGreSQL
     SUBDIR += py-Pyrseas
+    SUBDIR += py-aesqlapius
     SUBDIR += py-agate-sql
     SUBDIR += py-aiopg
     SUBDIR += py-aioredis
@@ -751,7 +754,6 @@
     SUBDIR += py-alembic
     SUBDIR += py-apsw
     SUBDIR += py-asyncpg
-    SUBDIR += py-bsddb
     SUBDIR += py-bsddb3
     SUBDIR += py-carbon
     SUBDIR += py-cassandra-driver
@@ -827,7 +829,6 @@
     SUBDIR += py-sqlobject
     SUBDIR += py-sqlparse
     SUBDIR += py-sqlrelay
-    SUBDIR += py-swift
     SUBDIR += py-tableschema
     SUBDIR += py-tarantool
     SUBDIR += py-tiledb
@@ -1032,6 +1033,7 @@
     SUBDIR += xapian-bindings12
     SUBDIR += xapian-core
     SUBDIR += xapian-core12
+    SUBDIR += xls2txt
     SUBDIR += xrootd
     SUBDIR += xtrabackup
     SUBDIR += xtrabackup8

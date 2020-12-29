@@ -64,6 +64,7 @@
     SUBDIR += hexpert
     SUBDIR += hnb
     SUBDIR += hte
+    SUBDIR += imhex
     SUBDIR += impress
     SUBDIR += jed
     SUBDIR += jedit
@@ -220,6 +221,7 @@
     SUBDIR += poedit
     SUBDIR += psgml
     SUBDIR += puff
+    SUBDIR += py-babi
     SUBDIR += py-editorconfig
     SUBDIR += py-pynvim
     SUBDIR += quilter

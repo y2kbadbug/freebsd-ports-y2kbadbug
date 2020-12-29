@@ -59,7 +59,6 @@
     SUBDIR += cp2k-data
     SUBDIR += crf++
     SUBDIR += dalton
-    SUBDIR += datawarrior
     SUBDIR += dcl
     SUBDIR += devisor
     SUBDIR += dftbplus
@@ -232,6 +231,7 @@
     SUBDIR += py-chempy
     SUBDIR += py-coards
     SUBDIR += py-dlib
+    SUBDIR += py-eccodes
     SUBDIR += py-eccodes-python
     SUBDIR += py-geolinks
     SUBDIR += py-geomet
@@ -241,6 +241,7 @@
     SUBDIR += py-gsd
     SUBDIR += py-h5json
     SUBDIR += py-h5py
+    SUBDIR += py-jupyter_jsmol
     SUBDIR += py-kim-query
     SUBDIR += py-kinematics
     SUBDIR += py-kliff
@@ -251,6 +252,7 @@
     SUBDIR += py-molmod
     SUBDIR += py-moltemplate
     SUBDIR += py-netCDF4
+    SUBDIR += py-netcdf-flattener
     SUBDIR += py-obspy
     SUBDIR += py-oddt
     SUBDIR += py-openpiv
@@ -328,6 +330,7 @@
     SUBDIR += szip
     SUBDIR += teem
     SUBDIR += tfel
+    SUBDIR += tfel-edf
     SUBDIR += tinker
     SUBDIR += udunits
     SUBDIR += v_sim

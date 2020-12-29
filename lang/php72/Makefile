@@ -10,6 +10,9 @@ DISTNAME=	php-${DISTVERSION}
 MAINTAINER=	tz@FreeBSD.org
 COMMENT=	PHP Scripting Language
 
+DEPRECATED=     Security Support ends on 30 Nov 2020
+EXPIRATION_DATE=        2020-12-31
+
 LICENSE=	PHP301
 
 USES+=		cpe gnome tar:xz
@@ -46,6 +49,8 @@ OPTIONS_EXCLUDE_armv7=		DTRACE
 # Bug 197128:  No ASM code for MIPS/MIPS64, disable FPM
 OPTIONS_EXCLUDE_mips=		DTRACE FPM
 OPTIONS_EXCLUDE_mips64=		DTRACE FPM
+# dt_modtext:opensolaris/ib/libdtrace/common/dt_link.c: RISC-V implementation required
+OPTIONS_EXCLUDE_riscv64=	DTRACE
 OPTIONS_EXCLUDE_sparc64=	DTRACE
 OPTIONS_SUB=	yes
 

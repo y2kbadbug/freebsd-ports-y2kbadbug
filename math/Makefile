@@ -52,6 +52,7 @@
     SUBDIR += R-cran-dimRed
     SUBDIR += R-cran-dlmodeler
     SUBDIR += R-cran-dplyr
+    SUBDIR += R-cran-energy
     SUBDIR += R-cran-expm
     SUBDIR += R-cran-forcats
     SUBDIR += R-cran-forecast
@@ -269,6 +270,7 @@
     SUBDIR += fpc-gmp
     SUBDIR += fpc-numlib
     SUBDIR += fplll
+    SUBDIR += freefem++
     SUBDIR += fricas
     SUBDIR += frobby
     SUBDIR += fxt
@@ -778,6 +780,7 @@
     SUBDIR += py-levmar
     SUBDIR += py-libpoly
     SUBDIR += py-luminol
+    SUBDIR += py-mathics
     SUBDIR += py-matplotlib
     SUBDIR += py-matplotlib-scalebar
     SUBDIR += py-matplotlib2
@@ -788,7 +791,6 @@
     SUBDIR += py-munkres10
     SUBDIR += py-networkx
     SUBDIR += py-nevergrad
-    SUBDIR += py-numeric
     SUBDIR += py-numexpr
     SUBDIR += py-numpoly
     SUBDIR += py-numpy
@@ -832,14 +834,12 @@
     SUBDIR += py-random2
     SUBDIR += py-roman
     SUBDIR += py-rpy2
-    SUBDIR += py-scientific
     SUBDIR += py-scikit-umfpack
     SUBDIR += py-scs
     SUBDIR += py-seaborn
     SUBDIR += py-secp256k1
     SUBDIR += py-seriate
     SUBDIR += py-simhash
-    SUBDIR += py-slepc4py
     SUBDIR += py-snuggs
     SUBDIR += py-spectral
     SUBDIR += py-spot
@@ -907,7 +907,6 @@
     SUBDIR += sisl
     SUBDIR += slatec
     SUBDIR += sleef
-    SUBDIR += slepc
     SUBDIR += slgrace
     SUBDIR += snns
     SUBDIR += solitaire
@@ -919,6 +918,7 @@
     SUBDIR += spooles
     SUBDIR += spooles-mpich
     SUBDIR += spot
+    SUBDIR += sprng
     SUBDIR += stp
     SUBDIR += suitesparse
     SUBDIR += sundials
@@ -930,6 +930,7 @@
     SUBDIR += tablix
     SUBDIR += taucs
     SUBDIR += tblis
+    SUBDIR += testu01
     SUBDIR += tetgen
     SUBDIR += teyjus
     SUBDIR += timbl

@@ -9,12 +9,14 @@
     SUBDIR += 915resolution
     SUBDIR += LPRng
     SUBDIR += LPRngTool
+    SUBDIR += R-cran-ps
     SUBDIR += UEFITool
     SUBDIR += abduco
     SUBDIR += abgx360
     SUBDIR += accounts-qml-module
     SUBDIR += accountsservice
     SUBDIR += acerhdf-kmod
+    SUBDIR += acfgfs
     SUBDIR += acltool
     SUBDIR += acpi_call
     SUBDIR += acpica-tools
@@ -63,6 +65,7 @@
     SUBDIR += atf-rk3328
     SUBDIR += atf-rk3399
     SUBDIR += atf-sun50i_a64
+    SUBDIR += atf-sun50i_h6
     SUBDIR += atitvout
     SUBDIR += atop
     SUBDIR += auto-admin
@@ -96,6 +99,9 @@
     SUBDIR += bareos18-client
     SUBDIR += bareos18-server
     SUBDIR += bareos18-traymonitor
+    SUBDIR += bareos19-client
+    SUBDIR += bareos19-server
+    SUBDIR += bareos19-traymonitor
     SUBDIR += barrier
     SUBDIR += bashtop
     SUBDIR += bastille
@@ -230,7 +236,8 @@
     SUBDIR += daemontools-encore
     SUBDIR += daggy
     SUBDIR += dar
-    SUBDIR += datadog
+    SUBDIR += datadog-agent
+    SUBDIR += datadog-integrations
     SUBDIR += dateutils
     SUBDIR += dc3dd
     SUBDIR += dcfldd
@@ -586,6 +593,8 @@
     SUBDIR += libcpuid
     SUBDIR += libdnf
     SUBDIR += libfvde
+    SUBDIR += libg15
+    SUBDIR += libg15render
     SUBDIR += libgksu
     SUBDIR += libieee1284
     SUBDIR += libretto-config
@@ -653,6 +662,7 @@
     SUBDIR += mate-system-monitor
     SUBDIR += mbgtools
     SUBDIR += mcelog
+    SUBDIR += mcfly
     SUBDIR += mcollective
     SUBDIR += mcollective-actionpolicy-auth
     SUBDIR += mcollective-nettest-agent
@@ -748,6 +758,7 @@
     SUBDIR += nfcutils
     SUBDIR += nitrogen
     SUBDIR += nix
+    SUBDIR += nmrpflash
     SUBDIR += no-login
     SUBDIR += node_exporter
     SUBDIR += nomad
@@ -790,6 +801,7 @@
     SUBDIR += p5-BSD-Jail-Object
     SUBDIR += p5-BSD-Process
     SUBDIR += p5-BSD-Sysctl
+    SUBDIR += p5-BSD-getloadavg
     SUBDIR += p5-BackupPC-XS
     SUBDIR += p5-Brackup
     SUBDIR += p5-Dir-Purge
@@ -965,8 +977,10 @@
     SUBDIR += puppet-mode.el
     SUBDIR += puppet5
     SUBDIR += puppet6
+    SUBDIR += puppet7
     SUBDIR += puppetserver5
     SUBDIR += puppetserver6
+    SUBDIR += puppetserver7
     SUBDIR += pv
     SUBDIR += pwd_unmkdb
     SUBDIR += pwgen
@@ -1113,11 +1127,14 @@
     SUBDIR += rubygem-chef-config
     SUBDIR += rubygem-chef-config12
     SUBDIR += rubygem-chef-dk
+    SUBDIR += rubygem-chef-telemetry
     SUBDIR += rubygem-chef-utils
+    SUBDIR += rubygem-chef-utils15
     SUBDIR += rubygem-chef-vault
     SUBDIR += rubygem-chef-zero
     SUBDIR += rubygem-chef-zero5
     SUBDIR += rubygem-chef12
+    SUBDIR += rubygem-choria-mcorpc-support
     SUBDIR += rubygem-facter
     SUBDIR += rubygem-fluent-mixin-plaintextformatter
     SUBDIR += rubygem-fluent-plugin-config-expander
@@ -1270,6 +1287,7 @@
     SUBDIR += stow
     SUBDIR += stowES
     SUBDIR += stress
+    SUBDIR += stressdisk
     SUBDIR += superiotool
     SUBDIR += swapd
     SUBDIR += swapexd
@@ -1286,7 +1304,6 @@
     SUBDIR += sysinfo
     SUBDIR += syslinux
     SUBDIR += syslog-ng
-    SUBDIR += syslog-ng324
     SUBDIR += syslog-ng325
     SUBDIR += syslog-ng326
     SUBDIR += syslog-ng327
@@ -1378,6 +1395,7 @@
     SUBDIR += u-boot-orangepi-zero
     SUBDIR += u-boot-pandaboard
     SUBDIR += u-boot-pcduino3
+    SUBDIR += u-boot-pine-h64
     SUBDIR += u-boot-pine64
     SUBDIR += u-boot-pine64-lts
     SUBDIR += u-boot-pinebook
@@ -1391,10 +1409,12 @@
     SUBDIR += u-boot-rockpro64
     SUBDIR += u-boot-rpi
     SUBDIR += u-boot-rpi-0-w
+    SUBDIR += u-boot-rpi-arm64
     SUBDIR += u-boot-rpi2
     SUBDIR += u-boot-rpi3
     SUBDIR += u-boot-rpi3-32
     SUBDIR += u-boot-rpi4
+    SUBDIR += u-boot-sifive-fu540
     SUBDIR += u-boot-sinovoip-bpi-m3
     SUBDIR += u-boot-sopine
     SUBDIR += u-boot-sopine-spi
