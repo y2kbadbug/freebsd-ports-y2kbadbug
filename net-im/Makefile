@@ -124,7 +124,6 @@
     SUBDIR += py-punjab
     SUBDIR += py-python-telegram-bot
     SUBDIR += py-slackclient
-    SUBDIR += py-sleekxmpp
     SUBDIR += py-slixmpp
     SUBDIR += py-telepot
     SUBDIR += py-toxcore-c
@@ -179,6 +178,8 @@
     SUBDIR += uTox
     SUBDIR += vqcc-gtk
     SUBDIR += xmpp-client
+    SUBDIR += yume
+    SUBDIR += zkgroup
     SUBDIR += zoom
 
 .include <bsd.port.subdir.mk>

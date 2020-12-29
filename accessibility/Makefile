@@ -11,6 +11,7 @@
     SUBDIR += caribou
     SUBDIR += eflite
     SUBDIR += feedbackd
+    SUBDIR += gammy
     SUBDIR += kdeaccessibility
     SUBDIR += kmag
     SUBDIR += kmousetool
@@ -26,6 +27,7 @@
     SUBDIR += redshift
     SUBDIR += rubygem-atk
     SUBDIR += sct
+    SUBDIR += sctd
     SUBDIR += speech-dispatcher
     SUBDIR += wlsunset
     SUBDIR += yasr

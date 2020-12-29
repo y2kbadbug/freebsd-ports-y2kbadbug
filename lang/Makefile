@@ -75,9 +75,11 @@
     SUBDIR += fpc-base
     SUBDIR += fpc-docs
     SUBDIR += fpc-lua
+    SUBDIR += fpc-pastojs
     SUBDIR += fpc-rexx
     SUBDIR += fpc-rtl-console
     SUBDIR += fpc-rtl-extra
+    SUBDIR += fpc-rtl-generics
     SUBDIR += fpc-rtl-objpas
     SUBDIR += fpc-rtl-unicode
     SUBDIR += fpc-source
@@ -116,6 +118,7 @@
     SUBDIR += go
     SUBDIR += go-devel
     SUBDIR += gomacro
+    SUBDIR += gprolog
     SUBDIR += gravity
     SUBDIR += groovy
     SUBDIR += gscheme
@@ -182,6 +185,9 @@
     SUBDIR += mmix
     SUBDIR += mono
     SUBDIR += mono-basic
+    SUBDIR += mono5.10
+    SUBDIR += mono5.20
+    SUBDIR += mono6.8
     SUBDIR += mosh
     SUBDIR += mosml
     SUBDIR += mtasc
@@ -341,6 +347,7 @@
     SUBDIR += squeak
     SUBDIR += squirrel
     SUBDIR += swi-pl
+    SUBDIR += tauthon
     SUBDIR += tcbasic
     SUBDIR += tcc
     SUBDIR += tcl-manual
@@ -361,6 +368,7 @@
     SUBDIR += visualworks
     SUBDIR += voc
     SUBDIR += yabasic
+    SUBDIR += yap
     SUBDIR += yorick
     SUBDIR += ypsilon
     SUBDIR += zig

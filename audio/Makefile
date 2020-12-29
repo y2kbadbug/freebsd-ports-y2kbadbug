@@ -366,6 +366,7 @@
     SUBDIR += kid3-kf5
     SUBDIR += kid3-qt5
     SUBDIR += kmix
+    SUBDIR += komposter
     SUBDIR += ksmp3play
     SUBDIR += kwave
     SUBDIR += ladspa
@@ -504,7 +505,7 @@
     SUBDIR += mixxx21
     SUBDIR += mkcue
     SUBDIR += moc
-    SUBDIR += modplugplay
+    SUBDIR += modplug-tools
     SUBDIR += moodbar
     SUBDIR += moony-lv2
     SUBDIR += mous
@@ -775,6 +776,7 @@
     SUBDIR += sratom
     SUBDIR += stegosaurus-lv2
     SUBDIR += stk
+    SUBDIR += stmp
     SUBDIR += stone-phaser-lv2
     SUBDIR += strawberry
     SUBDIR += streamripper
@@ -847,6 +849,7 @@
     SUBDIR += wavpack
     SUBDIR += wavplay
     SUBDIR += webrtc-audio-processing
+    SUBDIR += webrtc-audio-processing0
     SUBDIR += welle.io
     SUBDIR += whysynth
     SUBDIR += wildmidi

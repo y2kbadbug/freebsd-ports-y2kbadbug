@@ -6,6 +6,7 @@
     SUBDIR += 3ddesktop
     SUBDIR += 9box
     SUBDIR += 9menu
+    SUBDIR += aclip
     SUBDIR += admiral
     SUBDIR += alacritty
     SUBDIR += albert
@@ -16,6 +17,7 @@
     SUBDIR += appres
     SUBDIR += apwal
     SUBDIR += arandr
+    SUBDIR += arcan-trayicon
     SUBDIR += aterm
     SUBDIR += babl
     SUBDIR += bbappconf
@@ -67,8 +69,10 @@
     SUBDIR += fireflies
     SUBDIR += florence
     SUBDIR += flruler
+    SUBDIR += fnott
     SUBDIR += fpc-x11
     SUBDIR += fstobdf
+    SUBDIR += fuzzel
     SUBDIR += gdm
     SUBDIR += glcapsviewer
     SUBDIR += gmrun
@@ -208,6 +212,7 @@
     SUBDIR += lxqt-runner
     SUBDIR += lxrandr
     SUBDIR += ly
+    SUBDIR += mako
     SUBDIR += mate
     SUBDIR += mate-applets
     SUBDIR += mate-base
@@ -358,6 +363,7 @@
     SUBDIR += wmcliphist
     SUBDIR += wmctrl
     SUBDIR += wmdrawer
+    SUBDIR += wmfocus
     SUBDIR += wmmatrix
     SUBDIR += wmsystemtray
     SUBDIR += wmutils-core
@@ -388,6 +394,7 @@
     SUBDIR += xcalib
     SUBDIR += xcape
     SUBDIR += xcb
+    SUBDIR += xcb-imdkit
     SUBDIR += xcb-proto
     SUBDIR += xcb-util
     SUBDIR += xcb-util-cursor
@@ -409,6 +416,7 @@
     SUBDIR += xconsole
     SUBDIR += xcursorgen
     SUBDIR += xcut
+    SUBDIR += xdg-desktop-portal-wlr
     SUBDIR += xditview
     SUBDIR += xdm
     SUBDIR += xdo

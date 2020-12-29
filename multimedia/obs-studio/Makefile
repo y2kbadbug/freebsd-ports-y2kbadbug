@@ -1,8 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	obs-studio
-DISTVERSION=	26.0.2
-PORTREVISION=	1
+DISTVERSION=	26.1.0
 CATEGORIES=	multimedia
 
 MAINTAINER=	yuri@FreeBSD.org
@@ -25,6 +24,7 @@ LIB_DEPENDS=	libavcodec.so:multimedia/ffmpeg \
 		libjansson.so:devel/jansson \
 		libmbedtls.so:security/mbedtls \
 		libpulse.so:audio/pulseaudio \
+		libsndio.so:audio/sndio \
 		libspeexdsp.so:audio/speexdsp \
 		libsysinfo.so:devel/libsysinfo \
 		libudev.so:devel/libudev-devd \
@@ -55,6 +55,7 @@ LDFLAGS+=	-fPIC # pending https://github.com/obsproject/obs-studio/issues/3436
 .include <bsd.port.options.mk>
 
 .if ${ARCH} == powerpc64
+CFLAGS+=	-Wno-unused-label
 USES+=		compiler:gcc-c++11-lib
 .else
 USES+=		compiler:c++11-lib

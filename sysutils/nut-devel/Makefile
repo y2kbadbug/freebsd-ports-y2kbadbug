@@ -14,15 +14,12 @@ COMMENT=	Network UPS Tools
 
 USE_GITHUB=	yes
 GH_ACCOUNT=     networkupstools 
-GH_TAGNAME=     27e15079
-NUT_COMMIT_DATE=	2020.11.16
-
-BROKEN_powerpc64=	Poudriere builds fail.
-BROKEN_powerpc=		Poudriere builds fail.
+GH_TAGNAME=     503f6eae
+NUT_COMMIT_DATE=	2020.11.30
 
 GNU_CONFIGURE=	yes
 USE_LDCONFIG=	yes
-USES=		autoreconf:build gmake libtool pkgconfig python:build
+USES=		autoreconf:build compiler:c11 gmake libtool pkgconfig python:build
 
 NUT_USER?=	uucp
 NUT_GROUP?=	uucp
@@ -57,6 +54,7 @@ PORTDOCS=	*
 
 .include <bsd.port.options.mk>
 
+TMPDIR?=	/tmp
 CONFIGURE_ARGS=	--sysconfdir=${PREFIX}/etc/nut \
 		--program-transform-name="" \
 		--localstatedir=${STATEDIR} \

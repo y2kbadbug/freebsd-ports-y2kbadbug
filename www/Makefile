@@ -44,6 +44,7 @@
     SUBDIR += bareos16-webui
     SUBDIR += bareos17-webui
     SUBDIR += bareos18-webui
+    SUBDIR += bareos19-webui
     SUBDIR += beehive
     SUBDIR += bkmrkconv
     SUBDIR += blastbeat
@@ -116,6 +117,7 @@
     SUBDIR += drupal7
     SUBDIR += drupal7-wysiwyg
     SUBDIR += drupal8
+    SUBDIR += drupal9
     SUBDIR += drush
     SUBDIR += dtse
     SUBDIR += e107
@@ -139,6 +141,7 @@
     SUBDIR += emacs-w3m
     SUBDIR += encode-explorer
     SUBDIR += envoy
+    SUBDIR += eolie
     SUBDIR += ephemera
     SUBDIR += epiphany
     SUBDIR += erlang-cowboy
@@ -162,6 +165,7 @@
     SUBDIR += firefox-esr
     SUBDIR += flashplayer
     SUBDIR += flat-frog
+    SUBDIR += flexget
     SUBDIR += flickcurl
     SUBDIR += fnord
     SUBDIR += formication
@@ -171,6 +175,7 @@
     SUBDIR += fpc-httpd22
     SUBDIR += fpc-httpd24
     SUBDIR += fpc-libmicrohttpd
+    SUBDIR += fpc-webidl
     SUBDIR += free-sa-devel
     SUBDIR += fswiki
     SUBDIR += fusionpbx
@@ -320,11 +325,13 @@
     SUBDIR += lua-resty-lrucache
     SUBDIR += luakit
     SUBDIR += luakit-devel
+    SUBDIR += lychee
     SUBDIR += lynx
     SUBDIR += lynx-current
     SUBDIR += madsonic
     SUBDIR += man2web
     SUBDIR += mathjax
+    SUBDIR += mathjax3
     SUBDIR += mathopd
     SUBDIR += matomo
     SUBDIR += mattermost-server
@@ -416,7 +423,6 @@
     SUBDIR += monolith
     SUBDIR += moodle310
     SUBDIR += moodle35
-    SUBDIR += moodle37
     SUBDIR += moodle38
     SUBDIR += moodle39
     SUBDIR += morty
@@ -478,6 +484,7 @@
     SUBDIR += opera-linuxplugins
     SUBDIR += orangehrm
     SUBDIR += osrm-backend
+    SUBDIR += osticket
     SUBDIR += ot-recorder
     SUBDIR += otrs
     SUBDIR += otter-browser
@@ -1497,6 +1504,7 @@
     SUBDIR += py-django-filter
     SUBDIR += py-django-formset-js-improved
     SUBDIR += py-django-formtools
+    SUBDIR += py-django-gravatar2
     SUBDIR += py-django-guardian
     SUBDIR += py-django-happenings-update
     SUBDIR += py-django-haystack
@@ -1571,9 +1579,10 @@
     SUBDIR += py-djangorestframework-filters
     SUBDIR += py-djangorestframework-xml
     SUBDIR += py-djangorestframework311
-    SUBDIR += py-draftjs_exporter
+    SUBDIR += py-draftjs-exporter
     SUBDIR += py-drf-yasg
     SUBDIR += py-dtflickr
+    SUBDIR += py-enmerkar
     SUBDIR += py-fake-useragent
     SUBDIR += py-falcon
     SUBDIR += py-feedgenerator
@@ -1608,7 +1617,6 @@
     SUBDIR += py-flask-sockets
     SUBDIR += py-flask-uploads
     SUBDIR += py-flask-wtf
-    SUBDIR += py-flexget
     SUBDIR += py-flup6
     SUBDIR += py-folium
     SUBDIR += py-forcediphttpsadapter
@@ -1676,21 +1684,21 @@
     SUBDIR += py-pafy
     SUBDIR += py-paste
     SUBDIR += py-pastedeploy
-    SUBDIR += py-pastescript
     SUBDIR += py-path-and-address
     SUBDIR += py-pecan
     SUBDIR += py-pelican
     SUBDIR += py-planet
+    SUBDIR += py-postorius
     SUBDIR += py-praw
     SUBDIR += py-prawcore
     SUBDIR += py-priority
     SUBDIR += py-puppetboard
     SUBDIR += py-py-restclient
     SUBDIR += py-pyjwt
-    SUBDIR += py-pylons
     SUBDIR += py-pylsqpack
     SUBDIR += py-pyocclient
     SUBDIR += py-pyramid
+    SUBDIR += py-pyramid-mako
     SUBDIR += py-pyramid_rpc
     SUBDIR += py-pysmartdl
     SUBDIR += py-python-digitalocean
@@ -1698,7 +1706,6 @@
     SUBDIR += py-python-multipart
     SUBDIR += py-pyweblib
     SUBDIR += py-pywikibot
-    SUBDIR += py-qpy
     SUBDIR += py-qt5-webchannel
     SUBDIR += py-qt5-webengine
     SUBDIR += py-qt5-webkit
@@ -1714,6 +1721,7 @@
     SUBDIR += py-requests-mock
     SUBDIR += py-requests-oauthlib
     SUBDIR += py-requests-toolbelt
+    SUBDIR += py-requests-unixsocket
     SUBDIR += py-requests_ntlm
     SUBDIR += py-restclient
     SUBDIR += py-rfc3986
@@ -1759,7 +1767,6 @@
     SUBDIR += py-waitress
     SUBDIR += py-webargs
     SUBDIR += py-webassets
-    SUBDIR += py-webhelpers
     SUBDIR += py-webob
     SUBDIR += py-weboob
     SUBDIR += py-websocket-client
@@ -1849,7 +1856,6 @@
     SUBDIR += rubygem-cuba
     SUBDIR += rubygem-d3_rails
     SUBDIR += rubygem-d3_rails-rails4
-    SUBDIR += rubygem-dashing
     SUBDIR += rubygem-davclient
     SUBDIR += rubygem-deckar01-task_list
     SUBDIR += rubygem-domainatrix
@@ -1879,7 +1885,6 @@
     SUBDIR += rubygem-gitlab-flowdock-git-hook
     SUBDIR += rubygem-gitlab-gollum-lib
     SUBDIR += rubygem-gitlab-gollum-rugged_adapter
-    SUBDIR += rubygem-gitlab-grack
     SUBDIR += rubygem-gitlab-puma
     SUBDIR += rubygem-gitlab-puma_worker_killer
     SUBDIR += rubygem-gitlab-turbolinks-classic
@@ -2012,7 +2017,6 @@
     SUBDIR += rubygem-rack15
     SUBDIR += rubygem-rack16
     SUBDIR += rubygem-rack20
-    SUBDIR += rubygem-rack21
     SUBDIR += rubygem-rack_csrf
     SUBDIR += rubygem-rails-settings-cached
     SUBDIR += rubygem-rails-settings-cached-rails5
@@ -2046,7 +2050,6 @@
     SUBDIR += rubygem-redis-rails-rails50
     SUBDIR += rubygem-redis-rails-rails52
     SUBDIR += rubygem-redis-rails-rails60
-    SUBDIR += rubygem-redmine_acts_as_taggable_on
     SUBDIR += rubygem-responders
     SUBDIR += rubygem-responders-rails5
     SUBDIR += rubygem-responders-rails52
@@ -2123,6 +2126,7 @@
     SUBDIR += serendipity
     SUBDIR += serf
     SUBDIR += servlet-api
+    SUBDIR += sfeed
     SUBDIR += sfnt2woff
     SUBDIR += shellinabox
     SUBDIR += shttpd
@@ -2135,6 +2139,8 @@
     SUBDIR += smarty3
     SUBDIR += smb_auth
     SUBDIR += snarf
+    SUBDIR += sogo
+    SUBDIR += sogo-activesync
     SUBDIR += sogo2
     SUBDIR += sogo2-activesync
     SUBDIR += sogo4

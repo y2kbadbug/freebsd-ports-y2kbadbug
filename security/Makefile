@@ -50,6 +50,7 @@
     SUBDIR += belier
     SUBDIR += bfbtester
     SUBDIR += binwalk
+    SUBDIR += bitwarden_rs
     SUBDIR += boringssl
     SUBDIR += botan110
     SUBDIR += botan2
@@ -157,6 +158,7 @@
     SUBDIR += fizz
     SUBDIR += fl0p
     SUBDIR += flawfinder
+    SUBDIR += fpc-gnutls
     SUBDIR += fpc-openssl
     SUBDIR += fprint_demo
     SUBDIR += fprintd
@@ -924,7 +926,7 @@
     SUBDIR += py-ntlm-auth
     SUBDIR += py-oauth2client
     SUBDIR += py-oauthlib
-    SUBDIR += py-obfsproxy-tor
+    SUBDIR += py-onlykey
     SUBDIR += py-openssl
     SUBDIR += py-ospd
     SUBDIR += py-paramiko
@@ -950,7 +952,6 @@
     SUBDIR += py-pynacl
     SUBDIR += py-pyotp
     SUBDIR += py-pyotp2289
-    SUBDIR += py-pyptlib
     SUBDIR += py-pysaml2
     SUBDIR += py-pysaml24
     SUBDIR += py-pyscard
@@ -964,6 +965,7 @@
     SUBDIR += py-python-nss
     SUBDIR += py-python-openid
     SUBDIR += py-python-pam
+    SUBDIR += py-python-pkcs11
     SUBDIR += py-python-registry
     SUBDIR += py-python3-openid
     SUBDIR += py-python3-saml
@@ -1148,6 +1150,7 @@
     SUBDIR += rubygem-six
     SUBDIR += rubygem-sshkey
     SUBDIR += rubygem-sshkit
+    SUBDIR += rubygem-sslshake
     SUBDIR += rubygem-timfel-krb5
     SUBDIR += rubygem-tpm-key_attestation
     SUBDIR += rubygem-twitter_oauth
@@ -1292,6 +1295,7 @@
     SUBDIR += webscarab
     SUBDIR += whatweb
     SUBDIR += wipe
+    SUBDIR += wolfssh
     SUBDIR += wolfssl
     SUBDIR += wpa_supplicant
     SUBDIR += xca

@@ -71,9 +71,9 @@ MESA_PLATFORMS+=	wayland
 .endif
 
 MESON_ARGS+=	-Ddri-drivers="${DRI_DRIVERS:ts,:tl}" \
-			-Dgallium-drivers="${GALLIUM_DRIVERS:ts,:tl}" \
-			-Dvulkan-drivers="${VULKAN_DRIVERS:ts,:tl}" \
-			-Dplatforms="${MESA_PLATFORMS:ts,:tl}"
+		-Dgallium-drivers="${GALLIUM_DRIVERS:ts,:tl}" \
+		-Dvulkan-drivers="${VULKAN_DRIVERS:ts,:tl}" \
+		-Dplatforms="${MESA_PLATFORMS:ts,:tl}"
 
 # Disable some options
 MESON_ARGS+=	-Dgallium-xa=disabled \
@@ -113,5 +113,7 @@ PLIST_SUB+=	${_vd}_VDRIVER="@comment "
 
 post-install:
 	@${RM} -r ${STAGEDIR}/etc/OpenCL
+	${INSTALL_DATA} ${FILESDIR}/01-freebsd.conf \
+		${STAGEDIR}${PREFIX}/share/drirc.d
 
 .include <bsd.port.post.mk>

@@ -14,6 +14,7 @@
     SUBDIR += 7kaa
     SUBDIR += 90secondportraits
     SUBDIR += CaribbeanStud
+    SUBDIR += DDNet
     SUBDIR += HeroesOfMightAndMagic
     SUBDIR += KnightCap
     SUBDIR += NBlood
@@ -227,6 +228,7 @@
     SUBDIR += el
     SUBDIR += el-data
     SUBDIR += emptyepsilon
+    SUBDIR += endgame-singularity
     SUBDIR += endgame-singularity-music
     SUBDIR += endless-sky
     SUBDIR += endless-sky-high-dpi
@@ -237,6 +239,7 @@
     SUBDIR += epiphany-game
     SUBDIR += etracer
     SUBDIR += euchre
+    SUBDIR += eureka
     SUBDIR += evilfinder
     SUBDIR += evq3
     SUBDIR += excido
@@ -305,7 +308,6 @@
     SUBDIR += gbrainy
     SUBDIR += gcompris-qt
     SUBDIR += gemdropx
-    SUBDIR += gemrb
     SUBDIR += genact
     SUBDIR += gigalomania
     SUBDIR += gillo
@@ -481,6 +483,7 @@
     SUBDIR += libretro-beetle_gba
     SUBDIR += libretro-beetle_lynx
     SUBDIR += libretro-beetle_ngp
+    SUBDIR += libretro-beetle_pce
     SUBDIR += libretro-beetle_pce_fast
     SUBDIR += libretro-beetle_pcfx
     SUBDIR += libretro-beetle_psx
@@ -519,6 +522,7 @@
     SUBDIR += libretro-play
     SUBDIR += libretro-prboom
     SUBDIR += libretro-prosystem
+    SUBDIR += libretro-px68k
     SUBDIR += libretro-quicknes
     SUBDIR += libretro-scummvm
     SUBDIR += libretro-shaders-glsl
@@ -533,6 +537,7 @@
     SUBDIR += libretro-vbanext
     SUBDIR += libretro-vecx
     SUBDIR += libretro-virtualjaguar
+    SUBDIR += libretro-xrick
     SUBDIR += libretro-yabause
     SUBDIR += libshhcards
     SUBDIR += libtmcg
@@ -882,6 +887,7 @@
     SUBDIR += sjeng
     SUBDIR += ski
     SUBDIR += sl
+    SUBDIR += slade
     SUBDIR += slashem-tty
     SUBDIR += slump
     SUBDIR += sokoban
