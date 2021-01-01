@@ -311,7 +311,6 @@
     SUBDIR += graphthing
     SUBDIR += gretl
     SUBDIR += gri
-    SUBDIR += gringo
     SUBDIR += grpn
     SUBDIR += gsl
     SUBDIR += half
@@ -697,9 +696,8 @@
     SUBDIR += pear-Math_Combinatorics
     SUBDIR += pecl-bitset
     SUBDIR += pecl-stats2
+    SUBDIR += permlib
     SUBDIR += petiga
-    SUBDIR += php72-bcmath
-    SUBDIR += php72-gmp
     SUBDIR += php73-bcmath
     SUBDIR += php73-gmp
     SUBDIR += php74-bcmath
@@ -926,6 +924,7 @@
     SUBDIR += symengine
     SUBDIR += symmetrica
     SUBDIR += symphony
+    SUBDIR += sympol
     SUBDIR += sympow
     SUBDIR += tablix
     SUBDIR += taucs
