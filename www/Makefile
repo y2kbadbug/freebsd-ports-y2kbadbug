@@ -81,6 +81,7 @@
     SUBDIR += cl-lml
     SUBDIR += cl-lml-sbcl
     SUBDIR += clearsilver
+    SUBDIR += cliqz
     SUBDIR += closure-compiler
     SUBDIR += cntlm
     SUBDIR += codeigniter
@@ -264,6 +265,7 @@
     SUBDIR += ilias
     SUBDIR += ilias6
     SUBDIR += interchange
+    SUBDIR += iridium
     SUBDIR += itop
     SUBDIR += jericho-html
     SUBDIR += jesred
@@ -409,6 +411,7 @@
     SUBDIR += mod_xmlns
     SUBDIR += mod_xsendfile
     SUBDIR += mohawk
+    SUBDIR += moinmoin
     SUBDIR += moinmoincli
     SUBDIR += mongoose
     SUBDIR += mongrel2
@@ -454,6 +457,8 @@
     SUBDIR += nibbleblog
     SUBDIR += nift
     SUBDIR += node
+    SUBDIR += node10
+    SUBDIR += node12
     SUBDIR += node14
     SUBDIR += nostromo
     SUBDIR += novnc
@@ -2179,6 +2184,8 @@
     SUBDIR += tomcat85
     SUBDIR += tomcat9
     SUBDIR += tomee
+    SUBDIR += trac
+    SUBDIR += trac-accountmanager
     SUBDIR += trafficserver
     SUBDIR += transmission-web
     SUBDIR += transproxy
