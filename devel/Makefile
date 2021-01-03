@@ -85,6 +85,7 @@
     SUBDIR += R-cran-rngtools
     SUBDIR += R-cran-rprojroot
     SUBDIR += R-cran-rstudioapi
+    SUBDIR += R-cran-rversions
     SUBDIR += R-cran-sfsmisc
     SUBDIR += R-cran-sourcetools
     SUBDIR += R-cran-sys
@@ -105,6 +106,7 @@
     SUBDIR += aarch64-xtoolchain-gcc
     SUBDIR += abi-compliance-checker
     SUBDIR += abseil
+    SUBDIR += acme
     SUBDIR += acsccid
     SUBDIR += activitymail
     SUBDIR += ada-util
@@ -269,7 +271,6 @@
     SUBDIR += busybee
     SUBDIR += byacc
     SUBDIR += byaccj
-    SUBDIR += bzr
     SUBDIR += c2mdoc
     SUBDIR += caf
     SUBDIR += calibrator
@@ -309,7 +310,6 @@
     SUBDIR += checkbashisms
     SUBDIR += checkheaders
     SUBDIR += chroma
-    SUBDIR += chromium-gn
     SUBDIR += chrpath
     SUBDIR += chruby
     SUBDIR += cil
@@ -522,9 +522,6 @@
     SUBDIR += efl
     SUBDIR += egypt
     SUBDIR += eiffelstudio
-    SUBDIR += electron4
-    SUBDIR += electron5
-    SUBDIR += electron6
     SUBDIR += electron7
     SUBDIR += elf
     SUBDIR += elfio
@@ -1511,7 +1508,6 @@
     SUBDIR += mm-common
     SUBDIR += modd
     SUBDIR += mongo-c-driver
-    SUBDIR += mongo-cxx-driver
     SUBDIR += mono-addins
     SUBDIR += monodevelop
     SUBDIR += monotone
@@ -4100,6 +4096,7 @@
     SUBDIR += py-azure-mgmt-containerservice
     SUBDIR += py-azure-mgmt-core
     SUBDIR += py-azure-mgmt-cosmosdb
+    SUBDIR += py-azure-mgmt-databoxedge
     SUBDIR += py-azure-mgmt-datalake-analytics
     SUBDIR += py-azure-mgmt-datalake-store
     SUBDIR += py-azure-mgmt-datamigration
@@ -4159,8 +4156,6 @@
     SUBDIR += py-backcall
     SUBDIR += py-backports
     SUBDIR += py-backports.csv
-    SUBDIR += py-backports.functools_lru_cache
-    SUBDIR += py-backports_abc
     SUBDIR += py-banal
     SUBDIR += py-bandit
     SUBDIR += py-bcdoc
@@ -4406,7 +4401,6 @@
     SUBDIR += py-furl
     SUBDIR += py-fusepy
     SUBDIR += py-future
-    SUBDIR += py-futures
     SUBDIR += py-futurist
     SUBDIR += py-futurist1
     SUBDIR += py-fuzzywuzzy
@@ -5045,7 +5039,6 @@
     SUBDIR += py-simpleparse
     SUBDIR += py-simpletal
     SUBDIR += py-simpy
-    SUBDIR += py-singledispatch
     SUBDIR += py-sip
     SUBDIR += py-six
     SUBDIR += py-smmap
@@ -5132,7 +5125,6 @@
     SUBDIR += py-txaio
     SUBDIR += py-typechecks
     SUBDIR += py-typed-ast
-    SUBDIR += py-typing
     SUBDIR += py-typing-extensions
     SUBDIR += py-typing-inspect
     SUBDIR += py-tzlocal
