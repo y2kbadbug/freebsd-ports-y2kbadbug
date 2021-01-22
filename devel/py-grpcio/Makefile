@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	grpcio
-PORTVERSION=	1.34.0
+PORTVERSION=	1.34.1
 PORTREVISION=	0
 CATEGORIES=	devel python
 MASTER_SITES=	CHEESESHOP
@@ -14,8 +14,6 @@ COMMENT=	HTTP/2-based RPC framework
 LICENSE=	APACHE20
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}six>1:devel/py-six@${PY_FLAVOR} \
-		${PY_ENUM34} \
-		${PY_FUTURES} \
 		${PYTHON_PKGNAMEPREFIX}protobuf>=3:devel/py-protobuf@${PY_FLAVOR}
 LIB_DEPENDS=	libcares.so:dns/c-ares
 

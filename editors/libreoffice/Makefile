@@ -1,5 +1,5 @@
 # $FreeBSD$
-PORTREVISION=	0
+PORTREVISION=	1
 
 .include "${.CURDIR}/Makefile.common"
 
@@ -281,6 +281,10 @@ MAKE_ENV+=	verbose=1
 .include <bsd.port.options.mk>
 
 .include <bsd.port.pre.mk>
+
+.if ${ARCH:Mpowerpc*}
+EXTRA_PATCHES+=	${FILESDIR}/powerpc64
+.endif
 
 .if ${ARCH} == powerpc || ${ARCH} == powerpcspe || ${ARCH} == powerpc64
 CONFIGURE_ARGS+=	--disable-skia

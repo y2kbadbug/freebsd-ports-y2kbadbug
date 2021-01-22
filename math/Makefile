@@ -136,6 +136,7 @@
     SUBDIR += alt-ergo
     SUBDIR += amath
     SUBDIR += ambit
+    SUBDIR += amgcl
     SUBDIR += analitza
     SUBDIR += ann
     SUBDIR += antic
@@ -192,6 +193,8 @@
     SUBDIR += cloog
     SUBDIR += clp
     SUBDIR += clrng
+    SUBDIR += cm
+    SUBDIR += cmh
     SUBDIR += cminpack
     SUBDIR += cmlib
     SUBDIR += cocoalib
@@ -223,15 +226,21 @@
     SUBDIR += dsdp
     SUBDIR += dune-alugrid
     SUBDIR += dune-common
+    SUBDIR += dune-curvedgeometry
+    SUBDIR += dune-fem
+    SUBDIR += dune-foamgrid
     SUBDIR += dune-functions
     SUBDIR += dune-geometry
     SUBDIR += dune-grid
     SUBDIR += dune-istl
     SUBDIR += dune-localfunctions
+    SUBDIR += dune-metagrid
     SUBDIR += dune-pdelab
+    SUBDIR += dune-polygongrid
     SUBDIR += dune-spgrid
     SUBDIR += dune-typetree
     SUBDIR += dune-uggrid
+    SUBDIR += dune-vtk
     SUBDIR += e-antic
     SUBDIR += eclib
     SUBDIR += ecos
@@ -414,6 +423,7 @@
     SUBDIR += mpfi
     SUBDIR += mpfr
     SUBDIR += mpfrc++
+    SUBDIR += mpfrcx
     SUBDIR += mpir
     SUBDIR += mppp
     SUBDIR += mprime
@@ -830,7 +840,9 @@
     SUBDIR += py-python-fcl
     SUBDIR += py-python-igraph
     SUBDIR += py-python-louvain
+    SUBDIR += py-python-picard
     SUBDIR += py-pyvtk
+    SUBDIR += py-qdldl
     SUBDIR += py-quadprog
     SUBDIR += py-random2
     SUBDIR += py-roman
@@ -954,6 +966,7 @@
     SUBDIR += unuran
     SUBDIR += vampire
     SUBDIR += viennacl
+    SUBDIR += vinci
     SUBDIR += visualpolylib
     SUBDIR += vowpal_wabbit
     SUBDIR += vtk6

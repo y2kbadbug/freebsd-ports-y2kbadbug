@@ -9370,7 +9370,6 @@ security/openvas-libraries|security/openvas8-libraries|2017-08-03|Renamed to inc
 security/openvas-cli|security/openvas8-cli|2017-08-03|Renamed to include openvas 9 ports. It reflects a better name
 security/openvas-manager|security/openvas8-manager|2017-08-03|Renamed to include openvas 9 ports. It reflects a better name
 security/openvas-scanner|security/openvas8-scanner|2017-08-03|Renamed to include openvas 9 ports. It reflects a better name
-security/greenbone-security-assistant|security/greenbone-security-assistant8|2017-08-03|Renamed to include openvas 9 ports. It reflects a better name
 sysutils/consolekit|sysutils/consolekit2|2017-08-05|Continuation of the consolekit project
 mail/dovecot2|mail/dovecot|2017-08-07|Renamed to mail/dovecot
 mail/dovecot2-pigeonhole|mail/dovecot-pigeonhole|2017-08-07|Renamed to mail/dovecot-pigeonhole
@@ -13725,7 +13724,6 @@ biology/pycogent||2020-01-27|Has expired: Unmaintained, uses EOLed python27
 biology/unanimity||2020-01-27|Has expired: Unmaintained, uses EOLed python27
 cad/pythoncad||2020-01-27|Has expired: Unmaintained, uses EOLed python27
 chinese/bg5pdf||2020-01-27|Has expired: Unmaintained, uses EOLed python27
-comms/py-libimobiledevice||2020-01-27|Has expired: Unmaintained, uses EOLed python27
 converters/py-bcode||2020-01-27|Has expired: Unmaintained, uses EOLed python27
 converters/py-iconv||2020-01-27|Has expired: Unmaintained, uses EOLed python27
 databases/gadfly||2020-01-27|Has expired: Unmaintained, uses EOLed python27
@@ -14442,7 +14440,6 @@ textproc/py-ltxml||2020-03-20|Has expired: Unmaintained, uses EOLed python27
 x11-toolkits/flowcanvas||2020-03-20|Has expired: Unmaintained, uses EOLed python27
 audio/py-vorbis||2020-03-20|Has expired: Unmaintained, uses EOLed python27
 databases/py-cdb||2020-03-20|Has expired: Unmaintained, uses EOLed python27
-devel/py-libplist||2020-03-20|Has expired: Unmaintained, uses EOLed python27
 devel/py-mwlib||2020-03-20|Has expired: Unmaintained, uses EOLed python27
 graphics/py-soya3d||2020-03-20|Has expired: Unmaintained, uses EOLed python27
 irc/py-supybot||2020-03-20|Has expired: Unmaintained, uses EOLed python27
@@ -15445,7 +15442,6 @@ audio/ardour5|audio/ardour6|2020-09-19|Has expired: Uses deprecated version of p
 audio/cplay||2020-09-19|Has expired: Uses deprecated version of python
 audio/cpp-xmms2||2020-09-19|Has expired: Uses deprecated version of python
 audio/p5-xmms2||2020-09-19|Has expired: Uses deprecated version of python
-biology/haplohseq||2020-09-19|Has expired: Uses deprecated version of python
 biology/tophat||2020-09-19|Has expired: Uses deprecated version of python
 chinese/ibus-array||2020-09-19|Has expired: Uses deprecated version of python
 comms/congruity||2020-09-19|Has expired: Uses deprecated version of python
@@ -15932,7 +15928,6 @@ www/trac-defaultcc||2021-01-01|Has expired: Uses Python 2.7 which is EOLed upstr
 www/trac-discussion||2021-01-01|Has expired: Uses Python 2.7 which is EOLed upstream
 www/trac-email2trac||2021-01-01|Has expired: Uses Python 2.7 which is EOLed upstream
 www/trac-downloads||2021-01-01|Has expired: Uses Python 2.7 which is EOLed upstream
-www/trac-devel||2021-01-01|Has expired: Uses Python 2.7 which is EOLed upstream
 www/trac-email2trac-postfix||2021-01-01|Has expired: Uses Python 2.7 which is EOLed upstream
 www/trac-estimator||2021-01-01|Has expired: Uses Python 2.7 which is EOLed upstream
 www/trac-fivestarvote||2021-01-01|Has expired: Uses Python 2.7 which is EOLed upstream
@@ -16006,12 +16001,22 @@ www/trac-accountmanager||2021-01-02|Has expired: Uses Python 2.7 which is EOLed 
 print/xfce4-print||2021-01-02|Unmaintained, depends on dropped XFCE GTK2 support
 x11/xfce4-quicklauncher-plugin||2021-01-02|Unmaintained, depends on dropped XFCE GTK2 support
 x11/xfce4-wmdock-plugin||2021-01-02|Unmaintained, depends on dropped XFCE GTK2 support
-x11-toolkits/libxfce4gui||2012-01-02|Unmaintained, depends on dropped XFCE GTK2 support
-devel/py-backports.functools_lru_cache||2020-01-02|Uses Python 2.7 which is EOLed upstream
-devel/py-backports_abc||2020-01-02|Uses Python 2.7 which is EOLed upstream
-devel/py-futures||2020-01-02|Uses Python 2.7 which is EOLed upstream
-devel/py-singledispatch||2020-01-02|Uses Python 2.7 which is EOLed upstream
-graphics/py-pillow6|graphics/pillow|2020-01-02|Uses Python 2.7 which is EOLed upstream
+x11-toolkits/libxfce4gui||2021-01-02|Unmaintained, depends on dropped XFCE GTK2 support
+devel/py-backports.functools_lru_cache||2021-01-02|Uses Python 2.7 which is EOLed upstream
+devel/py-backports_abc||2021-01-02|Uses Python 2.7 which is EOLed upstream
+devel/py-futures||2021-01-02|Uses Python 2.7 which is EOLed upstream
+devel/py-singledispatch||2021-01-02|Uses Python 2.7 which is EOLed upstream
+graphics/py-pillow6|graphics/py-pillow|2021-01-02|Uses Python 2.7 which is EOLed upstream
 www/wt3|www/wt|2021-01-03|Has expired: Upstream end of life, switch to www/wt instead
 archivers/ecm|archivers/cmdpack|2021-01-04|ECM is now included in cmdpack
 math/qhull5|math/qhull|2021-01-04|Has expired: Legacy version of port no longer required by math/octave
+devel/py-typing||2021-01-12|Python 2 only, backport of Python 3
+net/py-ipaddress||2021-01-12|Uses Python 2.7 which is EOLed upstream
+graphics/gif2png||2021-01-13|Has expired: Uses Python 2.7 which is EOLed upstream
+lang/harbour||2021-01-15|BROKEN, needs ancient version of openssl, upstream will not fix it
+net-im/telegram|net-im/telegram-cli|2021-01-17|Has expired: Upstream unmaintained; please migrate to net-im/telegram-cli
+science/dlpoly-classic||2021-01-17|Has expired: MASTERSITE gone; possibly replaced by https://gitlab.com/DL_POLY_Classic/dl_poly ?
+security/py-gtts-token|audio/py-gtts|2021-01-17|Has expired: Obsolete, please use audio/py-gtts instead
+graphics/qt-avif-image-plugin|graphics/kf5-kimageformats|2021-01-18|Part of kimageformats since KDE Frameworks 5.78.0
+archivers/libunrar5|archivers/libunrar6|2021-01-19|Renamed to match current major version of libunrar
+devel/electron7|devel/electron9|2021-01-21|EOLed upstream, switch to newer major version

@@ -4,6 +4,7 @@ PORTNAME=	pdfpc
 DISTVERSION=	4.5.0
 CATEGORIES=	graphics
 DISTVERSIONPREFIX=	v
+PORTREVISION=	1
 
 MAINTAINER=	bapt@FreeBSD.org
 COMMENT=	Keynote-like multi-monitor presentation viewer
@@ -19,7 +20,7 @@ LIB_DEPENDS=	libgee-0.8.so:devel/libgee \
 
 USE_GITHUB=	yes
 
-USES=		cmake gnome pkgconfig
+USES=		cmake compiler:c11 gnome pkgconfig
 USE_GNOME=	gtk30
 USE_GSTREAMER1=	yes
 

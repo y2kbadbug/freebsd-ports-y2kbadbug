@@ -54,16 +54,16 @@ _KDE_RELNAME=		KDE${_KDE_VERSION}
 
 # === VERSIONS OF THE DIFFERENT COMPONENTS =====================================
 # Current KDE desktop.
-KDE_PLASMA_VERSION?=		5.20.4
+KDE_PLASMA_VERSION?=		5.20.5
 KDE_PLASMA_BRANCH?=		stable
 
 # Current KDE frameworks.
-KDE_FRAMEWORKS_VERSION?=	5.77.0
+KDE_FRAMEWORKS_VERSION?=	5.78.0
 KDE_FRAMEWORKS_BRANCH?= 	stable
 
 # Current KDE applications.
-KDE_APPLICATIONS_VERSION?=	20.12.0
-KDE_APPLICATIONS_SHLIB_VER?=	5.16.0
+KDE_APPLICATIONS_VERSION?=	20.12.1
+KDE_APPLICATIONS_SHLIB_VER?=	5.16.1
 KDE_APPLICATIONS_BRANCH?=	stable
 # Upstream moves old software to Attic/. Specify the newest applications release there.
 # Only the major version is used for the comparison.
@@ -144,33 +144,33 @@ IGNORE?=		unknown CATEGORY value '${_KDE_CATEGORY}' #'
 
 # ==============================================================================
 
-# ==== SETUP CMAKE ENVIRONMENT =================================================
+# === SET UP CMAKE ENVIRONMENT =================================================
 # Help cmake to find files when testing ports with non-default PREFIX.
 CMAKE_ARGS+=	-DCMAKE_PREFIX_PATH="${LOCALBASE}"
 
-.    if ${_KDE_VERSION:M*5*}
 # We set KDE_INSTALL_USE_QT_SYS_PATHS to install mkspecs files, plugins and
 # imports to the Qt 5 install directory.
-CMAKE_ARGS+=   -DBUILD_TESTING:BOOL=OFF \
-               -DCMAKE_MODULE_PATH="${LOCALBASE};${KDE_PREFIX}" \
-               -DCMAKE_INSTALL_PREFIX="${KDE_PREFIX}" \
-               -DKDE_INSTALL_USE_QT_SYS_PATHS:BOOL=TRUE
-.    endif
+CMAKE_ARGS+=	-DCMAKE_MODULE_PATH="${LOCALBASE};${KDE_PREFIX}" \
+		-DCMAKE_INSTALL_PREFIX="${KDE_PREFIX}" \
+		-DKDE_INSTALL_USE_QT_SYS_PATHS:BOOL=true
 
 # Set man-page installation prefix.
 CMAKE_ARGS+=	-DKDE_INSTALL_MANDIR:PATH="${KDE_PREFIX}/man" \
 		-DMAN_INSTALL_DIR:PATH="${KDE_PREFIX}/man"
+
+# Disable autotests unless TEST_TARGET is defined.
+.    if !defined(TEST_TARGET)
+CMAKE_ARGS+=	-DBUILD_TESTING:BOOL=false
+.    endif
 # ==============================================================================
 
-# === SET-UP PLIST_SUB =========================================================
+# === SET UP PLIST_SUB =========================================================
 # Prefix and include directory.
 PLIST_SUB+=		KDE_PREFIX="${KDE_PREFIX}"
 # KDE Applications version.
-PLIST_SUB+=		KDE_APPLICATIONS_VERSION="${KDE_APPLICATIONS_VERSION}"
-.    if ${_KDE_VERSION:M*5*}
-PLIST_SUB+=		KDE_PLASMA_VERSION="${KDE_PLASMA_VERSION}" \
-			KDE_FRAMEWORKS_VERSION="${KDE_FRAMEWORKS_VERSION}"
-.    endif
+PLIST_SUB+=		KDE_APPLICATIONS_VERSION="${KDE_APPLICATIONS_VERSION}" \
+			KDE_FRAMEWORKS_VERSION="${KDE_FRAMEWORKS_VERSION}" \
+			KDE_PLASMA_VERSION="${KDE_PLASMA_VERSION}"
 # ==============================================================================
 
 _USE_KDE_BOTH=		akonadi attica libkcddb libkcompactdisc libkdcraw libkdegames \
