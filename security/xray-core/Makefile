@@ -2,10 +2,10 @@
 
 PORTNAME=	xray-core
 DISTVERSIONPREFIX=	v
-DISTVERSION=	1.2.0
+DISTVERSION=	1.2.2
 CATEGORIES=	security
 
-MAINTAINER=	neel@neelc.org
+MAINTAINER=	nc@FreeBSD.org
 COMMENT=	Set of network penetration tools
 
 LICENSE=	MPL20

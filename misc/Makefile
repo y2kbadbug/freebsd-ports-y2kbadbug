@@ -65,6 +65,7 @@
     SUBDIR += cs
     SUBDIR += cstream
     SUBDIR += ctm
+    SUBDIR += cxxmatrix
     SUBDIR += dahdi
     SUBDIR += dahdi-kmod
     SUBDIR += dahdi-kmod26
@@ -83,6 +84,7 @@
     SUBDIR += dynomite
     SUBDIR += e2fsprogs-libblkid
     SUBDIR += e2fsprogs-libuuid
+    SUBDIR += edflib
     SUBDIR += elixir-mime
     SUBDIR += elixir-uuid
     SUBDIR += elki
@@ -369,6 +371,7 @@
     SUBDIR += py-QSpectrumAnalyzer
     SUBDIR += py-SimpleSoapy
     SUBDIR += py-SoapySDR
+    SUBDIR += py-alive-progress
     SUBDIR += py-cinder
     SUBDIR += py-colorbrewer
     SUBDIR += py-colored
@@ -396,6 +399,7 @@
     SUBDIR += py-powerline-status
     SUBDIR += py-progressbar
     SUBDIR += py-progressbar2
+    SUBDIR += py-pyEDFlib
     SUBDIR += py-pyfiglet
     SUBDIR += py-pykml
     SUBDIR += py-pyprind
@@ -519,6 +523,7 @@
     SUBDIR += with
     SUBDIR += wmScoreBoard
     SUBDIR += wmcalendar
+    SUBDIR += wmforecast
     SUBDIR += wmjulia
     SUBDIR += wmpal
     SUBDIR += wmtunlo

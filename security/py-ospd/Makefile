@@ -2,11 +2,12 @@
 
 PORTNAME=	ospd
 DISTVERSION=	20.8.1
+PORTREVISION=	1
 CATEGORIES=	security net python
 MASTER_SITES=	CHEESESHOP
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
-MAINTAINER=	yuri@FreeBSD.org
+MAINTAINER=	acm@FreeBSD.org
 COMMENT=	Base for scanner wrappers for OSP (Open Scanner Protocol)
 
 LICENSE=	GPLv2+
