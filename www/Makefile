@@ -286,7 +286,6 @@
     SUBDIR += kf5-kjsembed
     SUBDIR += kiwix-tools
     SUBDIR += kohana
-    SUBDIR += kurly
     SUBDIR += larbin
     SUBDIR += libapreq2
     SUBDIR += libdom
@@ -2147,8 +2146,6 @@
     SUBDIR += sogo-activesync
     SUBDIR += sogo2
     SUBDIR += sogo2-activesync
-    SUBDIR += sogo4
-    SUBDIR += sogo4-activesync
     SUBDIR += spawn-fcgi
     SUBDIR += spreadlogd
     SUBDIR += sqstat
@@ -2272,6 +2269,7 @@
     SUBDIR += w3m
     SUBDIR += w3m-img
     SUBDIR += w3mir
+    SUBDIR += web2ldap
     SUBDIR += webalizer
     SUBDIR += webbrowser
     SUBDIR += webcopy
