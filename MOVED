@@ -13691,7 +13691,6 @@ sysutils/u-boot-zybo||2020-01-10|Has expired: Broken for more than 6 months
 x11-themes/kde-icons-kool-gorilla||2020-01-10|Has expired: Broken for more than 3 months, unmaintained
 sysutils/docker-freebsd||2020-01-11|Has expired: Broken for more than 9 months
 science/molden|biology/molden|2020-01-12|The duplicate port was removed in rev.505268
-www/web2ldap||2020-01-13|Broken: unfechable and missing dependencies
 net-mgmt/flow-extract||2020-01-14|Has expired: marked BROKEN for more than 6 months
 textproc/pootle||2020-01-14|Has expired: Unamaintained, marked BROKEN for more than 5 months
 cad/elmerfem|science/elmerfem|2020-01-15|Move to a proper category
@@ -14416,7 +14415,6 @@ deskutils/syncthing-gtk||2020-03-07|Has expired: Old, uses EOLed python27
 x11-wm/compiz-fusion||2020-03-07|Has expired: Old, uses EOLed python27
 x11/run_scaled||2020-03-07|Has expired: Old, uses EOLed python27
 databases/pgworksheet||2020-03-07|Has expired: Old, uses EOLed python27
-x11-fonts/font-manager||2020-03-07|Has expired: Old, uses EOLed python27
 x11-toolkits/py-gtksourceview||2020-03-07|Has expired: Old, uses EOLed python27
 devel/py-hgsubversion||2020-03-08|Has expired: Unmaintained, uses EOLed python27
 devel/py-gamin||2020-03-08|Has expired: Old, uses EOLed python27
@@ -14674,7 +14672,6 @@ mail/poppassd||2020-05-05|Has expired: Broken for more than 6 months
 mail/prayer||2020-05-05|Has expired: Broken for more than 6 months
 mail/py-cyruslib||2020-05-05|Has expired: Broken for more than 6 months
 mail/qmail-auditor||2020-05-05|Has expired: Broken for more than 6 months
-mail/qmailmrtg7||2020-05-05|Has expired: Broken for more than 6 months
 mail/qmqtool||2020-05-05|Has expired: Broken for more than 6 months
 mail/relaydb||2020-05-05|Has expired: Broken for more than 6 months
 mail/rftp||2020-05-05|Has expired: Broken for more than 6 months
@@ -15980,7 +15977,6 @@ games/freera||2021-01-02|Has expired: Uses Python 2.7 version of scons, and Pyth
 games/glob2||2021-01-02|Has expired: Uses Python 2.7 version of scons, and Python 2.7 which is EOLed upstream
 games/marsnomercy||2021-01-02|Has expired: Uses Python 2.7 version of scons, and Python 2.7 which is EOLed upstream
 games/netpanzer||2021-01-02|Has expired: Uses Python 2.7 version of scons, and Python 2.7 which is EOLed upstream
-games/pingus||2021-01-02|Has expired: Uses Python 2.7 version of scons, and Python 2.7 which is EOLed upstream
 graphics/goxel||2021-01-02|Has expired: Uses Python 2.7 version of scons, and Python 2.7 which is EOLed upstream
 graphics/sk1libs||2021-01-02|Has expired: Uses Python 2.7 which is EOLed upstream
 graphics/uniconvertor||2021-01-02|Has expired: Uses deprecated version of python
@@ -16024,3 +16020,11 @@ sysutils/bareos16-client|sysutils/bareos18-client|2021-01-24|Has expired: Unmain
 sysutils/bareos16-client-static|sysutils/bareos18-client-static|2021-01-24|Has expired: Unmaintained, please migrate to a newer version of bareos
 sysutils/bareos16-server|sysutils/bareos18-server|2021-01-24|Has expired: Unmaintained, please migrate to a newer version of bareos
 www/bareos16-webui|www/bareos18-webui|2021-01-24|Has expired: Unmaintained, please migrate to a newer version of bareos
+www/sogo4|www/sogo|2021-01-28|Has expired: Unmaintained, please migrate to a newer version of sogo
+www/sogo4-activesync|www/sogo-activesync|2021-01-28|Has expired: Unmaintained, please migrate to a newer version of sogo
+security/py-rekall_lib||2021-01-28|Has expired: Unmaintained upstream
+devel/py-rekall-efilter||2021-01-28|Has expired: Unmaintained upstream
+security/py-rekall|security/py-volatility3|2021-01-28|Has expired: Unmaintained upstream, use security/py-volatility3 instead
+security/py-rekall-core||2021-01-28|Has expired: Unmaintained upstream
+www/kurly||2021-01-28|Has expired: Upstream is gone
+security/regripper||2021-01-28|Has expired: Upstream repo disappeared

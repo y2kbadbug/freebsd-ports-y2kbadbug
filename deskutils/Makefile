@@ -29,6 +29,7 @@
     SUBDIR += calendar
     SUBDIR += calendar-data
     SUBDIR += calibre
+    SUBDIR += calindori
     SUBDIR += cartotheque
     SUBDIR += cfiles
     SUBDIR += charmtimetracker
@@ -136,6 +137,7 @@
     SUBDIR += kmail
     SUBDIR += kmail-account-wizard
     SUBDIR += knotes
+    SUBDIR += kongress
     SUBDIR += kontact
     SUBDIR += korganizer
     SUBDIR += kruler
