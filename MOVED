@@ -16114,7 +16114,6 @@ graphics/gstreamer-plugins-sdl||2021-02-04|Replaced by gstreamer1
 graphics/gstreamer-plugins-soup|graphics/gstreamer-plugins-soup|2021-02-04|Replaced by gstreamer1
 multimedia/gstreamer-ffmpeg|multimedia/gstreamer1-libav|2021-02-04|Replaced by gstreamer1
 multimedia/gstreamer-plugins-all|multimedia-gstreamer1-plugins-all|2021-02-04|Replaced by gstreamer1
-multimedia/gstreamer-plugins-all|multimedia-gstreamer1-plugins-all|2021-02-04|Replaced by gstreamer1
 multimedia/gstreamer-plugins-annodex||2021-02-04|Replaced by gstreamer1
 multimedia/gstreamer-plugins-bad|multimedia-gstreamer1-plugins-bad|2021-02-04|Replaced by gstreamer1
 multimedia/gstreamer-plugins-bz2||2021-02-04|Replaced by gstreamer1
@@ -16144,3 +16143,4 @@ sysutils/gstreamer-plugins-hal||2021-02-04|Replaced by gstreamer1
 www/gstreamer-plugins-neon|www/gstreamer1-plugins-neon|2021-02-04|Replaced by gstreamer1
 x11-toolkits/gstreamer-plugins-pango|x11-toolkits/gstreamer1-plugins-pango|2021-02-04|Replaced by gstreamer1
 x11-themes/gnome-themes-extras|x11-themes/gnome-themes-extra|2021-02-04|Gnome2 desktop has been removed long ago
+math/why3||2021-02-04|Depends on deprecated gnome3 library, very outdated and unmaintained
