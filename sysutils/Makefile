@@ -468,8 +468,6 @@
     SUBDIR += gstopd
     SUBDIR += gstreamer1-plugins-cdio
     SUBDIR += gtk-imonc
-    SUBDIR += hal
-    SUBDIR += hal-info
     SUBDIR += hardlink
     SUBDIR += hare
     SUBDIR += hared
@@ -817,6 +815,7 @@
     SUBDIR += p5-Filesys-DiskSpace
     SUBDIR += p5-Filesys-DiskUsage
     SUBDIR += p5-Filesys-Statvfs
+    SUBDIR += p5-Filesys-ZFS
     SUBDIR += p5-Fuse
     SUBDIR += p5-Fuse-Simple
     SUBDIR += p5-Giovanni
