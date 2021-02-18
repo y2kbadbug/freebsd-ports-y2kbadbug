@@ -77,6 +77,105 @@ Notes:
   * Do not forget port variants (linux-f10-libxml2, libxml2, etc.)
 -->
 <vuxml xmlns="http://www.vuxml.org/apps/vuxml-1">
+  <vuln vid="8e670b85-706e-11eb-abb2-08002728f74c">
+    <topic>Rails -- multiple vulnerabilities</topic>
+    <affects>
+      <package>
+	<name>rubygem-activerecord52</name>
+	<range><lt>5.2.4.5</lt></range>
+      </package>
+      <package>
+	<name>rubygem-actionpack60</name>
+	<name>rubygem-activerecord60</name>
+	<range><lt>6.0.3.5</lt></range>
+      </package>
+      <package>
+	<name>rubygem-actionpack61</name>
+	<name>rubygem-activerecord61</name>
+	<range><lt>6.1.2.1</lt></range>
+      </package>
+    </affects>
+    <description>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+	<p>Ruby on Rails blog:</p>
+	<blockquote cite="https://weblog.rubyonrails.org/2021/2/10/Rails-5-2-4-5-6-0-3-5-and-6-1-2-1-have-been-released/">
+	  <p>Rails version 5.2.4.5, 6.0.3.5 and 6.1.2.1 have been released! Those
+	    version are security releases and addresses two issues:</p>
+	  <p>CVE-2021-22880: Possible DoS Vulnerability in Active Record PostgreSQL adapter.</p>
+	  <p>CVE-2021-22881: Possible Open Redirect in Host Authorization Middleware.</p>
+	  <p></p>
+	</blockquote>
+      </body>
+    </description>
+    <references>
+      <url>https://weblog.rubyonrails.org/2021/2/10/Rails-5-2-4-5-6-0-3-5-and-6-1-2-1-have-been-released/</url>
+      <url>https://discuss.rubyonrails.org/t/cve-2021-22880-possible-dos-vulnerability-in-active-record-postgresql-adapter/77129</url>
+      <url>https://discuss.rubyonrails.org/t/cve-2021-22881-possible-open-redirect-in-host-authorization-middleware/77130</url>
+      <cvename>CVE-2021-22880</cvename>
+      <cvename>CVE-2021-22881</cvename>
+    </references>
+    <dates>
+      <discovery>2021-02-10</discovery>
+      <entry>2021-02-17</entry>
+    </dates>
+  </vuln>
+
+  <vuln vid="48514901-711d-11eb-9846-e09467587c17">
+    <topic>chromium -- multiple vulnerabilities</topic>
+    <affects>
+      <package>
+	<name>chromium</name>
+	<range><lt>88.0.4324.182</lt></range>
+      </package>
+    </affects>
+    <description>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+	<p>Chrome Releases reports:</p>
+	<blockquote cite="https://chromereleases.googleblog.com/2021/02/stable-channel-update-for-desktop_16.html">
+	  <p>This release contains 10 security fixes, including:</p>
+	  <ul>
+	    <li>[1138143] High CVE-2021-21149: Stack overflow in Data Transfer.
+	      Reported by Ryoya Tsukasaki on 2020-10-14</li>
+	    <li>[1172192] High CVE-2021-21150: Use after free in Downloads.
+	     Reported by Woojin Oh(@pwn_expoit) of STEALIEN on 2021-01-29</li>
+	    <li>[1165624] High CVE-2021-21151: Use after free in Payments.
+	      Reported by Khalil Zhani on 2021-01-12</li>
+	    <li>[1166504] High CVE-2021-21152: Heap buffer overflow in Media.
+	      Reported by Anonymous on 2021-01-14</li>
+	    <li>[1155974] High CVE-2021-21153: Stack overflow in GPU Process.
+	      Reported by Jan Ruge of ERNW GmbH on 2020-12-06</li>
+	    <li>[1173269] High CVE-2021-21154: Heap buffer overflow in Tab
+	      Strip. Reported by Abdulrahman Alqabandi, Microsoft Browser
+	      Vulnerability Research on 2021-02-01</li>
+	    <li>[1175500] High CVE-2021-21155: Heap buffer overflow in Tab
+	      Strip. Reported by Khalil Zhani on 2021-02-07</li>
+	    <li>[1177341] High CVE-2021-21156: Heap buffer overflow in V8.
+	      Reported by Sergei Glazunov of Google Project Zero on
+	      2021-02-11</li>
+	    <li>[1170657] Medium CVE-2021-21157: Use after free in Web
+	      Sockets. Reported by Anonymous on 2021-01-26</li>
+	  </ul>
+	</blockquote>
+      </body>
+    </description>
+    <references>
+      <cvename>CVE-2021-21149</cvename>
+      <cvename>CVE-2021-21150</cvename>
+      <cvename>CVE-2021-21151</cvename>
+      <cvename>CVE-2021-21152</cvename>
+      <cvename>CVE-2021-21153</cvename>
+      <cvename>CVE-2021-21154</cvename>
+      <cvename>CVE-2021-21155</cvename>
+      <cvename>CVE-2021-21156</cvename>
+      <cvename>CVE-2021-21157</cvename>
+      <url>https://chromereleases.googleblog.com/2021/02/stable-channel-update-for-desktop_16.html</url>
+    </references>
+    <dates>
+      <discovery>2021-02-16</discovery>
+      <entry>2021-02-17</entry>
+    </dates>
+  </vuln>
+
   <vuln vid="96a21236-707b-11eb-96d8-d4c9ef517024">
     <topic>OpenSSL -- Multiple vulnerabilities</topic>
     <affects>
