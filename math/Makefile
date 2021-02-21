@@ -402,6 +402,8 @@
     SUBDIR += mate-calc
     SUBDIR += math77
     SUBDIR += mathgl
+    SUBDIR += mathics-django
+    SUBDIR += mathicsscript
     SUBDIR += mathmod
     SUBDIR += mathomatic
     SUBDIR += matio
@@ -793,6 +795,7 @@
     SUBDIR += py-libpoly
     SUBDIR += py-luminol
     SUBDIR += py-mathics
+    SUBDIR += py-mathics-scanner
     SUBDIR += py-matplotlib
     SUBDIR += py-matplotlib-scalebar
     SUBDIR += py-matplotlib2
