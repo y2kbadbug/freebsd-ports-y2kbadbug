@@ -2,8 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	darktable
-PORTVERSION=	3.4.0
-PORTREVISION=	2
+PORTVERSION=	3.4.1
 CATEGORIES=	graphics
 MASTER_SITES=	https://github.com/darktable-org/${PORTNAME}/releases/download/release-${PORTVERSION:C/\.rc/rc/}/
 
@@ -18,7 +17,8 @@ ONLY_FOR_ARCHS_REASON=	uses 64-bit address space
 BUILD_DEPENDS=	iso-codes>=0:misc/iso-codes \
 		p5-Pod-Parser>=0:textproc/p5-Pod-Parser \
 		po4a-translate:textproc/po4a \
-		xsltproc:textproc/libxslt
+		xsltproc:textproc/libxslt \
+		bash:shells/bash
 LIB_DEPENDS=	libcolord-gtk.so:graphics/colord-gtk \
 		libcolord.so:graphics/colord \
 		libcurl.so:ftp/curl \
