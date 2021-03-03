@@ -16188,3 +16188,8 @@ print/cups-cloud-print||2021-03-01|Has expired: Google Cloud Print has been shut
 www/helma||2021-03-01|Has expired: Upstream is basically dead and recommends ringojs.org
 multimedia/kodi-addon-peripheral-joystick|multimedia/kodi-addon-peripheral.joystick|2021-03-01|Renamed to match upstream name
 sysutils/py-salt-2019|sysutils/py-salt|2021-03-02|Has expired: Deprecated. Please use sysutils/py-salt instead.
+www/rubygem-gitlab-puma_worker_killer|www/rubygem-puma_worker_killer|2021-03-03|Obsolete, use www/rubygem-puma_worker_killer instead
+www/rubygem-gitlab-puma|www/rubygem-puma|2021-03-03|Obsolete, use www/rubygem-puma instead
+korean/man-doc||2021-03-03|Has expired: Poor quality, severely outdated and undermaintained
+devel/relx||2021-03-03|Has expired: Script removed upstream, library included in devel/rebar3
+sysutils/synergy-1|sysutils/synergy|2021-03-03|Current version is 1.x.x, 2.x.x was tagged by the upstream by mistake
