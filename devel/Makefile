@@ -4692,6 +4692,8 @@
     SUBDIR += py-opcodes
     SUBDIR += py-openapi-codec
     SUBDIR += py-openapi-spec-validator
+    SUBDIR += py-opencensus
+    SUBDIR += py-opencensus-context
     SUBDIR += py-opendht
     SUBDIR += py-opengrok-tools
     SUBDIR += py-openstacksdk
@@ -5405,7 +5407,6 @@
     SUBDIR += redo
     SUBDIR += regexx
     SUBDIR += regexxer
-    SUBDIR += relx
     SUBDIR += remake
     SUBDIR += remotery
     SUBDIR += replay
