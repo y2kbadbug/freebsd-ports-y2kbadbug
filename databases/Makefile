@@ -567,6 +567,7 @@
     SUBDIR += pg_citus
     SUBDIR += pg_dirtyread
     SUBDIR += pg_ed25519
+    SUBDIR += pg_hashids
     SUBDIR += pg_partman
     SUBDIR += pg_qualstats
     SUBDIR += pg_reorg
@@ -780,6 +781,7 @@
     SUBDIR += py-pgdbconn
     SUBDIR += py-pglast
     SUBDIR += py-pglite
+    SUBDIR += py-pgmigrate
     SUBDIR += py-pgspecial
     SUBDIR += py-pgxnclient
     SUBDIR += py-pickledb
