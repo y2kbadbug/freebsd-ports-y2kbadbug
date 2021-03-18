@@ -32,6 +32,7 @@
     SUBDIR += R-cran-classInt
     SUBDIR += R-cran-cli
     SUBDIR += R-cran-clipr
+    SUBDIR += R-cran-clisymbols
     SUBDIR += R-cran-covr
     SUBDIR += R-cran-cpp11
     SUBDIR += R-cran-crayon
@@ -1567,8 +1568,6 @@
     SUBDIR += nini
     SUBDIR += ninja
     SUBDIR += nlohmann-json
-    SUBDIR += node-gyp
-    SUBDIR += node-nan
     SUBDIR += node-thrift
     SUBDIR += notcurses
     SUBDIR += notify-sharp
