@@ -525,6 +525,7 @@
     SUBDIR += nyancat
     SUBDIR += nylon
     SUBDIR += ocserv
+    SUBDIR += oha
     SUBDIR += olsrd
     SUBDIR += omnitty
     SUBDIR += onedrive
@@ -1528,6 +1529,7 @@
     SUBDIR += widentd
     SUBDIR += wireguard
     SUBDIR += wireguard-go
+    SUBDIR += wireguard-kmod
     SUBDIR += wireshark
     SUBDIR += wireshark-lite
     SUBDIR += wlan2eth
