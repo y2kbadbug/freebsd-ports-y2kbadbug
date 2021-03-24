@@ -4,6 +4,7 @@
     COMMENT = Biology
 
     SUBDIR += abyss
+    SUBDIR += ad2vcf
     SUBDIR += artemis
     SUBDIR += avida
     SUBDIR += babel
@@ -180,6 +181,7 @@
     SUBDIR += trimmomatic
     SUBDIR += ugene
     SUBDIR += vcf-split
+    SUBDIR += vcf2hap
     SUBDIR += vcflib
     SUBDIR += vcftools
     SUBDIR += velvet
