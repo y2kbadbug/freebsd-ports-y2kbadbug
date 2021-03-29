@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 TIMESTAMP = 1549231434
 SHA256 (Yubico-yubikey-manager-qt-yubikey-manager-qt-1.1.0_GH0.tar.gz) = 1909dba19421fed18980fe27a5de65d448539ca66c1d760c3e47a7171d213bae
 SIZE (Yubico-yubikey-manager-qt-yubikey-manager-qt-1.1.0_GH0.tar.gz) = 10893455
+=======
+TIMESTAMP = 1616216055
+SHA256 (Yubico-yubikey-manager-qt-yubikey-manager-qt-1.2.0_GH0.tar.gz) = 3f3c998f93b74b869c232f5f951a9d7b2f68b007c20be8e39a698e24ea7aae0b
+SIZE (Yubico-yubikey-manager-qt-yubikey-manager-qt-1.2.0_GH0.tar.gz) = 17311666
+>>>>>>> master
