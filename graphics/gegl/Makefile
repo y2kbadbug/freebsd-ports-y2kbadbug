@@ -1,9 +1,8 @@
 # Created by: Pietro Cerutti <gahr@FreeBSD.org>
-# $FreeBSD$
 
 PORTNAME=	gegl
-PORTVERSION=	0.4.28
-PORTREVISION=	7
+PORTVERSION=	0.4.30
+PORTREVISION=	1
 CATEGORIES=	graphics
 MASTER_SITES=	GIMP
 
@@ -38,7 +37,7 @@ MESON_ARGS=	-Ddocs=false \
 		-Dvapigen=disabled \
 		-Dlua=disabled
 
-GEGL_SHLIB=	0.427.1
+GEGL_SHLIB=	0.429.1
 GEGL_VER=	0.4
 PLIST_SUB+=	GEGL_SHLIB=${GEGL_SHLIB} GEGL_VER=${GEGL_VER}
 
@@ -78,8 +77,8 @@ JASPER_MESON_ENABLED=	jasper
 LCMS2_LIB_DEPENDS=	liblcms2.so:graphics/lcms2
 LCMS2_MESON_ENABLED=	lcms
 
-OPENEXR_LIB_DEPENDS=	libIlmImf.so:graphics/openexr \
-			libImath.so:graphics/ilmbase
+OPENEXR_LIB_DEPENDS=	libOpenEXR.so:graphics/openexr \
+			libImath.so:math/Imath
 OPENEXR_MESON_ENABLED=	openexr
 
 RAW_LIB_DEPENDS=	libraw.so:graphics/libraw

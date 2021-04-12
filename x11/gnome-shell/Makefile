@@ -1,9 +1,8 @@
 # Created by: Pawel Worach <pawel.worach@gmail.com>
-# $FreeBSD$
 
 PORTNAME=	gnome-shell
 PORTVERSION=	3.36.6
-PORTREVISION=	4
+PORTREVISION=	5
 CATEGORIES=	x11 gnome
 MASTER_SITES=	GNOME
 DIST_SUBDIR=	gnome

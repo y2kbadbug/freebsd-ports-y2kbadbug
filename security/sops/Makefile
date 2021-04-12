@@ -1,8 +1,6 @@
-# $FreeBSD$
-
 PORTNAME=	sops
 DISTVERSIONPREFIX=	v
-DISTVERSION=	3.7.0
+DISTVERSION=	3.7.1
 CATEGORIES=	security editors
 
 MAINTAINER=	dmgk@FreeBSD.org

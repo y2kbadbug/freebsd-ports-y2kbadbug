@@ -1,9 +1,9 @@
 # Created by: gahr
-# $FreeBSD$
 
 PORTNAME=	dcmtk
 DISTVERSIONPREFIX=	${PORTNAME:tu}-
 DISTVERSION=	3.6.6
+PORTREVISION=	1
 CATEGORIES=	graphics devel
 
 MAINTAINER=	yuri@FreeBSD.org

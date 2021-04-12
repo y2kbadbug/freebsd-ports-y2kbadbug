@@ -1,5 +1,4 @@
 # Created by: Chris St Denis <chris@smartt.com>
-# $FreeBSD$
 
 PORTNAME=	nagiosql
 PORTVERSION=	3.4.1
@@ -27,7 +26,6 @@ NAGIOSUSER?=	nagios
 
 NO_BUILD=	yes
 NO_ARCH=	yes
-WRKSRC=		${WRKDIR}/${PORTNAME}-${GL_COMMIT}-${GL_COMMIT}
 
 SUB_FILES=	pkg-message
 PLIST_SUB=	WWWOWN=${WWWOWN} WWWGRP=${WWWGRP} NAGIOSUSER=${NAGIOSUSER}

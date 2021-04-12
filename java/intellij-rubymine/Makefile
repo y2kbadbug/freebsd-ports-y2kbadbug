@@ -1,8 +1,7 @@
 # Created by: Stefan Wendler <stefan.wendler@tngtech.com>
-# $FreeBSD$
 
 PORTNAME=	rubymine
-PORTVERSION=	2020.3.3
+PORTVERSION=	2021.1
 CATEGORIES=	java devel
 MASTER_SITES=	https://download.jetbrains.com/ruby/ \
 		http://download.jetbrains.com/ruby/

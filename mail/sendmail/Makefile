@@ -1,8 +1,6 @@
-# $FreeBSD$
-
 PORTNAME=	sendmail
 PORTVERSION=	8.16.1
-PORTREVISION=	3
+PORTREVISION=	4
 CATEGORIES=	mail
 MASTER_SITES=	ftp://ftp.sendmail.org/pub/sendmail/
 DISTNAME=	${PORTNAME}.${PORTVERSION}

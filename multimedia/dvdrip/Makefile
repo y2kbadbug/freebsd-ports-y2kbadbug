@@ -1,5 +1,4 @@
 # Created by: Michael Nottebrock <michaelnottebrock@gmx.net>
-# $FreeBSD$
 
 PORTNAME=	dvdrip
 PORTVERSION=	0.98.11
@@ -13,6 +12,9 @@ COMMENT=	Perl Gtk+ based dvd-ripper
 
 LICENSE=	ART10 GPLv1 # (ART10 or GPLv1) and CC-BY-SA-2.5
 LICENSE_COMB=	dual
+
+DEPRECATED=	Depends on expired multimedia/transcode
+EXPIRATION_DATE=2021-05-01
 
 BUILD_DEPENDS=	p5-Gtk2>=0:x11-toolkits/p5-Gtk2 \
 		p5-AnyEvent>=0:devel/p5-AnyEvent \
