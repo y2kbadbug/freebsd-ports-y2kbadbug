@@ -1,9 +1,8 @@
 # Created by: Stephen Montgomery-Smith <stephen@FreeBSD.org>
-# $FreeBSD$
 
 PORTNAME=	sage
 PORTVERSION=	9.2
-PORTREVISION=	10
+PORTREVISION=	11
 CATEGORIES=	math
 MASTER_SITES=	https://mirrors.xmission.com/sage/src/		\
 		http://mirrors.xmission.com/sage/src/		\

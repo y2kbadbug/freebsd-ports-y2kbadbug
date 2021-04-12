@@ -1,8 +1,8 @@
 # Created by: Po-Chuan Hsieh <sunpoet@FreeBSD.org>
-# $FreeBSD$
 
 PORTNAME=	uvicorn
 PORTVERSION=	0.13.4
+PORTREVISION=	1
 CATEGORIES=	www python
 MASTER_SITES=	CHEESESHOP
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
@@ -33,7 +33,7 @@ WATCHGODRELOAD_RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}watchgod>=0.6:devel/py-watchg
 
 .include <bsd.port.pre.mk>
 
-.if ${PYTHON_VER} < 3800
+.if ${PYTHON_REL} < 3800
 RUN_DEPENDS+=	${PYTHON_PKGNAMEPREFIX}typing-extensions>=0:devel/py-typing-extensions@${PY_FLAVOR}
 .endif
 

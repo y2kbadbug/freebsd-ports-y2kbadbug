@@ -1,10 +1,9 @@
 # Created by: David Yeske <dyeske@gmail.com>
-# $FreeBSD$
 
 PORTNAME=	yafaray
 DISTVERSIONPREFIX=	v
 DISTVERSION=	3.5.1
-PORTREVISION=	5
+PORTREVISION=	6
 CATEGORIES=	graphics
 
 MAINTAINER=	yuri@FreeBSD.org
@@ -20,8 +19,8 @@ ONLY_FOR_ARCHS_REASON=	assembly is only for amd64 and i386, but it breaks on i38
 
 LIB_DEPENDS=	libboost_system.so:devel/boost-libs \
 		libfreetype.so:print/freetype2 \
-		libHalf.so:graphics/ilmbase \
-		libIlmImf.so:graphics/openexr \
+		libImath.so:math/Imath \
+		libOpenEXR.so:graphics/openexr \
 		libopencv_photo.so:graphics/opencv \
 		libopencv_core.so:graphics/opencv \
 		libpng.so:graphics/png \

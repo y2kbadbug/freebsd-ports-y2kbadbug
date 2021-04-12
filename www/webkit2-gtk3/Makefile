@@ -1,8 +1,8 @@
 # Created by: Michael Johnson <ahze@FreeBSD.org>
-# $FreeBSD$
 
 PORTNAME=	webkit
 DISTVERSION=	2.30.5
+PORTREVISION=	1
 CATEGORIES=	www
 MASTER_SITES=	https://webkitgtk.org/releases/
 PKGNAMESUFFIX=	2-gtk3

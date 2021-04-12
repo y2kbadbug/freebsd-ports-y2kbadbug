@@ -1,8 +1,8 @@
 # Created by: Rozhuk Ivan <rozhuk.im@gmail.com>
-# $FreeBSD$
 
 PORTNAME=	play
 PORTVERSION=	0.38.0.20210320
+PORTREVISION=	1
 CATEGORIES=	games
 PKGNAMEPREFIX=	libretro-
 

@@ -1,10 +1,10 @@
 # Created by: Kevin Bowling <kbowling@FreeBSD.org>
-# $FreeBSD$
 
 PORTNAME=		ltfs
 DISTVERSIONPREFIX=	v
 DISTVERSION=		2.4.3.1
 DISTVERSIONSUFFIX=	-10461
+PORTREVISION=		1
 CATEGORIES=		sysutils
 
 MAINTAINER=	kbowling@FreeBSD.org

@@ -1,7 +1,5 @@
-# $FreeBSD$
-
 PORTNAME=	gsocket
-PORTVERSION=	1.4.25
+PORTVERSION=	1.4.28
 CATEGORIES=	net
 MASTER_SITES=	https://github.com/hackerschoice/gsocket/releases/download/v${PORTVERSION}/
 
@@ -14,9 +12,10 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 USES=		shebangfix ssl
 
 SHEBANG_FILES=  tools/blitz \
-                tools/gs_funcs \
-                tools/gs-mount \
-                tools/gs-sftp
+		tools/gsocket \
+		tools/gs_funcs \
+		tools/gs-mount \
+		tools/gs-sftp
 
 GNU_CONFIGURE=	yes
 

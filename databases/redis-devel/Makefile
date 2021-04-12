@@ -1,5 +1,4 @@
 # Created by: Sergey Skvortsov <skv@protey.ru>
-# $FreeBSD$
 
 PORTNAME=	redis
 PORTVERSION=	6.2.1
@@ -70,7 +69,7 @@ LDFLAGS=	-Wl,-E
 
 LDFLAGS+=	-lpthread -lm -lexecinfo
 
-CONFLICTS?=	redis4-4.* redis5-5.* redis-6.*
+CONFLICTS?=	redis5-5.* redis-6.*
 
 USE_RC_SUBR=	redis sentinel
 BIN_FILES=	redis-benchmark redis-check-aof redis-check-rdb \

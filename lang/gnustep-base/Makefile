@@ -1,9 +1,9 @@
 # Created by: Thomas Gellekum <tg@FreeBSD.org>
-# $FreeBSD$
 
 PORTNAME=	gnustep-base
 DISTVERSIONPREFIX=	base-
 DISTVERSION=	1_27_0
+PORTREVISION=	1
 CATEGORIES=	lang devel gnustep
 
 MAINTAINER=	ports@FreeBSD.org

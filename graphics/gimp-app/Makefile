@@ -1,9 +1,8 @@
 # Created by: erich@FreeBSD.org
-# $FreeBSD$
 
 PORTNAME?=	gimp-app
-PORTVERSION=	2.10.22
-PORTREVISION=	3
+PORTVERSION=	2.10.24
+PORTREVISION=	1
 PORTEPOCH?=	1
 CATEGORIES?=	graphics gnome
 MASTER_SITES=	GIMP/gimp/v${PORTVERSION:R}
@@ -118,8 +117,7 @@ LIBMNG_LIB_DEPENDS=	libmng.so:graphics/libmng
 LIBMNG_CONFIGURE_WITH=	libmng
 
 OPENEXR_CONFIGURE_WITH=	openexr
-OPENEXR_LIB_DEPENDS=	libIlmImf.so:graphics/openexr \
-			libIex.so:graphics/ilmbase
+OPENEXR_LIB_DEPENDS=	libOpenEXR.so:graphics/openexr
 
 OPENJPEG_DESC=		Enhanced JPEG (jpeg2000) graphics support
 OPENJPEG_LIB_DEPENDS=	libopenjp2.so:graphics/openjpeg

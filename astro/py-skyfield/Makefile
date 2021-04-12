@@ -1,8 +1,7 @@
 # Created by: thierry@pompo.net
-# $FreeBSD$
 
 PORTNAME=	skyfield
-PORTVERSION=	1.37
+PORTVERSION=	1.38
 CATEGORIES=	astro python
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # $FreeBSD$
 
 PORTREVISION=	0
@@ -14,6 +15,8 @@ MASTERDIR=	${.CURDIR}/../../multimedia/gstreamer1-plugins
 # $FreeBSD$
 #
 
+=======
+>>>>>>> master
 SUBDIR += accessibility
 SUBDIR += arabic
 SUBDIR += archivers

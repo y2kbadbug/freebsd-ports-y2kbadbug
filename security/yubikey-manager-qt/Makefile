@@ -1,5 +1,3 @@
-# $FreeBSD$
-
 PORTNAME=	yubikey-manager-qt
 DISTVERSIONPREFIX=	yubikey-manager-qt-
 <<<<<<< HEAD

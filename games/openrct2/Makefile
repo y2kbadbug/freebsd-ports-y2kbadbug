@@ -1,9 +1,9 @@
 # Created by: Piotr Kubaj <pkubaj@anongoth.pl>
-# $FreeBSD$
 
 PORTNAME=	openrct2
 DISTVERSIONPREFIX=	v
 DISTVERSION=	0.3.3
+PORTREVISION=	1
 CATEGORIES=	games
 
 MAINTAINER=	pkubaj@FreeBSD.org

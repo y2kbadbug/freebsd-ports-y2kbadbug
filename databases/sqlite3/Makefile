@@ -1,8 +1,8 @@
 # Created by: Ying-Chieh Liao <ijliao@FreeBSD.org>
-# $FreeBSD$
 
 PORTNAME=	sqlite3
 DISTVERSION=	3.34.1
+PORTREVISION=	1
 PORTEPOCH=	1
 CATEGORIES=	databases
 MASTER_SITES=	https://www.sqlite.org/2021/ https://www2.sqlite.org/2021/ https://www3.sqlite.org/2021/
