@@ -585,6 +585,7 @@
     SUBDIR += embb
     SUBDIR += emscripten
     SUBDIR += entt
+    SUBDIR += envsubst
     SUBDIR += epl.el
     SUBDIR += epm
     SUBDIR += eric6
@@ -790,6 +791,7 @@
     SUBDIR += gettext-msghack
     SUBDIR += gettext-po-mode
     SUBDIR += gettext-runtime
+    SUBDIR += gettext-tiny
     SUBDIR += gettext-tools
     SUBDIR += gflags
     SUBDIR += gh
@@ -5092,6 +5094,7 @@
     SUBDIR += py-setuptools_scm
     SUBDIR += py-setuptools_scm_git_archive
     SUBDIR += py-sexpdata
+    SUBDIR += py-sgmllib3k
     SUBDIR += py-sh
     SUBDIR += py-shapely
     SUBDIR += py-shellingham
