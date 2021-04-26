@@ -1,7 +1,7 @@
 # Created by: Roman Bogorodskiy <novel@FreeBSD.org>
 
 PORTNAME=	conky
-PORTVERSION=	1.12.1
+PORTVERSION=	1.12.2
 DISTVERSIONPREFIX=	v
 CATEGORIES=	sysutils
 
@@ -144,6 +144,15 @@ post-patch:
 		${WRKSRC}/cmake/ConkyPlatformChecks.cmake
 	@${REINPLACE_CMD} -e 's,LOCALBASE,${LOCALBASE},' \
 		${WRKSRC}/doc/docgen.sh
+.if ${LUA_DEFAULT} == 5.2
+	# Force using lua 5.2
+	@${REINPLACE_CMD} -e 's/lua.*5\.*3//' \
+		${WRKSRC}/cmake/ConkyPlatformChecks.cmake
+.elif ${LUA_DEFAULT} == 5.3
+	# Force using lua 5.3
+	@${REINPLACE_CMD} -e 's/lua.*5\.*2//' \
+		${WRKSRC}/cmake/ConkyPlatformChecks.cmake
+.endif
 
 post-build:
 	(cd ${WRKSRC}/doc && ${SH} docgen.sh)
