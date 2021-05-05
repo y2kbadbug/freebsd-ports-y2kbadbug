@@ -105,6 +105,7 @@
     SUBDIR += R-cran-uuid
     SUBDIR += R-cran-vcd
     SUBDIR += R-cran-vctrs
+    SUBDIR += R-cran-waldo
     SUBDIR += R-cran-whisker
     SUBDIR += R-cran-withr
     SUBDIR += R-cran-zeallot
@@ -781,7 +782,6 @@
     SUBDIR += geany-plugins-l10n
     SUBDIR += geany-themes
     SUBDIR += gearmand
-    SUBDIR += gecode
     SUBDIR += generate
     SUBDIR += gengetopt
     SUBDIR += genie
@@ -932,6 +932,7 @@
     SUBDIR += hs-ghc-events
     SUBDIR += hs-ghcprofview
     SUBDIR += hs-git-annex
+    SUBDIR += hs-git-brunch
     SUBDIR += hs-haddock
     SUBDIR += hs-happy
     SUBDIR += hs-haskell-language-server
