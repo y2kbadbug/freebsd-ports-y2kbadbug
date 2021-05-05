@@ -76,6 +76,103 @@ Notes:
   * Do not forget port variants (linux-f10-libxml2, libxml2, etc.)
 -->
 <vuxml xmlns="http://www.vuxml.org/apps/vuxml-1">
+  <vuln vid="1766359c-ad6e-11eb-b2a4-080027e50e6d">
+    <topic>Django -- multiple vulnerabilities</topic>
+    <affects>
+      <package>
+	<name>py36-django22</name>
+	<name>py37-django22</name>
+	<name>py38-django22</name>
+	<name>py39-django22</name>
+	<range><lt>2.2.21</lt></range>
+      </package>
+      <package>
+	<name>py36-django31</name>
+	<name>py37-django31</name>
+	<name>py38-django31</name>
+	<name>py39-django31</name>
+	<range><lt>3.1.9</lt></range>
+      </package>
+      <package>
+	<name>py36-django32</name>
+	<name>py37-django32</name>
+	<name>py38-django32</name>
+	<name>py39-django32</name>
+	<range><lt>3.2.1</lt></range>
+      </package>
+    </affects>
+    <description>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+	<p>Django Release reports:</p>
+	<blockquote cite="https://www.djangoproject.com/weblog/2021/may/04/security-releases/">
+	  <p>CVE-2021-31542:Potential directory-traversal via uploaded files.</p>
+	  <p>MultiPartParser, UploadedFile, and FieldFile allowed directory-traversal
+	    via uploaded files with suitably crafted file names.</p>
+	</blockquote>
+      </body>
+    </description>
+    <references>
+      <url>https://www.djangoproject.com/weblog/2021/may/04/security-releases/</url>
+      <cvename>CVE-2021-31542</cvename>
+    </references>
+    <dates>
+      <discovery>2021-04-22</discovery>
+      <entry>2021-05-05</entry>
+    </dates>
+  </vuln>
+
+  <vuln vid="bffa40db-ad50-11eb-86b8-080027846a02">
+    <topic>Python -- multiple vulnerabilities</topic>
+    <affects>
+      <package>
+	<name>python38</name>
+	<range><lt>3.8.10</lt></range>
+      </package>
+      <package>
+	<name>python39</name>
+	<range><lt>3.9.5</lt></range>
+      </package>
+    </affects>
+    <description>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+	<p>Python reports:</p>
+	<blockquote cite="https://docs.python.org/3/whatsnew/changelog.html#changelog">
+	  <p>bpo-43434: Creating a sqlite3.Connection object now also produces a
+	    sqlite3.connect auditing event. Previously this event was only produced
+	    by sqlite3.connect() calls. Patch by Erlend E. Aasland.</p>
+	  <p>bpo-43882: The presence of newline or tab characters in parts of a URL
+	    could allow some forms of attacks.Following the controlling specification
+	    for URLs defined by WHATWG urllib.parse() now removes A SCII newlines
+	    and tabs from URLs, preventing such attacks.</p>
+	  <p>bpo-43472: Ensures interpreter-level audit hooks receive the cpython.
+	    PyInterpreterState_New event when called through the _xxsubinterpreters
+	    module.</p>
+	  <p>bpo-36384: ipaddress module no longer accepts any leading zeros in IPv4
+	    address strings. Leading zeros are ambiguous and interpreted as octal
+	    notation by some libraries. For example the legacy function socket.inet_aton()
+	    treats leading zeros as octal notatation. glibc implementation of modern
+	    inet_pton() does not accept any leading zeros. For a while the ipaddress
+	    module used to accept ambiguous leading zeros.</p>
+	  <p>bpo-43075: Fix Regular Expression Denial of Service (ReDoS) vulnerability
+	    in urllib.request.AbstractBasicAuthHandler. The ReDoS-vulnerable regex has
+	    quadratic worst-case complexity and it allows cause a denial of service
+	    when identifying crafted invalid RFCs. This ReDoS issue is on the client
+	    side and needs remote attackers to control the HTTP server.</p>
+	  <p>bpo-42800: Audit hooks are now fired for frame.f_code, traceback.tb_frame,
+	    and generator code/frame attribute access.</p>
+	</blockquote>
+      </body>
+    </description>
+    <references>
+      <url>https://docs.python.org/3/whatsnew/changelog.html#changelog</url>
+      <url>https://docs.python.org/3.8/whatsnew/changelog.html#changelog</url>
+    </references>
+    <dates>
+      <discovery>2021-03-08</discovery>
+      <entry>2021-05-05</entry>
+    </dates>
+  </vuln>
+
   <vuln vid="1606b03b-ac57-11eb-9bdd-8c164567ca3c">
     <topic>redis -- multiple vulnerabilities</topic>
     <affects>
@@ -549,6 +646,7 @@ Notes:
     </description>
     <references>
       <url>https://www.jenkins.io/security/advisory/2021-04-20/</url>
+      <cvename>CVE-2021-28165</cvename>
     </references>
     <dates>
       <discovery>2021-04-20</discovery>
@@ -559,6 +657,22 @@ Notes:
   <vuln vid="56ba4513-a1be-11eb-9072-d4c9ef517024">
     <topic>MySQL -- Multiple vulnerabilities</topic>
     <affects>
+      <package>
+	<name>mariadb103-server</name>
+	<range><lt>10.3.29</lt></range>
+      </package>
+      <package>
+	<name>mariadb104-server</name>
+	<range><lt>10.4.19</lt></range>
+      </package>
+      <package>
+	<name>mariadb105-server</name>
+	<range><lt>10.5.10</lt></range>
+      </package>
+      <package>
+	<name>mysql56-server</name>
+	<range><lt>5.6.52</lt></range>
+      </package>
       <package>
 	<name>mysql57-server</name>
 	<range><lt>5.7.34</lt></range>
@@ -578,15 +692,62 @@ Notes:
 	    requiring user credentials.<br/>
 	    The highest CVSS v3.1 Base Score of vulnerabilities affecting Oracle
 	    MySQL is 9.8.</p>
+	  <p>MariaDB is affected by CVE-2021-2166 and CVE-2021-2154 only</p>
 	</blockquote>
       </body>
     </description>
     <references>
       <url>https://www.oracle.com/security-alerts/cpuapr2021.html</url>
+      <url>https://mariadb.com/kb/en/mariadb-10510-release-notes/</url>
+      <cvename>CVE-2020-8277</cvename>
+      <cvename>CVE-2020-1971</cvename>
+      <cvename>CVE-2021-3449</cvename>
+      <cvename>CVE-2020-28196</cvename>
+      <cvename>CVE-2021-23841</cvename>
+      <cvename>CVE-2021-2144</cvename>
+      <cvename>CVE-2021-2172</cvename>
+      <cvename>CVE-2021-2298</cvename>
+      <cvename>CVE-2021-2178</cvename>
+      <cvename>CVE-2021-2202</cvename>
+      <cvename>CVE-2021-2307</cvename>
+      <cvename>CVE-2021-2304</cvename>
+      <cvename>CVE-2021-2180</cvename>
+      <cvename>CVE-2021-2194</cvename>
+      <cvename>CVE-2021-2154</cvename>
+      <cvename>CVE-2021-2166</cvename>
+      <cvename>CVE-2021-2196</cvename>
+      <cvename>CVE-2021-2300</cvename>
+      <cvename>CVE-2021-2305</cvename>
+      <cvename>CVE-2021-2179</cvename>
+      <cvename>CVE-2021-2226</cvename>
+      <cvename>CVE-2021-2160</cvename>
+      <cvename>CVE-2021-2164</cvename>
+      <cvename>CVE-2021-2169</cvename>
+      <cvename>CVE-2021-2170</cvename>
+      <cvename>CVE-2021-2193</cvename>
+      <cvename>CVE-2021-2203</cvename>
+      <cvename>CVE-2021-2212</cvename>
+      <cvename>CVE-2021-2213</cvename>
+      <cvename>CVE-2021-2278</cvename>
+      <cvename>CVE-2021-2299</cvename>
+      <cvename>CVE-2021-2230</cvename>
+      <cvename>CVE-2021-2146</cvename>
+      <cvename>CVE-2021-2201</cvename>
+      <cvename>CVE-2021-2208</cvename>
+      <cvename>CVE-2021-2215</cvename>
+      <cvename>CVE-2021-2217</cvename>
+      <cvename>CVE-2021-2293</cvename>
+      <cvename>CVE-2021-2174</cvename>
+      <cvename>CVE-2021-2171</cvename>
+      <cvename>CVE-2021-2162</cvename>
+      <cvename>CVE-2021-2301</cvename>
+      <cvename>CVE-2021-2308</cvename>
+      <cvename>CVE-2021-2232</cvename>
     </references>
     <dates>
       <discovery>2021-04-20</discovery>
       <entry>2021-04-20</entry>
+      <modified>2021-05-04</modified>
     </dates>
   </vuln>
 
