@@ -594,6 +594,7 @@
     SUBDIR += padthv1-lv2
     SUBDIR += paman
     SUBDIR += paprefs
+    SUBDIR += pamixer
     SUBDIR += pavucontrol
     SUBDIR += pavucontrol-qt
     SUBDIR += pavumeter
@@ -828,6 +829,7 @@
     SUBDIR += wavbreaker
     SUBDIR += wavegain
     SUBDIR += waveplay
+    SUBDIR += wavetral
     SUBDIR += wavpack
     SUBDIR += wavplay
     SUBDIR += webrtc-audio-processing
