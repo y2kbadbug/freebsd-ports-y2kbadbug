@@ -972,6 +972,7 @@
     SUBDIR += imake
     SUBDIR += inastemp
     SUBDIR += include-what-you-use
+    SUBDIR += indi
     SUBDIR += indicators
     SUBDIR += inifiled
     SUBDIR += inih
@@ -4356,6 +4357,7 @@
     SUBDIR += py-debtcollector
     SUBDIR += py-debugtools
     SUBDIR += py-decorator
+    SUBDIR += py-decorator4
     SUBDIR += py-decoratortools
     SUBDIR += py-deepdiff
     SUBDIR += py-deepmerge
@@ -5381,6 +5383,7 @@
     SUBDIR += pycos
     SUBDIR += pycount
     SUBDIR += pydbus-common
+    SUBDIR += pydio-packr
     SUBDIR += pygobject3-common
     SUBDIR += pylint
     SUBDIR += pyobfuscate
@@ -6850,7 +6853,6 @@
     SUBDIR += sonarqube-community
     SUBDIR += sope
     SUBDIR += sope2
-    SUBDIR += sope4
     SUBDIR += sord
     SUBDIR += sparc64-gcc
     SUBDIR += sparc64-xtoolchain-gcc
