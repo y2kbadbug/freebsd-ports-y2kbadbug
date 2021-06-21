@@ -18,6 +18,7 @@ LICENSE_PERMS=	dist-mirror dist-sell pkg-mirror pkg-sell auto-accept
 
 LIB_DEPENDS=	libfreetype.so:print/freetype2 \
 		libfontconfig.so:x11-fonts/fontconfig
+BUILD_DEPENDS=	zip:archivers/zip
 
 OPTIONS_DEFINE=	TKMAN DEMOS
 OPTIONS_SUB=	yes
@@ -45,7 +46,7 @@ CFLAGS+=	-I${TCL_INCLUDEDIR} \
 
 TK_VERSION=	8.7a5
 TK_VER=		8.7
-TK_RC=		rc2
+TK_RC=
 SHORT_TK_VER=	${TK_VER:S/.//}
 MAN_SUFFIX=	${PKGBASE}
 
