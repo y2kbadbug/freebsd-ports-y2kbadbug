@@ -4322,6 +4322,7 @@
     SUBDIR += py-cson
     SUBDIR += py-csv23
     SUBDIR += py-ctags
+    SUBDIR += py-ctypesgen
     SUBDIR += py-curio
     SUBDIR += py-cursive
     SUBDIR += py-curtsies
@@ -4579,6 +4580,7 @@
     SUBDIR += py-jsondiff
     SUBDIR += py-jsonform
     SUBDIR += py-jsonlines
+    SUBDIR += py-jsonnet
     SUBDIR += py-jsonpatch
     SUBDIR += py-jsonpath-rw
     SUBDIR += py-jsonpickle
