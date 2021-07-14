@@ -1,6 +1,10 @@
 PORTNAME=	pipewire
-DISTVERSION=	0.3.28
+DISTVERSION=	0.3.31
+PORTREVISION=	1
 CATEGORIES=	multimedia
+
+PATCH_SITES=	https://gitlab.freedesktop.org/${PORTNAME}/${PORTNAME}/-/commit/
+PATCHFILES+=	91988acb6b6a.patch:-p1 # https://gitlab.freedesktop.org/pipewire/pipewire/-/merge_requests/815
 
 MAINTAINER=	arrowd@FreeBSD.org
 COMMENT=	Server and user space API to deal with multimedia pipelines
@@ -14,9 +18,11 @@ LIB_DEPENDS=	libasound.so:audio/alsa-lib \
 		libdbus-1.so:devel/dbus \
 		libinotify.so:devel/libinotify \
 		libepoll-shim.so:devel/libepoll-shim \
-		libudev.so:devel/libudev-devd
+		libudev.so:devel/libudev-devd \
+		libwebrtc_audio_processing.so:audio/webrtc-audio-processing0
 
-USES=		compiler:c11 gettext-tools gnome localbase:ldflags meson pkgconfig
+USES=		compiler:c11 gettext-tools gnome localbase:ldflags meson \
+		pkgconfig python:3.6+,build
 USE_GNOME=	glib20
 USE_LDCONFIG=	yes
 
@@ -35,7 +41,9 @@ MEDIASESSION_MESON_ENABLED=	alsa pipewire-alsa media-session pw-cat
 MEDIASESSION_LIB_DEPENDS=	libsndfile.so:audio/libsndfile
 
 PULSEAUDIO_MESON_ENABLED=	libpulse
-PULSEAUDIO_LIB_DEPENDS=		libpulse.so:audio/pulseaudio
+PULSEAUDIO_LIB_DEPENDS=		libpulse.so:audio/pulseaudio \
+				libavahi-common.so:net/avahi-app \
+				libavahi-client.so:net/avahi-app
 
 VULKAN_DESC=		Enable Vulkan integration
 VULKAN_MESON_ENABLED=	vulkan

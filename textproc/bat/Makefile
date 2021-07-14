@@ -1,7 +1,7 @@
 PORTNAME=	bat
 DISTVERSIONPREFIX=	v
 DISTVERSION=	0.18.1
-PORTREVISION=	0
+PORTREVISION=	1
 CATEGORIES=	textproc
 
 MAINTAINER=	pizzamig@FreeBSD.org
@@ -13,6 +13,7 @@ LIB_DEPENDS=	libgit2.so:devel/libgit2 \
 		libonig.so:devel/oniguruma
 
 BROKEN_i386=	sys-info dependency crate won't build on FreeBSD
+BROKEN_powerpc=	sys-info dependency crate won't build on FreeBSD
 USES=		cargo
 USE_GITHUB=	yes
 GH_ACCOUNT=	sharkdp

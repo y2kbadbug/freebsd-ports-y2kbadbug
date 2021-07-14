@@ -32,6 +32,7 @@
     SUBDIR += dsr-pdb
     SUBDIR += edlib
     SUBDIR += emboss
+    SUBDIR += erminej
     SUBDIR += exonerate
     SUBDIR += fasta
     SUBDIR += fasta3
@@ -77,6 +78,7 @@
     SUBDIR += mapm3
     SUBDIR += migrate
     SUBDIR += minimap2
+    SUBDIR += mmseqs2
     SUBDIR += molden
     SUBDIR += mopac
     SUBDIR += mothur
@@ -136,6 +138,7 @@
     SUBDIR += py-dnaio
     SUBDIR += py-ete3
     SUBDIR += py-gffutils
+    SUBDIR += py-goatools
     SUBDIR += py-gtfparse
     SUBDIR += py-hits
     SUBDIR += py-loompy
@@ -175,6 +178,7 @@
     SUBDIR += smithwaterman
     SUBDIR += snpeff
     SUBDIR += spoa
+    SUBDIR += sra-tools
     SUBDIR += stacks
     SUBDIR += star
     SUBDIR += stringtie
