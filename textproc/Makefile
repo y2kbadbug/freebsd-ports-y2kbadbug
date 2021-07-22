@@ -26,6 +26,7 @@
     SUBDIR += R-cran-stringi
     SUBDIR += R-cran-stringr
     SUBDIR += R-cran-utf8
+    SUBDIR += R-cran-vroom
     SUBDIR += R-cran-xml2
     SUBDIR += R-cran-xmlparsedata
     SUBDIR += R-cran-xtable
@@ -1466,6 +1467,7 @@
     SUBDIR += py-tinycss
     SUBDIR += py-tinycss2
     SUBDIR += py-toml
+    SUBDIR += py-tomli
     SUBDIR += py-tomlkit
     SUBDIR += py-toronado
     SUBDIR += py-towncrier
