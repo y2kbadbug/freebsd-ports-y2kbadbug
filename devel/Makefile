@@ -5042,6 +5042,7 @@
     SUBDIR += py-pyzipper
     SUBDIR += py-q
     SUBDIR += py-qasync
+    SUBDIR += py-qcs-api-client
     SUBDIR += py-qstylizer
     SUBDIR += py-qt5
     SUBDIR += py-qt5-core
@@ -5084,6 +5085,7 @@
     SUBDIR += py-responses
     SUBDIR += py-retrying
     SUBDIR += py-retype
+    SUBDIR += py-rfc3339
     SUBDIR += py-robotframework
     SUBDIR += py-robotframework-databaselibrary
     SUBDIR += py-robotframework-pabot
