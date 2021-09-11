@@ -34,6 +34,7 @@
     SUBDIR += berkeleygw
     SUBDIR += bodr
     SUBDIR += buddy
+    SUBDIR += cantera
     SUBDIR += cdcl
     SUBDIR += cdf
     SUBDIR += cdk
@@ -289,6 +290,7 @@
     SUBDIR += py-pygeodesy
     SUBDIR += py-pygeometa
     SUBDIR += py-pygmo2
+    SUBDIR += py-pyked
     SUBDIR += py-pymatgen
     SUBDIR += py-pymol
     SUBDIR += py-pyosf
