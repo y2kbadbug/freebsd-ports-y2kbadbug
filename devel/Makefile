@@ -387,6 +387,7 @@
     SUBDIR += compiz-bcop
     SUBDIR += concurrencpp
     SUBDIR += concurrencykit
+    SUBDIR += concurrentqueue
     SUBDIR += configkit
     SUBDIR += cons
     SUBDIR += cons-test
@@ -724,6 +725,7 @@
     SUBDIR += frama-c
     SUBDIR += freebsd-gcc6
     SUBDIR += freebsd-gcc9
+    SUBDIR += freebsd-sysroot
     SUBDIR += frink
     SUBDIR += fsmtrie
     SUBDIR += fstrcmp
@@ -1512,6 +1514,7 @@
     SUBDIR += make++
     SUBDIR += makedepend
     SUBDIR += marisa-trie
+    SUBDIR += marl
     SUBDIR += mate-common
     SUBDIR += matreshka
     SUBDIR += maven
@@ -1627,6 +1630,7 @@
     SUBDIR += ocaml-sem
     SUBDIR += ocaml-sexplib
     SUBDIR += ocaml-type_conv
+    SUBDIR += ocaml-uchar
     SUBDIR += ocaml-ulex
     SUBDIR += ocaml-uutf
     SUBDIR += ocaml-xstr
@@ -4219,6 +4223,7 @@
     SUBDIR += py-azure-storage-common
     SUBDIR += py-azure-synapse-accesscontrol
     SUBDIR += py-azure-synapse-artifacts
+    SUBDIR += py-azure-synapse-managedprivateendpoints
     SUBDIR += py-azure-synapse-spark
     SUBDIR += py-b2sdk
     SUBDIR += py-babel
@@ -5459,6 +5464,7 @@
     SUBDIR += qt5-testlib
     SUBDIR += qt5-uitools
     SUBDIR += qtcreator
+    SUBDIR += quantum
     SUBDIR += quickcheck++
     SUBDIR += quilt
     SUBDIR += rabs
