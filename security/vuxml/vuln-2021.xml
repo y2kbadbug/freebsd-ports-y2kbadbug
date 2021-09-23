@@ -1,3 +1,68 @@
+  <vuln vid="d4d21998-bdc4-4a09-9849-2898d9b41459">
+    <topic>zeek -- several vulnerabilities</topic>
+    <affects>
+      <package>
+	<name>zeek</name>
+	<range><lt>4.0.4</lt></range>
+      </package>
+    </affects>
+    <description>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+	<p>Tim Wojtulewicz of Corelight reports:</p>
+	<blockquote cite="https://github.com/zeek/zeek/releases/tag/v4.0.4">
+	  <p> Paths from log stream make it into system() unchecked,
+	  potentially leading to commands being run on the system
+	  unintentionally. This requires either bad scripting or a
+	  malicious package to be installed, and is considered low
+	  severity. </p>
+	  <p> Fix potential unbounded state growth in the PIA
+	  analyzer when receiving a connection with either a large
+	  number of zero-length packets, or one which continues
+	  ack-ing unseen segments. It is possible to run Zeek out
+	  of memory in these instances and cause it to crash. Due
+	  to the possibility of this happening with packets received
+	  from the network, this is a potential DoS vulnerability.
+	  </p>
+	</blockquote>
+      </body>
+    </description>
+    <references>
+      <url>https://github.com/zeek/zeek/releases/tag/v4.0.4</url>
+    </references>
+    <dates>
+      <discovery>2021-08-26</discovery>
+      <entry>2021-09-22</entry>
+    </dates>
+  </vuln>
+
+  <vuln vid="7bba5b3b-1b7f-11ec-b335-d4c9ef517024">
+    <topic>mod_auth_mellon -- Redirect URL validation bypass</topic>
+    <affects>
+      <package>
+	<name>mod_auth_mellon</name>
+	<range><lt>0.18.0</lt></range>
+      </package>
+    </affects>
+    <description>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+	<p>Jakub Hrozek reports:</p>
+	<blockquote cite="https://github.com/latchset/mod_auth_mellon/releases/tag/v0.18.0">
+	  <p>Version 0.17.0 and older of mod_auth_mellon allows the redirect URL
+	    validation to be bypassed by specifying an URL formatted as
+	    ///fishing-site.example.com/logout.html</p>
+	</blockquote>
+      </body>
+    </description>
+    <references>
+      <cvename>CVE-2019-13038</cvename>
+      <url>https://github.com/latchset/mod_auth_mellon/releases/tag/v0.18.0</url>
+    </references>
+    <dates>
+      <discovery>2021-07-30</discovery>
+      <entry>2021-09-22</entry>
+    </dates>
+  </vuln>
+
   <vuln vid="7062bce0-1b17-11ec-9d9d-0022489ad614">
     <topic>Node.js -- August 2021 Security Releases (2)</topic>
     <affects>
