@@ -41,6 +41,7 @@
     SUBDIR += R-cran-evaluate
     SUBDIR += R-cran-fansi
     SUBDIR += R-cran-filelock
+    SUBDIR += R-cran-fontawesome
     SUBDIR += R-cran-foreach
     SUBDIR += R-cran-future
     SUBDIR += R-cran-future.apply
@@ -4711,6 +4712,7 @@
     SUBDIR += py-medikit
     SUBDIR += py-meliae
     SUBDIR += py-memory-profiler
+    SUBDIR += py-mergedeep
     SUBDIR += py-microversion-parse
     SUBDIR += py-milc
     SUBDIR += py-mime
@@ -5075,6 +5077,7 @@
     SUBDIR += py-pyvisa
     SUBDIR += py-pyvisa-py
     SUBDIR += py-pyxb
+    SUBDIR += py-pyyaml-env-tag
     SUBDIR += py-pyyaml-include
     SUBDIR += py-pyzipper
     SUBDIR += py-q
