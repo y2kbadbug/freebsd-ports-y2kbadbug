@@ -9128,7 +9128,6 @@ sysutils/sievelog||2017-04-30|Has expired: Unfetchable for more than six months 
 sysutils/ldapenter||2017-04-30|Has expired: Unfetchable for more than six months (google code has gone away)
 sysutils/py-danzfs||2017-04-30|Has expired: Unfetchable for more than six months (google code has gone away)
 sysutils/plasma-applet-apcups||2017-04-30|Has expired: Unfetchable for more than six months (google code has gone away)
-sysutils/pdsh||2017-04-30|Has expired: Unfetchable for more than six months (google code has gone away)
 deskutils/superswitcher||2017-04-30|Has expired: Unfetchable for more than six months (google code has gone away)
 deskutils/plasma-applet-playwolf||2017-04-30|Has expired: Unfetchable for more than six months (google code has gone away)
 deskutils/nagaina||2017-04-30|Has expired: Unfetchable for more than six months (google code has gone away)
@@ -16486,3 +16485,5 @@ net-mgmt/zabbix52-frontend||2021-09-19|Has expired: Unsupported by upstream
 net-mgmt/zabbix52-java||2021-09-19|Has expired: Unsupported by upstream
 net-mgmt/zabbix52-proxy||2021-09-19|Has expired: Unsupported by upstream
 net-mgmt/zabbix52-server||2021-09-19|Has expired: Unsupported by upstream
+devel/py-pyyaml-env-tag|devel/py-pyyaml_env_tag|2021-09-28|Renamed to match upstream naming
+mail/opensmtpd-devel|mail/opensmtpd|2021-09-28|Has expired: move to offical releases
