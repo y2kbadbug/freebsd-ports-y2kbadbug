@@ -1026,6 +1026,8 @@
     SUBDIR += tile38
     SUBDIR += tiledb
     SUBDIR += timescaledb
+    SUBDIR += timescaledb-backup
+    SUBDIR += timescaledb-tune
     SUBDIR += tinycdb
     SUBDIR += tokyocabinet
     SUBDIR += tokyotyrant
