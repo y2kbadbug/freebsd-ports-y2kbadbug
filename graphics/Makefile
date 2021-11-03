@@ -796,6 +796,7 @@
     SUBDIR += povray-meta
     SUBDIR += povray36
     SUBDIR += povray37
+    SUBDIR += povray38
     SUBDIR += ppmcaption
     SUBDIR += ppminfo
     SUBDIR += ppsei
@@ -896,6 +897,7 @@
     SUBDIR += py-pyx
     SUBDIR += py-qrencode
     SUBDIR += py-qt5-svg
+    SUBDIR += py-railroad-diagrams
     SUBDIR += py-rasterio
     SUBDIR += py-rasterstats
     SUBDIR += py-rawkit
@@ -980,7 +982,6 @@
     SUBDIR += rubygem-gemojione32
     SUBDIR += rubygem-geokit
     SUBDIR += rubygem-gitlab_emoji
-    SUBDIR += rubygem-goocanvas
     SUBDIR += rubygem-gruff
     SUBDIR += rubygem-histogram
     SUBDIR += rubygem-image_processing

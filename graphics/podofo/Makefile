@@ -16,13 +16,14 @@ LIB_DEPENDS=	libfontconfig.so:x11-fonts/fontconfig \
 		libidn.so:dns/libidn
 
 USES=		cmake compiler:c++11-lang cpe dos2unix pkgconfig ssl
-CPE_VENDOR=	${PORTNAME}_project
 
 CMAKE_ARGS=	-DFONTCONFIG_LIBRARIES=${LOCALBASE}/lib/libfontconfig.so \
 		-DOPENSSL_INCLUDE_DIR=${OPENSSLINC} \
 		-DOPENSSL_LIBRARIES=${OPENSSLDIR}
 CMAKE_ON=	PODOFO_BUILD_SHARED PODOFO_BUILD_STATIC
 USE_LDCONFIG=	yes
+
+CPE_VENDOR=	podofo_project
 
 DOS2UNIX_FILES=	cmake/modules/FindFREETYPE.cmake
 
@@ -40,9 +41,5 @@ PNG_CMAKE_BOOL=		WANT_PNG
 PNG_LIB_DEPENDS=	libpng.so:graphics/png
 TIFF_CMAKE_BOOL=	WANT_TIFF
 TIFF_LIB_DEPENDS=	libtiff.so:graphics/tiff
-
-post-patch:
-	@${REINPLACE_CMD} -e 's|$${LIBDIRNAME}/pkgconfig|${PREFIX}/libdata/pkgconfig|' ${WRKSRC}/src/podofo/CMakeLists.txt
-	@${REINPLACE_CMD} -e '/^Libs: / s|-@PODOFO_VERSION_MAJOR@||' ${WRKSRC}/src/podofo/libpodofo.pc.in
 
 .include <bsd.port.mk>

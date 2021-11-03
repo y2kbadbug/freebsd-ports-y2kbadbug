@@ -1,7 +1,7 @@
 # Created by: Gerald Pfeifer <gerald@FreeBSD.org>
 
 PORTNAME=	wine
-DISTVERSION=	6.19
+DISTVERSION=	6.20
 PORTREVISION=	1
 PORTEPOCH=	1
 CATEGORIES=	emulators
@@ -41,10 +41,8 @@ CONFIGURE_ARGS+=--verbose \
 		--without-dbus \
 		--without-gettext --without-gettextpo \
 		--without-gphoto \
-		--without-gsm \
 		--without-gstreamer \
 		--without-inotify \
-		--without-jxrlib \
 		--without-krb5 \
 		--without-mingw \
 		--without-opencl \
@@ -53,7 +51,6 @@ CONFIGURE_ARGS+=--verbose \
 		--without-pulse \
 		--without-sane \
 		--with-sdl \
-		--without-tiff \
 		--without-udev \
 		--without-unwind \
 		--without-usb
@@ -69,12 +66,11 @@ SUB_FILES=	pkg-message
 
 PORTDATA=	wine.inf
 
-OPTIONS_DEFINE=	CUPS DOCS DOSBOX GNUTLS LDAP LIBXSLT MPG123 OPENAL STAGING V4L WINEMAKER X11 GECKO MONO
+OPTIONS_DEFINE=	CUPS DOCS DOSBOX GNUTLS LDAP OPENAL STAGING V4L WINEMAKER X11 GECKO MONO
 OPTIONS_DEFAULT=GNUTLS OPENAL X11
 OPTIONS_SUB=	yes
 
 DOSBOX_DESC=	Use DOSBox to run MS-DOS programs
-LIBXSLT_DESC=	Use libxslt (only used by msxml3.dll)
 STAGING_DESC=	Include Wine Staging patchset (experimental&unsupported)
 WINEMAKER_DESC=	Fully support winemaker (requires Perl)
 GECKO_DESC=	Bundle Gecko MSI package for Wine
@@ -93,13 +89,7 @@ GNUTLS_LIB_DEPENDS=	libgnutls.so:security/gnutls
 LDAP_CONFIGURE_WITH=	ldap
 LDAP_USE=		OPENLDAP=yes
 
-LIBXSLT_CONFIGURE_WITH=	xslt
-LIBXSLT_LIB_DEPENDS=	libxslt.so:textproc/libxslt
-
 MONO_RUN_DEPENDS=	wine-mono-devel>0:emulators/wine-mono-devel
-
-MPG123_CONFIGURE_WITH=	mpg123
-MPG123_LIB_DEPENDS=	libmpg123.so:audio/mpg123
 
 OPENAL_CONFIGURE_WITH=	openal
 OPENAL_USES=		openal
@@ -109,7 +99,8 @@ STAGING_DIST=		v${DISTVERSION}.tar.gz
 STAGING_DISTFILES=	${STAGING_DIST}:staging
 STAGING_EXTRACT_DEPENDS=	bash:shells/bash \
 				git:devel/git \
-				autoconf>0:devel/autoconf
+				autoconf>0:devel/autoconf \
+				gawk:lang/gawk
 STAGING_LIB_DEPENDS=	libtxc_dxtn.so:graphics/s2tc
 
 V4L_CONFIGURE_WITH=	v4l2
@@ -160,6 +151,7 @@ PLIST_SUB+=		WINE32="" WINE64="@comment " WINEARCH="i386"
 
 post-extract-STAGING-on: fix-shebang
 	cd ${WRKSRC} && ${TAR} xf ${DISTDIR}/${STAGING_DIST} --strip-components 1
+	cd ${WRKSRC} && ${PATCH} -p0 < ${PATCHDIR}/extra-gitapply
 	cd ${WRKSRC} && bash ./patches/patchinstall.sh --backend=patch DESTDIR=${WRKSRC} --all
 
 pre-build:

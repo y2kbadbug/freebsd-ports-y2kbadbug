@@ -1,3 +1,194 @@
+  <vuln vid="33557582-3958-11ec-90ba-001b217b3468">
+    <topic>Gitlab -- Multiple Vulnerabilities</topic>
+    <affects>
+      <package>
+	<name>gitlab-ce</name>
+	<range><ge>14.4.0</ge><lt>14.4.1</lt></range>
+	<range><ge>14.3.0</ge><lt>14.3.4</lt></range>
+	<range><ge>0</ge><lt>14.2.6</lt></range>
+      </package>
+    </affects>
+    <description>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+	<p>Gitlab reports:</p>
+	<blockquote cite="https://about.gitlab.com/releases/2021/10/28/security-release-gitlab-14-4-1-released/">
+	  <p>Stored XSS via ipynb files</p>
+	  <p>Pipeline schedules on imported projects can be set to automatically active after import</p>
+	  <p>Potential Denial of service via Workhorse</p>
+	  <p>Improper Access Control allows Merge Request creator to bypass locked status</p>
+	  <p>Projects API discloses ID and name of private groups</p>
+	  <p>Severity of an incident can be changed by a guest user</p>
+	  <p>System root password accidentally written to log file</p>
+	  <p>Potential DoS via a malformed TIFF image</p>
+	  <p>Bypass of CODEOWNERS Merge Request approval requirement</p>
+	  <p>Change project visibility to a restricted option</p>
+	  <p>Project exports leak external webhook token value</p>
+	  <p>SCIM token is visible after creation</p>
+	  <p>Invited group members, with access inherited from parent group, continue to have project access even after invited subgroup is transfered</p>
+	  <p>Regular expression denial of service issue when cleaning namespace path</p>
+	  <p>Prevent creation of scopeless apps using applications API</p>
+	  <p>Webhook data exposes assignee's private email address</p>
+	</blockquote>
+      </body>
+    </description>
+    <references>
+      <cvename>CVE-2021-39906</cvename>
+      <cvename>CVE-2021-39895</cvename>
+      <cvename>CVE-2021-39907</cvename>
+      <cvename>CVE-2021-39904</cvename>
+      <cvename>CVE-2021-39905</cvename>
+      <cvename>CVE-2021-39902</cvename>
+      <cvename>CVE-2021-39913</cvename>
+      <cvename>CVE-2021-39912</cvename>
+      <cvename>CVE-2021-39909</cvename>
+      <cvename>CVE-2021-39903</cvename>
+      <cvename>CVE-2021-39898</cvename>
+      <cvename>CVE-2021-39901</cvename>
+      <cvename>CVE-2021-39897</cvename>
+      <cvename>CVE-2021-39914</cvename>
+      <cvename>CVE-2021-39911</cvename>
+      <url>https://about.gitlab.com/releases/2021/10/28/security-release-gitlab-14-4-1-released/</url>
+    </references>
+    <dates>
+      <discovery>2021-10-28</discovery>
+      <entry>2021-10-30</entry>
+    </dates>
+  </vuln>
+
+  <vuln vid="976d7bf9-38ea-11ec-b3b0-3065ec8fd3ec">
+    <topic>chromium -- multiple vulnerabilities</topic>
+    <affects>
+      <package>
+	<name>chromium</name>
+	<range><lt>95.0.4638.69</lt></range>
+      </package>
+    </affects>
+    <description>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+	<p>Chrome Releases reports:</p>
+	<blockquote cite="https://chromereleases.googleblog.com/2021/10/stable-channel-update-for-desktop_28.html">
+	  <p>This release contains 8 security fixes, including:</p>
+	  <ul>
+	    <li>[1259864] High CVE-2021-37997 : Use after free in Sign-In.
+	      Reported by Wei Yuan of MoyunSec VLab on 2021-10-14</li>
+	    <li>[1259587] High CVE-2021-37998 : Use after free in Garbage
+	      Collection. Reported by Cassidy Kim of Amber Security Lab, OPPO
+	      Mobile Telecommunications Corp. Ltd. on 2021-10-13</li>
+	    <li>[1251541] High CVE-2021-37999 : Insufficient data validation in
+	      New Tab Page. Reported by Ashish Arun Dhone on 2021-09-21</li>
+	    <li>[1249962] High CVE-2021-38000 : Insufficient validation of
+	      untrusted input in Intents. Reported by Clement Lecigne, Neel
+	      Mehta, and Maddie Stone of Google Threat Analysis Group on
+	      2021-09-15</li>
+	    <li>[1260577] High CVE-2021-38001 : Type Confusion in V8. Reported
+	      by @s0rrymybad of Kunlun Lab via Tianfu Cup on 2021-10-16</li>
+	    <li>[1260940] High CVE-2021-38002 : Use after free in Web Transport.
+	      Reported by @__R0ng of 360 Alpha Lab, ? via Tianfu Cup on
+	      2021-10-16</li>
+	    <li>[1263462] High CVE-2021-38003 : Inappropriate implementation in
+	      V8. Reported by Clément Lecigne from Google TAG and Samuel Gross
+	      from Google Project Zero on 2021-10-26</li>
+	  </ul>
+	  <p>Google is aware that exploits for CVE-2021-38000 and
+	    CVE-2021-38003 exist in the wild.</p>
+	</blockquote>
+      </body>
+    </description>
+    <references>
+      <cvename>CVE-2021-37997</cvename>
+      <cvename>CVE-2021-37998</cvename>
+      <cvename>CVE-2021-37999</cvename>
+      <cvename>CVE-2021-38000</cvename>
+      <cvename>CVE-2021-38001</cvename>
+      <cvename>CVE-2021-38002</cvename>
+      <cvename>CVE-2021-38003</cvename>
+      <url>https://chromereleases.googleblog.com/2021/10/stable-channel-update-for-desktop_28.html</url>
+    </references>
+    <dates>
+      <discovery>2021-10-28</discovery>
+      <entry>2021-10-29</entry>
+    </dates>
+  </vuln>
+
+  <vuln vid="c848059a-318b-11ec-aa15-0800270512f4">
+    <topic>fail2ban -- possible RCE vulnerability in mailing action using mailutils</topic>
+    <affects>
+      <package>
+	<name>py36-fail2ban</name>
+	<name>py37-fail2ban</name>
+	<name>py38-fail2ban</name>
+	<name>py39-fail2ban</name>
+	<name>py310-fail2ban</name>
+	<range><lt>0.11.2_3</lt></range>
+      </package>
+    </affects>
+    <description>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+	<p>Jakub Żoczek reports:</p>
+	<blockquote cite="https://github.com/fail2ban/fail2ban/security/advisories/GHSA-m985-3f3v-cwmm">
+	  <p>
+	    Command <code>mail</code> from mailutils package used in mail actions
+	    like <code>mail-whois</code> can execute command if unescaped sequences
+	    (<code>\n~</code>) are available in "foreign" input (for instance in
+	    whois output).
+	  </p>
+	</blockquote>
+      </body>
+    </description>
+    <references>
+      <cvename>CVE-2021-32749</cvename>
+      <url>https://github.com/fail2ban/fail2ban/security/advisories/GHSA-m985-3f3v-cwmm</url>
+    </references>
+    <dates>
+      <discovery>2021-07-16</discovery>
+      <entry>2021-10-28</entry>
+    </dates>
+  </vuln>
+
+  <vuln vid="757ee63b-269a-11ec-a616-6c3be5272acd">
+    <topic>Grafana -- Snapshot authentication bypass</topic>
+    <affects>
+      <package>
+	<name>grafana8</name>
+	<name>grafana7</name>
+	<name>grafana6</name>
+	<name>grafana</name>
+	<range><ge>8.0.0</ge><lt>8.1.6</lt></range>
+	<range><ge>2.0.1</ge><lt>7.5.11</lt></range>
+      </package>
+    </affects>
+    <description>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+	<p>Grafana Labs reports:</p>
+	<blockquote cite="https://grafana.com/blog/2021/10/05/grafana-7.5.11-and-8.1.6-released-with-critical-security-fix/">
+	  <p>Unauthenticated and authenticated users are able to view the snapshot with the lowest database key by accessing the literal paths:</p>
+	  <ul>
+	    <li><code>/dashboard/snapshot/:key</code>, or</li>
+	    <li><code>/api/snapshots/:key</code></li>
+	  </ul>
+	  <p>If the snapshot "public_mode" configuration setting is set to true (vs default of false), unauthenticated users are able to delete the snapshot with the lowest database key by accessing the literal path:</p>
+	  <ul>
+	    <li><code>/api/snapshots-delete/:deleteKey</code></li>
+	  </ul>
+	  <p>Regardless of the snapshot "public_mode" setting, authenticated users are able to delete the snapshot with the lowest database key by accessing the literal paths:</p>
+	  <ul>
+	    <li><code>/api/snapshots/:key</code>, or</li>
+	    <li><code>/api/snapshots-delete/:deleteKey</code></li>
+	  </ul>
+	  <p>The combination of deletion and viewing enables a complete walk through all snapshot data while resulting in complete snapshot data loss.</p>
+	</blockquote>
+      </body>
+    </description>
+    <references>
+      <cvename>CVE-2021-39226</cvename>
+      <url>https://grafana.com/blog/2021/10/05/grafana-7.5.11-and-8.1.6-released-with-critical-security-fix/</url>
+    </references>
+    <dates>
+      <discovery>2021-09-15</discovery>
+      <entry>2021-10-06</entry>
+    </dates>
+  </vuln>
+
   <vuln vid="f4b15f7d-d33a-4cd0-a97b-709d6af0e43e">
     <topic>minio -- policy restriction issue</topic>
     <affects>
@@ -8796,7 +8987,7 @@ raptor_xml_writer_start_element_common.</p>
       </package>
       <package>
 	<name>openssl-devel</name>
-	<range><lt>3.0.0a12</lt></range>
+	<range><lt>3.0.0.a12</lt></range>
       </package>
       <package>
 	<name>FreeBSD</name>

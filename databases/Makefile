@@ -32,6 +32,7 @@
     SUBDIR += cassandra3
     SUBDIR += cassandra4
     SUBDIR += casstcl
+    SUBDIR += caterva
     SUBDIR += cayley
     SUBDIR += cdb
     SUBDIR += cego
@@ -228,7 +229,6 @@
     SUBDIR += mysqldump-secure
     SUBDIR += mysqlreport
     SUBDIR += mysqlsla
-    SUBDIR += mysqlsniffer
     SUBDIR += mysqltcl
     SUBDIR += mysqltuner
     SUBDIR += mysqlwsrep56-server
@@ -757,6 +757,7 @@
     SUBDIR += py-bsddb3
     SUBDIR += py-carbon
     SUBDIR += py-cassandra-driver
+    SUBDIR += py-caterva
     SUBDIR += py-couchdb
     SUBDIR += py-dbf
     SUBDIR += py-dbutils
@@ -880,7 +881,6 @@
     SUBDIR += rubygem-activemodel52
     SUBDIR += rubygem-activemodel60
     SUBDIR += rubygem-activemodel61
-    SUBDIR += rubygem-activemodel613
     SUBDIR += rubygem-activerecord-explain-analyze
     SUBDIR += rubygem-activerecord-import
     SUBDIR += rubygem-activerecord-jdbc-adapter
@@ -892,7 +892,6 @@
     SUBDIR += rubygem-activerecord52
     SUBDIR += rubygem-activerecord60
     SUBDIR += rubygem-activerecord61
-    SUBDIR += rubygem-activerecord613
     SUBDIR += rubygem-after_commit_queue
     SUBDIR += rubygem-amalgalite
     SUBDIR += rubygem-arel
@@ -980,6 +979,7 @@
     SUBDIR += rubygem-redis-actionpack-rails61
     SUBDIR += rubygem-redis-namespace
     SUBDIR += rubygem-redis-namespace16
+    SUBDIR += rubygem-redis44
     SUBDIR += rubygem-sdbm
     SUBDIR += rubygem-seed-fu
     SUBDIR += rubygem-sqlite3
