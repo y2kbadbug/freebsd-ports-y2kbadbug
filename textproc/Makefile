@@ -633,6 +633,7 @@
     SUBDIR += p5-Net-YASA
     SUBDIR += p5-NetAddr-IP-Find
     SUBDIR += p5-Number-Format
+    SUBDIR += p5-Number-Format-Metric
     SUBDIR += p5-Number-Spell
     SUBDIR += p5-ODF-lpOD
     SUBDIR += p5-OpenOffice-OODoc
@@ -1618,6 +1619,7 @@
     SUBDIR += rubygem-elasticsearch
     SUBDIR += rubygem-elasticsearch-api
     SUBDIR += rubygem-elasticsearch-api6
+    SUBDIR += rubygem-elasticsearch-api713
     SUBDIR += rubygem-elasticsearch-dsl
     SUBDIR += rubygem-elasticsearch-model
     SUBDIR += rubygem-elasticsearch-model6
@@ -1626,8 +1628,10 @@
     SUBDIR += rubygem-elasticsearch-rails6
     SUBDIR += rubygem-elasticsearch-transport
     SUBDIR += rubygem-elasticsearch-transport6
+    SUBDIR += rubygem-elasticsearch-transport713
     SUBDIR += rubygem-elasticsearch-xpack
     SUBDIR += rubygem-elasticsearch6
+    SUBDIR += rubygem-elasticsearch713
     SUBDIR += rubygem-emot
     SUBDIR += rubygem-escape_utils
     SUBDIR += rubygem-escape_utils11

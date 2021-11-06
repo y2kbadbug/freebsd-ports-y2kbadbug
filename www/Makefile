@@ -109,6 +109,7 @@
     SUBDIR += dojo
     SUBDIR += dokuwiki
     SUBDIR += dolibarr
+    SUBDIR += dolibarr13
     SUBDIR += domoticz
     SUBDIR += dooble
     SUBDIR += drupal7
@@ -463,6 +464,7 @@
     SUBDIR += npc
     SUBDIR += npm
     SUBDIR += npm-node14
+    SUBDIR += npm-node16
     SUBDIR += nspluginwrapper
     SUBDIR += oauth2-proxy
     SUBDIR += obhttpd
@@ -1550,6 +1552,7 @@
     SUBDIR += py-django-post_office
     SUBDIR += py-django-prometheus
     SUBDIR += py-django-pyscss
+    SUBDIR += py-django-radius
     SUBDIR += py-django-ranged-response
     SUBDIR += py-django-recaptcha
     SUBDIR += py-django-redis
