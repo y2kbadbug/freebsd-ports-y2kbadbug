@@ -169,6 +169,7 @@
     SUBDIR += lua53
     SUBDIR += lua54
     SUBDIR += luajit
+    SUBDIR += luajit-devel
     SUBDIR += luajit-openresty
     SUBDIR += malbolge
     SUBDIR += maude
@@ -356,6 +357,7 @@
     SUBDIR += urweb
     SUBDIR += v
     SUBDIR += v8
+    SUBDIR += v8-beta
     SUBDIR += vala
     SUBDIR += visualworks
     SUBDIR += voc

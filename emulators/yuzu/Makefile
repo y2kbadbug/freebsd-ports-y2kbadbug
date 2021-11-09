@@ -1,10 +1,10 @@
 PORTNAME=	yuzu
-PORTVERSION=	s20211008
+PORTVERSION=	s20211105
 PORTREVISION?=	0
 CATEGORIES=	emulators
 
 PATCH_SITES=	https://github.com/${GH_ACCOUNT}/${GH_PROJECT}/commit/
-PATCHFILES+=	0acf96796cae.patch:-p1 # https://github.com/yuzu-emu/yuzu/pull/6598 mainline-merge
+PATCHFILES+=	1b9d4938b417.patch:-p1 # https://github.com/yuzu-emu/yuzu/pull/6598 mainline-merge
 
 MAINTAINER=	jbeich@FreeBSD.org
 COMMENT=	Nintendo Switch emulator/debugger
@@ -33,11 +33,11 @@ LIB_DEPENDS=	liblz4.so:archivers/liblz4 \
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	yuzu-emu
-GH_TAGNAME=	39cd6306e
+GH_TAGNAME=	ced130297
 GH_TUPLE=	yuzu-emu:mbedtls:v2.16.9-115-g8c88150ca:mbedtls/externals/mbedtls \
 		KhronosGroup:SPIRV-Headers:1.5.4.raytracing.fixed-32-ga3fdfe8:SPIRV_Headers/externals/sirit/externals/SPIRV-Headers \
 		KhronosGroup:Vulkan-Headers:v1.2.180:Vulkan_Headers/externals/Vulkan-Headers \
-		MerryMage:dynarmic:r5-113-g517e35f8:dynarmic/externals/dynarmic \
+		MerryMage:dynarmic:r5-127-gcce7e4ee:dynarmic/externals/dynarmic \
 		ReinUsesLisp:sirit:a395963:sirit/externals/sirit \
 		arsenm:sanitizers-cmake:aab6948:sanitizers_cmake/externals/cubeb/cmake/sanitizers-cmake \
 		benhoyt:inih:r52:inih/externals/inih/inih \

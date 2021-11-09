@@ -111,7 +111,6 @@ RUN_DEPENDS=								\
 BUILD_DEPENDS+=	gcc${GCC_DEFAULT}>0:lang/gcc${GCC_DEFAULT}
 RUN_DEPENDS+=	gcc${GCC_DEFAULT}>0:lang/gcc${GCC_DEFAULT}
 
-
 USES=		autoreconf bison compiler:c++11-lib cpe desktop-file-utils \
 		gettext-runtime gl gmake gnome iconv jpeg perl5 pkgconfig \
 		python:3.7 shared-mime-info ssl tar:${TARTYPE} xorg
@@ -159,7 +158,6 @@ XDGDIR=			${OOPATH}/share/xdg
 XDGREL=			../../${INSTALLATION_BASEDIR}/openoffice${AOOVERSION1}/share/xdg
 EXECBASE?=		openoffice-${AOOSUFFIX}
 
-INSTALLS_ICONS=	yes
 WITHOUT_CPU_CFLAGS=	true
 CPE_PRODUCT=	${PORTNAME:S|apache-||}
 CPE_VENDOR=	apache

@@ -1,27 +1,20 @@
 PORTNAME=	mesa
-DISTVERSION=	21.2-branchpoint-3412
-DISTVERSIONSUFFIX=	-g878d8d96c75
+DISTVERSION=	21.3-branchpoint-766
+DISTVERSIONSUFFIX=	-g38f0b36f1ac
 CATEGORIES=	graphics
 PKGNAMESUFFIX=	-devel
 
 PATCH_SITES=	https://github.com/${GH_ACCOUNT}/${GH_PROJECT}/commit/
-PATCHFILES+=	55822330540d.patch:-p1 # https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests/1598
-PATCHFILES+=	f6c7569ad9ea.patch:-p1 # https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests/1598
 PATCHFILES+=	cb8f7a253934.patch:-p1 # https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests/3568
 PATCHFILES+=	700efacda59c.patch:-p1
 PATCHFILES+=	e141af3ac859.patch:-p1 # https://gitlab.freedesktop.org/mesa/mesa/-/issues/966#note_394512
-PATCHFILES+=	167fa293d7b7.patch:-p1 # https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests/5464
 PATCHFILES+=	50433886a3e3.patch:-p1 # https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests/6881
-PATCHFILES+=	891152495cf7.patch:-p1 # https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests/9168
-PATCHFILES+=	af6462c2b844.patch:-p1 # https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests/13236
 
 MAINTAINER=	jbeich@FreeBSD.org
 COMMENT=	Bleeding edge Mesa drivers (OpenGL, Vulkan)
 
 LICENSE=	MIT
 
-BROKEN_DragonFly=	https://gitlab.freedesktop.org/mesa/mesa/-/issues/5459
-BROKEN_FreeBSD_12=	https://gitlab.freedesktop.org/mesa/mesa/-/issues/5459
 ONLY_FOR_ARCHS=	aarch64 amd64 i386 powerpc64 powerpc64le
 ONLY_FOR_ARCHS_REASON=	Limited scope: no old drivers and no software rendering. \
 			See also https://mesamatrix.net/
@@ -35,7 +28,8 @@ LIB_DEPENDS=	libdrm.so:graphics/libdrm \
 LIB_DEPENDS+=	libelf.so:devel/libelf
 .endif
 
-USES=		bison compiler:c++11-lib meson pkgconfig python:3.6+,build shebangfix
+USES=		bison cpe compiler:c++11-lib meson pkgconfig python:3.6+,build shebangfix
+CPE_VENDOR=	mesa3d
 USE_GITHUB=	yes
 GH_ACCOUNT=	mesa3d
 USE_LDCONFIG=	yes

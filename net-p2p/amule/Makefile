@@ -14,7 +14,7 @@ LICENSE_FILE_GPLv2+ =	${WRKSRC}/docs/COPYING
 
 LIB_DEPENDS=	libcryptopp.so:security/cryptopp
 
-CONFLICTS=	amule-devel-[0-9]*
+CONFLICTS=	amule-devel
 
 USES=		bison compiler:c++11-lang cpe desktop-file-utils gmake \
 		localbase:ldflags perl5 pkgconfig shebangfix tar:xz
@@ -87,7 +87,7 @@ UPNP_LIB_DEPENDS=	libupnp.so:devel/upnp
 UPNP_CONFIGURE_OFF=	--disable-upnp
 
 WEBSERVER_CONFIGURE_ON=	--enable-webserver
-WEBSERVER_LIB_DEPENDS=  libpng.so:graphics/png
+WEBSERVER_LIB_DEPENDS=	libpng.so:graphics/png
 WEBSERVER_USES=		readline
 
 WXCAS_CONFIGURE_ON=	--enable-wxcas

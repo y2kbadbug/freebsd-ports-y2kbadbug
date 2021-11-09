@@ -34,7 +34,6 @@
     SUBDIR += aslookup
     SUBDIR += asterisk-chan_sccp
     SUBDIR += asterisk-g72x
-    SUBDIR += asterisk13
     SUBDIR += asterisk16
     SUBDIR += asterisk18
     SUBDIR += astron
@@ -126,11 +125,13 @@
     SUBDIR += dictd
     SUBDIR += dimes
     SUBDIR += dpdk
+    SUBDIR += dpdk-20.11
     SUBDIR += dpinger
     SUBDIR += drawterm
     SUBDIR += drive
     SUBDIR += dropbox-api-command
     SUBDIR += dropbox-uploader
+    SUBDIR += dshell
     SUBDIR += dtcp
     SUBDIR += dtcpclient
     SUBDIR += dual-dhclient
@@ -155,6 +156,7 @@
     SUBDIR += findomain
     SUBDIR += flower
     SUBDIR += foreman-proxy
+    SUBDIR += fort
     SUBDIR += fpc-ldap
     SUBDIR += fpc-libenet
     SUBDIR += fpc-pcap
@@ -281,7 +283,6 @@
     SUBDIR += ipsvd
     SUBDIR += ipxe
     SUBDIR += irrd
-    SUBDIR += irrd-legacy
     SUBDIR += isboot-kmod
     SUBDIR += isc-dhcp44-client
     SUBDIR += isc-dhcp44-relay
@@ -1133,6 +1134,7 @@
     SUBDIR += py-sshtunnel
     SUBDIR += py-sshuttle
     SUBDIR += py-stomp.py
+    SUBDIR += py-suds-community
     SUBDIR += py-suds-jurko
     SUBDIR += py-tacacs_plus
     SUBDIR += py-terminado
@@ -1210,7 +1212,6 @@
     SUBDIR += rubygem-activestorage52
     SUBDIR += rubygem-activestorage60
     SUBDIR += rubygem-activestorage61
-    SUBDIR += rubygem-activestorage613
     SUBDIR += rubygem-amazon-ec2
     SUBDIR += rubygem-amq-protocol
     SUBDIR += rubygem-amqp
@@ -1296,6 +1297,7 @@
     SUBDIR += rubygem-http-parser
     SUBDIR += rubygem-http_parser.rb
     SUBDIR += rubygem-httpauth
+    SUBDIR += rubygem-ipaddr
     SUBDIR += rubygem-ipaddress
     SUBDIR += rubygem-iproto
     SUBDIR += rubygem-kas-grpc
