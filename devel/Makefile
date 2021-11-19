@@ -1859,6 +1859,7 @@
     SUBDIR += p5-Callback-Frame
     SUBDIR += p5-Canary-Stability
     SUBDIR += p5-Capture-Tiny
+    SUBDIR += p5-Capture-Tiny-Extended
     SUBDIR += p5-Carp
     SUBDIR += p5-Carp-Always
     SUBDIR += p5-Carp-Always-Color
@@ -2988,6 +2989,7 @@
     SUBDIR += p5-Object-Simple
     SUBDIR += p5-Object-Tiny
     SUBDIR += p5-Object-Tiny-Lvalue
+    SUBDIR += p5-Object-Tiny-RW
     SUBDIR += p5-Olson-Abbreviations
     SUBDIR += p5-Opcodes
     SUBDIR += p5-OrePAN2
@@ -7181,6 +7183,7 @@
     SUBDIR += xdg-user-dirs
     SUBDIR += xdg-utils
     SUBDIR += xdgpaths
+    SUBDIR += xelfviewer
     SUBDIR += xeus
     SUBDIR += xeus-cling
     SUBDIR += xfce4-dev-tools
