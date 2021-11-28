@@ -1075,9 +1075,13 @@
     SUBDIR += xplot
     SUBDIR += xspread
     SUBDIR += xtensor
+    SUBDIR += xtensor-blas
+    SUBDIR += xtensor-io
+    SUBDIR += xtensor-python
     SUBDIR += yacas
     SUBDIR += yices
     SUBDIR += z3
+    SUBDIR += zarray
     SUBDIR += zegrapher
     SUBDIR += zimpl
     SUBDIR += zn_poly
