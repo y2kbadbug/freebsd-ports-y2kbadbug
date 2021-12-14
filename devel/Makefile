@@ -33,6 +33,7 @@
     SUBDIR += R-cran-covr
     SUBDIR += R-cran-cpp11
     SUBDIR += R-cran-crayon
+    SUBDIR += R-cran-cyclocomp
     SUBDIR += R-cran-data.table
     SUBDIR += R-cran-desc
     SUBDIR += R-cran-devtools
@@ -65,6 +66,7 @@
     SUBDIR += R-cran-itertools
     SUBDIR += R-cran-later
     SUBDIR += R-cran-lifecycle
+    SUBDIR += R-cran-lintr
     SUBDIR += R-cran-listenv
     SUBDIR += R-cran-lubridate
     SUBDIR += R-cran-magrittr
@@ -812,6 +814,7 @@
     SUBDIR += generate
     SUBDIR += gengetopt
     SUBDIR += genie
+    SUBDIR += getoptions
     SUBDIR += gettext
     SUBDIR += gettext-lint
     SUBDIR += gettext-msghack
@@ -905,6 +908,7 @@
     SUBDIR += google-perftools
     SUBDIR += google-styleguide
     SUBDIR += googletest
+    SUBDIR += gopls
     SUBDIR += goprotobuf
     SUBDIR += goredo
     SUBDIR += goreleaser
@@ -6446,6 +6450,7 @@
     SUBDIR += rubygem-io-wait
     SUBDIR += rubygem-iobuffer
     SUBDIR += rubygem-iostruct
+    SUBDIR += rubygem-ipynbdiff
     SUBDIR += rubygem-irb
     SUBDIR += rubygem-iso8601
     SUBDIR += rubygem-jaeger-client
@@ -6753,6 +6758,7 @@
     SUBDIR += rubygem-scanf
     SUBDIR += rubygem-schash
     SUBDIR += rubygem-scientist
+    SUBDIR += rubygem-sd_notify
     SUBDIR += rubygem-sdoc
     SUBDIR += rubygem-semantic_puppet
     SUBDIR += rubygem-semantic_range
@@ -7026,6 +7032,7 @@
     SUBDIR += soapui
     SUBDIR += sobjectizer
     SUBDIR += socket_wrapper
+    SUBDIR += soft-serve
     SUBDIR += sol2
     SUBDIR += sonar-scanner-cli
     SUBDIR += sonarqube-ant-task
