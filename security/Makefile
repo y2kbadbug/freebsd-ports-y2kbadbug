@@ -29,6 +29,7 @@
     SUBDIR += apache-xml-security-c
     SUBDIR += apg
     SUBDIR += apkid
+    SUBDIR += archlinux-keyring
     SUBDIR += arirang
     SUBDIR += arpCounterattack
     SUBDIR += arti
@@ -806,8 +807,11 @@
     SUBDIR += php74-openssl
     SUBDIR += php74-sodium
     SUBDIR += php80-filter
+    SUBDIR += php81-filter
     SUBDIR += php80-openssl
+    SUBDIR += php81-openssl
     SUBDIR += php80-sodium
+    SUBDIR += php81-sodium
     SUBDIR += phpsecinfo
     SUBDIR += picosha2
     SUBDIR += pidgin-encryption
@@ -1078,8 +1082,6 @@
     SUBDIR += rubygem-devise-two-factor-rails5
     SUBDIR += rubygem-devise-two-factor-rails60
     SUBDIR += rubygem-devise-two-factor-rails61
-    SUBDIR += rubygem-devise-two-factor30-rails52
-    SUBDIR += rubygem-devise-two-factor30-rails60
     SUBDIR += rubygem-devise_pam_authenticatable2
     SUBDIR += rubygem-digest-crc
     SUBDIR += rubygem-doorkeeper
@@ -1112,10 +1114,8 @@
     SUBDIR += rubygem-net-sftp2
     SUBDIR += rubygem-net-ssh
     SUBDIR += rubygem-net-ssh-gateway
-    SUBDIR += rubygem-net-ssh-gateway1
     SUBDIR += rubygem-net-ssh-krb
     SUBDIR += rubygem-net-ssh-multi
-    SUBDIR += rubygem-net-ssh4
     SUBDIR += rubygem-net-ssh5
     SUBDIR += rubygem-net-telnet
     SUBDIR += rubygem-nexpose

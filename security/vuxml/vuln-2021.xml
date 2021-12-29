@@ -1,3 +1,275 @@
+  <vuln vid="a4ff3673-d742-4b83-8c2b-3ddafe732034">
+    <topic>minio -- User privilege escalation</topic>
+    <affects>
+      <package>
+	<name>minio</name>
+	<range><lt>2021.12.27.07.23.18</lt></range>
+      </package>
+    </affects>
+    <description>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+	<p>minio developers report:</p>
+	<blockquote cite="https://github.com/minio/minio/security/advisories/GHSA-j6jc-jqqc-p6cx">
+	  <p>AddUser() API endpoint was exposed to a legacy behavior. i.e it accepts a "policy" field</p>
+	  <p>This API is mainly used to create a user or update a user's password.</p>
+	  <p>However, a malicious client can hand-craft an HTTP API call that allows for updating Policy for a user and gaining higher privileges.</p>
+	</blockquote>
+      </body>
+    </description>
+    <references>
+      <cvename>CVE-2021-43858</cvename>
+      <url>https://github.com/minio/minio/security/advisories/GHSA-j6jc-jqqc-p6cx</url>
+    </references>
+    <dates>
+      <discovery>2021-12-27</discovery>
+      <entry>2021-12-29</entry>
+    </dates>
+  </vuln>
+
+  <vuln vid="ed8a4215-675c-11ec-8dd4-a0f3c100ae18">
+    <topic>Pillow -- Regular Expression Denial of Service (ReDoS)</topic>
+    <affects>
+      <package>
+	<name>py38-pillow</name>
+	<range><ge>5.2.0</ge><lt>8.3.2</lt></range>
+      </package>
+    </affects>
+    <description>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+	<p>GitHub Advisory Database reports:</p>
+	<blockquote cite="https://github.com/advisories/GHSA-98vv-pw6r-q6q4">
+	  <p>Uncontrolled Resource Consumption in pillow.</p>
+	  <p>The package pillow from 0 and before 8.3.2 are vulnerable to Regular
+	     Expression Denial of Service (ReDoS) via the getrgb function.</p>
+	  <p>References:</p>
+	  <ul>
+	    <li>https://nvd.nist.gov/vuln/detail/CVE-2021-23437</li>
+	    <li>https://github.com/python-pillow/Pillow/commit/9e08eb8f78fdfd2f476e1b20b7cf38683754866b</li>
+	    <li>https://pillow.readthedocs.io/en/stable/releasenotes/8.3.2.html</li>
+	    <li>https://snyk.io/vuln/SNYK-PYTHON-PILLOW-1319443</li>
+	    <li>https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RNSG6VFXTAROGF7ACYLMAZNQV4EJ6I2C/</li>
+	    <li>https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VKRCL7KKAKOXCVD7M6WC5OKFGL4L3SJT/</li>
+	  </ul>
+	</blockquote>
+      </body>
+    </description>
+    <references>
+      <cvename>CVE-2021-23437</cvename>
+      <url>https://nvd.nist.gov/vuln/detail/CVE-2021-23437</url>
+    </references>
+    <dates>
+      <discovery>2021-09-02</discovery>
+      <entry>2021-09-03</entry>
+    </dates>
+  </vuln>
+
+  <vuln vid="d1be3d73-6737-11ec-9eea-589cfc007716">
+    <topic>OpenSearch -- Log4Shell</topic>
+    <affects>
+      <package>
+	<name>opensearch</name>
+	<range><lt>1.2.3</lt></range>
+      </package>
+    </affects>
+    <description>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+	<p>OpenSearch reports:</p>
+	<blockquote cite="https://opensearch.org/blog/releases/2021/12/update-1-2-3/">
+	  <p>CVE-2021-45105 for Log4j was issued after the release of OpenSearch 1.2.2. This CVE advises upgrading to Log4j 2.17.0. While there has been no observed reproduction of the issue described in CVE-2021-45105 in OpenSearch, we have released OpenSearch 1.2.3 which updates Log4j to version 2.17.0.</p>
+	</blockquote>
+      </body>
+    </description>
+    <references>
+      <cvename>CVE-2021-45105</cvename>
+      <url>https://opensearch.org/blog/releases/2021/12/update-1-2-3/</url>
+    </references>
+    <dates>
+      <discovery>2021-12-16</discovery>
+      <entry>2021-12-27</entry>
+    </dates>
+  </vuln>
+
+  <vuln vid="b0f49cb9-6736-11ec-9eea-589cfc007716">
+    <topic>OpenSearch -- Log4Shell</topic>
+    <affects>
+      <package>
+	<name>opensearch</name>
+	<range><lt>1.2.2</lt></range>
+      </package>
+    </affects>
+    <description>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+	<p>OpenSearch reports:</p>
+	<blockquote cite="https://opensearch.org/blog/releases/2021/12/update-1-2-2/">
+	  <p>CVE-2021-45046 was issued shortly following the release of OpenSearch 1.2.1. This new CVE advises upgrading from Log4j 2.15.0 (used in OpenSearch 1.2.1) to Log4j 2.16.0. Out of an abundance of caution, the team is releasing OpenSearch 1.2.2 which includes Log4j 2.16.0. While there has been no observed reproduction of the issue described in CVE-2021-45046, Log4j 2.16.0 takes much more extensive JNDI mitigation measures.</p>
+	</blockquote>
+      </body>
+    </description>
+    <references>
+      <cvename>CVE-2021-45046</cvename>
+      <url>https://opensearch.org/blog/releases/2021/12/update-1-2-2/</url>
+    </references>
+    <dates>
+      <discovery>2021-12-14</discovery>
+      <entry>2021-12-27</entry>
+    </dates>
+  </vuln>
+
+  <vuln vid="1135e939-62b4-11ec-b8e2-1c1b0d9ea7e6">
+    <topic>opengrok -- Easily exploitable vulnerability allows low privileged attacker with network access via HTTPS to compromise OpenGrok.</topic>
+    <affects>
+      <package>
+	<name>opengrok</name>
+	<range><le>1.6.7</le></range>
+      </package>
+    </affects>
+    <description>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+	<p>Bobby Rauch of Accenture reports:</p>
+	<blockquote cite="https://medium.com/@bobbyrsec/oracle-opengrok-rce-cve-2021-2322-a284e5621bfe">
+	  <p>I ended up finding OpenGrok, and after careful testing, discovered that OpenGrok insecurely deserializes XML input, which can lead to Remote Code Execution. This vulnerability was found in all versions of OpenGrok &lt;1.6.8 and was reported to Oracle. The vulnerability has now been patched in OpenGrok 1.6.9, and has been issued a CVE. (https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-2322)</p>
+	</blockquote>
+      </body>
+    </description>
+    <references>
+      <cvename>CVE-2021-2322</cvename>
+      <url>https://www.oracle.com/security-alerts/oracle-open-source-cves-outside-other-oracle-public-documents.html</url>
+      <url>https://www.oracle.com/security-alerts/oracle-open-source-cves-outside-other-oracle-public-documents.html</url>
+      <url>https://github.com/oracle/opengrok/pull/3528</url>
+    </references>
+    <dates>
+      <discovery>2021-04-07</discovery>
+      <entry>2021-12-21</entry>
+    </dates>
+  </vuln>
+
+  <vuln vid="0a50bb48-625f-11ec-a1fb-080027cb2f6f">
+    <topic>mediawiki -- multiple vulnerabilities</topic>
+    <affects>
+      <package>
+	<name>mediawiki135</name>
+	<range><lt>1.35.5</lt></range>
+      </package>
+      <package>
+	<name>mediawiki136</name>
+	<range><lt>1.36.3</lt></range>
+      </package>
+      <package>
+	<name>mediawiki137</name>
+	<range><lt>1.37.1</lt></range>
+      </package>
+    </affects>
+    <description>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+	<p>Mediawiki reports:</p>
+	<blockquote cite="https://lists.wikimedia.org/hyperkitty/list/mediawiki-announce@lists.wikimedia.org/message/QEN3EK4JXAVJMJ5GF3GYOAKNJPEKFQYA/">
+	  <p>(T292763. CVE-2021-44854) REST API incorrectly publicly caches
+	    autocomplete search results from private wikis.</p>
+	  <p>(T271037, CVE-2021-44856) Title blocked in AbuseFilter can be created via
+	    Special:ChangeContentModel.</p>
+	  <p>(T297322, CVE-2021-44857) Unauthorized users can use action=mcrundo to
+	    replace the content of arbitrary pages.</p>
+	  <p> (T297322, CVE-2021-44858) Unauthorized users can view contents of private
+	    wikis using various actions.</p>
+	  <p>(T297574, CVE-2021-45038) Unauthorized users can access private wiki
+	    contents using rollback action</p>
+	  <p>(T293589, CVE-2021-44855) Blind Stored XSS in VisualEditor media dialog.</p>
+	  <p>(T294686) Special:Nuke doesn't actually delete pages.</p>
+	</blockquote>
+      </body>
+    </description>
+    <references>
+      <cvename>CVE-2021-44854</cvename>
+      <cvename>CVE-2021-44856</cvename>
+      <cvename>CVE-2021-44857</cvename>
+      <cvename>CVE-2021-44858</cvename>
+      <cvename>CVE-2021-45038</cvename>
+      <cvename>CVE-2021-44855</cvename>
+      <url>https://lists.wikimedia.org/hyperkitty/list/mediawiki-announce@lists.wikimedia.org/message/QEN3EK4JXAVJMJ5GF3GYOAKNJPEKFQYA/</url>
+    </references>
+    <dates>
+      <discovery>2021-12-01</discovery>
+      <entry>2021-12-21</entry>
+    </dates>
+  </vuln>
+
+  <vuln vid="650734b2-7665-4170-9a0a-eeced5e10a5e">
+    <topic>graylog -- remote code execution in log4j from user-controlled log input</topic>
+    <affects>
+      <package>
+    <name>graylog</name>
+    <range><lt>4.2.4</lt></range>
+      </package>
+    </affects>
+    <description>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+    <p>Apache Software Foundation reports:</p>
+    <blockquote cite="https://logging.apache.org/log4j/2.x/security.html">
+      <p>It was found that the fix to address CVE-2021-44228 in Apache
+       Log4j 2.15.0 was incomplete in certain non-default
+       configurations. This could allows attackers with control over
+       Thread Context Map (MDC) input data when the logging
+       configuration uses a non-default Pattern Layout with either a
+       Context Lookup (for example, $${ctx:loginId}) or a Thread
+       Context Map pattern (%X, %mdc, or %MDC) to craft malicious input
+       data using a JNDI Lookup pattern resulting in a denial of
+       service (DOS) attack. Log4j 2.15.0 makes a best-effort attempt
+       to restrict JNDI LDAP lookups to localhost by default. Log4j
+       2.16.0 fixes this issue by removing support for message lookup
+       patterns and disabling JNDI functionality by default.
+      </p>
+    </blockquote>
+      </body>
+    </description>
+    <references>
+      <cvename>CVE-2021-45046</cvename>
+      <url>https://github.com/Graylog2/graylog2-server/commit/d3e441f</url>
+      <url>https://github.com/Graylog2/graylog2-server/commit/dd24b85</url>
+      <url>https://logging.apache.org/log4j/2.x/security.html</url>
+    </references>
+    <dates>
+      <discovery>2021-11-14</discovery>
+      <entry>2021-12-17</entry>
+    </dates>
+  </vuln>
+
+  <vuln vid="ca982e2d-61a9-11ec-8be6-d4c9ef517024">
+    <topic>Apache httpd -- Multiple vulnerabilities</topic>
+    <affects>
+      <package>
+	<name>apache24</name>
+	<range><lt>2.4.52</lt></range>
+      </package>
+    </affects>
+    <description>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+	<p>The Apache httpd project reports:</p>
+	<blockquote cite="https://httpd.apache.org/security/vulnerabilities_24.html">
+	  <p>moderate: Possible NULL dereference or SSRF in forward proxy
+	    configurations in Apache HTTP Server 2.4.51 and earlier (CVE-2021-44224)
+	    <br/>A crafted URI sent to httpd configured as a forward proxy
+	    (ProxyRequests on) can cause a crash (NULL pointer dereference) or, for
+	    configurations mixing forward and reverse proxy declarations, can allow
+	    for requests to be directed to a declared Unix Domain Socket endpoint
+	    (Server Side Request Forgery).</p>
+	  <p>high: Possible buffer overflow when parsing multipart content in
+	    mod_lua of Apache HTTP Server 2.4.51 and earlier (CVE-2021-44790)<br/>A
+	    carefully crafted request body can cause a buffer overflow in the
+	    mod_lua multipart parser (r:parsebody() called from Lua scripts).</p>
+	</blockquote>
+      </body>
+    </description>
+    <references>
+      <cvename>CVE-2021-44224</cvename>
+      <cvename>CVE-2021-44790</cvename>
+      <url>https://httpd.apache.org/security/vulnerabilities_24.html</url>
+    </references>
+    <dates>
+      <discovery>2021-12-20</discovery>
+      <entry>2021-12-20</entry>
+    </dates>
+  </vuln>
+
   <vuln vid="1ea05bb8-5d74-11ec-bb1e-001517a2e1a4">
     <topic>serviio -- affected by log4j vulnerability</topic>
     <affects>
@@ -292,6 +564,74 @@
     <dates>
       <discovery>2021-12-11</discovery>
       <entry>2021-12-13</entry>
+    </dates>
+  </vuln>
+
+  <vuln vid="c2a7de31-5b42-11ec-8398-6c3be5272acd">
+    <topic>Grafana -- Directory Traversal</topic>
+    <affects>
+      <package>
+	<name>grafana</name>
+	<name>grafana8</name>
+	<range><ge>8.0.0</ge><lt>8.3.2</lt></range>
+      </package>
+    </affects>
+    <description>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+	<p>GitHub Security Labs reports:</p>
+	<blockquote cite="https://github.com/grafana/grafana/security/advisories/GHSA-7533-c8qv-jm9m">
+	  <p>A vulnerability through which authenticated users could read out fully lowercase or fully uppercase <code>.md</code> files through directory traversal. Doing our own follow-up investigation we found a related vulnerability through which authenticated users could read out arbitrary <code>.csv</code> files through directory traversal. Thanks to our defense-in-depth approach, at no time has <a href="https://grafana.com/cloud">Grafana Cloud</a> been vulnerable.</p>
+	  <p><strong>The vulnerable URL path is:</strong> <code>/api/ds/query</code></p>
+	</blockquote>
+      </body>
+    </description>
+    <references>
+      <cvename>CVE-2021-43815</cvename>
+      <url>https://grafana.com/blog/2021/12/10/grafana-8.3.2-and-7.5.12-released-with-moderate-severity-security-fix/</url>
+    </references>
+    <dates>
+      <discovery>2021-12-09</discovery>
+      <entry>2021-12-12</entry>
+    </dates>
+  </vuln>
+
+  <vuln vid="a994ff7d-5b3f-11ec-8398-6c3be5272acd">
+    <topic>Grafana -- Directory Traversal</topic>
+    <affects>
+      <package>
+	<name>grafana</name>
+	<range><ge>5.0.0</ge><lt>7.5.12</lt></range>
+	<range><ge>8.0.0</ge><lt>8.3.2</lt></range>
+      </package>
+      <package>
+	<name>grafana6</name>
+	<range><ge>6.0.0</ge></range>
+      </package>
+      <package>
+	<name>grafana7</name>
+	<range><ge>7.0.0</ge><lt>7.5.12</lt></range>
+      </package>
+      <package>
+	<name>grafana8</name>
+	<range><ge>8.0.0</ge><lt>8.3.2</lt></range>
+      </package>
+    </affects>
+    <description>
+      <body xmlns="http://www.w3.org/1999/xhtml">
+	<p>GitHub Security Labs reports:</p>
+	<blockquote cite="https://github.com/grafana/grafana/security/advisories/GHSA-c3q8-26ph-9g2q">
+	  <p>A vulnerability through which authenticated users could read out fully lowercase or fully uppercase <code>.md</code> files through directory traversal. Doing our own follow-up investigation we found a related vulnerability through which authenticated users could read out arbitrary <code>.csv</code> files through directory traversal. Thanks to our defense-in-depth approach, at no time has <a href="https://grafana.com/cloud">Grafana Cloud</a> been vulnerable.</p>
+	  <p><strong>The vulnerable URL path is:</strong> <code>/api/plugins/.*/markdown/.*</code> for <code>.md</code> files</p>
+	</blockquote>
+      </body>
+    </description>
+    <references>
+      <cvename>CVE-2021-43813</cvename>
+      <url>https://grafana.com/blog/2021/12/10/grafana-8.3.2-and-7.5.12-released-with-moderate-severity-security-fix/</url>
+    </references>
+    <dates>
+      <discovery>2021-12-09</discovery>
+      <entry>2021-12-12</entry>
     </dates>
   </vuln>
 
