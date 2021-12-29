@@ -59,7 +59,6 @@
     SUBDIR += asfsm
     SUBDIR += asmctl
     SUBDIR += asmem
-    SUBDIR += asmon
     SUBDIR += asusoled
     SUBDIR += atf-fvp
     SUBDIR += atf-master
@@ -917,6 +916,7 @@
     SUBDIR += parallel
     SUBDIR += parkverbot
     SUBDIR += pass-otp
+    SUBDIR += pass-secrets
     SUBDIR += pass-update
     SUBDIR += password-store
     SUBDIR += passwordsafe
@@ -956,7 +956,9 @@
     SUBDIR += php74-fileinfo
     SUBDIR += php74-posix
     SUBDIR += php80-fileinfo
+    SUBDIR += php81-fileinfo
     SUBDIR += php80-posix
+    SUBDIR += php81-posix
     SUBDIR += phybs
     SUBDIR += pick
     SUBDIR += pidof
@@ -1022,6 +1024,7 @@
     SUBDIR += py-azure-cli-telemetry
     SUBDIR += py-bitrot
     SUBDIR += py-borgmatic
+    SUBDIR += py-concurrent-log-handler
     SUBDIR += py-cron-descriptor
     SUBDIR += py-croniter
     SUBDIR += py-dict-toolbox
@@ -1145,7 +1148,6 @@
     SUBDIR += rubygem-bolt
     SUBDIR += rubygem-bosh-gen
     SUBDIR += rubygem-bundler
-    SUBDIR += rubygem-bundler1
     SUBDIR += rubygem-bundler_ext
     SUBDIR += rubygem-capistrano
     SUBDIR += rubygem-capistrano-ext
