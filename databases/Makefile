@@ -668,7 +668,6 @@
     SUBDIR += plpgsql_check
     SUBDIR += pointcloud
     SUBDIR += postgis-jdbc
-    SUBDIR += postgis24
     SUBDIR += postgis25
     SUBDIR += postgis30
     SUBDIR += postgis31
@@ -797,6 +796,7 @@
     SUBDIR += py-mycli
     SUBDIR += py-mysql-connector-python
     SUBDIR += py-mysqlclient
+    SUBDIR += py-ormar
     SUBDIR += py-partd
     SUBDIR += py-peewee
     SUBDIR += py-peewee_migrate
