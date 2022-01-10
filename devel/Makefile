@@ -814,6 +814,7 @@
     SUBDIR += generate
     SUBDIR += gengetopt
     SUBDIR += genie
+    SUBDIR += genromfs
     SUBDIR += getoptions
     SUBDIR += gettext
     SUBDIR += gettext-lint
@@ -4771,6 +4772,7 @@
     SUBDIR += py-maturin
     SUBDIR += py-mccabe
     SUBDIR += py-mdv
+    SUBDIR += py-mediafile
     SUBDIR += py-medikit
     SUBDIR += py-meliae
     SUBDIR += py-memory-profiler
