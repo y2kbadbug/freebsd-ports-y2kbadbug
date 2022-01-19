@@ -1,7 +1,7 @@
 # Created by: Kenneth Vestergaard Schmidt <kvs@pil.dk>
 
 PORTNAME=	emacs
-DISTVERSION=	29.0.50.20220103
+DISTVERSION=	29.0.50.20220115
 PORTEPOCH=	2
 CATEGORIES=	editors
 PKGNAMESUFFIX=	-devel
@@ -25,7 +25,7 @@ USES=		autoreconf:build cpe gmake localbase:ldflags ncurses pkgconfig
 CPE_VENDOR=	gnu
 USE_GITHUB=	yes
 GH_ACCOUNT=	emacs-mirror
-GH_TAGNAME=	ab5ee3e
+GH_TAGNAME=	9845f6b
 
 GNU_CONFIGURE=		yes
 CONFIGURE_ARGS=		--disable-build-details \
@@ -142,6 +142,7 @@ GNUTLS_LIB_DEPENDS=		libgnutls.so:security/gnutls
 GNUTLS_CONFIGURE_WITH=		gnutls
 GSETTINGS_USE=			GNOME=glib20
 GSETTINGS_CONFIGURE_WITH=	gsettings
+GSETTINGS_VARS=			GLIB_SCHEMAS+=org.gnu.emacs.defaults.gschema.xml
 GTK2_LIB_DEPENDS=		libfontconfig.so:x11-fonts/fontconfig \
 				libfreetype.so:print/freetype2
 GTK2_USE=			GNOME=cairo,gtk20

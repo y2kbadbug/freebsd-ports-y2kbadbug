@@ -43,6 +43,7 @@
     SUBDIR += bareos-webui
     SUBDIR += bareos18-webui
     SUBDIR += bareos19-webui
+    SUBDIR += bareos20-webui
     SUBDIR += beehive
     SUBDIR += bkmrkconv
     SUBDIR += bluefish
@@ -475,6 +476,7 @@
     SUBDIR += oneshot
     SUBDIR += onionbalance
     SUBDIR += onionshare
+    SUBDIR += onlyoffice-documentserver
     SUBDIR += openarc
     SUBDIR += opencart
     SUBDIR += orangehrm

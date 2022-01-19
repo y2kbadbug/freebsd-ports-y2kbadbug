@@ -21,6 +21,7 @@
     SUBDIR += OpenTomb
     SUBDIR += SRB2
     SUBDIR += SpaceCadetPinball
+    SUBDIR += SpaceCadetPinball-devel
     SUBDIR += abbayedesmorts
     SUBDIR += abe
     SUBDIR += abstreet
@@ -446,6 +447,7 @@
     SUBDIR += kobodeluxe
     SUBDIR += kodi-addon-game.libretro
     SUBDIR += kodi-addon-game.libretro.beetle-psx
+    SUBDIR += kodi-addon-game.libretro.fceumm
     SUBDIR += kodi-addon-game.libretro.genplus
     SUBDIR += kodi-addon-game.libretro.pcsx-rearmed
     SUBDIR += kodi-addon-game.libretro.picodrive

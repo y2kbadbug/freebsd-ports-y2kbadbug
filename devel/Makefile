@@ -28,6 +28,7 @@
     SUBDIR += R-cran-chron
     SUBDIR += R-cran-classInt
     SUBDIR += R-cran-cli
+    SUBDIR += R-cran-cliapp
     SUBDIR += R-cran-clipr
     SUBDIR += R-cran-clisymbols
     SUBDIR += R-cran-covr
@@ -74,6 +75,7 @@
     SUBDIR += R-cran-microbenchmark
     SUBDIR += R-cran-mockery
     SUBDIR += R-cran-optparse
+    SUBDIR += R-cran-pak
     SUBDIR += R-cran-parallelly
     SUBDIR += R-cran-pillar
     SUBDIR += R-cran-pkgbuild
@@ -147,6 +149,7 @@
     SUBDIR += allegro5
     SUBDIR += alog
     SUBDIR += aml
+    SUBDIR += ammonite
     SUBDIR += amqp-cpp
     SUBDIR += android-tools-adb
     SUBDIR += android-tools-fastboot
@@ -547,7 +550,6 @@
     SUBDIR += dxa65
     SUBDIR += dyncall
     SUBDIR += e00compr
-    SUBDIR += e2fsprogs-libss
     SUBDIR += eastl
     SUBDIR += easyexif
     SUBDIR += easygit
@@ -1550,7 +1552,6 @@
     SUBDIR += maven
     SUBDIR += maven-wrapper
     SUBDIR += maven3
-    SUBDIR += maven31
     SUBDIR += maven33
     SUBDIR += mcpp
     SUBDIR += mdb
@@ -4772,6 +4773,7 @@
     SUBDIR += py-mediafile
     SUBDIR += py-medikit
     SUBDIR += py-meliae
+    SUBDIR += py-memory-allocator
     SUBDIR += py-memory-profiler
     SUBDIR += py-mergedeep
     SUBDIR += py-microversion-parse
@@ -7199,7 +7201,6 @@
     SUBDIR += wand-libconfig
     SUBDIR += wandio
     SUBDIR += wasi-compiler-rt11
-    SUBDIR += wasi-compiler-rt12
     SUBDIR += wasi-compiler-rt13
     SUBDIR += wasi-libc
     SUBDIR += wasi-libcxx
