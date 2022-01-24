@@ -4910,6 +4910,7 @@
     SUBDIR += py-pendulum
     SUBDIR += py-pep517
     SUBDIR += py-pep562
+    SUBDIR += py-pep621
     SUBDIR += py-pep8-naming
     SUBDIR += py-period
     SUBDIR += py-persistent
@@ -6563,6 +6564,7 @@
     SUBDIR += rubygem-multi_test
     SUBDIR += rubygem-murmurhash3
     SUBDIR += rubygem-mustache
+    SUBDIR += rubygem-mustache-sinatra
     SUBDIR += rubygem-mustache0
     SUBDIR += rubygem-mustermann
     SUBDIR += rubygem-mustermann-grape
