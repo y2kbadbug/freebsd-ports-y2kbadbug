@@ -954,7 +954,6 @@
     SUBDIR += quesoglc
     SUBDIR += quickqanava
     SUBDIR += qvge
-    SUBDIR += radiance
     SUBDIR += radius-engine
     SUBDIR += rapid-photo-downloader
     SUBDIR += raster3d
@@ -999,6 +998,7 @@
     SUBDIR += rubygem-imagesize
     SUBDIR += rubygem-invisible_captcha
     SUBDIR += rubygem-mini_magick
+    SUBDIR += rubygem-mini_magick410
     SUBDIR += rubygem-objectdetect
     SUBDIR += rubygem-opengl
     SUBDIR += rubygem-pdfkit
