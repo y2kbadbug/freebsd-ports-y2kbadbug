@@ -4017,16 +4017,6 @@
     SUBDIR += php-ice37
     SUBDIR += php-libawl
     SUBDIR += php-maxminddb
-    SUBDIR += php73-gettext
-    SUBDIR += php73-intl
-    SUBDIR += php73-json
-    SUBDIR += php73-pcntl
-    SUBDIR += php73-readline
-    SUBDIR += php73-shmop
-    SUBDIR += php73-sysvmsg
-    SUBDIR += php73-sysvsem
-    SUBDIR += php73-sysvshm
-    SUBDIR += php73-tokenizer
     SUBDIR += php74-ffi
     SUBDIR += php74-gettext
     SUBDIR += php74-intl
@@ -4761,6 +4751,7 @@
     SUBDIR += py-macholib
     SUBDIR += py-magic
     SUBDIR += py-mailcap-fix
+    SUBDIR += py-makefun
     SUBDIR += py-manuel
     SUBDIR += py-marrow.mailer
     SUBDIR += py-marrow.util
@@ -5202,6 +5193,7 @@
     SUBDIR += py-retrying
     SUBDIR += py-retype
     SUBDIR += py-rfc3339
+    SUBDIR += py-rfc3339-validator
     SUBDIR += py-robotframework
     SUBDIR += py-robotframework-databaselibrary
     SUBDIR += py-robotframework-pabot
@@ -6164,6 +6156,7 @@
     SUBDIR += rubygem-blockenspiel
     SUBDIR += rubygem-bones
     SUBDIR += rubygem-bootsnap
+    SUBDIR += rubygem-bootsnap19
     SUBDIR += rubygem-bootstrap_form
     SUBDIR += rubygem-bson
     SUBDIR += rubygem-buftok
