@@ -1582,6 +1582,7 @@
     SUBDIR += mm
     SUBDIR += mm-common
     SUBDIR += modd
+    SUBDIR += mold
     SUBDIR += mongo-c-driver
     SUBDIR += mono-addins
     SUBDIR += monotone
@@ -7202,6 +7203,7 @@
     SUBDIR += wininfo
     SUBDIR += wizardkit
     SUBDIR += woff2
+    SUBDIR += wrangler
     SUBDIR += wxformbuilder
     SUBDIR += xa65
     SUBDIR += xbyak
