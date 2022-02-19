@@ -5,6 +5,35 @@ they are unavoidable.
 You should get into the habit of checking this file for changes each time
 you update your ports collection, before attempting any port upgrades.
 
+20220219:
+  AFFECTS: users of math/qhull*
+  AUTHOR: stephen@FreeBSD.org
+
+  Because of entries in MOVED, portupgrade can get confused updating qhull.
+  It is recommended that you delete qhull and ports depending upon it, and
+  then reinstalling all the dependent ports.
+
+20220218:
+  AFFECTS: users of TeX*
+  AUTHOR: bofh@FreeBSD.org
+
+  TeX system has been updated to 2021 from 2015. Normal pkg upgrade or
+  portmaster -a should handle all the upgrade properly. In case not please
+  create a ticket or send a mail to tex@FreeBSD.org
+
+  print/tex-aleph has been removed as per upstream. This package should be
+  removed manually:
+
+  # pkg remove tex-aleph
+
+20220218:
+  AFFECTS: users of net-mgmt/librenms
+  AUTHOR: dvl@FreeBSD.org
+
+  The storage directory has moved from WWWDIR to /var/db/librenms/storage
+  to comply with man 7 hier. When upgrading, you may need to manually create
+  this symlink.
+
 20220212:
   AFFECTS: users of lang/php8[01][-extensions]?
   AUTHOR: bofh@FreeBSD.org
