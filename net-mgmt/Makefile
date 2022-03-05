@@ -276,7 +276,6 @@
     SUBDIR += pandorafms_agent
     SUBDIR += pandorafms_console
     SUBDIR += pandorafms_server
-    SUBDIR += percona-monitoring-plugins
     SUBDIR += pftabled
     SUBDIR += php-fpm_exporter
     SUBDIR += php74-snmp
@@ -382,6 +381,7 @@
     SUBDIR += triton-guesttools
     SUBDIR += unbound_exporter
     SUBDIR += unifi6
+    SUBDIR += unifi7
     SUBDIR += victoria-metrics
     SUBDIR += virt-viewer
     SUBDIR += vmutils
@@ -392,11 +392,6 @@
     SUBDIR += xymon-client
     SUBDIR += xymon-server
     SUBDIR += yaf
-    SUBDIR += zabbix3-agent
-    SUBDIR += zabbix3-frontend
-    SUBDIR += zabbix3-java
-    SUBDIR += zabbix3-proxy
-    SUBDIR += zabbix3-server
     SUBDIR += zabbix4-agent
     SUBDIR += zabbix4-frontend
     SUBDIR += zabbix4-java

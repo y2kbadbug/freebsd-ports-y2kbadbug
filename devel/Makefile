@@ -62,6 +62,7 @@
     SUBDIR += R-cran-gmodels
     SUBDIR += R-cran-gsubfn
     SUBDIR += R-cran-gtools
+    SUBDIR += R-cran-hardhat
     SUBDIR += R-cran-hms
     SUBDIR += R-cran-ini
     SUBDIR += R-cran-iterators
@@ -136,19 +137,14 @@
     SUBDIR += acme
     SUBDIR += acsccid
     SUBDIR += activitymail
-    SUBDIR += ada-util
-    SUBDIR += adabooch
     SUBDIR += adacurses
-    SUBDIR += adaid
     SUBDIR += aegis
     SUBDIR += agar
-    SUBDIR += ahven
     SUBDIR += aifad
     SUBDIR += aixlog
     SUBDIR += ald
     SUBDIR += allegro
     SUBDIR += allegro5
-    SUBDIR += alog
     SUBDIR += aml
     SUBDIR += ammonite
     SUBDIR += amqp-cpp
@@ -171,6 +167,7 @@
     SUBDIR += api-sanity-autotest
     SUBDIR += apitrace
     SUBDIR += app-builder
+    SUBDIR += appstream
     SUBDIR += appstream-glib
     SUBDIR += apr1
     SUBDIR += arachne-pnr
@@ -214,7 +211,6 @@
     SUBDIR += atlantis
     SUBDIR += atlas
     SUBDIR += atlas-devel
-    SUBDIR += aunit
     SUBDIR += autobook
     SUBDIR += autoconf
     SUBDIR += autoconf-archive
@@ -695,7 +691,6 @@
     SUBDIR += flex-sdk35
     SUBDIR += flexdock
     SUBDIR += flexjson
-    SUBDIR += florist-gpl
     SUBDIR += flyspray
     SUBDIR += fmake
     SUBDIR += fnccheck
@@ -926,7 +921,6 @@
     SUBDIR += govendor
     SUBDIR += gperf
     SUBDIR += gpm
-    SUBDIR += gprbuild
     SUBDIR += gputils
     SUBDIR += gradle
     SUBDIR += gradle-completion
@@ -1189,6 +1183,7 @@
     SUBDIR += libconfuse
     SUBDIR += libcreg
     SUBDIR += libcrossguid
+    SUBDIR += libcuckoo
     SUBDIR += libcutl
     SUBDIR += libcwd
     SUBDIR += libdaemon
@@ -1387,7 +1382,6 @@
     SUBDIR += libsmraw
     SUBDIR += libsoup
     SUBDIR += libsoup3
-    SUBDIR += libspark2012
     SUBDIR += libspice-server
     SUBDIR += libstatgrab
     SUBDIR += libstatgrab0
@@ -1482,6 +1476,7 @@
     SUBDIR += llvm
     SUBDIR += llvm-cheri
     SUBDIR += llvm-devel
+    SUBDIR += llvm-morello
     SUBDIR += llvm10
     SUBDIR += llvm11
     SUBDIR += llvm12
@@ -1555,7 +1550,6 @@
     SUBDIR += marisa-trie
     SUBDIR += marl
     SUBDIR += mate-common
-    SUBDIR += matreshka
     SUBDIR += maven
     SUBDIR += maven-wrapper
     SUBDIR += maven3
@@ -1835,6 +1829,7 @@
     SUBDIR += p5-Benchmark-Timer
     SUBDIR += p5-Best
     SUBDIR += p5-Border-Style
+    SUBDIR += p5-BorderStyle
     SUBDIR += p5-BorderStyleBase
     SUBDIR += p5-BorderStyles-Standard
     SUBDIR += p5-Brannigan
@@ -3806,7 +3801,6 @@
     SUBDIR += pcre
     SUBDIR += pcre++
     SUBDIR += pcre2
-    SUBDIR += pcsc-ada
     SUBDIR += pcsc-lite
     SUBDIR += pdcurses
     SUBDIR += pear
@@ -4084,7 +4078,6 @@
     SUBDIR += poxml
     SUBDIR += ppl
     SUBDIR += pprof
-    SUBDIR += pragmarcs
     SUBDIR += premake
     SUBDIR += premake4
     SUBDIR += premake5
@@ -4191,6 +4184,7 @@
     SUBDIR += py-autocommand
     SUBDIR += py-autoflake
     SUBDIR += py-automaton
+    SUBDIR += py-autopage
     SUBDIR += py-autoprop
     SUBDIR += py-avro
     SUBDIR += py-awesomeversion
@@ -4339,6 +4333,7 @@
     SUBDIR += py-case
     SUBDIR += py-castellan
     SUBDIR += py-catalogue
+    SUBDIR += py-cattrs
     SUBDIR += py-cbor
     SUBDIR += py-cbor2
     SUBDIR += py-cclib
@@ -5231,6 +5226,7 @@
     SUBDIR += py-setuptools
     SUBDIR += py-setuptools-git
     SUBDIR += py-setuptools-pkg
+    SUBDIR += py-setuptools-rust
     SUBDIR += py-setuptools44
     SUBDIR += py-setuptools_hg
     SUBDIR += py-setuptools_scm
@@ -5350,6 +5346,7 @@
     SUBDIR += py-types-xxhash
     SUBDIR += py-typing-extensions
     SUBDIR += py-typing-inspect
+    SUBDIR += py-tzdata
     SUBDIR += py-tzlocal
     SUBDIR += py-u-msgpack-python
     SUBDIR += py-ua_parser
@@ -6226,6 +6223,7 @@
     SUBDIR += rubygem-cucumber-core
     SUBDIR += rubygem-cucumber-create-meta
     SUBDIR += rubygem-cucumber-cucumber-expressions
+    SUBDIR += rubygem-cucumber-cucumber-expressions14
     SUBDIR += rubygem-cucumber-formatter-dots
     SUBDIR += rubygem-cucumber-messages
     SUBDIR += rubygem-cucumber-messages4
@@ -6416,6 +6414,7 @@
     SUBDIR += rubygem-grape-path-helpers
     SUBDIR += rubygem-grape-route-helpers
     SUBDIR += rubygem-grape-swagger
+    SUBDIR += rubygem-grape15
     SUBDIR += rubygem-grape_logging
     SUBDIR += rubygem-graphiql-rails
     SUBDIR += rubygem-graphlient
@@ -6431,6 +6430,7 @@
     SUBDIR += rubygem-hashery
     SUBDIR += rubygem-hashie
     SUBDIR += rubygem-hashie-forbidden_attributes
+    SUBDIR += rubygem-hashie4
     SUBDIR += rubygem-health_check
     SUBDIR += rubygem-heapy
     SUBDIR += rubygem-highline
@@ -6997,7 +6997,6 @@
     SUBDIR += sdl20
     SUBDIR += sdl2pp
     SUBDIR += sdl_console
-    SUBDIR += sdl_gnat
     SUBDIR += sdlmm
     SUBDIR += sdlskk
     SUBDIR += sdts++
