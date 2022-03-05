@@ -96,6 +96,7 @@
     SUBDIR += csstidy
     SUBDIR += ctemplate
     SUBDIR += cutelyst
+    SUBDIR += darkhttpd
     SUBDIR += davical
     SUBDIR += davix
     SUBDIR += dddbl
@@ -158,6 +159,7 @@
     SUBDIR += ffsend
     SUBDIR += fgallery
     SUBDIR += filtron
+    SUBDIR += firedm
     SUBDIR += firefox
     SUBDIR += firefox-esr
     SUBDIR += flat-frog
@@ -320,6 +322,7 @@
     SUBDIR += logtools
     SUBDIR += ls-qpack
     SUBDIR += lua-resty-core
+    SUBDIR += lua-resty-http
     SUBDIR += lua-resty-lrucache
     SUBDIR += luakit
     SUBDIR += luakit-devel
@@ -1375,6 +1378,7 @@
     SUBDIR += pecl-yaf
     SUBDIR += pecl-yar
     SUBDIR += perlbal
+    SUBDIR += persepolis
     SUBDIR += pglogd
     SUBDIR += phalcon
     SUBDIR += phalcon4
@@ -1789,8 +1793,6 @@
     SUBDIR += py-webargs
     SUBDIR += py-webassets
     SUBDIR += py-webob
-    SUBDIR += py-weboob
-    SUBDIR += py-weboob-qt
     SUBDIR += py-websocket-client
     SUBDIR += py-webunit
     SUBDIR += py-werkzeug
@@ -1798,6 +1800,8 @@
     SUBDIR += py-whitenoise
     SUBDIR += py-wikipedia
     SUBDIR += py-wikitools
+    SUBDIR += py-woob
+    SUBDIR += py-woob-qt
     SUBDIR += py-ws4py
     SUBDIR += py-wsaccel
     SUBDIR += py-wsgidav

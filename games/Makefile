@@ -278,6 +278,7 @@
     SUBDIR += fortunate
     SUBDIR += fotaq
     SUBDIR += four-in-a-row
+    SUBDIR += freebee
     SUBDIR += freeblocks
     SUBDIR += freecell-solver
     SUBDIR += freeciv
@@ -1030,6 +1031,7 @@
     SUBDIR += wesnoth
     SUBDIR += whichwayisup
     SUBDIR += widelands
+    SUBDIR += wipeclean
     SUBDIR += wizznic
     SUBDIR += wmpuzzle
     SUBDIR += wmqstat
