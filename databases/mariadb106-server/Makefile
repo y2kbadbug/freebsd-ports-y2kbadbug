@@ -2,7 +2,7 @@
 
 PORTNAME?=	mariadb
 PORTVERSION=	10.6.7
-PORTREVISION?=	1
+PORTREVISION?=	3
 CATEGORIES=	databases
 MASTER_SITES=	http://mirrors.supportex.net/${SITESDIR}/ \
 		http://mirror2.hs-esslingen.de/pub/Mirrors/${SITESDIR}/ \
@@ -199,7 +199,7 @@ CMAKE_ARGS+=		-DPLUGIN_${PLUGIN}=NO
 
 .include <bsd.port.options.mk>
 
-.if ${OPSYS} == FreeBSD && ${OSVERSION} >= 1200057
+.if ${OPSYS} == FreeBSD
 SUB_LIST+=	LEGACY_LIMITS="@comment " MODERN_LIMITS=""
 .else
 SUB_LIST+=	LEGACY_LIMITS="" MODERN_LIMITS="@comment "

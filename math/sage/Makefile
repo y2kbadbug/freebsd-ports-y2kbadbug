@@ -2,7 +2,7 @@
 
 PORTNAME=	sage
 PORTVERSION=	9.2
-PORTREVISION=	23
+PORTREVISION=	24
 CATEGORIES=	math
 MASTER_SITES=	https://mirrors.xmission.com/sage/src/		\
 		http://mirrors.xmission.com/sage/src/		\
@@ -18,6 +18,8 @@ COMMENT=	Open source Mathematics software
 
 LICENSE=	GPLv3
 LICENSE_FILE=	${WRKSRC}/COPYING.txt
+
+BROKEN=		hoping to fix it with Python-3.9
 
 BUILD_DEPENDS=	bash:shells/bash		\
 		dash:shells/dash		\

@@ -5,6 +5,55 @@ they are unavoidable.
 You should get into the habit of checking this file for changes each time
 you update your ports collection, before attempting any port upgrades.
 
+20220410:
+  AFFECTS: users of sysutils/screen
+  AUTHOR: cy@FreeBSD.org
+
+  As of sysutils/screen-4.9.0_5, the MULTUSER option is default, reverting
+  to the traditional setuid-root behavior. People who wish to secure their
+  screen install must terminate all screen sessions, then install screen
+  without the MULTIUSER option. The option was reversed because it caused
+  too much astonishment among users of screen.
+
+20220401:
+  AFFECTS: security/sshguard
+  AUTHOR: kevinz5000@gmail.com
+
+  Blacklisting is now disabled by default to avoid overriding the setting in
+  sshguard.conf. To enable blacklisting, uncomment the BLACKLIST_FILE line in
+  sshguard.conf.
+
+20220329:
+  AFFECTS: users of sysutils/screen
+  AUTHOR: cy@FreeBSD.org
+
+  As of sysutils/screen-4.9.0_3, the multiuser feature is not supported
+  by default. The multiuser feature requires setuid root to function.
+  This creates a security risk. Some Linux distributions have had
+  non-setuuid root screen for a dozen or more years. FreeBSD is following
+  suit. A new MULTIUSER option has been added to enable users to install
+  setuid root screen. The MULTIUSER option default is OFF.
+
+  Users who wish to use the multiuser feature may,
+
+  - Build screen using the MULTIUSER option, or
+  - Poudriere users can use poudriere-options to enable the MULTIUSER
+    option, or
+  - Users can chmod the setuid bit for ${LOCALBASE}/bin/screen-4.9.0,
+    making screen setuid root to enable the multiuser feature.
+
+20220326:
+  AFFECTS: users of misc/freebsd-doc-*
+  AUTHOR: blackend@FreeBSD.org
+
+  A change to the doc toolchain prevents the build of individual
+  localized HTML versions of the documentation without building the
+  en_US version.  HTML option is currently disabled until a good
+  solution is found.  PDF version, the default option, is now the only
+  available option.
+
+  Please re-run "make config" to pick up this new default.
+
 20220313:
   AFFECTS: users of net/unison
   AUTHOR: madpilot@FreeBSD.org
@@ -75,7 +124,7 @@ you update your ports collection, before attempting any port upgrades.
   AFFECTS: users of sysutils/intel-pcm-devel
   AUTHOR: egypcio@FreeBSD.org
 
-  sysutils/intel-pcm-devel became quite obsolte once sysutils/intel-pcm is
+  sysutils/intel-pcm-devel became quite obsolete once sysutils/intel-pcm is
   now pretty much following a constant and stable update cycle, so users of
   the -devel version are encouraged to switch to it.
 
@@ -102,7 +151,7 @@ you update your ports collection, before attempting any port upgrades.
   create a ticket or send a mail to tex@FreeBSD.org
 
   print/tex-aleph has been removed as per upstream. This package should be
-  removed manually. Additionally users have reported to delete 
+  removed manually. Additionally users have reported to delete
   texlive-texmf prior to starting update, or pkg-static will indicate
   there is a conflict during the upgrade of texlive-base :
 
@@ -137,7 +186,7 @@ you update your ports collection, before attempting any port upgrades.
   # pkg delete -f php8[01]-openssl
   # service -R
 
-  While rebuilding from ports users old php.conf is not overwritten. So 
+  While rebuilding from ports users old php.conf is not overwritten. So
   have to manually remove the ports. For portmaster users:
   # sh
   # REINSTALL="$(pkg info -o "*php80*" | grep -v openssl | awk '{printf "%s ", $2}')"
@@ -168,6 +217,14 @@ you update your ports collection, before attempting any port upgrades.
   # rm -rf ~/.config/nvim/plugin/packer_compiled.lua
 
 20220128:
+  AFFECTS: users of x11-fonts/source-sans-ttf
+  AUTHOR: fernape@FreeBSD.org
+
+  The font name has changed its prefix from SourceSansPro* to SourceSans*.
+  Users of this font might need to change their configurations to pick up
+  the new names.
+
+20220128:
   AFFECTS: users of net-im/dendrite
   AUTHOR: ashish@FreeBSD.org
 
@@ -179,7 +236,7 @@ you update your ports collection, before attempting any port upgrades.
   AFFECTS: users of PyQt
   AUTHOR: kde@FreeBSD.org
 
-  Most of the PyQt ports have been merged into single port devel/py-qt5-pyqt. 
+  Most of the PyQt ports have been merged into single port devel/py-qt5-pyqt.
   `pkg upgrade` will handle update automatically .
 
 20220126:
@@ -305,9 +362,9 @@ you update your ports collection, before attempting any port upgrades.
   AFFECTS: users of emulators/qemu50
   AUTHOR: bofh@FreeBSD.org
 
-  emulators/qemu50 has been moved to emulators/qemu5 and updated to 5.2.0 
+  emulators/qemu50 has been moved to emulators/qemu5 and updated to 5.2.0
   which is the last version from 5.X.X branch. This is done in preparation
-  of updating emulators/qemu into latest 6.X bgranch. If someone wants to
+  of updating emulators/qemu into latest 6.X branch. If someone wants to
   stick with 5.X.X branch please use one of the following command:
 
   # pkg install qemu5
@@ -850,7 +907,7 @@ reinstall the new ones without using the pkg upgrade facility.
 
   By default, our Qt installations are done in:
   ${LOCALBASE}/lib/qt${QT_VERSION} as recommended.
-  We have added symbolic linking for the main binaries to 
+  We have added symbolic linking for the main binaries to
   ${LOCALBASE}/bin with the suffix -qt5.
 
 20210628:
@@ -1178,10 +1235,10 @@ reinstall the new ones without using the pkg upgrade facility.
   If you need i386 additions you can fallback to the old legacy
   ones.
 
-  NOTE: There is no support for moving saved running machine states 
-  across major updates of virtualbox. It is recommended to properly 
-  shutdown all virtual machines before upgrading. Otherwise the saved 
-  state can simply be discarded after the upgrade, if it's not 
+  NOTE: There is no support for moving saved running machine states
+  across major updates of virtualbox. It is recommended to properly
+  shutdown all virtual machines before upgrading. Otherwise the saved
+  state can simply be discarded after the upgrade, if it's not
   important to preserve it.
 
   It should also be possible to downgrade to the legacy ports and

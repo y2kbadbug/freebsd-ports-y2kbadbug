@@ -46,6 +46,7 @@
     SUBDIR += alienblaster
     SUBDIR += alienwave
     SUBDIR += allacrost
+    SUBDIR += amnesia-tdd
     SUBDIR += amoebax
     SUBDIR += an
     SUBDIR += angband
@@ -1157,6 +1158,7 @@
     SUBDIR += xzip
     SUBDIR += yadex
     SUBDIR += yahtzee
+    SUBDIR += yquake2
     SUBDIR += zangband
     SUBDIR += zatacka
     SUBDIR += zaz
