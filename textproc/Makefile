@@ -52,6 +52,7 @@
     SUBDIR += apache-poi
     SUBDIR += apache-solr
     SUBDIR += apertium
+    SUBDIR += apertium-eng
     SUBDIR += artha
     SUBDIR += asciidoc
     SUBDIR += asm-xml
@@ -87,6 +88,7 @@
     SUBDIR += castxml
     SUBDIR += catdoc
     SUBDIR += cdif
+    SUBDIR += cg3
     SUBDIR += cgrep
     SUBDIR += chkascii
     SUBDIR += chpp
@@ -106,7 +108,6 @@
     SUBDIR += consul-template
     SUBDIR += cpp-peglib
     SUBDIR += crex
-    SUBDIR += crimson
     SUBDIR += crunch
     SUBDIR += cs-aspell
     SUBDIR += cs-hunspell
@@ -135,6 +136,7 @@
     SUBDIR += diffmark
     SUBDIR += diffsplit
     SUBDIR += diffstat
+    SUBDIR += difftastic
     SUBDIR += diffutils
     SUBDIR += dikt
     SUBDIR += discount
@@ -338,7 +340,6 @@
     SUBDIR += kf5-kcodecs
     SUBDIR += kf5-sonnet
     SUBDIR += kf5-syntax-highlighting
-    SUBDIR += kibana6
     SUBDIR += kibana7
     SUBDIR += kiss-templates
     SUBDIR += kmfl-european-latin
@@ -434,7 +435,6 @@
     SUBDIR += lua-lyaml
     SUBDIR += luaexpat
     SUBDIR += lucene
-    SUBDIR += lucene4
     SUBDIR += lucene5
     SUBDIR += luceneplusplus
     SUBDIR += lv-aspell
@@ -451,6 +451,7 @@
     SUBDIR += md4c
     SUBDIR += mdbook
     SUBDIR += mdbook-linkcheck
+    SUBDIR += mdbook-mermaid
     SUBDIR += mdocml
     SUBDIR += meilisearch
     SUBDIR += meld
@@ -1172,6 +1173,7 @@
     SUBDIR += p5-libxml
     SUBDIR += p5-pod2pdf
     SUBDIR += p5-podlators
+    SUBDIR += p5-utf8-all
     SUBDIR += p5-xmltv
     SUBDIR += pa-aspell
     SUBDIR += pageedit
@@ -1327,6 +1329,7 @@
     SUBDIR += py-html2text2018
     SUBDIR += py-humanfriendly
     SUBDIR += py-hunspell
+    SUBDIR += py-ini2toml
     SUBDIR += py-isbnlib
     SUBDIR += py-isbntools
     SUBDIR += py-iso-639
@@ -1376,6 +1379,7 @@
     SUBDIR += py-nbsphinx
     SUBDIR += py-nltk
     SUBDIR += py-normality
+    SUBDIR += py-ntc-templates
     SUBDIR += py-numpydoc
     SUBDIR += py-ocrmypdf
     SUBDIR += py-openpyxl
@@ -1635,7 +1639,6 @@
     SUBDIR += rubygem-diff-lcs
     SUBDIR += rubygem-diff_match_patch
     SUBDIR += rubygem-diffy
-    SUBDIR += rubygem-diffy330
     SUBDIR += rubygem-docdiff
     SUBDIR += rubygem-elasticsearch
     SUBDIR += rubygem-elasticsearch-api

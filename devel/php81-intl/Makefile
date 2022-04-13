@@ -1,3 +1,4 @@
+PORTREVISION=	3
 CATEGORIES=	devel
 
 MASTERDIR=	${.CURDIR}/../../lang/php81

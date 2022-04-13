@@ -4,10 +4,10 @@ PORTNAME=	bind
 PORTVERSION=	${ISCVERSION:S/-P/P/:S/b/.b/:S/a/.a/:S/rc/.rc/}
 .if defined(BIND_TOOLS_SLAVE)
 # dns/bind-tools here
-PORTREVISION=	0
+PORTREVISION=	1
 .else
 # dns/bind918 here
-PORTREVISION=	0
+PORTREVISION=	1
 .endif
 CATEGORIES=	dns net
 MASTER_SITES=	ISC/bind9/${ISCVERSION}
@@ -112,7 +112,7 @@ TCP_FASTOPEN_DESC=	RFC 7413 support
 DOCS_ALL_TARGET=	all html
 DOCS_BUILD_DEPENDS=	sphinx-build:textproc/py-sphinx \
 			${PYTHON_PKGNAMEPREFIX}sphinx_rtd_theme>0:textproc/py-sphinx_rtd_theme@${PY_FLAVOR}
-DOCS_USES=	python:env
+DOCS_USES=	gmake python:env
 
 DNSTAP_CONFIGURE_ENABLE=	dnstap
 DNSTAP_LIB_DEPENDS=		libfstrm.so:devel/fstrm \
@@ -154,6 +154,7 @@ LMDB_CONFIGURE_WITH=	lmdb=${LOCALBASE}
 LMDB_LIB_DEPENDS=	liblmdb.so:databases/lmdb
 
 MANPAGES_BUILD_DEPENDS=	sphinx-build:textproc/py-sphinx
+MANPAGES_USES=	gmake
 
 OVERRIDECACHE_EXTRA_PATCHES=	${FILESDIR}/extrapatch-bind-min-override-ttl
 

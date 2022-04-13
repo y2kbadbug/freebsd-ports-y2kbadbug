@@ -113,6 +113,7 @@
     SUBDIR += gnustep-base
     SUBDIR += go
     SUBDIR += go-devel
+    SUBDIR += go117
     SUBDIR += gomacro
     SUBDIR += gprolog
     SUBDIR += gravity
@@ -297,10 +298,10 @@
     SUBDIR += rexx-regutil
     SUBDIR += rexx-wrapper
     SUBDIR += rhino
-    SUBDIR += ruby26
     SUBDIR += ruby27
     SUBDIR += ruby30
     SUBDIR += ruby31
+    SUBDIR += ruby32
     SUBDIR += rubygem-ruby_language_server
     SUBDIR += runawk
     SUBDIR += rust

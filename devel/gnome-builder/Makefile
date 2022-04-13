@@ -1,5 +1,6 @@
 PORTNAME=	gnome-builder
 PORTVERSION=	42.0
+PORTREVISION=	2
 CATEGORIES=	devel gnome
 MASTER_SITES=	GNOME/sources/${PORTNAME}/${PORTVERSION:C/^([0-9]+)\..*/\1/}
 DIST_SUBDIR=	gnome
