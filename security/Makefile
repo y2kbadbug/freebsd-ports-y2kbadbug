@@ -1070,6 +1070,7 @@
     SUBDIR += rubygem-nexpose
     SUBDIR += rubygem-nmap-parser
     SUBDIR += rubygem-omniauth
+    SUBDIR += rubygem-omniauth-alicloud
     SUBDIR += rubygem-omniauth-atlassian-oauth2
     SUBDIR += rubygem-omniauth-bitbucket
     SUBDIR += rubygem-omniauth-cas
@@ -1166,6 +1167,7 @@
     SUBDIR += silktools
     SUBDIR += sks
     SUBDIR += smurflog
+    SUBDIR += sniffglue
     SUBDIR += snoopy
     SUBDIR += snort
     SUBDIR += snort-rep
