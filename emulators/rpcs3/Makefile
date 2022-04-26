@@ -1,7 +1,7 @@
 PORTNAME=	rpcs3
 DISTVERSIONPREFIX=	v
-DISTVERSION=	0.0.21-13504 # git rev-list --count HEAD
-DISTVERSIONSUFFIX=	-g43d26fa6b
+DISTVERSION=	0.0.21-13526 # git rev-list --count HEAD
+DISTVERSIONSUFFIX=	-ge0d3a3b0e
 CATEGORIES=	emulators
 
 MAINTAINER=	jbeich@FreeBSD.org
@@ -12,7 +12,7 @@ LICENSE_COMB=	multi
 LICENSE_FILE_ISCL=	${WRKSRC_cubeb}/LICENSE
 LICENSE_FILE_ZLIB=	${WRKSRC_asmjit}/LICENSE.md
 
-BUILD_DEPENDS=	flatbuffers>=2.0.6:devel/flatbuffers
+BUILD_DEPENDS=	flatbuffers>0:devel/flatbuffers
 LIB_DEPENDS=	libxxhash.so:devel/xxhash \
 		libcurl.so:ftp/curl \
 		libpng.so:graphics/png \
