@@ -76,6 +76,7 @@
     SUBDIR += avfs
     SUBDIR += azure-agent
     SUBDIR += b2sum
+    SUBDIR += b3sum
     SUBDIR += b43-fwcutter
     SUBDIR += backuppc
     SUBDIR += backuppc-devel
@@ -1473,7 +1474,6 @@
     SUBDIR += ucspi-tcp
     SUBDIR += ucspi-unix
     SUBDIR += udfclient
-    SUBDIR += uefi-edk2-bhyve
     SUBDIR += uefi-edk2-bhyve-csm
     SUBDIR += uefi-edk2-qemu
     SUBDIR += ufetch
@@ -1583,6 +1583,7 @@
     SUBDIR += xstow
     SUBDIR += xsysstats
     SUBDIR += xvidcap
+    SUBDIR += yadf
     SUBDIR += yadm
     SUBDIR += yank
     SUBDIR += z
