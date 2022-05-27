@@ -15479,7 +15479,6 @@ news/rawdog||2020-09-19|Has expired: Uses deprecated version of python
 ports-mgmt/portell||2020-09-19|Has expired: Uses deprecated version of python
 print/biblio-py||2020-09-19|Has expired: Uses deprecated version of python
 science/brian||2020-09-19|Has expired: Uses deprecated version of python
-science/paraview||2020-09-19|Has expired: Uses deprecated version of python
 security/arm||2020-09-19|Has expired: Uses deprecated version of python
 security/ismtp||2020-09-19|Has expired: Uses deprecated version of python
 security/py-halberd||2020-09-19|Has expired: Uses deprecated version of python
@@ -17176,6 +17175,6 @@ java/openjdk13||2022-05-24|Has expired: EOLed since 31 march 2020
 java/openjdk14||2022-05-24|Has expired: EOLed since 30 september 2020
 java/openjdk15||2022-05-24|Has expired: EOLed since 31 march 2021
 java/openjdk16||2022-05-24|Has expired: EOLed since 30 September 2021
-sysutils/uefi-edk2-bhyve||2022-05-24|No more need for this port: please use sysutils/edk2 FLAVOR bhyve instead
+sysutils/uefi-edk2-bhyve|sysutils/edk2@bhyve|2022-05-24|No more need for this port: please use sysutils/edk2 FLAVOR bhyve instead
 archivers/p7zip|archivers/7-zip|2022-05-25|Unmaintained for years and has known vulnerabilities. Use 7-Zip instead
 graphics/blender-lts28|graphics/blender-lts29|2022-05-26|Has expired: EOLed
