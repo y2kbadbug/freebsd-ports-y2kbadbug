@@ -573,6 +573,7 @@
     SUBDIR += electron13
     SUBDIR += electron17
     SUBDIR += electron18
+    SUBDIR += electron19
     SUBDIR += elf
     SUBDIR += elf-dissector
     SUBDIR += elfcat
@@ -5137,6 +5138,7 @@
     SUBDIR += py-python-magic
     SUBDIR += py-python-mimeparse
     SUBDIR += py-python-pcre
+    SUBDIR += py-python-ptrace
     SUBDIR += py-python-rapidjson
     SUBDIR += py-python-socketio
     SUBDIR += py-python-statsd
