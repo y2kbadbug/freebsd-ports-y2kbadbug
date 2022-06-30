@@ -1661,7 +1661,6 @@
     SUBDIR += py-google-resumable-media
     SUBDIR += py-grafana-dashboard-manager
     SUBDIR += py-graphite-api
-    SUBDIR += py-graphite-web
     SUBDIR += py-grequests
     SUBDIR += py-grip
     SUBDIR += py-gunicorn
@@ -2357,6 +2356,7 @@
     SUBDIR += webhook
     SUBDIR += webinject
     SUBDIR += webkit2-gtk3
+    SUBDIR += webkit2-gtk4
     SUBDIR += weblint++
     SUBDIR += webpy
     SUBDIR += webresolve
