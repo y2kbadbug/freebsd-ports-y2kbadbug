@@ -17,7 +17,6 @@
     SUBDIR += bigyear
     SUBDIR += bijiben
     SUBDIR += birdtray
-    SUBDIR += bitcollider
     SUBDIR += bookworm
     SUBDIR += cairo-dock
     SUBDIR += cairo-dock-plugins
@@ -185,7 +184,6 @@
     SUBDIR += notification-daemon
     SUBDIR += notify-osd
     SUBDIR += orage
-    SUBDIR += osmo
     SUBDIR += owncloudclient
     SUBDIR += p5-Data-ICal
     SUBDIR += p5-Data-ICal-DateTime

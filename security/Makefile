@@ -192,7 +192,6 @@
     SUBDIR += gsa
     SUBDIR += gsad
     SUBDIR += gsasl
-    SUBDIR += gss
     SUBDIR += gstreamer1-plugins-dtls
     SUBDIR += gtkpasman
     SUBDIR += gvm
@@ -273,7 +272,6 @@
     SUBDIR += libgcrypt
     SUBDIR += libgnome-keyring
     SUBDIR += libgpg-error
-    SUBDIR += libgringotts
     SUBDIR += libgsasl
     SUBDIR += libhijack
     SUBDIR += libident
@@ -1016,7 +1014,6 @@
     SUBDIR += rkhunter
     SUBDIR += rndpassw
     SUBDIR += rnp
-    SUBDIR += ruby-bitwarden
     SUBDIR += rubygem-acme-client
     SUBDIR += rubygem-aes_key_wrap
     SUBDIR += rubygem-airbrussh
@@ -1163,7 +1160,6 @@
     SUBDIR += sha1collisiondetection
     SUBDIR += sha2wordlist
     SUBDIR += shibboleth-sp
-    SUBDIR += shishi
     SUBDIR += sig2dot
     SUBDIR += signify
     SUBDIR += signing-party
