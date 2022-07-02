@@ -17480,3 +17480,12 @@ deskutils/bitcollider||2022-06-30|Has expired: bitzi.com is no longer available,
 converters/htx||2022-06-30|Has expired: XHTML is considered obsolete in favor of HTML5
 www/getleft||2022-06-30|Has expired: Abandonware last updated on 2008
 ftp/wxdfast||2022-06-30|Has expired: Last release in 2009, doesn't support https, depends on deprecated wxgtk28 and dead upstream. Please consider using net/uget
+x11/dmenu-wayland|deskutils/dmenu-wayland|2022-07-01|move desktop utility to its right category
+x11/i3lock|deskutils/i3lock|2022-07-01|move desktop utility to its right category
+x11/i3status|deskutils/i3status|2022-07-01|move desktop utility to its right category
+x11/xcbautolock|deskutils/xcbautolock|2022-07-01|move desktop utility to its right category
+x11/havoc|deskutils/havoc|2022-07-01|move desktop utility to its right category
+devel/go-glide||2022-07-01|Has expired: use go mod instead of glide
+irc/unreal||2022-07-01|Has expired: Very outdated, listed as end of life in 2016 and has known security issues
+sysutils/go-btfs||2022-07-01|Has expired: Requires go 1.15
+sysutils/pesign||2022-07-01|Has expired: Unmaintaned since 2016, very much out of date, does not build with GCC 11 (PR #263544)

@@ -42,6 +42,7 @@
     SUBDIR += dailystrips
     SUBDIR += deforaos-todo
     SUBDIR += dfshow
+    SUBDIR += dmenu-wayland
     SUBDIR += docear
     SUBDIR += dosage
     SUBDIR += dstask
@@ -112,6 +113,7 @@
     SUBDIR += gworkspace-gwmetadata
     SUBDIR += gxmessage
     SUBDIR += gxneur
+    SUBDIR += havoc
     SUBDIR += hebcal
     SUBDIR += helpviewer
     SUBDIR += horde-groupware
@@ -121,6 +123,8 @@
     SUBDIR += hot-babe
     SUBDIR += howm
     SUBDIR += hs-arbtt
+    SUBDIR += i3lock
+    SUBDIR += i3status
     SUBDIR += ical
     SUBDIR += itinerary
     SUBDIR += jjclient
@@ -260,6 +264,7 @@
     SUBDIR += when
     SUBDIR += wmpinboard
     SUBDIR += x026
+    SUBDIR += xcbautolock
     SUBDIR += xcalendar
     SUBDIR += xchm
     SUBDIR += xdg-desktop-portal
