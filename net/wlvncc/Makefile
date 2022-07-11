@@ -1,12 +1,14 @@
 PORTNAME=	wlvncc
-PORTVERSION=	s20220706
+PORTVERSION=	s20220710
 CATEGORIES=	net
 
 MAINTAINER=	jbeich@FreeBSD.org
 COMMENT=	Wayland Native VNC Client
 
-LICENSE=	ISCL
-LICENSE_FILE=	${WRKSRC}/COPYING
+LICENSE=	GPLv2+ ISCL
+LICENSE_COMB=	multi
+LICENSE_FILE_GPLv2+ =	${WRKSRC}/COPYING.GPL
+LICENSE_FILE_ISCL=	${WRKSRC}/COPYING
 
 BUILD_DEPENDS=	evdev-proto>0:devel/evdev-proto \
 		${LOCALBASE}/include/libdrm/drm_fourcc.h:graphics/libdrm
@@ -24,7 +26,7 @@ USE_GITHUB=	yes
 USE_GL=		egl gbm glesv2
 USE_XORG=	pixman
 GH_ACCOUNT=	any1
-GH_TAGNAME=	81c9d84
+GH_TAGNAME=	df203e5
 PLIST_FILES=	bin/${PORTNAME}
 
 .include <bsd.port.mk>
